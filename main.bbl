@@ -1,0 +1,458 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{beckett2004rdf}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=0ed69423e7fe072dca5e2b93dc0ce1ab}{%
+           family={Beckett},
+           familyi={B\bibinitperiod},
+           given={Dave},
+           giveni={D\bibinitperiod}}}%
+        {{hash=f6e786e7971bfcb8c7f0fe36783f7bb6}{%
+           family={McBride},
+           familyi={M\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{232c0f150069d0a396508f10ce62fa1d}
+      \strng{fullhash}{232c0f150069d0a396508f10ce62fa1d}
+      \strng{fullhashraw}{232c0f150069d0a396508f10ce62fa1d}
+      \strng{bibnamehash}{232c0f150069d0a396508f10ce62fa1d}
+      \strng{authorbibnamehash}{232c0f150069d0a396508f10ce62fa1d}
+      \strng{authornamehash}{232c0f150069d0a396508f10ce62fa1d}
+      \strng{authorfullhash}{232c0f150069d0a396508f10ce62fa1d}
+      \strng{authorfullhashraw}{232c0f150069d0a396508f10ce62fa1d}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{W3C recommendation}
+      \field{number}{2.3}
+      \field{title}{RDF/XML syntax specification (revised)}
+      \field{volume}{10}
+      \field{year}{2004}
+    \endentry
+    \entry{DBLP:conf/aiia/BotoevaCCCX18}{inproceedings}{}{}
+      \name{author}{5}{}{%
+        {{hash=5b39021110cbfb9ced02f0317606228e}{%
+           family={Botoeva},
+           familyi={B\bibinitperiod},
+           given={Elena},
+           giveni={E\bibinitperiod}}}%
+        {{hash=391528581dff96ccc48b055940229162}{%
+           family={Calvanese},
+           familyi={C\bibinitperiod},
+           given={Diego},
+           giveni={D\bibinitperiod}}}%
+        {{hash=9aae50817cacce17478b136035d05e85}{%
+           family={Cogrel},
+           familyi={C\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod}}}%
+        {{hash=d5862dda44047d9706dc814002ead43b}{%
+           family={Corman},
+           familyi={C\bibinitperiod},
+           given={Julien},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c91b43c09c064281a9c67a52c0948fb8}{%
+           family={Xiao},
+           familyi={X\bibinitperiod},
+           given={Guohui},
+           giveni={G\bibinitperiod}}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=31e9465c8c8d2598cceb631a66bffd27}{%
+           family={Ghidini},
+           familyi={G\bibinitperiod},
+           given={Chiara},
+           giveni={C\bibinitperiod}}}%
+        {{hash=75454eb298bd5a526a2afa207ac991e9}{%
+           family={Magnini},
+           familyi={M\bibinitperiod},
+           given={Bernardo},
+           giveni={B\bibinitperiod}}}%
+        {{hash=519eb6cdf78f2080ded355f36862720f}{%
+           family={Passerini},
+           familyi={P\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod}}}%
+        {{hash=112648ef53b14383bba68454cac128ef}{%
+           family={Traverso},
+           familyi={T\bibinitperiod},
+           given={Paolo},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{619efd181d8177a3251a56bd5833bb43}
+      \strng{fullhash}{162e0b251a8e52bcf295cc08256c54ab}
+      \strng{fullhashraw}{162e0b251a8e52bcf295cc08256c54ab}
+      \strng{bibnamehash}{619efd181d8177a3251a56bd5833bb43}
+      \strng{authorbibnamehash}{619efd181d8177a3251a56bd5833bb43}
+      \strng{authornamehash}{619efd181d8177a3251a56bd5833bb43}
+      \strng{authorfullhash}{162e0b251a8e52bcf295cc08256c54ab}
+      \strng{authorfullhashraw}{162e0b251a8e52bcf295cc08256c54ab}
+      \strng{editorbibnamehash}{99b596d99252fa7def1d276e53cdd41a}
+      \strng{editornamehash}{99b596d99252fa7def1d276e53cdd41a}
+      \strng{editorfullhash}{2810c687be17070580e8a3d209b69763}
+      \strng{editorfullhashraw}{2810c687be17070580e8a3d209b69763}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{AI*IA 2018 - Advances in Artificial Intelligence - XVIIth International Conference of the Italian Association for Artificial Intelligence, Trento, Italy, November 20-23, 2018, Proceedings}
+      \field{series}{Lecture Notes in Computer Science}
+      \field{title}{A Generalized Framework for Ontology-Based Data Access}
+      \field{volume}{11298}
+      \field{year}{2018}
+      \field{pages}{166\bibrangedash 180}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1007/978-3-030-03840-3\_13
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-3-030-03840-3\_13
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-3-030-03840-3%5C_13
+      \endverb
+    \endentry
+    \entry{DBLP:journals/semweb/GuCLMXXC24}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=c6bd5b8ef4a3bb1402255626825cd55d}{%
+           family={Gu},
+           familyi={G\bibinitperiod},
+           given={Zhenzhen},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=eb56c84f03049b83835230fc543b1bc1}{%
+           family={Corcoglioniti},
+           familyi={C\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod}}}%
+        {{hash=20ae31e70443bed9a5c200cdc739a4ee}{%
+           family={Lanti},
+           familyi={L\bibinitperiod},
+           given={Davide},
+           giveni={D\bibinitperiod}}}%
+        {{hash=d19dc235af0a133b0991dadc7cd960a5}{%
+           family={Mosca},
+           familyi={M\bibinitperiod},
+           given={Alessandro},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c91b43c09c064281a9c67a52c0948fb8}{%
+           family={Xiao},
+           familyi={X\bibinitperiod},
+           given={Guohui},
+           giveni={G\bibinitperiod}}}%
+        {{hash=edec9c4d41a942904a85e574353ce4f0}{%
+           family={Xiong},
+           familyi={X\bibinitperiod},
+           given={Jing},
+           giveni={J\bibinitperiod}}}%
+        {{hash=391528581dff96ccc48b055940229162}{%
+           family={Calvanese},
+           familyi={C\bibinitperiod},
+           given={Diego},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{6b442da3fce1fbffa83fd3f0693041b9}
+      \strng{fullhash}{3419c4421387eb95729d495fca1ae4af}
+      \strng{fullhashraw}{3419c4421387eb95729d495fca1ae4af}
+      \strng{bibnamehash}{6b442da3fce1fbffa83fd3f0693041b9}
+      \strng{authorbibnamehash}{6b442da3fce1fbffa83fd3f0693041b9}
+      \strng{authornamehash}{6b442da3fce1fbffa83fd3f0693041b9}
+      \strng{authorfullhash}{3419c4421387eb95729d495fca1ae4af}
+      \strng{authorfullhashraw}{3419c4421387eb95729d495fca1ae4af}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Semantic Web}
+      \field{number}{1}
+      \field{title}{A systematic overview of data federation systems}
+      \field{volume}{15}
+      \field{year}{2024}
+      \field{pages}{107\bibrangedash 165}
+      \range{pages}{59}
+      \verb{doi}
+      \verb 10.3233/SW-223201
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.3233/SW-223201
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.3233/SW-223201
+      \endverb
+    \endentry
+    \entry{DBLP:conf/pods/Lenzerini02}{inproceedings}{}{}
+      \name{author}{1}{}{%
+        {{hash=a8da64cf01502d3a83d17c01732d0e08}{%
+           family={Lenzerini},
+           familyi={L\bibinitperiod},
+           given={Maurizio},
+           giveni={M\bibinitperiod}}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=cca4707fa68c79d531c33d107a5d031e}{%
+           family={Popa},
+           familyi={P\bibinitperiod},
+           given={Lucian},
+           giveni={L\bibinitperiod}}}%
+        {{hash=e99985780977196e6a1237ff2144092e}{%
+           family={Abiteboul},
+           familyi={A\bibinitperiod},
+           given={Serge},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b49a50fb7ffbb4bd60ebec4c6b0dda5a}{%
+           family={Kolaitis},
+           familyi={K\bibinitperiod},
+           given={Phokion\bibnamedelima G.},
+           giveni={P\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{a8da64cf01502d3a83d17c01732d0e08}
+      \strng{fullhash}{a8da64cf01502d3a83d17c01732d0e08}
+      \strng{fullhashraw}{a8da64cf01502d3a83d17c01732d0e08}
+      \strng{bibnamehash}{a8da64cf01502d3a83d17c01732d0e08}
+      \strng{authorbibnamehash}{a8da64cf01502d3a83d17c01732d0e08}
+      \strng{authornamehash}{a8da64cf01502d3a83d17c01732d0e08}
+      \strng{authorfullhash}{a8da64cf01502d3a83d17c01732d0e08}
+      \strng{authorfullhashraw}{a8da64cf01502d3a83d17c01732d0e08}
+      \strng{editorbibnamehash}{c374c62359195a78ea591a2840ebbf83}
+      \strng{editornamehash}{c374c62359195a78ea591a2840ebbf83}
+      \strng{editorfullhash}{c374c62359195a78ea591a2840ebbf83}
+      \strng{editorfullhashraw}{c374c62359195a78ea591a2840ebbf83}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the Twenty-first {ACM} {SIGACT-SIGMOD-SIGART} Symposium on Principles of Database Systems, June 3-5, Madison, Wisconsin, {USA}}
+      \field{title}{Data Integration: {A} Theoretical Perspective}
+      \field{year}{2002}
+      \field{pages}{233\bibrangedash 246}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1145/543613.543644
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/543613.543644
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/543613.543644
+      \endverb
+    \endentry
+    \entry{DBLP:conf/otm/MakrisGBC10}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=16c0f5350f104fe7ce0887f58bbcdd57}{%
+           family={Makris},
+           familyi={M\bibinitperiod},
+           given={Konstantinos},
+           giveni={K\bibinitperiod}}}%
+        {{hash=b09e497bbdd409ba29526e618db2c9bb}{%
+           family={Gioldasis},
+           familyi={G\bibinitperiod},
+           given={Nektarios},
+           giveni={N\bibinitperiod}}}%
+        {{hash=b4dd3dec6fb52d6d19f029ee7f0bdaca}{%
+           family={Bikakis},
+           familyi={B\bibinitperiod},
+           given={Nikos},
+           giveni={N\bibinitperiod}}}%
+        {{hash=81d40b51d26d9e02cc8bfd52806ae742}{%
+           family={Christodoulakis},
+           familyi={C\bibinitperiod},
+           given={Stavros},
+           giveni={S\bibinitperiod}}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=6b837cda52ad149715262c940fe24eb3}{%
+           family={Meersman},
+           familyi={M\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+        {{hash=d1151354828733dcc713b2c9be0db07b}{%
+           family={Dillon},
+           familyi={D\bibinitperiod},
+           given={Tharam\bibnamedelima S.},
+           giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=bf3a685f87e929a4881858ba3df9389b}{%
+           family={Herrero},
+           familyi={H\bibinitperiod},
+           given={Pilar},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{4a112978580301e242502914830eb5d6}
+      \strng{fullhash}{b572f509c6f23715228059e16871467b}
+      \strng{fullhashraw}{b572f509c6f23715228059e16871467b}
+      \strng{bibnamehash}{4a112978580301e242502914830eb5d6}
+      \strng{authorbibnamehash}{4a112978580301e242502914830eb5d6}
+      \strng{authornamehash}{4a112978580301e242502914830eb5d6}
+      \strng{authorfullhash}{b572f509c6f23715228059e16871467b}
+      \strng{authorfullhashraw}{b572f509c6f23715228059e16871467b}
+      \strng{editorbibnamehash}{07b7fc9988c71fcf0ce43d707544c1d7}
+      \strng{editornamehash}{07b7fc9988c71fcf0ce43d707544c1d7}
+      \strng{editorfullhash}{07b7fc9988c71fcf0ce43d707544c1d7}
+      \strng{editorfullhashraw}{07b7fc9988c71fcf0ce43d707544c1d7}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{On the Move to Meaningful Internet Systems, {OTM} 2010 - Confederated International Conferences: CoopIS, IS, {DOA} and ODBASE, Hersonissos, Crete, Greece, October 25-29, 2010, Proceedings, Part {II}}
+      \field{series}{Lecture Notes in Computer Science}
+      \field{title}{Ontology Mapping and {SPARQL} Rewriting for Querying Federated {RDF} Data Sources - (Short Paper)}
+      \field{volume}{6427}
+      \field{year}{2010}
+      \field{pages}{1108\bibrangedash 1117}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1007/978-3-642-16949-6\_32
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-3-642-16949-6\_32
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-3-642-16949-6%5C_32
+      \endverb
+    \endentry
+    \entry{mcguinness2004owl}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{2}{}{%
+        {{hash=1c75e12800e4181c2aae0a6753d2d812}{%
+           family={McGuinness},
+           familyi={M\bibinitperiod},
+           given={Deborah\bibnamedelima L},
+           giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=f91a850ad4b664e97e4d336d54002c43}{%
+           family={Van\bibnamedelima Harmelen},
+           familyi={V\bibinitperiod\bibinitdelim H\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{ae62710b6e29ce5d79b20f7f8bfb332c}
+      \strng{fullhash}{ae62710b6e29ce5d79b20f7f8bfb332c}
+      \strng{fullhashraw}{ae62710b6e29ce5d79b20f7f8bfb332c}
+      \strng{bibnamehash}{ae62710b6e29ce5d79b20f7f8bfb332c}
+      \strng{authorbibnamehash}{ae62710b6e29ce5d79b20f7f8bfb332c}
+      \strng{authornamehash}{ae62710b6e29ce5d79b20f7f8bfb332c}
+      \strng{authorfullhash}{ae62710b6e29ce5d79b20f7f8bfb332c}
+      \strng{authorfullhashraw}{ae62710b6e29ce5d79b20f7f8bfb332c}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{W3C recommendation}
+      \field{number}{10}
+      \field{title}{OWL web ontology language overview}
+      \field{volume}{10}
+      \field{year}{2004}
+      \field{pages}{2004}
+      \range{pages}{1}
+    \endentry
+    \entry{DBLP:conf/ijcai/XiaoCKLPRZ18}{inproceedings}{}{}
+      \name{author}{7}{}{%
+        {{hash=c91b43c09c064281a9c67a52c0948fb8}{%
+           family={Xiao},
+           familyi={X\bibinitperiod},
+           given={Guohui},
+           giveni={G\bibinitperiod}}}%
+        {{hash=391528581dff96ccc48b055940229162}{%
+           family={Calvanese},
+           familyi={C\bibinitperiod},
+           given={Diego},
+           giveni={D\bibinitperiod}}}%
+        {{hash=e987cb495fd8ce9c16002fe036e9ecdd}{%
+           family={Kontchakov},
+           familyi={K\bibinitperiod},
+           given={Roman},
+           giveni={R\bibinitperiod}}}%
+        {{hash=1404f231f765660fdc0531fb3f3a04b5}{%
+           family={Lembo},
+           familyi={L\bibinitperiod},
+           given={Domenico},
+           giveni={D\bibinitperiod}}}%
+        {{hash=f763538bbaa6829a2bc88311d5c0c775}{%
+           family={Poggi},
+           familyi={P\bibinitperiod},
+           given={Antonella},
+           giveni={A\bibinitperiod}}}%
+        {{hash=aec11fe01154e6144f81aab074442a38}{%
+           family={Rosati},
+           familyi={R\bibinitperiod},
+           given={Riccardo},
+           giveni={R\bibinitperiod}}}%
+        {{hash=76b868a2302301df0809621d25537a21}{%
+           family={Zakharyaschev},
+           familyi={Z\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=b3a98e52d0fc3b93396284382d66f227}{%
+           family={Lang},
+           familyi={L\bibinitperiod},
+           given={Jérôme},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ijcai.org}%
+      }
+      \strng{namehash}{af8412f401e92bdd028feb4a0098794a}
+      \strng{fullhash}{f23410626ad19e9bfe8d3821270f842c}
+      \strng{fullhashraw}{f23410626ad19e9bfe8d3821270f842c}
+      \strng{bibnamehash}{af8412f401e92bdd028feb4a0098794a}
+      \strng{authorbibnamehash}{af8412f401e92bdd028feb4a0098794a}
+      \strng{authornamehash}{af8412f401e92bdd028feb4a0098794a}
+      \strng{authorfullhash}{f23410626ad19e9bfe8d3821270f842c}
+      \strng{authorfullhashraw}{f23410626ad19e9bfe8d3821270f842c}
+      \strng{editorbibnamehash}{b3a98e52d0fc3b93396284382d66f227}
+      \strng{editornamehash}{b3a98e52d0fc3b93396284382d66f227}
+      \strng{editorfullhash}{b3a98e52d0fc3b93396284382d66f227}
+      \strng{editorfullhashraw}{b3a98e52d0fc3b93396284382d66f227}
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the Twenty-Seventh International Joint Conference on Artificial Intelligence, {IJCAI} 2018, July 13-19, 2018, Stockholm, Sweden}
+      \field{title}{Ontology-Based Data Access: {A} Survey}
+      \field{year}{2018}
+      \field{pages}{5511\bibrangedash 5519}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.24963/IJCAI.2018/777
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.24963/ijcai.2018/777
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.24963/ijcai.2018/777
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

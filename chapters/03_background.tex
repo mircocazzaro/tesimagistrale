@@ -1,0 +1,119 @@
+%!TEX root = ../main.tex
+
+\chapter{Background}
+\label{chp:background}
+
+\section{Methodological Background}
+\subsection{Resource Description Framework}
+The \ac{RDF} is a standard\footnote{https://www.w3.org/RDF/} by the World Wide Web Consortium (W3C) designed for data interchange on the web. Its definitive syntax was lastly defined on 2003 \cite{beckett2004rdf}.
+
+\ac{RDF} is based on the idea of making statements about resources, expressed as triples: for example, a triple might consist of "Gene123" (subject) "hasFunction" (predicate) "DNA Repair" (object). These triples are stored in a graph, making \ac{RDF} uniquely suited for modern data analytics where relationships and linkages are crucial: this structure is by design flexible, and it is used to represent information in a way that makes it easier to aggregate, integrate, and manage diverse data from various sources.
+
+The standard utilizes \ac{URI} to ensure that each element in the triple is uniquely identifiable, allowing to link data across different datasets seamlessly. \ac{RDF} also supports literal values and datatypes, enabling detailed descriptions of properties and values.
+
+In summary, \ac{RDF} provides a robust and flexible framework for describing and interlinking data on the web, which is crucial for any federated data system that aims to integrate diverse data sources effectively.
+
+\subsection{Knowledge Graphs}
+Knowledge Graphs represent an innovative way of structuring and querying interconnected data. A \ac{KG} organizes data in a graph format, where entities (nodes) and their interrelations (edges) are defined according to a schema that encapsulates both the entities and the possible links between them. This structure allows not only to better visualize data, but is also very well suited for data exploration and analysis.
+
+Central to the concept of \ac{KG} is the idea of enhancing search and data discovery capabilities beyond simple data retrieval. By semantically linking data entities, \ac{KG} allow for more intuitive and sophisticated queries that are closer to natural language questions. This capability makes them useful in complex domains like biomedical research, where users may need to uncover hidden relationships and patterns among vast datasets.
+
+Furthermore, \ac{KG} well suits in scenarios requiring data integration from disparate sources. They support the combination of structured and unstructured data and they can scale well as new data need to be integrated. This flexibility is crucial in fields such as genomics, where new data attributes and relationships are continuously being discovered and need to be rapidly integrated into existing datasets.
+
+In practice, \ac{KG} are usually powered by technologies such as \ac{RDF} and other standards discussed earlier, leveraging the strengths of these frameworks to ensure robust data handling and scalability.
+
+\subsection{Ontologies}
+Ontologies are a shared vocabulary for a particular domain. They serve as a crucial tool in structuring data by defining classes where data entities can be categorized. This classification system not only standardizes data representation but also simplifies the communication between different systems and users by providing a common understanding of the domain.
+
+Ontologies involve the use of first-order logic to define rules about the relationships between different classes. These rules allow for the logical inference of new information from the data that is already known, which can significantly deepen data analysis and querying capabilities. This set of first-order logic rules used to model ontologies composes the \ac{OWL} \cite{mcguinness2004owl}.
+
+With ontologies integrated within a \ac{KG}, it is possible to employ inferential algorithms either at query time or at preprocessing time. This capability enables the derivation of new knowledge that isn't explicitly stated in the data but can be inferred based on the ontological representations.
+
+The use of ontologies in a \ac{KG} is crucial in complex domains like genomics. Here, the ability to infer new relationships and properties can lead to understanding intricate biological connections and processes.
+
+In summary, ontologies provide the foundational structure for managing complex information systems. They not only facilitate a standardized approach to data handling and integration but also enhance the capability of systems to derive and utilize new knowledge effectively.
+
+\subsection{Data Federation} \label{DF}
+Data Federation is a technology that organizes data from multiple different and autonomous data sources and makes it accessible under a uniform data model, allowing for real-time data retrieval from various sources without requiring data deduplication. This approach creates a unified data access layer that abstracts the underlying technical details of each \ac{DBMS}. Users can query this virtual layer using standard data querying languages, like \ac{SQL}, without needing to know where the data is physically stored or in what format.
+
+A key strength of Data Federation lies in its capacity to harmonize heterogeneous data sources, ranging from traditional relational databases to modern big data solutions and cloud services. This integration is seamless and dynamic, scaling well as soon as new sources come in, without requiring significant reconfiguration. Such agility is crucial in fields like genomics, where data formats and sources evolve rapidly alongside scientific advancements. Moreover, it minimizes the risks associated with data duplication and movement, such as data loss or corruption. It also ensures that data remains current, reflecting real-time changes without delay. This is particularly valuable for decision-making processes where up-to-date information is critical.
+
+Different existing Data Federation systems may have different characteristics, and the choice of which system suits better certain requirements may depend on many different factors. A recent comparative study on Data Virtualization Systems \cite{DBLP:journals/semweb/GuCLMXXC24} highlights and evaluates diverse features of many systems coming both from the academia as well enterprise solutions, such as supported query languages, supported data sources, data security, exposed interfaces and software support.
+
+\subsection{Semantic Data Integration}
+Semantic Data Integration is an approach that aims to integrate data from a single relational source to an ontology that models a specific domain. This integration is achieved by defining mappings that establish semantic relationships among data entities.
+
+The core idea behind semantic data integration involves establishing a global schema, represented by the ontology, which acts as a blueprint for how data from various sources is viewed and accessed. This ontology defines not just the entities and their attributes but also the relationships and constraints between these entities. The mapping between the ontology (global schema) and the relational data source is critical as it dictates how data is interpreted in a meaningful way.
+
+The concept of Data Integration, firstly introduced without a semantic focus \cite{DBLP:conf/pods/Lenzerini02}, has evolved with research advancements in this field. These advancements have led to the development of tools and mapping languages specifically designed for semantic data integration, laying the groundwork for a paradigm known as \ac{OBDA} \cite{DBLP:conf/ijcai/XiaoCKLPRZ18}.
+
+The \ac{OBDA} framework \cite{DBLP:conf/aiia/BotoevaCCCX18} is composed of a chain of procedures that can be summarized as follows:
+\begin{enumerate}
+    \item input query ${q(\vec{x})}$ is rewritten \cite{DBLP:conf/otm/MakrisGBC10} into ${q'}$ over the virtual ABox ${A'}$ (i.e. the first-order logic specification of the ontology);
+    \item the rewritten query ${q'}$ is unfolded using the \textit{mappings} into an \ac{SQL} query ${q^*}$;
+    \item the optimised SQL query ${q^*}$ is evaluated over the data instance ${D}$ (e.g. a relational \ac{DBMS}).
+\end{enumerate}
+
+Figure \ref{fig:OBDAframew} outlines the aforementioned algorithms within a flowchart.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics{res/obda_framework}
+    \caption{The OBDA framework} \label{fig:OBDAframew}
+\end{figure}
+
+\section{Technical Background}
+\subsection{Data Federation Systems}
+As discussed in section \hyperref[DF]{2.1.4}, Data Federation Systems are sophisticated softwares and thus evaluable under many aspects. In this background analysis we will focus on three main aspects, considering their importance as the Data Federation System will be part of a broader framework. In particular, by the aforementioned comparison, we will present three of the most prominent systems considering:
+\begin{itemize}
+    \item software support \& documentation;
+    \item scalability;
+    \item logging capabilities;
+    \item performances.
+\end{itemize}
+
+These features are also briefly summarized in Tab. \ref{tab:comparison}.
+
+\subsubsection{Denodo}
+Denodo\footnote{https://denodo.com/en} is an enterprise virtualization platform that serves as a data federation system, integrating data from diverse sources to provide a unified view without requiring physical data deduplication. It allows for real-time access to structured and unstructured data from various sources including relational, column and No-SQL databases, web \ac(API), and flat files.
+
+Denodo provides robust security features, including hashing, encrypting functions and user privileges, ensuring that sensitive data is protected according to compliance standards.
+
+Moreover, it utilizes advanced query optimization techniques, such as caching and query rewriting, to enhance performance. These optimizations ensure efficient data retrieval, reducing latency and improving the overall speed of data access across the federated sources.
+
+Although it is highly scalable, capable of accommodating new data sources, and it is provided also with a custom source wrapper template for unsupported data sources, being it an enterprise solution allows for maximum five connections, unless a premium plan is signed.
+
+\subsubsection{Teiid}
+Teiid\footnote{https://teiid.io/} is an open-source Java component developed by Red Hat\footnote{https://www.redhat.com/} that provides integrated access to multiple data sources through a single uniform API. Rather than a \ac{DBMS}, Teiid is more a query engine for integrating data from multiple sources, accessible both through \ac{API} and \ac{JDBC}/\ac{ODBC} interfaces.
+
+It comes in different shapes: there are Teiid implementations as an Eclipse plugin as well as deployable packages on web containers such as Wildfly and OpenShift.
+
+One of the main issues with Teiid is poor documentation when it is not deployed alongside enterprise solutions (like OpenShift). Moreover, no major releases have been published since four years, and many open issues on the official GitHub repository\footnote{https://github.com/teiid/teiid} are not being addressed.
+
+\subsubsection{Dremio}
+Similarly to Denodo, Dremio\footnote{https://www.dremio.com/} is a virtualization platform that serves as a data federation system. Although it is developed within an enterprise context, the standard version, comprehensive of most of the Dremio features, it is \ac{FOSS} under the Apache 2.0 license, combining typical enterprise software robustness with a strong community active on continuous maintenance.
+
+Even if it is possible to use Dremio as a standalone instance (e.g. on a server), it is by design a distributed system and thus it can run on clusters up to more than 1000 nodes. In case of standalone configurations, in linux server environments it is possible to install it using packet managers, but the easiest way is to use the Docker image it comes with.
+
+Dremio makes use of Apache Arrow to enhance processing speeds and reduce latency. Moreover, it optimizes query performance through its advanced query planner and execution engine, which can push down operations to the data source level, minimizing data movement and speeding up response times.
+
+It provides comprehensive security features that include encryption, access controls, and data masking to ensure privacy. It also maintains detailed logs of all queries, which are crucial for compliance purposes in many fields such as the clinical domain, where patient medical data is managed alongside their personal information.
+
+As in Denodo, but under an open-source perspective, it is possible to build custom connectors for unsupported data sources and Dremio. This is realizable through \ac{ARP} connectors: a public repository\footnote{https://github.com/dremio-hub/dremio-sqllite-connector} provides a Maven template, that is customizable for each data source for which a \ac{JDBC} driver is available.
+
+In conclusion, Dremio offers an open-source virtualization system with the typical robustness of enterprise softwares; it is highly scalable both in the sense of computation distribution over clusters and in the types of supported sources, and it has a comprehensive logging system that suits well for tracking data flow.
+
+\begin{table}[ht]
+    \centering
+    \begin{tabular}{| p{0.2\linewidth} | p{0.12\linewidth} | p{0.12\linewidth} | p{0.12\linewidth} | p{0.15\linewidth} | p{0.12\linewidth} |}
+    \hline
+    \textbf{} & \textbf{Support} & \textbf{Free and Open Source} & \textbf{Well Documented} & \textbf{Scalability} & \textbf{Solid Logging Capabilities}\\ \hline
+    \raisebox{-0.3\height}{\includegraphics[width=0.6cm]{res/denodo.png}} Denodo  & ✓ &  & ✓ & ✓ & ✓ \\ \hline
+    \raisebox{-0\height}{\includegraphics[width=0.6cm]{res/teiid.png}} Teiid   &  & ✓ &  &  &  \\ \hline
+    \raisebox{-0.3\height}{\includegraphics[width=0.6cm]{res/dremio.png}} Dremio  & ✓ & ✓ & ✓ & ✓ & ✓\\ \hline
+    \end{tabular}
+    \caption{Comparative among Data Federation Systems \label{tab:comparison}}
+\end{table}
+
+
+\subsection{OBDA Systems}

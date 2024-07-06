@@ -1,0 +1,51 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+% Load Thesis Class
+\documentclass{DEIThesis}
+
+\usepackage{pifont}
+\usepackage{newunicodechar}
+\newunicodechar{✓}{\ding{51}}
+
+\title{Federated Data Analytics for Genomics Data}
+
+\author{Mirco Cazzaro}
+\studentId{2076745}
+
+% Advisor
+\advisor{Prof. Gianmaria Silvello}
+
+% If you are co-advised
+\coadvisor{Dott. Robert Kahn}
+\coadvisorsUniversity{University of Princeton}
+
+\university{University of Padova}
+\mastername{Computer Engineering}
+\academicYear{2023/2024}
+
+\begin{filecontents*}[overwrite]{\jobname.xmpdata}
+    \Title{Federated Data Analytics for Genomics Data}
+    \Author{Mirco Cazzaro}
+    \Language{en-EN}
+    \Keywords{Computer Engineering\sep LaTeX}
+\end{filecontents*}
+
+% Document
+
+\begin{document}
+    % The front matter (Cover, ToC, Abstract, etc...)
+    \frontmatter
+
+    % The main content
+    \mainmatter
+    
+    \include{chapters/01_introduction}
+    \include{chapters/02_releated}
+    \include{chapters/03_background}
+    \include{chapters/04_analysis}
+    \include{chapters/99_conclusions}
+    
+    % Bibliography, appendix, acknowledges, etc...
+    \backmatter
+\end{document}
