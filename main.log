@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3.31) (preloaded format=pdflatex 2024.4.5)  6 JUL 2024 16:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3.31) (preloaded format=pdflatex 2024.4.5)  6 JUL 2024 16:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1816,101 +1816,93 @@ although it is yet undefined on input line 48.
 File: res/obda_framework.png Graphic file (type png)
 <use res/obda_framework.png>
 Package pdftex.def Info: res/obda_framework.png  used on input line 61.
-(pdftex.def)             Requested size: 1427.32903pt x 2326.68686pt.
-
-Overfull \hbox (1009.07535pt too wide) in paragraph at lines 61--62
- [][] 
- []
-
-
-LaTeX Warning: Float too large for page by 1705.30928pt on input line 63.
-
-[6{C:/Program Files/MiKTeX/fonts/enc/dvips/newpx/px-lms.enc}]
+(pdftex.def)             Requested size: 227.62204pt x 371.03583pt.
+ [6{C:/Program Files/MiKTeX/fonts/enc/dvips/newpx/px-lms.enc}]
+[7 <./res/obda_framework.png>]
 Package acronym Info: Label `acro:(' newly defined as it shall be overridden
-although it is yet undefined on input line 78.
+although it is yet undefined on input line 80.
 
 
-Package acronym Warning: Acronym `(' is not defined on input line 78.
+Package acronym Warning: Acronym `(' is not defined on input line 80.
 
 
-Package acronym Warning: Acronym `(' is not defined on input line 78.
+Package acronym Warning: Acronym `(' is not defined on input line 80.
 
 
-Overfull \hbox (2.65439pt too wide) in paragraph at lines 82--83
+Overfull \hbox (2.65439pt too wide) in paragraph at lines 84--85
 []\T1/zpltlf/m/n/12 Moreover, it uti-lizes ad-vanced query op-ti-miza-tion tech
 -niques, such as caching
  []
 
 Package acronym Info: Label `acro:API' newly defined as it shall be overridden
-although it is yet undefined on input line 87.
+although it is yet undefined on input line 89.
 Package acronym Info: Label `acro:JDBC' newly defined as it shall be overridden
 
-although it is yet undefined on input line 87.
+although it is yet undefined on input line 89.
 Package acronym Info: Label `acro:ODBC' newly defined as it shall be overridden
 
-although it is yet undefined on input line 87.
-[7]
+although it is yet undefined on input line 89.
+[8]
 Package acronym Info: Label `acro:FOSS' newly defined as it shall be overridden
 
-although it is yet undefined on input line 94.
- [8]
+although it is yet undefined on input line 96.
 Package acronym Info: Label `acro:ARP' newly defined as it shall be overridden
-although it is yet undefined on input line 102.
-
-Underfull \hbox (badness 10000) in paragraph at lines 110--110
+although it is yet undefined on input line 104.
+ [9]
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
 \T1/zpltlf/b/n/12 Open
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--110
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
 []\T1/zpltlf/b/n/12 Well
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--110
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
 \T1/zpltlf/b/n/12 Doc-u-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--110
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
 []\T1/zpltlf/b/n/12 Solid
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--110
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
 \T1/zpltlf/b/n/12 Log-ging
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--110
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
 \T1/zpltlf/b/n/12 Ca-pa-bil-
  []
 
-<res/denodo.png, id=401, 210.7875pt x 210.7875pt>
+<res/denodo.png, id=407, 210.7875pt x 210.7875pt>
 File: res/denodo.png Graphic file (type png)
 <use res/denodo.png>
-Package pdftex.def Info: res/denodo.png  used on input line 111.
+Package pdftex.def Info: res/denodo.png  used on input line 113.
 (pdftex.def)             Requested size: 17.07182pt x 17.06918pt.
-<res/teiid.png, id=402, 150.99268pt x 75.71143pt>
+<res/teiid.png, id=408, 150.99268pt x 75.71143pt>
 File: res/teiid.png Graphic file (type png)
 <use res/teiid.png>
-Package pdftex.def Info: res/teiid.png  used on input line 112.
+Package pdftex.def Info: res/teiid.png  used on input line 114.
 (pdftex.def)             Requested size: 17.07182pt x 8.55933pt.
-<res/dremio.png, id=403, 281.05pt x 281.05pt>
+<res/dremio.png, id=409, 281.05pt x 281.05pt>
 File: res/dremio.png Graphic file (type png)
 <use res/dremio.png>
-Package pdftex.def Info: res/dremio.png  used on input line 113.
+Package pdftex.def Info: res/dremio.png  used on input line 115.
 (pdftex.def)             Requested size: 17.07182pt x 17.06812pt.
 
-Overfull \hbox (0.8848pt too wide) in paragraph at lines 108--115
+Overfull \hbox (0.8848pt too wide) in paragraph at lines 110--117
  [][] 
  []
 
-) [9 <./res/denodo.png> <./res/teiid.png> <./res/dremio.png>] [10 <./res/obda_f
-ramework.png>]
+) [10 <./res/denodo.png> <./res/teiid.png> <./res/dremio.png>]
 \openout2 = `chapters/04_analysis.aux'.
 
- (chapters/04_analysis.tex
+
+(chapters/04_analysis.tex
 Chapter 3.
 (C:\Program Files\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2024/03/11 1.10a listings language file
@@ -1952,18 +1944,18 @@ Chapter 4.
 
 
 
-] [15
+]
+
+LaTeX Warning: Empty bibliography on input line 50.
+
+(frontmatter/thanks.tex) [15
 
 
-] [16] (frontmatter/thanks.tex) [17
 
 
-
-
-] (main.aux
-(chapters/01_introduction.aux) (chapters/02_releated.aux)
-(chapters/03_background.aux) (chapters/04_analysis.aux)
-(chapters/99_conclusions.aux))
+] (main.aux (chapters/01_introduction.aux)
+(chapters/02_releated.aux) (chapters/03_background.aux)
+(chapters/04_analysis.aux) (chapters/99_conclusions.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -1972,20 +1964,28 @@ L3 programming layer <2020/03/25>
 
 LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A0E53EF4A3E42B1B505317DF53A9D22F;1474.
 
-Package biblatex Warning: Please rerun LaTeX.
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: A0E53EF4A3E42B1B505317DF53A9D22F;1474
+(rerunfilecheck)             After:  127919B41C98A4F19337CDEB4148829F;1474.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46934 strings out of 474424
- 846347 string characters out of 5751555
+ 46920 strings out of 474424
+ 846203 string characters out of 5751555
  2149496 words of memory out of 5000000
- 68349 multiletter control sequences out of 15000+600000
+ 68338 multiletter control sequences out of 15000+600000
  645085 words of font info for 114 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  123i,15n,131p,1057b,4005s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2014,6 +2014,34 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
 , replaced by a fixed one
 
 
+pdfTeX warning (dest): name{cite.0@DBLP:conf/otm/MakrisGBC10} has been referenc
+ed but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{cite.0@DBLP:conf/aiia/BotoevaCCCX18} has been refer
+enced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{cite.0@DBLP:conf/ijcai/XiaoCKLPRZ18} has been refer
+enced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{cite.0@DBLP:conf/pods/Lenzerini02} has been referen
+ced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{cite.0@DBLP:journals/semweb/GuCLMXXC24} has been re
+ferenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{cite.0@mcguinness2004owl} has been referenced but d
+oes not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{cite.0@beckett2004rdf} has been referenced but does
+ not exist, replaced by a fixed one
+
+
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 , replaced by a fixed one
 
@@ -2023,9 +2051,9 @@ pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 r.pfb><C:/Program Files/MiKTeX/fonts/type1/public/newpx/zplb.pfb><C:/Program Fi
 les/MiKTeX/fonts/type1/public/newpx/zplr.pfb><C:/Program Files/MiKTeX/fonts/typ
 e1/public/newpx/zplri.pfb>
-Output written on main.pdf (37 pages, 1349728 bytes).
+Output written on main.pdf (35 pages, 1328866 bytes).
 PDF statistics:
- 573 PDF objects out of 1000 (max. 8388607)
- 150 named destinations out of 1000 (max. 500000)
+ 546 PDF objects out of 1000 (max. 8388607)
+ 147 named destinations out of 1000 (max. 500000)
  244 words of extra memory for PDF output out of 10000 (max. 10000000)
 
