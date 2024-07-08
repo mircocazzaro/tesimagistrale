@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3.31) (preloaded format=pdflatex 2024.4.5)  6 JUL 2024 16:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3.31) (preloaded format=pdflatex 2024.4.5)  8 JUL 2024 12:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1812,7 +1812,7 @@ although it is yet undefined on input line 37.
 Package acronym Info: Label `acro:OBDA' newly defined as it shall be overridden
 
 although it is yet undefined on input line 48.
-<res/obda_framework.png, id=356, 1427.3325pt x 2326.6925pt>
+<res/obda_framework.png, id=360, 1427.3325pt x 2326.6925pt>
 File: res/obda_framework.png Graphic file (type png)
 <use res/obda_framework.png>
 Package pdftex.def Info: res/obda_framework.png  used on input line 61.
@@ -1878,17 +1878,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 112--112
 \T1/zpltlf/b/n/12 Ca-pa-bil-
  []
 
-<res/denodo.png, id=407, 210.7875pt x 210.7875pt>
+<res/denodo.png, id=411, 210.7875pt x 210.7875pt>
 File: res/denodo.png Graphic file (type png)
 <use res/denodo.png>
 Package pdftex.def Info: res/denodo.png  used on input line 113.
 (pdftex.def)             Requested size: 17.07182pt x 17.06918pt.
-<res/teiid.png, id=408, 150.99268pt x 75.71143pt>
+<res/teiid.png, id=412, 150.99268pt x 75.71143pt>
 File: res/teiid.png Graphic file (type png)
 <use res/teiid.png>
 Package pdftex.def Info: res/teiid.png  used on input line 114.
 (pdftex.def)             Requested size: 17.07182pt x 8.55933pt.
-<res/dremio.png, id=409, 281.05pt x 281.05pt>
+<res/dremio.png, id=413, 281.05pt x 281.05pt>
 File: res/dremio.png Graphic file (type png)
 <use res/dremio.png>
 Package pdftex.def Info: res/dremio.png  used on input line 115.
@@ -1898,57 +1898,54 @@ Overfull \hbox (0.8848pt too wide) in paragraph at lines 110--117
  [][] 
  []
 
-) [10 <./res/denodo.png> <./res/teiid.png> <./res/dremio.png>]
+<res/data_integration.png, id=419, 212.11246pt x 286.9119pt>
+File: res/data_integration.png Graphic file (type png)
+<use res/data_integration.png>
+Package pdftex.def Info: res/data_integration.png  used on input line 126.
+(pdftex.def)             Requested size: 227.62204pt x 307.89015pt.
+[10 <./res/denodo.png> <./res/teiid.png> <./res/dremio.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11 <./res/data_integration.png>]) [12]
 \openout2 = `chapters/04_analysis.aux'.
 
-
-(chapters/04_analysis.tex
+ (chapters/04_analysis.tex
 Chapter 3.
-(C:\Program Files\MiKTeX\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2024/03/11 1.10a listings language file
-)
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 41.
-LaTeX Font Info:    Trying to load font information for T1+npxtt on input line 
-41.
-
-(C:\Program Files\MiKTeX\tex/latex/newpx\t1npxtt.fd
-File: t1npxtt.fd 2000/12/14 v1.0
-)
-LaTeX Font Info:    Font shape `T1/npxtt/m/n' will be
-(Font)              scaled to size 12.0pt on input line 41.
-LaTeX Font Info:    Font shape `T1/npxtt/m/n' will be
-(Font)              scaled to size 10.0pt on input line 41.
-LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 6.0pt on input line 42.
- [11
-
-
-
-
-
-]) [12]
-\openout2 = `chapters/99_conclusions.aux'.
-
-
-(chapters/99_conclusions.tex
-Chapter 4.
 ) [13
 
 
 
 
 
-] [14
+]
+\openout2 = `chapters/99_conclusions.aux'.
+
+ (chapters/99_conclusions.tex [14
+
 
 
 
 
 ]
+Chapter 4.
+) [15] [16
 
-LaTeX Warning: Empty bibliography on input line 50.
 
-(frontmatter/thanks.tex) [15
+
+
+]
+LaTeX Font Info:    Trying to load font information for T1+npxtt on input line 
+50.
+ (C:\Program Files\MiKTeX\tex/latex/newpx\t1npxtt.fd
+File: t1npxtt.fd 2000/12/14 v1.0
+)
+LaTeX Font Info:    Font shape `T1/npxtt/m/n' will be
+(Font)              scaled to size 12.0pt on input line 50.
+ [17
+
+
+] [18]
+(frontmatter/thanks.tex) [19
 
 
 
@@ -1962,33 +1959,29 @@ L3 programming layer <2020/03/25>
  ***********
 
 
-LaTeX Warning: There were undefined references.
-
-
 Package rerunfilecheck Warning: File `main.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: A0E53EF4A3E42B1B505317DF53A9D22F;1474
-(rerunfilecheck)             After:  127919B41C98A4F19337CDEB4148829F;1474.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
+(rerunfilecheck)             Before: 57E28997A56247F4C5977F94DF7C7510;1474
+(rerunfilecheck)             After:  1E85A61791845CE560D63811F042182C;1415.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46920 strings out of 474424
- 846203 string characters out of 5751555
- 2149496 words of memory out of 5000000
- 68338 multiletter control sequences out of 15000+600000
- 645085 words of font info for 114 fonts, out of 8000000 for 9000
+ 46388 strings out of 474424
+ 841295 string characters out of 5751555
+ 1946496 words of memory out of 5000000
+ 67827 multiletter control sequences out of 15000+600000
+ 641734 words of font info for 112 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 123i,15n,131p,1057b,4005s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 123i,15n,131p,1057b,4000s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{Hfootnote.8} has been referenced but does not exist
+, replaced by a fixed one
+
 
 pdfTeX warning (dest): name{Hfootnote.7} has been referenced but does not exist
 , replaced by a fixed one
@@ -2014,35 +2007,27 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
 , replaced by a fixed one
 
 
-pdfTeX warning (dest): name{cite.0@DBLP:conf/otm/MakrisGBC10} has been referenc
-ed but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@DBLP:conf/aiia/BotoevaCCCX18} has been refer
-enced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@DBLP:conf/ijcai/XiaoCKLPRZ18} has been refer
-enced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@DBLP:conf/pods/Lenzerini02} has been referen
-ced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@DBLP:journals/semweb/GuCLMXXC24} has been re
-ferenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@mcguinness2004owl} has been referenced but d
-oes not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@beckett2004rdf} has been referenced but does
- not exist, replaced by a fixed one
-
-
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{lstlisting.3.1} has been referenced but does not ex
+ist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.32} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.31} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section*.35} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.3.1} has been referenced but does not exist
 , replaced by a fixed one
 
 <C:/Program Files/MiKTeX/fonts/type1/public/newpx/NewPXMI.pfb><C:/Program Files
@@ -2051,9 +2036,9 @@ pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 r.pfb><C:/Program Files/MiKTeX/fonts/type1/public/newpx/zplb.pfb><C:/Program Fi
 les/MiKTeX/fonts/type1/public/newpx/zplr.pfb><C:/Program Files/MiKTeX/fonts/typ
 e1/public/newpx/zplri.pfb>
-Output written on main.pdf (35 pages, 1328866 bytes).
+Output written on main.pdf (39 pages, 1390617 bytes).
 PDF statistics:
- 546 PDF objects out of 1000 (max. 8388607)
- 147 named destinations out of 1000 (max. 500000)
- 244 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 575 PDF objects out of 1000 (max. 8388607)
+ 129 named destinations out of 1000 (max. 500000)
+ 249 words of extra memory for PDF output out of 10000 (max. 10000000)
 

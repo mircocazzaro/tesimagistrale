@@ -47,14 +47,14 @@ The core idea behind semantic data integration involves establishing a global sc
 
 The concept of Data Integration, firstly introduced without a semantic focus \cite{DBLP:conf/pods/Lenzerini02}, has evolved with research advancements in this field. These advancements have led to the development of tools and mapping languages specifically designed for semantic data integration, laying the groundwork for a paradigm known as \ac{OBDA} \cite{DBLP:conf/ijcai/XiaoCKLPRZ18}.
 
-The \ac{OBDA} framework \cite{DBLP:conf/aiia/BotoevaCCCX18} is composed of a chain of procedures that can be summarized as follows:
+The \ac{OBDA} framework, that has been precisely formalized \cite{DBLP:conf/aiia/BotoevaCCCX18}, is composed of a chain of procedures that can be summarized as follows:
 \begin{enumerate}
     \item input query ${q(\vec{x})}$ is rewritten \cite{DBLP:conf/otm/MakrisGBC10} into ${q'}$ over the virtual ABox ${A'}$ (i.e. the first-order logic specification of the ontology);
     \item the rewritten query ${q'}$ is unfolded using the \textit{mappings} into an \ac{SQL} query ${q^*}$;
     \item the optimised SQL query ${q^*}$ is evaluated over the data instance ${D}$ (e.g. a relational \ac{DBMS}).
 \end{enumerate}
 
-Figure \ref{fig:OBDAframew} outlines the aforementioned algorithms within a flowchart.
+Figure \ref{fig:OBDAframew} outlines the aforementioned algorithm within a flowchart.
 
 \begin{figure}[ht]
     \centering
@@ -66,7 +66,7 @@ Figure \ref{fig:OBDAframew} outlines the aforementioned algorithms within a flow
 
 \section{Technical Background}
 \subsection{Data Federation Systems}
-As discussed in section \hyperref[DF]{2.1.4}, Data Federation Systems are sophisticated softwares and thus evaluable under many aspects. In this background analysis we will focus on three main aspects, considering their importance as the Data Federation System will be part of a broader framework. In particular, by the aforementioned comparison, we will present three of the most prominent systems considering:
+As discussed in section \hyperref[DF]{2.1.4}, Data Federation Systems are sophisticated softwares and thus evaluable under many aspects. In this background analysis we will focus on four main aspects, considering their importance as the Data Federation System will be part of a broader framework. In particular, by the aforementioned comparison, we will present three most prominent systems considering:
 \begin{itemize}
     \item software support \& documentation;
     \item scalability;
@@ -119,3 +119,46 @@ In conclusion, Dremio offers an open-source virtualization system with the typic
 
 
 \subsection{OBDA Systems}
+\ac{OBDA}, as shown in Fig. \ref{fig:obda_two}, allows to seamlessly integrate a relational source within an ontology, so to add a semantic layer. Research on this specific topic has been performed not only by the academy, but also from Research \& Development branches of big companies, considering the impact on the industry: a preliminary analysis \cite{DBLP:conf/semweb/KharlamovSOZHLRSW14} by Siemens\footnote{https://www.siemens.com/} that lead subsequently to a custom platform, analyzed existing systems. Table \ref{tab:obda_comparison} summarizes the content of this analysis.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=8cm]{res/data_integration.png}
+    \caption{The OBDA framework}
+    \label{fig:obda_two}
+\end{figure}
+
+
+\begin{table}[ht]
+    \centering
+    \begin{tabular}{| p{0.3\linewidth} | p{0.53\linewidth} |}
+    \hline
+    \textbf{System} & \textbf{Characteristics} \\ \hline
+    Optique (Siemens)  & Supports ontology reasoning; supports both static and streaming relational \ac{DBMS} \\ \hline
+    Ontop  & Supports ontology reasoning \\ \hline
+    Mastro  & Supports ontology reasoning \\ \hline
+    morph-RDB  & Supports ontology reasoning \\ \hline
+    D2RQ  & Does not support ontology reasoning \\ \hline
+    OntoQF  & Does not support ontology reasoning \\ \hline
+    Virtuoso  & Does not support ontology reasoning \\ \hline
+    Spyder  & Does not support ontology reasoning \\ \hline
+    Ultrawrap  & Does not support ontology reasoning \\ \hline
+    \end{tabular}
+    \caption{Comparative among OBDA Systems \label{tab:obda_comparison}}
+\end{table}
+
+Given that ontology reasoning is one of the most important requirements in the OBDA approach (without this, using this paradigm would allow just to run queries in SPARQL language, without any other real advantage), and considering that the Optique system is an enterprise, on-premise and closed source solution, more in-depth comparisons \cite{DBLP:conf/dlog/NamiciG18} studied Ontop and Mastro. Their comparison can be summarized as follows.
+
+\subsubsection{Mastro}
+By our knowledge, Mastro \cite{DBLP:journals/semweb/CalvaneseGLLPRRRS11} was the first OBDA tool, developed at La Sapienza University of Rome. It supports a subset of SPARQL queries and integrates a custom XML-based mapping syntax.
+Mastro's mappings were not initially compliant with R2RML standards, which was a strong limitation in standard OBDA environments. The tool used a complex system of view predicate mappings, which may affect its adaptability to standardized environments. Although recent updates have integrated R2RML support, the system's architecture still lacks certain optimizations due to its design constraints. For instance, Mastro cannot perform advanced semantic query optimizations because it does not support detailed data constraints in its mappings. This limitation could lead to less efficient query processing and increased execution times, especially with complex queries involving multiple joins or extensive data operations.
+Moreover, Mastro is less efficient handling of datatype operations and IRI constructions within SQL, leading to potential slowdowns in query processing.
+
+\subsubsection{Ontop}
+Ontop \cite{DBLP:conf/sebd/CalvaneseCKKKLR15} is an open-source OBDA framework developed at the Free University of Bolzano. It is compliant with W3C standards, including R2RML for ontology mapping, OWL for ontology representation, and SPARQL for querying. Ontop is designed for high-performance query answering over virtualized RDF graphs.
+Ontop provides an efficient query answering system that leverages R2RML mappings and supports comprehensive optimizations. The system uses advanced query rewriting techniques, which are highly effective in reducing query complexity and execution time. Ontop's strengths are particularly evident in its handling of complex SPARQL queries, where it efficiently translates these into SQL, utilizing T-mappings and database integrity constraints for optimization.
+Regardless of its adherence to standards, Ontop comprises also a custom mapping language (Ontop Native Language).
+
+The comparison between the two systems has been performed in two different scenarios. In general, Mastro shown faster responses in scenarios requiring extensive in terms of timings, while Ontop performs better in scenarios where a considerable number of mappings is involved for unfolding a certain query.
+This means that a choice on which system fits better depends on how constraining are timings in the query processing phase and on how many mappings have to be unfolded on average, that strictly depends on the heterogeneity of the underlying relational source.
+
