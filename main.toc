@@ -5,13 +5,6 @@
 \contentsline {chapter}{List of Code Snippets}{xvii}{section*.9}%
 \contentsline {chapter}{List of Acronyms}{xix}{section*.11}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
-\contentsline {section}{\numberline {1.1}A section}{1}{section.1.1}%
-\contentsline {subsubsection}{Example of list}{1}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}A subsection}{1}{subsection.1.1.1}%
-\contentsline {subsubsection}{Example of acronym}{1}{subsection.1.1.1}%
-\contentsline {subsubsection}{Example of enumeration}{1}{subsection.1.1.1}%
-\contentsline {subsubsection}{Example of quote}{1}{Item.2}%
-\contentsline {paragraph}{}{2}{Item.2}%
 \contentsline {chapter}{\numberline {2}Background}{3}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Methodological Background}{3}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Resource Description Framework}{3}{subsection.2.1.1}%
@@ -25,9 +18,9 @@
 \contentsline {subsubsection}{Teiid}{8}{subsection.2.2.1}%
 \contentsline {subsubsection}{Dremio}{9}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}OBDA Systems}{10}{subsection.2.2.2}%
-\contentsline {subsubsection}{Mastro}{11}{table.caption.30}%
-\contentsline {subsubsection}{Ontop}{12}{table.caption.30}%
+\contentsline {subsubsection}{Mastro}{11}{table.caption.29}%
+\contentsline {subsubsection}{Ontop}{12}{table.caption.29}%
 \contentsline {chapter}{\numberline {3}Analysis}{13}{chapter.3}%
 \contentsline {chapter}{\numberline {4}Conclusions and Future Works}{15}{chapter.4}%
-\contentsline {chapter}{References}{17}{section*.31}%
-\contentsline {chapter}{Acknowledgments}{19}{section*.33}%
+\contentsline {chapter}{References}{17}{section*.30}%
+\contentsline {chapter}{Acknowledgments}{19}{section*.32}%
