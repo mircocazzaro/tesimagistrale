@@ -81,7 +81,7 @@
 
 % references
 \RequirePackage[autostyle]{csquotes}
-\RequirePackage[backend=biber]{biblatex}
+\RequirePackage[backend=biber, style=numeric]{biblatex}
 \addbibresource{references.bib}
 
 
@@ -520,3 +520,44 @@
 }
 
 \lstset{style=codeSnippet}
+\usepackage[dvipsnames]{xcolor} % https://en.wikibooks.org/wiki/LaTeX/Colors
+\definecolor{LightGray}{rgb}{0.97,0.97,0.97}
+\lstdefinelanguage{SPARQL}{
+  basicstyle=\small\ttfamily,
+  backgroundcolor=\color{LightGray},
+  columns=fullflexible,
+  breaklines=false,
+  sensitive=true,
+  % --------------------------
+  frame=bt,
+  aboveskip=1em,
+  belowskip=1em,
+  xleftmargin=.5em,
+  xrightmargin=.5em,
+  framexleftmargin=.5em,
+  framextopmargin=.5em,
+  framexbottommargin=.5em,
+  framexrightmargin=.5em,
+  % --------------------------
+  tabsize = 2,
+  showstringspaces=false,
+  morecomment=[l][\color{gray}]{\#},       % comments
+  morecomment=[n][\color{blue}]{<http}{>}, % uris
+  morestring=[b][\color{OliveGreen}]{\"},  % strings
+  % -------------------------- variables
+  keywordsprefix=?,
+  classoffset=0,
+  keywordstyle=\color{Sepia},
+  morekeywords={},
+  % -------------------------- prefixes
+  classoffset=1,
+  keywordstyle=\color{Purple},
+  morekeywords={rdf,rdfs,owl,xsd,purl},
+  % -------------------------- keywords
+  classoffset=2,
+  keywordstyle=\color{MidnightBlue},
+  morekeywords={
+    SELECT,CONSTRUCT,DESCRIBE,ASK,WHERE,FROM,NAMED,PREFIX,BASE,OPTIONAL,
+    FILTER,GRAPH,LIMIT,OFFSET,SERVICE,UNION,EXISTS,NOT,BINDINGS,MINUS,a
+  }
+}

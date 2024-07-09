@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3.31) (preloaded format=pdflatex 2024.4.5)  8 JUL 2024 12:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3.31) (preloaded format=pdflatex 2024.4.5)  9 JUL 2024 12:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1111,6 +1111,8 @@ Package biblatex Info: ... file 'blx-dm.def' found.
 (C:\Program Files\MiKTeX\tex/latex/biblatex\blx-dm.def
 File: blx-dm.def 2024/03/21 v3.20 biblatex datamodel (PK/MW)
 )
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@afterword=\count393
@@ -1376,6 +1378,9 @@ Package: acronym 2020/04/17 v1.47 Support for acronyms (Tobias Oetiker)
 Package: suffix 2006/07/15 1.5a Variant command support
 )
 \AC@clearlist=\toks52
+)
+(C:\Program Files\MiKTeX\tex/latex/graphics\dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 ))
 (C:\Program Files\MiKTeX\tex/latex/psnfss\pifont.sty
 Package: pifont 2020/03/25 PSNFSS-v9.3 Pi font support (SPQR) 
@@ -1402,8 +1407,8 @@ LaTeX Warning: Writing or overwriting file `main.xmpdata'.
 
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
-(main.aux (chapters/01_introduction.aux) (chapters/02_releated.aux)
-(chapters/03_background.aux) (chapters/04_analysis.aux)
+(main.aux (chapters/01_introduction.aux) (chapters/03_background.aux)
+(chapters/04_related.aux) (chapters/04_analysis.aux)
 (chapters/99_conclusions.aux))
 \openout1 = `main.aux'.
 
@@ -1591,17 +1596,17 @@ LaTeX Font Info:    Font shape `T1/zpltlf/b/n' will be
 (Font)              scaled to size 14.4pt on input line 38.
 LaTeX Font Info:    Font shape `T1/zpltlf/b/n' will be
 (Font)              scaled to size 10.95pt on input line 38.
-<res/unipdbg.pdf, id=97, 153.57375pt x 153.57375pt>
+<res/unipdbg.pdf, id=101, 153.57375pt x 153.57375pt>
 File: res/unipdbg.pdf Graphic file (type pdf)
 <use res/unipdbg.pdf>
 Package pdftex.def Info: res/unipdbg.pdf  used on input line 38.
 (pdftex.def)             Requested size: 677.17265pt x 677.21925pt.
-<res/ltunipd.pdf, id=98, 335.2525pt x 153.57375pt>
+<res/ltunipd.pdf, id=102, 335.2525pt x 153.57375pt>
 File: res/ltunipd.pdf Graphic file (type pdf)
 <use res/ltunipd.pdf>
 Package pdftex.def Info: res/ltunipd.pdf  used on input line 38.
 (pdftex.def)             Requested size: 186.33846pt x 85.35826pt.
-<res/dei.pdf, id=99, 98.3675pt x 63.23625pt>
+<res/dei.pdf, id=103, 98.3675pt x 63.23625pt>
 File: res/dei.pdf Graphic file (type pdf)
 <use res/dei.pdf>
 Package pdftex.def Info: res/dei.pdf  used on input line 38.
@@ -1638,30 +1643,30 @@ LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
 (Font)              scaled to size 24.88pt on input line 38.
  (main.toc
 LaTeX Font Info:    Trying to load font information for OT1+zpltlf on input lin
-e 8.
+e 9.
  (C:\Program Files\MiKTeX\tex/latex/newpx\ot1zpltlf.fd
 File: ot1zpltlf.fd 2021/05/25 v1.0 font definition file for OT1/zpl/tlf
 )
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 8.
+(Font)              scaled to size 12.0pt on input line 9.
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
-(Font)              scaled to size 8.8pt on input line 8.
+(Font)              scaled to size 8.8pt on input line 9.
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
-(Font)              scaled to size 6.6pt on input line 8.
+(Font)              scaled to size 6.6pt on input line 9.
 LaTeX Font Info:    Trying to load font information for U+npxmia on input line 
-8.
+9.
 
 (C:\Program Files\MiKTeX\tex/latex/newpx\unpxmia.fd
 File: unpxmia.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxmia.
 )
 LaTeX Font Info:    Trying to load font information for U+npxsym on input line 
-8.
+9.
 
 (C:\Program Files\MiKTeX\tex/latex/newpx\unpxsym.fd
 File: unpxsym.fd 2023/08/16 Fontinst v1.933 font definitions for U/npxsym.
 )
 LaTeX Font Info:    Trying to load font information for U+npxsyc on input line 
-8.
+9.
 
 (C:\Program Files\MiKTeX\tex/latex/newpx\unpxsyc.fd
 File: unpxsyc.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxsyc.
@@ -1742,16 +1747,9 @@ Chapter 1.
 
 
 ]
-\openout2 = `chapters/02_releated.aux'.
-
-
-No file chapters/02_releated.tex.
 \openout2 = `chapters/03_background.aux'.
 
-(chapters/03_background.tex [2
-
-
-
+ (chapters/03_background.tex [2
 
 
 
@@ -1777,6 +1775,8 @@ LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
 (Font)              scaled to size 5.5pt on input line 8.
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
 (Font)              scaled to size 7.3pt on input line 8.
+Package acronym Info: Label `acro:W3C' newly defined as it shall be overridden
+although it is yet undefined on input line 8.
 Package acronym Info: Label `acro:URI' newly defined as it shall be overridden
 although it is yet undefined on input line 12.
 [3]
@@ -1794,117 +1794,150 @@ although it is yet undefined on input line 37.
 Package acronym Info: Label `acro:OBDA' newly defined as it shall be overridden
 
 although it is yet undefined on input line 48.
-<res/obda_framework.png, id=345, 1427.3325pt x 2326.6925pt>
+<res/obda_framework.png, id=364, 1427.3325pt x 2326.6925pt>
 File: res/obda_framework.png Graphic file (type png)
 <use res/obda_framework.png>
 Package pdftex.def Info: res/obda_framework.png  used on input line 61.
 (pdftex.def)             Requested size: 227.62204pt x 371.03583pt.
+Package acronym Info: Label `acro:SPARQL' newly defined as it shall be overridd
+en
+although it is yet undefined on input line 69.
  [6{C:/Program Files/MiKTeX/fonts/enc/dvips/newpx/px-lms.enc}]
+[7 <./res/obda_framework.png>]
+LaTeX Font Info:    Trying to load font information for T1+npxtt on input line 
+75.
+
+(C:\Program Files\MiKTeX\tex/latex/newpx\t1npxtt.fd
+File: t1npxtt.fd 2000/12/14 v1.0
+)
+LaTeX Font Info:    Font shape `T1/npxtt/m/n' will be
+(Font)              scaled to size 10.95pt on input line 75.
+LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
+(Font)              scaled to size 6.0pt on input line 76.
 LaTeX Font Info:    Trying to load font information for TS1+zpltlf on input lin
-e 71.
+e 91.
 
 (C:\Program Files\MiKTeX\tex/latex/newpx\ts1zpltlf.fd
 File: ts1zpltlf.fd 2021/11/24 v1.0 fd file for TS1/zpltlf
 )
 LaTeX Font Info:    Font shape `TS1/zpltlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 71.
- [7{C:/Program Files/MiKTeX/fonts/enc/dvips/newpx/zpl_TOsF.enc} <./res/obda_fra
-mework.png>]
+(Font)              scaled to size 12.0pt on input line 91.
 LaTeX Font Info:    Font shape `T1/zpltlf/b/sc' will be
-(Font)              scaled to size 12.0pt on input line 79.
+(Font)              scaled to size 12.0pt on input line 99.
 Package acronym Info: Label `acro:(' newly defined as it shall be overridden
-although it is yet undefined on input line 80.
+although it is yet undefined on input line 100.
 
 
-Package acronym Warning: Acronym `(' is not defined on input line 80.
+Package acronym Warning: Acronym `(' is not defined on input line 100.
 
 
-Package acronym Warning: Acronym `(' is not defined on input line 80.
+Package acronym Warning: Acronym `(' is not defined on input line 100.
 
 
-Overfull \hbox (2.65439pt too wide) in paragraph at lines 84--85
+Underfull \vbox (badness 1360) has occurred while \output is active []
+
+ [8{C:/Program Files/MiKTeX/fonts/enc/dvips/newpx/zpl_TOsF.enc}]
+Overfull \hbox (2.65439pt too wide) in paragraph at lines 104--105
 []\T1/zpltlf/m/n/12 Moreover, it uti-lizes ad-vanced query op-ti-miza-tion tech
 -niques, such as caching
  []
 
 Package acronym Info: Label `acro:API' newly defined as it shall be overridden
-although it is yet undefined on input line 89.
+although it is yet undefined on input line 109.
 Package acronym Info: Label `acro:JDBC' newly defined as it shall be overridden
 
-although it is yet undefined on input line 89.
+although it is yet undefined on input line 109.
 Package acronym Info: Label `acro:ODBC' newly defined as it shall be overridden
 
-although it is yet undefined on input line 89.
-[8]
+although it is yet undefined on input line 109.
+[9]
 Package acronym Info: Label `acro:FOSS' newly defined as it shall be overridden
 
-although it is yet undefined on input line 96.
+although it is yet undefined on input line 116.
 Package acronym Info: Label `acro:ARP' newly defined as it shall be overridden
-although it is yet undefined on input line 104.
- [9]
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
+although it is yet undefined on input line 124.
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
 \T1/zpltlf/b/n/12 Open
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
 []\T1/zpltlf/b/n/12 Well
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
 \T1/zpltlf/b/n/12 Doc-u-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
 []\T1/zpltlf/b/n/12 Solid
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
 \T1/zpltlf/b/n/12 Log-ging
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
 \T1/zpltlf/b/n/12 Ca-pa-bil-
  []
 
-<res/denodo.png, id=400, 210.7875pt x 210.7875pt>
+<res/denodo.png, id=427, 210.7875pt x 210.7875pt>
 File: res/denodo.png Graphic file (type png)
 <use res/denodo.png>
-Package pdftex.def Info: res/denodo.png  used on input line 113.
+Package pdftex.def Info: res/denodo.png  used on input line 133.
 (pdftex.def)             Requested size: 17.07182pt x 17.06918pt.
-<res/teiid.png, id=401, 150.99268pt x 75.71143pt>
+<res/teiid.png, id=428, 150.99268pt x 75.71143pt>
 File: res/teiid.png Graphic file (type png)
 <use res/teiid.png>
-Package pdftex.def Info: res/teiid.png  used on input line 114.
+Package pdftex.def Info: res/teiid.png  used on input line 134.
 (pdftex.def)             Requested size: 17.07182pt x 8.55933pt.
-<res/dremio.png, id=402, 281.05pt x 281.05pt>
+<res/dremio.png, id=429, 281.05pt x 281.05pt>
 File: res/dremio.png Graphic file (type png)
 <use res/dremio.png>
-Package pdftex.def Info: res/dremio.png  used on input line 115.
+Package pdftex.def Info: res/dremio.png  used on input line 135.
 (pdftex.def)             Requested size: 17.07182pt x 17.06812pt.
 
-Overfull \hbox (0.8848pt too wide) in paragraph at lines 110--117
+Overfull \hbox (0.8848pt too wide) in paragraph at lines 130--137
  [][] 
  []
 
-<res/data_integration.png, id=408, 212.11246pt x 286.9119pt>
+[10]
+<res/data_integration.png, id=442, 212.11246pt x 286.9119pt>
 File: res/data_integration.png Graphic file (type png)
 <use res/data_integration.png>
-Package pdftex.def Info: res/data_integration.png  used on input line 126.
+Package pdftex.def Info: res/data_integration.png  used on input line 146.
 (pdftex.def)             Requested size: 227.62204pt x 307.89015pt.
-[10 <./res/denodo.png> <./res/teiid.png> <./res/dremio.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [11 <./res/denodo.png> <./res/teiid.png> <./res/dremio.png>] [12 <./res/data_i
+ntegration.png>] [13]) [14]
+\openout2 = `chapters/04_related.aux'.
 
- [11 <./res/data_integration.png>]) [12]
+ (chapters/04_related.tex
+Chapter 3.
+Package acronym Info: Label `acro:OBDF' newly defined as it shall be overridden
+
+although it is yet undefined on input line 8.
+<res/Drawing4.png, id=484, 518.79536pt x 550.62857pt>
+File: res/Drawing4.png Graphic file (type png)
+<use res/Drawing4.png>
+Package pdftex.def Info: res/Drawing4.png  used on input line 12.
+(pdftex.def)             Requested size: 284.52756pt x 301.98965pt.
+) [15
+
+
+
+
+
+] [16 <./res/Drawing4.png>]
 \openout2 = `chapters/04_analysis.aux'.
 
  (chapters/04_analysis.tex
-Chapter 3.
-) [13
+Chapter 4.
+) [17
 
 
 
@@ -1913,67 +1946,64 @@ Chapter 3.
 ]
 \openout2 = `chapters/99_conclusions.aux'.
 
- (chapters/99_conclusions.tex [14
+ (chapters/99_conclusions.tex [18
 
 
 
 
 
 ]
-Chapter 4.
-) [15] [16
+Chapter 5.
+) [19] [20
 
 
 
 
 ]
-LaTeX Font Info:    Trying to load font information for T1+npxtt on input line 
-50.
- (C:\Program Files\MiKTeX\tex/latex/newpx\t1npxtt.fd
-File: t1npxtt.fd 2000/12/14 v1.0
-)
 LaTeX Font Info:    Font shape `T1/npxtt/m/n' will be
 (Font)              scaled to size 12.0pt on input line 50.
- [17
+ [21
 
 
-] [18]
-(frontmatter/thanks.tex) [19
+] [22] [23] [24
 
 
+] (frontmatter/thanks.tex) [25
 
 
-] (main.aux (chapters/01_introduction.aux)
-(chapters/02_releated.aux) (chapters/03_background.aux)
-(chapters/04_analysis.aux) (chapters/99_conclusions.aux))
+] (main.aux
+(chapters/01_introduction.aux) (chapters/03_background.aux)
+(chapters/04_related.aux) (chapters/04_analysis.aux)
+(chapters/99_conclusions.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were undefined references.
 
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 916466ACD331413FEB9295E3A912FA11;1490.
 
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+Package biblatex Warning: Please rerun LaTeX.
 
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 1E85A61791845CE560D63811F042182C;1415
-(rerunfilecheck)             After:  F1688BD6A5BBBC8B8AD8361673AF3270;1287.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46377 strings out of 474424
- 841126 string characters out of 5751555
+ 46842 strings out of 474424
+ 846456 string characters out of 5751555
  1946496 words of memory out of 5000000
- 67817 multiletter control sequences out of 15000+600000
- 641734 words of font info for 112 fonts, out of 8000000 for 9000
+ 68257 multiletter control sequences out of 15000+600000
+ 645085 words of font info for 114 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  123i,15n,131p,1057b,4000s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{Hfootnote.9} has been referenced but does not exist
+, replaced by a fixed one
+
 
 pdfTeX warning (dest): name{Hfootnote.8} has been referenced but does not exist
 , replaced by a fixed one
@@ -2006,51 +2036,15 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 , replaced by a fixed one
 
-
-pdfTeX warning (dest): name{section*.27} has been referenced but does not exist
-, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section*.20} has been referenced but does not exist
-, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{table.caption.30} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{table.caption.28} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{figure.caption.29} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{figure.caption.21} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section*.31} has been referenced but does not exist
-, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.1.1.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section.1.1} has been referenced but does not exist
-, replaced by a fixed one
-
 <C:/Program Files/MiKTeX/fonts/type1/public/newpx/NewPXMI.pfb><C:/Program Files
 /MiKTeX/fonts/type1/public/newpx/pxsys.pfb><C:/Program Files/MiKTeX/fonts/type1
 /public/txfonts/t1xtt.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/zapfding/uzd
 r.pfb><C:/Program Files/MiKTeX/fonts/type1/public/newpx/zplb.pfb><C:/Program Fi
 les/MiKTeX/fonts/type1/public/newpx/zplr.pfb><C:/Program Files/MiKTeX/fonts/typ
 e1/public/newpx/zplri.pfb>
-Output written on main.pdf (39 pages, 1386078 bytes).
+Output written on main.pdf (45 pages, 1513394 bytes).
 PDF statistics:
- 567 PDF objects out of 1000 (max. 8388607)
- 128 named destinations out of 1000 (max. 500000)
- 241 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 639 PDF objects out of 1000 (max. 8388607)
+ 148 named destinations out of 1000 (max. 500000)
+ 254 words of extra memory for PDF output out of 10000 (max. 10000000)
 

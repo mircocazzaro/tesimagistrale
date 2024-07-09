@@ -305,6 +305,58 @@
       \verb https://doi.org/10.3233/SW-2011-0029
       \endverb
     \endentry
+    \entry{DBLP:journals/entropy/CanSBU17}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=31a7e799bdcd886c33fe0080758a9c35}{%
+           family={Can},
+           familyi={C\bibinitperiod},
+           given={Özgü},
+           giveni={Ö\bibinitperiod}}}%
+        {{hash=e139cb07ad782540fc4fee9d05fa193a}{%
+           family={Sezer},
+           familyi={S\bibinitperiod},
+           given={Emine},
+           giveni={E\bibinitperiod}}}%
+        {{hash=7e94a57e0c482c4d82d74702088e30e7}{%
+           family={Bursa},
+           familyi={B\bibinitperiod},
+           given={Okan},
+           giveni={O\bibinitperiod}}}%
+        {{hash=763e2ecc33e7662aacd700af5316edde}{%
+           family={Ünalir},
+           familyi={Ü\bibinitperiod},
+           given={Murat\bibnamedelima Osman},
+           giveni={M\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+      }
+      \strng{namehash}{f8fd139521f405d7b7e5758a858ca835}
+      \strng{fullhash}{cc765167aa9d0a71228c25eeddc997c7}
+      \strng{fullhashraw}{cc765167aa9d0a71228c25eeddc997c7}
+      \strng{bibnamehash}{f8fd139521f405d7b7e5758a858ca835}
+      \strng{authorbibnamehash}{f8fd139521f405d7b7e5758a858ca835}
+      \strng{authornamehash}{f8fd139521f405d7b7e5758a858ca835}
+      \strng{authorfullhash}{cc765167aa9d0a71228c25eeddc997c7}
+      \strng{authorfullhashraw}{cc765167aa9d0a71228c25eeddc997c7}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Entropy}
+      \field{number}{1}
+      \field{title}{Comparing Relational and Ontological Triple Stores in Healthcare Domain}
+      \field{volume}{19}
+      \field{year}{2017}
+      \field{pages}{30}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/E19010030
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.3390/e19010030
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.3390/e19010030
+      \endverb
+    \endentry
     \entry{DBLP:journals/semweb/GuCLMXXC24}{article}{}{}
       \name{author}{7}{}{%
         {{hash=c6bd5b8ef4a3bb1402255626825cd55d}{%
@@ -351,6 +403,7 @@
       \strng{authornamehash}{6b442da3fce1fbffa83fd3f0693041b9}
       \strng{authorfullhash}{3419c4421387eb95729d495fca1ae4af}
       \strng{authorfullhashraw}{3419c4421387eb95729d495fca1ae4af}
+      \field{extraname}{1}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{labelnamesource}{author}
@@ -370,6 +423,70 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.3233/SW-223201
+      \endverb
+    \endentry
+    \entry{DBLP:conf/icde/GuCPLMX24}{inproceedings}{}{}
+      \name{author}{6}{}{%
+        {{hash=c6bd5b8ef4a3bb1402255626825cd55d}{%
+           family={Gu},
+           familyi={G\bibinitperiod},
+           given={Zhenzhen},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=391528581dff96ccc48b055940229162}{%
+           family={Calvanese},
+           familyi={C\bibinitperiod},
+           given={Diego},
+           giveni={D\bibinitperiod}}}%
+        {{hash=7a3e4ec945045b0a0c0fc3088f65b7db}{%
+           family={Panfilo},
+           familyi={P\bibinitperiod},
+           given={Marco\bibnamedelima Di},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=20ae31e70443bed9a5c200cdc739a4ee}{%
+           family={Lanti},
+           familyi={L\bibinitperiod},
+           given={Davide},
+           giveni={D\bibinitperiod}}}%
+        {{hash=d19dc235af0a133b0991dadc7cd960a5}{%
+           family={Mosca},
+           familyi={M\bibinitperiod},
+           given={Alessandro},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c91b43c09c064281a9c67a52c0948fb8}{%
+           family={Xiao},
+           familyi={X\bibinitperiod},
+           given={Guohui},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{6b442da3fce1fbffa83fd3f0693041b9}
+      \strng{fullhash}{9f50aa58b67c455769bf1f2d28a6474c}
+      \strng{fullhashraw}{9f50aa58b67c455769bf1f2d28a6474c}
+      \strng{bibnamehash}{6b442da3fce1fbffa83fd3f0693041b9}
+      \strng{authorbibnamehash}{6b442da3fce1fbffa83fd3f0693041b9}
+      \strng{authornamehash}{6b442da3fce1fbffa83fd3f0693041b9}
+      \strng{authorfullhash}{9f50aa58b67c455769bf1f2d28a6474c}
+      \strng{authorfullhashraw}{9f50aa58b67c455769bf1f2d28a6474c}
+      \field{extraname}{2}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{40th International Conference on Data Engineering, {ICDE} 2024 - Workshops, Utrecht, Netherlands, May 13-16, 2024}
+      \field{title}{{OBDF:} {OBDA} + Data Federation - Extended Abstract}
+      \field{year}{2024}
+      \field{pages}{381\bibrangedash 383}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1109/ICDEW61823.2024.00060
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1109/ICDEW61823.2024.00060
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1109/ICDEW61823.2024.00060
       \endverb
     \endentry
     \entry{DBLP:conf/semweb/KharlamovSOZHLRSW14}{inproceedings}{}{}

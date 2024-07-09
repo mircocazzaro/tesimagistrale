@@ -2383,6 +2383,8 @@
     <bcf:citekey order="9" intorder="1">DBLP:conf/dlog/NamiciG18</bcf:citekey>
     <bcf:citekey order="10" intorder="1">DBLP:journals/semweb/CalvaneseGLLPRRRS11</bcf:citekey>
     <bcf:citekey order="11" intorder="1">DBLP:conf/sebd/CalvaneseCKKKLR15</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">DBLP:journals/entropy/CanSBU17</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">DBLP:conf/icde/GuCPLMX24</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
