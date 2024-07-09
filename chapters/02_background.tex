@@ -38,7 +38,7 @@ Data Federation is a technology that organizes data from multiple different and 
 
 A key strength of Data Federation lies in its capacity to harmonize heterogeneous data sources, ranging from traditional relational databases to modern big data solutions and cloud services. This integration is seamless and dynamic, scaling well as soon as new sources come in, without requiring significant reconfiguration. Such agility is crucial in fields like genomics, where data formats and sources evolve rapidly alongside scientific advancements. Moreover, it minimizes the risks associated with data duplication and movement, such as data loss or corruption. It also ensures that data remains current, reflecting real-time changes without delay. This is particularly valuable for decision-making processes where up-to-date information is critical.
 
-Different existing Data Federation systems may have different characteristics, and the choice of which system suits better certain requirements may depend on many different factors. A recent comparative study on Data Virtualization Systems \cite{DBLP:journals/semweb/GuCLMXXC24} highlights and evaluates diverse features of many systems coming both from the academia as well enterprise solutions, such as supported query languages, supported data sources, data security, exposed interfaces and software support.
+Different existing Data Federation systems may have different characteristics, and the choice of which system suits better certain requirements may depend on many different factors. A recent comparative study on Data Virtualization Systems \cite{DBLP:journals/semweb/GuCLMXXC24} highlights and evaluates diverse features of many systems coming both from the academia as well as enterprise solutions, such as supported query languages, supported data sources, data security, exposed interfaces and software support.
 
 \subsection{Semantic Data Integration}
 Semantic Data Integration is an approach that aims to integrate data from a single relational source to an ontology that models a specific domain. This integration is achieved by defining mappings that establish semantic relationships among data entities.
@@ -66,22 +66,34 @@ Figure \ref{fig:OBDAframew} outlines the aforementioned algorithm within a flowc
 
 \section{Technical Background}
 \subsection{SPARQL Query Language}
-\ac{SPARQL}, developed by the World Wide Web Consortium (W3C), is the definitive standard for querying and managing data stored in \ac{RDF} format. 
+\ac{SPARQL}, developed by the \ac{W3C}, is the definitive standard for querying and managing data stored in \ac{RDF} format. 
 
-As a key technology in semantic web applications, SPARQL enables sophisticated querying of graph-based data structures, offering a query syntax that often resembles natural language. This user-friendly syntax facilitates intuitive data exploration and manipulation, differently from traditional relational databases that require joining tables to establish relationships.
+As a key technology in semantic web applications, SPARQL enables sophisticated querying of \ac{KG}, offering a query syntax that often resembles natural language. This user-friendly syntax facilitates intuitive data exploration and manipulation, differently from traditional relational databases that require joining tables to establish relationships.
 
-For instance, if a researcher wishes to find all genetic markers associated with a particular trait, a SPARQL query might directly reflect the question, “Which genetic markers are associated with Trait X?” This parallels natural language questioning closely, making SPARQL particularly suited for domains where complex relationships must be understood and explored, such as genomics and biomedical research.
+For instance, as shown in Code \ref{lst:sparql-query}, if a researcher wishes to find all genetic markers associated with a particular trait, a SPARQL query might directly reflect the question, “Which patients are associated with genetic markers X?” This parallels natural language questioning closely, making SPARQL particularly suited for domains where complex relationships must be understood and explored, such as genomics and biomedical research.
 
-\begin{lstlisting}[language=SPARQL]
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-# this is a comment
-SELECT ?url ?name
-WHERE {
-    ?url rdf:type java:Package .
-    ?url rdfs:label ?name .
-    FILTER( match(?name, "hello" ))
-}
+\begin{lstlisting}[language=SPARQL, caption={Example of a SPARQL query for genetic markers data.}, label={lst:sparql-query}]
+    PREFIX bto: <https://w3id.org/brainteaser/ontology/schema/>
+    PREFIX BTO_resource: <https://w3id.org/brainteaser/ontology/resource/>
+    
+    SELECT ?patient ?FUS ?FUS_mutation
+    WHERE { 
+       ?p a bto:Patient;
+        bto:enrolledIn ?ctp.
+        
+        ?ctp bto:inClinicalTrial BTO_resource:BrainteaserALSTurin.
+        
+        OPTIONAL{
+            ?p bto:tested ?FUStest.
+          ?FUStest bto:hasMutation ?FUS;
+                     bto:onGene NCIT:C91852.
+            OPTIONAL{
+                ?FUStest bto:mutationType ?FUS_mutation.
+            }
+        }
+         
+        BIND(SUBSTR((STR(?p)), 48) AS ?patient)
+    }
 \end{lstlisting}
 
 
@@ -183,7 +195,7 @@ The comparison between the two systems has been performed in two different scena
 This means that a choice on which system fits better depends on how constraining are timings in the query processing phase and on how many mappings have to be unfolded on average, that strictly depends on the heterogeneity of the underlying relational source.
 
 \subsection{Triple Stores}
-Triple stores are database management systems specifically designed to store and retrieve triples through semantic queries. Triple stores typically ingests \ac{RDF} files that contains IRI's in the usual format of subject, predicate, object. These systems are optimized for storing vast amounts of triples and efficiently handling complex queries that involve traversing relationships across a network of data. Triple stores support SPARQL, the RDF query language, enabling sophisticated semantic queries that are essential for applications in data integration, knowledge management, and semantic web projects.
+Triple stores are database management systems specifically designed to store and retrieve triples through semantic queries. Triple stores typically ingests \ac{RDF} files that contains IRI's in the usual format of subject, predicate, object. These systems are optimized for storing vast amounts of triples and efficiently handling complex queries that involve traversing relationships across a network of data. Triple stores support SPARQL, enabling semantic queries that are essential for applications in data integration, knowledge management, and semantic web projects.
 Many comparisons, especially in the biomedical field \cite{DBLP:journals/entropy/CanSBU17}, among different triple stores systems analyze their performances under different point of view such as the volume of ingested data, the implementation of an ontology within the \ac{KG}, and the language used to represent it (RDF, RDFS, OWL, etc.).
 For the purposes of this project, where materialized triples are not used, GraphDB has been selected due to its integration with Ontop. This integration allows GraphDB to support virtual graph functionalities, meaning it can perform SPARQL queries over non-RDF relational data by translating these queries into SQL through Ontop's engine. This scenario eliminates any particular requirements from the triple store system regarding the query processing phase, considering that the task will be accomplished by the underlying OBDA system.
 

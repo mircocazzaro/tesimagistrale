@@ -81,7 +81,7 @@
 
 % references
 \RequirePackage[autostyle]{csquotes}
-\RequirePackage[backend=biber, style=numeric]{biblatex}
+\usepackage[backend=biber, sorting=none]{biblatex}
 \addbibresource{references.bib}
 
 
@@ -522,12 +522,15 @@
 \lstset{style=codeSnippet}
 \usepackage[dvipsnames]{xcolor} % https://en.wikibooks.org/wiki/LaTeX/Colors
 \definecolor{LightGray}{rgb}{0.97,0.97,0.97}
+\usepackage{fontspec}
+\newfontfamily{\consolas}{Consolas}
 \lstdefinelanguage{SPARQL}{
-  basicstyle=\small\ttfamily,
+  basicstyle=\footnotesize\consolas,
   backgroundcolor=\color{LightGray},
   columns=fullflexible,
   breaklines=false,
   sensitive=true,
+  numbers=none,
   % --------------------------
   frame=bt,
   aboveskip=1em,
