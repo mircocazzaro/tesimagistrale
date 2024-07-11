@@ -81,7 +81,7 @@
 
 % references
 \RequirePackage[autostyle]{csquotes}
-\usepackage[backend=biber, sorting=none]{biblatex}
+\usepackage[backend=biber, style=numeric-verb, sorting=none]{biblatex}
 \addbibresource{references.bib}
 
 

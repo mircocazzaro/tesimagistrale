@@ -27,9 +27,14 @@
 \contentsline {section}{\numberline {3.1}BigDAWG}{16}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Optique}{17}{section.3.2}%
 \contentsline {chapter}{\numberline {4}Context of the Work}{19}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Architecture}{21}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Use Cases}{23}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Evaluation Results}{25}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Conclusions and Future Works}{27}{chapter.8}%
-\contentsline {chapter}{References}{29}{section*.35}%
-\contentsline {chapter}{Acknowledgments}{33}{section*.37}%
+\contentsline {chapter}{\numberline {5}System Architecture}{21}{chapter.5}%
+\contentsline {section}{\numberline {5.1}System Architecture Design}{21}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Data Sources}{23}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}MySQL}{23}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}PostgreSQL}{23}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Polypheny}{24}{subsection.5.2.3}%
+\contentsline {chapter}{\numberline {6}Use Cases}{25}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Evaluation Results}{27}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Conclusions and Future Works}{29}{chapter.8}%
+\contentsline {chapter}{References}{31}{section*.38}%
+\contentsline {chapter}{Acknowledgments}{35}{section*.40}%

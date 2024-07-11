@@ -56,7 +56,8 @@
       <file>biblatex.def</file>
       <file>standard.bbx</file>
       <file>numeric.bbx</file>
-      <file>numeric.cbx</file>
+      <file>numeric-verb.bbx</file>
+      <file>numeric-verb.cbx</file>
       <file>biblatex.cfg</file>
       <file>english.lbx</file>
     </requires>
