@@ -1071,6 +1071,125 @@
       \verb https://doi.org/10.1016/j.websem.2018.10.004
       \endverb
     \endentry
+    \entry{DBLP:conf/bigdataconf/VogtSS18}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=2ac02a0945a862a7e2fbb2334119cf24}{%
+           family={Vogt},
+           familyi={V\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f9546f210bf25229c98f8d1d3ac2ba20}{%
+           family={Stiemer},
+           familyi={S\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4a954f8ddb9358a022c6fbf73d99d96c}{%
+           family={Schuldt},
+           familyi={S\bibinitperiod},
+           given={Heiko},
+           giveni={H\bibinitperiod}}}%
+      }
+      \name{editor}{13}{}{%
+        {{hash=c28dd98d48a14a0bae9c92019ed627b1}{%
+           family={Abe},
+           familyi={A\bibinitperiod},
+           given={Naoki},
+           giveni={N\bibinitperiod}}}%
+        {{hash=a83f8cd28a9f36e43dd5d017cd7fc8f4}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Huan},
+           giveni={H\bibinitperiod}}}%
+        {{hash=10ca8a887c5327fcb621a49ea0455d79}{%
+           family={Pu},
+           familyi={P\bibinitperiod},
+           given={Calton},
+           giveni={C\bibinitperiod}}}%
+        {{hash=b74e79761ea3101e3454f6d7d3d2d6bf}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Xiaohua},
+           giveni={X\bibinitperiod}}}%
+        {{hash=b29b659629068c77fb375c338f11a2b4}{%
+           family={Ahmed},
+           familyi={A\bibinitperiod},
+           given={Nesreen\bibnamedelima K.},
+           giveni={N\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=c0c75cd16d16ba06098fbeba0d5c3d1b}{%
+           family={Qiao},
+           familyi={Q\bibinitperiod},
+           given={Mu},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7dacbb5a6e92ab16944d46ba03705563}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Yang},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=c1462b953606eb09749b8d3fd040714d}{%
+           family={Kossmann},
+           familyi={K\bibinitperiod},
+           given={Donald},
+           giveni={D\bibinitperiod}}}%
+        {{hash=9c6fb2af2964f3126cfd4e505a38daca}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Bing},
+           giveni={B\bibinitperiod}}}%
+        {{hash=62829048d3f9e8d49a04b55163b552f9}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Kisung},
+           giveni={K\bibinitperiod}}}%
+        {{hash=854278958e1021c53ca312cc8316e2a6}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Jiliang},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ea7bdf20fe091d1e71ea405a122559a5}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Jingrui},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ae0c752485ec870af4107ac7ee023d5d}{%
+           family={Saltz},
+           familyi={S\bibinitperiod},
+           given={Jeffrey\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{59d7281fbaa08b19eeb9682645b658f9}
+      \strng{fullhash}{59d7281fbaa08b19eeb9682645b658f9}
+      \strng{fullhashraw}{59d7281fbaa08b19eeb9682645b658f9}
+      \strng{bibnamehash}{59d7281fbaa08b19eeb9682645b658f9}
+      \strng{authorbibnamehash}{59d7281fbaa08b19eeb9682645b658f9}
+      \strng{authornamehash}{59d7281fbaa08b19eeb9682645b658f9}
+      \strng{authorfullhash}{59d7281fbaa08b19eeb9682645b658f9}
+      \strng{authorfullhashraw}{59d7281fbaa08b19eeb9682645b658f9}
+      \strng{editorbibnamehash}{9b38d9245b69d448535e4c23f44edaf8}
+      \strng{editornamehash}{9b38d9245b69d448535e4c23f44edaf8}
+      \strng{editorfullhash}{d86d4b13071282c38b235d6f0b4ed3ab}
+      \strng{editorfullhashraw}{d86d4b13071282c38b235d6f0b4ed3ab}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{IEEE} International Conference on Big Data {(IEEE} BigData 2018), Seattle, WA, USA, December 10-13, 2018}
+      \field{title}{Polypheny-DB: Towards a Distributed and Self-Adaptive Polystore}
+      \field{year}{2018}
+      \field{pages}{3364\bibrangedash 3373}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/BIGDATA.2018.8622353
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1109/BigData.2018.8622353
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1109/BigData.2018.8622353
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

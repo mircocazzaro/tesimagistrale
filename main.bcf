@@ -2387,6 +2387,7 @@
     <bcf:citekey order="13" intorder="1">DBLP:conf/icde/GuCPLMX24</bcf:citekey>
     <bcf:citekey order="14" intorder="1">DBLP:conf/hpec/GadepallyCDEHKM16</bcf:citekey>
     <bcf:citekey order="15" intorder="1">DBLP:journals/ws/KharlamovMSXKR19</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">DBLP:conf/bigdataconf/VogtSS18</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

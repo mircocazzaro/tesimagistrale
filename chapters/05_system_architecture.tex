@@ -9,7 +9,7 @@ This chapter will firstly discuss the overall proposed architecture, that retrac
 \section{System Architecture Design}
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=14cm]{res/Drawing1.png}
+    \includegraphics[width=15cm]{res/Drawing1.png}
     \caption{Proposed System Architecture}
     \label{fig:mirco_arch}
 \end{figure}
@@ -36,3 +36,86 @@ Again, PostgreSQL's role in our environment is to store another portion of the s
 Just like with MySQL, integrating PostgreSQL with Dremio did not require any specific modifications or additional configurations.
 
 \subsection{Polypheny}
+Polypheny \cite{DBLP:conf/bigdataconf/VogtSS18} is an open-source polystore system designed to support diverse data models including relational, document, and graph data. It is engineered to handle mixed workloads and various query languages, making it a versatile platform suitable for dynamic data environments.
+In our architecture, we consider Polypheny not just as a standalone polystore but as a potential low-level federator under our main data federation layer managed by Dremio. This perspective is particularly useful because it allows us to leverage Polypheny's ability to handle multiple data models, thus enriching the flexibility and capability of our overall data management system.
+
+\subsubsection{Custom ARP Connector Development}
+Unlike the straightforward integrations with MySQL and PostgreSQL, incorporating Polypheny required a more sophisticated approach. We performed this task not only to include Polypheny as one of our data sources but also as a proof of concept about the actual possibility of developing custom ARP connectors.
+Dremio's Advanced Relational Pushdown (ARP) framework offers a powerful mechanism to extend Dremio's capability to interact with various data sources by intefacing Dremio's internal query representations into the native query language of the target data source.
+For Polypheny, we developed a custom ARP connector to ensure interaction between Dremio and Polypheny. The connector we developed is open-source and available for the community, which can be found at our GitHub repository \footnote{https://github.com/mircocazzaro/dremio-polypheny-arp}.
+These connectors rely on the target source having a \ac{JDBC} driver and accepting SQL as a query language, so to have an interface to dialog with.
+
+\subsubsection{Connector implementation Details}
+The custom ARP connector was implemented to translate SQL queries from Dremio into the query formats that Polypheny can execute directly.
+The ARP plugin template\footnote{https://github.com/dremio-hub/dremio-sqllite-connector} consists of a Java Maven project, that has to be compiled, packed within a \ac{JAR} file and injected, together with the target source \ac{JDBC} driver, into the running Dremio instance.
+To customize the template, two files needs to be customize: the storage plugin configuration, which is a Java class \ref{lst:polypheny-arp}, and the plugin ARP file, which is a YAML\footnote{https://yaml.org/} file.
+The storage plugin configuration file tells Dremio what the name of the plugin should be, what connection options should be displayed in the source UI, what the name of the ARP file is, which JDBC driver to use and how to make a connection to the JDBC driver.
+The ARP YAML file is what is used to modify the SQL queries that are sent to the JDBC driver, allowing you to specify support for different data types and functions, as well as rewrite them if tweaks need to be made for your specific data source. 
+
+\begin{lstlisting}[language=JAVA, caption={The storage plugin configuration file}, label={lst:polypheny-arp}]
+/* ... */
+
+@SourceType(value = "POLYPHENY", label = "POLYPHENY")
+public class PolyphenyConf extends AbstractArpConf<PolyphenyConf> {
+  private static final String ARP_FILENAME = "arp/implementation/polypheny-arp.yaml";
+  private static final ArpDialect ARP_DIALECT =
+      AbstractArpConf.loadArpFile(ARP_FILENAME, (ArpDialect::new));
+  private static final String DRIVER = "org.polypheny.jdbc.Driver";
+
+  @NotBlank
+  @Tag(1)
+  @DisplayMetadata(label = "Polypheny host <HOST:PORT>")
+  public String database;
+
+  /* ... */
+
+  @Tag(2)
+  @DisplayMetadata(label = "Record fetch size")
+  @NotMetadataImpacting
+  public int fetchSize = 200;
+
+  @Tag(6)
+  @DisplayMetadata(label = "Polypheny User Name")
+  public String username = "pa";
+
+  @Tag(7)
+  @DisplayMetadata(label = "Polypheny Password")
+  public String password = "";
+
+  @Tag(4)
+  @DisplayMetadata(label = "Maximum idle connections")
+  @NotMetadataImpacting
+  public int maxIdleConns = 8;
+
+  @Tag(5)
+  @DisplayMetadata(label = "Connection idle time (s)")
+  @NotMetadataImpacting
+  public int idleTimeSec = 60;
+
+  @VisibleForTesting
+  public String toJdbcConnectionString() {
+    final String database = checkNotNull(this.database, "Missing database.");
+
+    return String.format("jdbc:polypheny://%s", database);
+  }
+
+
+  private CloseableDataSource newDataSource() {
+    return DataSources.newGenericConnectionPoolDataSource(DRIVER,
+      toJdbcConnectionString(), username, password, null, DataSources.CommitMode.DRIVER_SPECIFIED_COMMIT_MODE,
+            maxIdleConns, idleTimeSec);
+  }
+}
+\end{lstlisting}
+
+With respect to the storage plugin configuration Java class \ref{lst:polypheny-arp}, being Polypheny still an embryonic project not allowing for user management, but rather having a default user "pa" with empty password, fields are pre-filled with default values. The class specification is then interpreted at run time from Dremio, setting up a form with input fields corresponding to each @DisplayMetadata annotation.
+The DRIVER static and immutable variable contains the class path of the Polypheny \ac{JDBC} driver. The newDataSource() method is invoked at form submission, setting up the connection to the Polypheny instance.
+
+\section{NAS Folders}
+Dremio offers native support for a variety of "relational" file types such as \ac{CSV}, Excel, \ac{JSON}, and \ac{VCF}. These files may be physically moved within the Dremio instance, but losing any streaming capability, or by attaching a \ac{NAS} source to it. In fact, Dremio integrates a connector to local folders, reading supported files within them. The name \ac{NAS} on this typology of data source is ambiguous: the term refers to storage units usually located within the same \ac{LAN} of one or more hosts accessing it, while in Dremio is used to generically refer to a folder to which it can access.
+This in practice means Dremio can browse local folders: thus, if NAS shared folders are mounted within the Dremio server through the \ac{SMB} protocol, they can be browsed as well.
+In Linux environments where the standalone version of Dremio is used, its daemon must have permission to read these folders; in environments where the Docker image is employed, where a clear separation between the host file system and the Docker context occurs, folders and \ac{NAS} shares must be mapped. This is obtained with Docker Volumes\footnote{ https://docs.docker.com/storage/volumes/}, and in particular the “Host Volume” paradigm.
+\begin{lstlisting}
+$ docker run -v NAS_PATH/folder:/opt/dremio/folder -p 9047:9047 -p 31010:31010 -p 45678:45678 -p 32010:32010 --name hereditary_dremio dremio/dremio-oss
+\end{lstlisting}
+For the purposes of our project, we have utilized the \ac{NAS} data source to store a portion of our genomics data. Specifically, we have chosen to include data in \ac{VCF} files. \ac{VCF} is a text file format generally used in bioinformatics for storing gene sequence variations.
