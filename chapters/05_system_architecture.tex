@@ -111,11 +111,33 @@ public class PolyphenyConf extends AbstractArpConf<PolyphenyConf> {
 With respect to the storage plugin configuration Java class \ref{lst:polypheny-arp}, being Polypheny still an embryonic project not allowing for user management, but rather having a default user "pa" with empty password, fields are pre-filled with default values. The class specification is then interpreted at run time from Dremio, setting up a form with input fields corresponding to each @DisplayMetadata annotation.
 The DRIVER static and immutable variable contains the class path of the Polypheny \ac{JDBC} driver. The newDataSource() method is invoked at form submission, setting up the connection to the Polypheny instance.
 
-\section{NAS Folders}
+\subsection{NAS Folders}
 Dremio offers native support for a variety of "relational" file types such as \ac{CSV}, Excel, \ac{JSON}, and \ac{VCF}. These files may be physically moved within the Dremio instance, but losing any streaming capability, or by attaching a \ac{NAS} source to it. In fact, Dremio integrates a connector to local folders, reading supported files within them. The name \ac{NAS} on this typology of data source is ambiguous: the term refers to storage units usually located within the same \ac{LAN} of one or more hosts accessing it, while in Dremio is used to generically refer to a folder to which it can access.
 This in practice means Dremio can browse local folders: thus, if NAS shared folders are mounted within the Dremio server through the \ac{SMB} protocol, they can be browsed as well.
 In Linux environments where the standalone version of Dremio is used, its daemon must have permission to read these folders; in environments where the Docker image is employed, where a clear separation between the host file system and the Docker context occurs, folders and \ac{NAS} shares must be mapped. This is obtained with Docker Volumes\footnote{ https://docs.docker.com/storage/volumes/}, and in particular the “Host Volume” paradigm.
-\begin{lstlisting}
+\begin{lstlisting}[language=bash, caption={Docker command to run a Dremio container with a Host Volume}, label={lst:docker-host-volume}]
 $ docker run -v NAS_PATH/folder:/opt/dremio/folder -p 9047:9047 -p 31010:31010 -p 45678:45678 -p 32010:32010 --name hereditary_dremio dremio/dremio-oss
 \end{lstlisting}
 For the purposes of our project, we have utilized the \ac{NAS} data source to store a portion of our genomics data. Specifically, we have chosen to include data in \ac{VCF} files. \ac{VCF} is a text file format generally used in bioinformatics for storing gene sequence variations.
+
+\subsection{Google Drive}
+Google Drive is a widely used cloud storage service offered by Google that allows users to save files and access them from any device connected to the internet. Users can store documents, spreadsheets, and presentations, collaborate with others, and have all their work backed up safely.
+We chose to consider Google Drive as a data source for our system architecture primarily because of its widespread use in various contexts, including scenarios where Google Sheets are frequently adopted for data collection and management. Google Sheets, part of the Google Drive suite, is particularly popular in both academic and industrial settings for its ease of use and collaborative features.
+The approach to integrating Google Drive is identical to that of the \ac{NAS} system, as long as Google Drive is adapted to a local host folder. This adaptation allows Dremio to interact with Google Drive as if it were interacting with local file systems, thereby simplifying access and manipulation of data stored in Google Drive.
+The adaptation of Google Drive to a local system is facilitated by a tool known as google-drive-ocamlfuse\footnote{https://github.com/astrada/google-drive-ocamlfuse}, which provides a FUSE-based file system backed by Google Drive. This tool was built using OCaml, a functional programming language known for its expressiveness, efficiency, and robustness. OCaml is utilized to handle the logical operations and data structure management, ensuring that the application runs efficiently and securely. \ac{FUSE} is a software interface for Unix-like computer operating systems that lets non-privileged users create their own file systems without editing kernel code. This is used in google-drive-ocamlfuse to mount Google Drive as a file system on the user's computer.
+\subsubsection{Adaptation of Google Sheets}
+With the google-drive-ocamlfuse tool, Google Sheets can be adapted to local Excel files, which are natively supported by Dremio. This adaptation is crucial because it allows Dremio to perform operations on Google Sheets just as it would on local Excel files, enabling seamless data processing and integration without needing to convert or move data physically.
+\subsubsection{Configuration and Usage}
+Configuring google-drive-ocamlfuse involves setting up Google Drive as a mounted file system. Once mounted, the Google Drive folder behaves like any other directory on the local system.
+\begin{lstlisting}[language=bash, caption={google-drive-ocamlfuse Tool installation procedure}, label={lst:ocamlfuse}]
+# Installation of google-drive-ocamlfuse
+$ sudo add-apt-repository ppa:alessandro-strada/ppa
+$ sudo apt-get update
+$ sudo apt-get install google-drive-ocamlfuse
+
+# Authentication and mounting
+$ google-drive-ocamlfuse
+$ mkdir ~/google-drive
+$ google-drive-ocamlfuse ~/google-drive
+\end{lstlisting}
+

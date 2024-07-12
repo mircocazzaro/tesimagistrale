@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.3.31) (preloaded format=xelatex 2024.7.9)  12 JUL 2024 01:17
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.3.31) (preloaded format=xelatex 2024.7.9)  12 JUL 2024 01:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2004,10 +2004,16 @@ Package acronym Info: Label `acro:LAN' newly defined as it shall be overridden
 although it is yet undefined on input line 115.
 Package acronym Info: Label `acro:SMB' newly defined as it shall be overridden
 although it is yet undefined on input line 116.
-) [27]
+ (C:\Program Files\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2024/03/11 1.10a listings language file
+)
+(C:\Program Files\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2024/03/11 1.10a listings language file
+) [27] [28]) [29]
 \openout2 = `chapters/06_use_case.aux'.
 
- (chapters/06_use_case.tex [28
+
+(chapters/06_use_case.tex [30
 
 
 
@@ -2015,10 +2021,10 @@ although it is yet undefined on input line 116.
 
 ]
 Chapter 6.
-) [29]
+) [31]
 \openout2 = `chapters/07_evaluation.aux'.
 
- (chapters/07_evaluation.tex [30
+ (chapters/07_evaluation.tex [32
 
 
 
@@ -2026,10 +2032,10 @@ Chapter 6.
 
 ]
 Chapter 7.
-) [31]
+) [33]
 \openout2 = `chapters/08_conclusions.aux'.
 
- (chapters/08_conclusions.tex [32
+ (chapters/08_conclusions.tex [34
 
 
 
@@ -2037,7 +2043,7 @@ Chapter 7.
 
 ]
 Chapter 8.
-) [33] [34
+) [35] [36
 
 
 
@@ -2054,7 +2060,7 @@ Overfull \hbox (13.20532pt too wide) in paragraph at lines 53--53
 yrePagellaX(0)/m/n/12 . Ed. by Chiara Ghidini et al. Vol. 11298.
  []
 
-[35
+[37
 
 
 ]
@@ -2071,10 +2077,10 @@ Overfull \hbox (1.0413pt too wide) in paragraph at lines 53--53
 ion - Extended Abstract”.
  []
 
-[36] [37] [38
+[38] [39] [40
 
 
-] (frontmatter/thanks.tex) [39
+] (frontmatter/thanks.tex) [41
 
 
 ] (main.aux
@@ -2086,19 +2092,29 @@ ion - Extended Abstract”.
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 21BF929839F08BD9194CD5ECDE5009A6;2169.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 21BF929839F08BD9194CD5ECDE5009A6;2169
+(rerunfilecheck)             After:  B8F5E5DA2C17273EB975B19E2DE6B3B8;2245.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 47947 strings out of 409555
- 908212 string characters out of 5776261
+ 48042 strings out of 409555
+ 909278 string characters out of 5776261
  2058148 words of memory out of 5000000
- 69341 multiletter control sequences out of 15000+600000
+ 69432 multiletter control sequences out of 15000+600000
  598061 words of font info for 132 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  123i,15n,131p,1057b,6840s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (59 pages).
+Output written on main.pdf (61 pages).
