@@ -178,3 +178,73 @@ The ontology is part of the broader Brainteaser project, which aims to address c
 The Brainteaser Ontology models meticulously various aspects of patient health data, including genetic markers, clinical symptoms, diagnostic test results, and treatment responses. This comprehensive modeling approach ensures that all relevant data dimensions are captured and can be queried effectively. One of the key strengths of the Brainteaser Ontology is its focus on interoperability. It is built to integrate seamlessly with existing medical and genomic data standards, facilitating easy data exchange and compatibility with other health information systems. As new discoveries are made and healthcare practices evolve, the ontology is structured to be scalable and flexible. It can accommodate additional data types and relationships, supporting the ongoing growth and diversification of biomedical data.
 \subsection{Ontology Implementation}
 In our system, the Brainteaser Ontology acts as the vocabulary for designing semantic queries over data. By mapping our virtual data model with this ontology, we ensure that data from disparate sources can be integrated coherently and that complex queries involves all data coming from the heterogeneous data sources.
+
+\section{OBDA Layer}
+In our architecture, The component realizing the \ac{OBDA} paradigm, that aims to set up a \ac{VKG}, is Ontop.
+Ontop comes in different shapes: different tools are provided for accomplishing different tasks.
+In this section we will discuss the different Ontop tools that have been employed in our project alongside their actual role, with also code examples.
+\subsection{Ontop Mapping}
+Protégé is a well-known tool for ontology modelling, developed and maintained by the Stanford University. Apart from its standard capabilities, it is open to custom plugins that can be installed on demand, that expand its features.
+To develop ontology mappings between an ontology and a single relational data source, as in the \ac{OBDA} paradigm is defined, the Ontop Mappings plugin for Protégé have been realized. Its utilization process is defined as follows:
+\begin{itemize}
+  \item The ontology that has to be mapped has to be opened with Protégé;
+  \item The Ontop Mappings plugin has three tabs: the first one is about setting up the \ac{JDBC} connection with the relational source (i.e. Dremio). The \ac{JDBC} driver has to be manually loaded within the Protégé "connectors" folder;
+  \item The second tab is about defining Ontop properties. For the mapping task, no specific property needs to be defined;
+  \item The third tab is the mappings editor. Here, there are two different input fields: one asks for a portion of the graph, in Turtle notation, with autocomplete features; the second one is about the SQL query against the relational sources. Rows coming from the relational sources are directly mapped by including fields name within curly brackets in the Turtle syntax. Note that if there are mistakes in the Turtle notation (e.g. the subgraph doesn't match with the ontology), the mapping can't be added.
+  \item After defining all mappings, they can be validated by clicking on "Validate". \ac{SQL} queries are executed and if they are wrong, or field names doesn't coincide with the one defined within curly brackets, an exception is raised;
+  \item By saving the Protégé project, an .obda file is created in the ontology folder, containing mappings definition.
+\end{itemize}  
+
+For shortness, a portion of the mappings implementation between the virtual relational schema exposed by Dremio and the Brainteaser Ontology is shown in Code \ref{lst:mappings}.
+
+\begin{lstlisting}[language=OntopNative, caption={Mappings definition between the virtual relational schema exposed by Dremio and the Brainteaser Ontology}, label={lst:mappings}]
+  [MappingDeclaration] @collection [[
+  mappingId	MAPID-5b34961b80264140bb779dbd296424ac
+  target		bto:Patient{patient} a bto:Patient . 
+  source		SELECT patient FROM "@mirco.cazzaro"."STATIC_VARS";
+
+  mappingId	MAPID-f24debb89dc84f73a47acdf763ec0b4f
+  target		bto:Patient{patient} bto:alive {alive}^^xsd:boolean . 
+  source		SELECT patient, LCASE(alive) AS alive
+        FROM "@mirco.cazzaro"."STATIC_VARS"
+        WHERE alive <> '';
+
+  mappingId	MAPID-5b2c0dfea75d44279ce8ddde95f2a9aa
+  target		bto:Patient{patient} bto:sex {sex}^^xsd:string . 
+  source		SELECT patient, LCASE(sex) AS sex
+        FROM "@mirco.cazzaro"."STATIC_VARS"
+        WHERE sex <> '';
+
+  mappingId	MAPID-51a6eb8de7c64b7bbe4fe62d8188208c
+  target		bto:Patient{patient} bto:undergo bto:eventOnset1{patient} . bto:eventOnset1{patient} a bto:Onset ; bto:eventStart {onsetDate}^^xsd:datetime ; bto:bulbarOnset {onset_bulbar}^^xsd:boolean ; bto:axialOnset {onset_axial}^^xsd:boolean ; bto:generalizedOnset {onset_generalized}^^xsd:boolean ; bto:limbsOnset {onset_limbs}^^xsd:boolean . 
+  source		SELECT patient, onsetDate, LCASE(onset_bulbar) AS onset_bulbar, LCASE(onset_axial) AS onset_axial, LCASE(onset_generalized) AS onset_generalized, LCASE(onset_limbs) AS onset_limbs FROM "@mirco.cazzaro"."STATIC_VARS";
+
+  mappingId	MAPID-541428e7a83441f5bd29e52d66ffc52e
+  target		bto:Patient{patient} bto:undergo bto:eventOnset2{patient} . bto:eventOnset2{patient} a bto:Onset ; bto:ageOnset {age_onset}^^xsd:float . 
+  source		SELECT patient, age_onset FROM "@mirco.cazzaro"."STATIC_VARS" WHERE age_onset <> '';
+
+  mappingId	MAPID-ff2b4bdc90af468793b4f58105fa555f
+  target		bto:Patient{patient} bto:undergo bto:diagnosis{patient} . bto:diagnosis{patient} a bto:Diagnosis ; bto:eventStart {diagnosisDate}^^xsd:datetime . 
+  source		SELECT patient, diagnosisDate FROM "@mirco.cazzaro"."STATIC_VARS";
+
+  mappingId	MAPID-13ab39d8b67c4f34a206b7f4bcc1f442
+  target		bto:Patient{patient} bto:hasEthnicity bto:eth{patient} . bto:eth{patient} rdfs:label {ethnicity}@en . 
+  source		SELECT patient, ethnicity FROM "@mirco.cazzaro"."STATIC_VARS" WHERE ethnicity <> '';
+
+  mappingId	MAPID-56da0e23dc6b4cb3a0bfc475f4bcb65f
+  target		bto:eventOnset3{patient} bto:anatomicalLocation bto:location{patient} . bto:location{patient} rdfs:label {onset_location}^^xsd:string . 
+  source		SELECT patient, onset_location FROM "@mirco.cazzaro"."STATIC_VARS" WHERE onset_location <> '';
+
+  mappingId	MAPID-5ea1e8edbbb1446fb50e887c4f0605dd
+  target		bto:eventOnset4{patient} bto:consists bto:clinicalEvaluation{patient} . bto:clinicalEvaluation{patient} a bto:ClinicalEvaluation ; bto:predominantLimbsSide {onset_limbs_side}^^xsd:string ; bto:predominantLimbsImpairment {onset_limbs_impairment}^^xsd:string . 
+  source		SELECT patient, onset_limbs_side, onset_limbs_impairment
+        FROM "@mirco.cazzaro"."STATIC_VARS"
+        WHERE onset_limbs_side <> '' OR onset_limbs_impairment <> '';
+  ]]
+\end{lstlisting}
+
+\subsection{Ontop SPARQL}
+The aim of the OBDA approach is executing \ac{SPARQL} queries over a \ac{VKG}. Testing mapping correctness before their utilization in a running environment is essential. The Ontop SPARQL plugin for Protégé accomplishes this task. Given its role of a testing tool, it allows to analyze the "\ac{SQL} translation" of the running \ac{SPARQL} query.
+\subsection{Ontop Endpoint}
+The Ontop Standalone Endpoint provides a server environment where Ontop can operate independently, offering both an API and a web interface for running SPARQL queries over the virtual knowledge graph. This setup is particularly useful for environments where integration with existing data management systems is necessary, .
+\subsection{Ontop with GraphDB}

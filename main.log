@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.3.31) (preloaded format=xelatex 2024.7.9)  15 JUL 2024 20:05
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.3.31) (preloaded format=xelatex 2024.7.9)  16 JUL 2024 15:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2040,22 +2040,33 @@ Overfull \hbox (8.53766pt too wide) in paragraph at lines 173--174
 
 Underfull \vbox (badness 3138) has occurred while \output is active []
 
- [31])
-[32] [33]
+ [31]
+[32]
+Package acronym Info: Label `acro:VKG' newly defined as it shall be overridden
+although it is yet undefined on input line 183.
+
+Underfull \vbox (badness 5908) has occurred while \output is active []
+
+ [33]
+[34]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [35])
+[36]
 \openout2 = `chapters/06_use_case.aux'.
 
- (chapters/06_use_case.tex [34
+ (chapters/06_use_case.tex
+Chapter 6.
+) [37
 
 
 
 
 
 ]
-Chapter 6.
-) [35]
 \openout2 = `chapters/07_evaluation.aux'.
 
- (chapters/07_evaluation.tex [36
+ (chapters/07_evaluation.tex [38
 
 
 
@@ -2063,10 +2074,10 @@ Chapter 6.
 
 ]
 Chapter 7.
-) [37]
+) [39]
 \openout2 = `chapters/08_conclusions.aux'.
 
- (chapters/08_conclusions.tex [38
+ (chapters/08_conclusions.tex [40
 
 
 
@@ -2074,7 +2085,7 @@ Chapter 7.
 
 ]
 Chapter 8.
-) [39] [40
+) [41] [42
 
 
 
@@ -2091,7 +2102,7 @@ Overfull \hbox (13.20532pt too wide) in paragraph at lines 53--53
 yrePagellaX(0)/m/n/12 . Ed. by Chiara Ghidini et al. Vol. 11298.
  []
 
-[41
+[43
 
 
 ]
@@ -2108,10 +2119,10 @@ Overfull \hbox (1.0413pt too wide) in paragraph at lines 53--53
 ion - Extended Abstract”.
  []
 
-[42] [43] [44
+[44] [45] [46
 
 
-] (frontmatter/thanks.tex) [45
+] (frontmatter/thanks.tex) [47
 
 
 ] (main.aux
@@ -2128,18 +2139,18 @@ L3 programming layer <2020/03/25>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 5549AE5E2F9FFF78F2E4134741C38310;2927.
+(rerunfilecheck)             Checksum: AB6A0BE82B58BB99C1366CCB3B0D039F;3061.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48077 strings out of 409555
- 909895 string characters out of 5776261
- 2058148 words of memory out of 5000000
- 69465 multiletter control sequences out of 15000+600000
+ 48176 strings out of 409555
+ 911600 string characters out of 5776261
+ 2154148 words of memory out of 5000000
+ 69564 multiletter control sequences out of 15000+600000
  598061 words of font info for 132 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 123i,15n,131p,1075b,6838s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 123i,15n,131p,1075b,6840s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (65 pages).
+Output written on main.pdf (67 pages).

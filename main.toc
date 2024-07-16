@@ -50,8 +50,10 @@
 \contentsline {subsection}{\numberline {5.4.1}Brainteaser Ontology Overview}{32}{subsection.5.4.1}%
 \contentsline {subsection}{\numberline {5.4.2}Ontology Features and Capabilities}{32}{subsection.5.4.2}%
 \contentsline {subsection}{\numberline {5.4.3}Ontology Implementation}{32}{subsection.5.4.3}%
-\contentsline {chapter}{\numberline {6}Use Cases}{35}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Evaluation Results}{37}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Conclusions and Future Works}{39}{chapter.8}%
-\contentsline {chapter}{References}{41}{section*.48}%
-\contentsline {chapter}{Acknowledgments}{45}{section*.50}%
+\contentsline {section}{\numberline {5.5}OBDA Layer}{33}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Ontology Mappings}{34}{subsection.5.5.1}%
+\contentsline {chapter}{\numberline {6}Use Cases}{37}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Evaluation Results}{39}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Conclusions and Future Works}{41}{chapter.8}%
+\contentsline {chapter}{References}{43}{section*.49}%
+\contentsline {chapter}{Acknowledgments}{47}{section*.51}%

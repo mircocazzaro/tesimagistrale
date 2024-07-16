@@ -564,3 +564,65 @@
     FILTER,GRAPH,LIMIT,OFFSET,SERVICE,UNION,EXISTS,NOT,BINDINGS,MINUS,a
   }
 }
+
+\lstset{style=codeSnippet}
+\usepackage[dvipsnames]{xcolor} % https://en.wikibooks.org/wiki/LaTeX/Colors
+\definecolor{LightGray}{rgb}{0.97,0.97,0.97}
+\usepackage{fontspec}
+\lstdefinelanguage{OntopNative}{
+  basicstyle=\footnotesize\consolas,
+  backgroundcolor=\color{LightGray},
+  columns=fullflexible,
+  breaklines=true,
+  sensitive=true,
+  numbers=none,
+  % --------------------------
+  frame=bt,
+  aboveskip=1em,
+  belowskip=1em,
+  xleftmargin=.5em,
+  xrightmargin=.5em,
+  framexleftmargin=.5em,
+  framextopmargin=.5em,
+  framexbottommargin=.5em,
+  framexrightmargin=.5em,
+  % --------------------------
+  tabsize = 2,
+  showstringspaces=false,
+  morecomment=[l][\color{gray}]{\#},       % comments
+  morestring=[b][\color{OliveGreen}]{\"},  % strings
+  % -------------------------- variables
+  keywordsprefix=?,                        % assuming variables may be used
+  classoffset=0,
+  keywordstyle=\color{Sepia},
+  morekeywords={},
+  % -------------------------- prefixes and URIs
+  classoffset=1,
+  keywordstyle=\color{Red},
+  morekeywords={
+    PrefixDeclaration, MappingDeclaration, mappingId, target, source
+  },
+  % ---------------------------
+  classoffset=2,
+  keywordstyle=\color{Purple},
+  morekeywords={
+    SELECT, FROM, WHERE, AS, UNION
+  },
+  % -------------------------- SQL and datatypes
+  classoffset=3,
+  keywordstyle=\color{MidnightBlue},
+  morekeywords={
+    rdf, rdfs, owl, xml, xsd, NCIT, obda, skos, BTO_resource
+  },
+  % -------------------------- SQL functions and operations
+  classoffset=4,
+  keywordstyle=\color{Bittersweet},
+  morekeywords={
+    LCASE, TRUE, <>  % example SQL functions and operations
+  },
+  classoffset=5,
+  keywordstyle=\color{Orange},
+  morekeywords={
+    a, bto, rdfs:label, ^^  % example RDF and ontology terms
+  }
+}
