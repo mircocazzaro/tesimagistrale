@@ -23,10 +23,10 @@
 \contentsline {subsubsection}{Ontop}{13}{table.caption.31}%
 \contentsline {subsection}{\numberline {2.2.4}Triple Stores}{13}{subsection.2.2.4}%
 \contentsline {subsubsection}{GraphDB}{14}{subsection.2.2.4}%
-\contentsline {chapter}{\numberline {3}Related Works}{15}{chapter.3}%
-\contentsline {section}{\numberline {3.1}BigDAWG}{16}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Optique}{17}{section.3.2}%
-\contentsline {chapter}{\numberline {4}Context of the Work}{19}{chapter.4}%
+\contentsline {chapter}{\numberline {3}Context of the Work}{15}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Related Works}{17}{chapter.4}%
+\contentsline {section}{\numberline {4.1}BigDAWG}{18}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Optique}{19}{section.4.2}%
 \contentsline {chapter}{\numberline {5}System Architecture}{21}{chapter.5}%
 \contentsline {section}{\numberline {5.1}System Architecture Design}{21}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Data Sources}{23}{section.5.2}%

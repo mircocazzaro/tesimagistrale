@@ -16,10 +16,10 @@
 \BOOKMARK [2][-]{subsection.2.2.2}{Data\040Federation\040Systems}{section.2.2}% 16
 \BOOKMARK [2][-]{subsection.2.2.3}{OBDA\040Systems}{section.2.2}% 17
 \BOOKMARK [2][-]{subsection.2.2.4}{Triple\040Stores}{section.2.2}% 18
-\BOOKMARK [0][-]{chapter.3}{Related\040Works}{}% 19
-\BOOKMARK [1][-]{section.3.1}{BigDAWG}{chapter.3}% 20
-\BOOKMARK [1][-]{section.3.2}{Optique}{chapter.3}% 21
-\BOOKMARK [0][-]{chapter.4}{Context\040of\040the\040Work}{}% 22
+\BOOKMARK [0][-]{chapter.3}{Context\040of\040the\040Work}{}% 19
+\BOOKMARK [0][-]{chapter.4}{Related\040Works}{}% 20
+\BOOKMARK [1][-]{section.4.1}{BigDAWG}{chapter.4}% 21
+\BOOKMARK [1][-]{section.4.2}{Optique}{chapter.4}% 22
 \BOOKMARK [0][-]{chapter.5}{System\040Architecture}{}% 23
 \BOOKMARK [1][-]{section.5.1}{System\040Architecture\040Design}{chapter.5}% 24
 \BOOKMARK [1][-]{section.5.2}{Data\040Sources}{chapter.5}% 25
