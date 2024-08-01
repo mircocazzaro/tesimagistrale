@@ -3,7 +3,7 @@
 \chapter{System Architecture}
 \label{chp:architecture}
 
-As discussed in Chapter \ref{chp:related}, there exist no off-the-shelf solution implementing the \ac{OBDF} paradigm. This implies that for the specific task of dealing with clinical and genomics data, it is necessary to design a system architecture, choosing components in such a way that the whole architecture results in being solid, privacy-oriented (with strong logging capabilities), and being capable to manage genomics data.
+As discussed in Chapter \ref{chp:related}, there exist no off-the-shelf solution implementing the \ac{OBDF} paradigm. This implies that for the specific task of dealing with clinical and genomics data, within the \ac{HEREDITARY} context, it is necessary to design a system architecture, choosing components in such a way that the whole architecture results in being solid, privacy-oriented (with strong logging capabilities), and being capable to manage these kind of data.
 This chapter will firstly discuss the overall proposed architecture, that retraces the one presented in previous chapters. Subsequently, each layer will be presented in details, outlining how each components have been configured, reporting eventual code snippets. In order to better describe the source heterogeneity of data that may occur in contexts such as clinical and genomics, available relational data have been distributed among different sources.
 
 \section{System Architecture Design}
@@ -15,7 +15,7 @@ This chapter will firstly discuss the overall proposed architecture, that retrac
 \end{figure}
 The proposed architecture described in Fig. \ref{fig:mirco_arch} implements the \ac{OBDF} framework. It adopts Ontop as its semantic data integration layer and Dremio as its data federation layer. 
 
-Briefly, Ontop have been chosen because it natively supports two high level mapping languages, that gives more freedom on their optimization, without the need to appeal to low level \ac{DL} languages, it is open-source and well maintained by the Free University of Bolzano data integration team, it comes embedded in GraphDB that offers solid \ac{API}s, and it comes even with an embedded web endpoint.
+Ontop have been chosen because it natively supports two high level mapping languages, that gives more freedom on their optimization, without the need to appeal to low level \ac{DL} languages, it is open-source and well maintained by the Free University of Bolzano data integration team, it comes embedded in GraphDB that offers solid \ac{API}s, and it comes even with an embedded web endpoint.
 
 Dremio have been chosen as the virtualization and federation layer because, as discussed in the Chapter \ref{chp:background}, it is an open-source, robust and scalable software influenced both from its enterprise nature and from a consistent community providing contributions. Moreover, within its installation methods, it is possible to set it up through a Docker image: this may set the basis for the architecture packaging, expanding the image to other software components.
 
@@ -140,7 +140,7 @@ $ google-drive-ocamlfuse
 $ mkdir ~/google-drive
 $ google-drive-ocamlfuse ~/google-drive
 \end{lstlisting}
-We used the Google Drive data source to store the remaining part of \ac{VCF} genomics data.
+We used the Google Drive data source to store the remaining part of \ac{CSV} genomics data.
 
 
 \section{Federation and Virtualization Layer}
@@ -157,11 +157,23 @@ On the virtualization side, the layer enables the creation of virtual views that
 \end{figure}
 \subsection{Focus on Dremio}
 \subsubsection{Web Interface}
-One of the main features of Dremio is its user-friendly web interface, which provides a graphical user interface (\ac{GUI}) that simplifies the process of data management. This interface is particularly beneficial for defining and managing virtual views. As shown in Fig. \ref{fig:screenshot} users can interact with the system through the web interface to run queries, visualize query results and configure the system settings.
-\subsubsection{Defining Virtual Views}
-Within Dremio's web interface, users can create and manage virtual views. These datasets do not store any data themselves but instead provide a virtual schema on top of physical data stored across different sources. Users can define virtual views by writing standard SQL queries that join, filter, or transform the data across these sources. For instance, a researcher might join genomic data stored in a NAS system with patient data from a MySQL database to analyze correlations between genetic markers and health outcomes.
+One of the main features of Dremio is its user-friendly web interface, which provides a graphical user interface (\ac{GUI}) that simplifies the process of data management. This interface is particularly beneficial for defining and managing virtual views. Users can interact with the system through the web interface to run queries, visualize query results and configure the system settings.
 \subsubsection{JDBC Connection}
 Apart from its web interface, Dremio also supports \ac{JDBC} connections, allowing it to integrate seamlessly with a variety of programming environments and data tools. This \ac{JDBC} support is crucial for automating data processes and integrating with other applications that require programmatic access to the data federation layer. Developers can use the \ac{JDBC} driver to connect directly to Dremio from their applications, enabling them to run queries programmatically and retrieve data for further processing or analysis. This capability is essential for building automated data pipelines and for applications that need to interact dynamically with the data layer.
+\subsubsection{Virtual Views Definition}
+Within Dremio's web interface, users can create and manage virtual views. Users can define virtual views by writing standard SQL queries that join, filter, or transform the data across these sources. For instance, a researcher might join genomic data stored in a NAS system with patient data from a MySQL database to perform analytics concurrently between genetic markers and health outcomes.
+In our architecture we defined different virtual views, with the intent of aligning with the ontology structure. With respect to the clinical data coming from the three medical centers, the views are limited to the union of the relations composing the dataset, given that all three of these shares the same identical schema. Only on the Amyotrophic Lateral Sclerosis view, given that data from the Madrid dataset was missing some information, we filled some of its column with null values.
+Views defined within Dremio are presented in code \ref{lst:views}. As described before, data coming from Turin refers to a MySQL data store, data from Lisbon refers to a PostgreSQL data store, and data from Madrid is stored within a Polypheny instance.
+\begin{lstlisting}[language=SQL, caption={Virtual views over clinical data}, label={lst:views}]
+  # Amyotrophic Lateral Sclerosis View
+  SELECT * FROM LISBON.public.lisbon_alsfrs UNION SELECT * FROM TURIN.alsfrs_turin.Turin_alsfrs UNION SELECT MADRID.madrid_alsfrs.patient, MADRID.madrid_alsfrs."date", MADRID.madrid_alsfrs.tot, NULL AS bulbar, NULL AS motor, NULL AS respiratory, NULL AS q1, NULL AS q2, NULL AS q3, NULL AS q4, NULL AS q5, NULL AS q6, NULL AS q7, NULL AS q8, NULL AS q9, NULL AS q10, NULL AS q11, NULL AS q12 FROM MADRID.madrid_alsfrs;
+
+  # Spirometry Forced Vital Capacity View
+  SELECT * FROM LISBON.public.lisbon_spiro UNION SELECT * FROM MADRID.madrid_alsfrs.Madrid_spiro UNION SELECT * FROM TURIN.alsfrs_turin.Turin_spiro;
+
+  # Patient Static Data
+  SELECT * FROM LISBON.public.lisbon_static_vars UNION SELECT * FROM MADRID.madrid_alsfrs.Madrid_static_vars UNION SELECT * FROM TURIN.alsfrs_turin.Turin_static_vars;
+\end{lstlisting}
 
 \section{Ontology Layer: Brainteaser Ontology}
 In our system architecture, the ontology layer is essential in modeling and managing the complex relationships between genomics data interlaced with clinical values and patients' medical records. Through an extensive review of the literature and existing resources, we identified a suitable ontology that effectively encapsulates these intricate data relationships: the Brainteaser Ontology.
