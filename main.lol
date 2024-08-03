@@ -4,3 +4,5 @@
 \contentsline {lstlisting}{\numberline {5.3}{\ignorespaces google-drive-ocamlfuse Tool installation procedure}}{33}{lstlisting.5.3}%
 \contentsline {lstlisting}{\numberline {5.4}{\ignorespaces Virtual views over clinical data}}{35}{lstlisting.5.4}%
 \contentsline {lstlisting}{\numberline {5.5}{\ignorespaces Mappings definition between the virtual relational schema exposed by Dremio and the Brainteaser Ontology}}{39}{lstlisting.5.5}%
+\contentsline {lstlisting}{\numberline {6.1}{\ignorespaces SPARQL query on ALSFRS visits performed by patients over the BRAINTEASER ontology vocabulary}}{45}{lstlisting.6.1}%
+\contentsline {lstlisting}{\numberline {6.2}{\ignorespaces Parsed SQL Translation of the Original SPARQL Query}}{47}{lstlisting.6.2}%

@@ -528,7 +528,7 @@
   basicstyle=\footnotesize\consolas,
   backgroundcolor=\color{LightGray},
   columns=fullflexible,
-  breaklines=false,
+  breaklines=true,
   sensitive=true,
   numbers=none,
   % --------------------------
