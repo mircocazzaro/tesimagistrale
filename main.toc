@@ -79,7 +79,9 @@
 \contentsline {subsection}{\numberline {6.3.2}Query Unfolding to SQL}{46}{subsection.6.3.2}%
 \contentsline {subsection}{\numberline {6.3.3}Execution of SQL on Virtual Views}{46}{subsection.6.3.3}%
 \contentsline {section}{\numberline {6.4}Exploration of Query Transformation in Ontop}{47}{section.6.4}%
-\contentsline {chapter}{\numberline {7}Evaluation Results}{51}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Conclusions and Future Works}{53}{chapter.8}%
-\contentsline {chapter}{References}{55}{section*.55}%
-\contentsline {chapter}{Acknowledgments}{59}{section*.57}%
+\contentsline {section}{\numberline {6.5}Execution of q* on Dremio Virtual Views}{50}{section.6.5}%
+\contentsline {section}{\numberline {6.6}Summary}{51}{section.6.6}%
+\contentsline {chapter}{\numberline {7}Evaluation Results}{53}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Conclusions and Future Works}{55}{chapter.8}%
+\contentsline {chapter}{References}{57}{section*.55}%
+\contentsline {chapter}{Acknowledgments}{61}{section*.57}%

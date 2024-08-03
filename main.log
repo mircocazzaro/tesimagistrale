@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.3.31) (preloaded format=xelatex 2024.7.9)  3 AUG 2024 12:50
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.3.31) (preloaded format=xelatex 2024.7.9)  3 AUG 2024 16:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1503,11 +1503,8 @@ Package csquotes Info: ... found 'babel' package.
  (main.aux
 (chapters/01_introduction.aux) (chapters/02_background.aux)
 (chapters/03_context.aux) (chapters/04_related.aux)
-(chapters/05_system_architecture.aux) (chapters/06_use_case.aux
-
-LaTeX Warning: Label `lst:views' multiply defined.
-
-) (chapters/07_evaluation.aux) (chapters/08_conclusions.aux))
+(chapters/05_system_architecture.aux) (chapters/06_use_case.aux)
+(chapters/07_evaluation.aux) (chapters/08_conclusions.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 36.
@@ -2119,10 +2116,6 @@ Overfull \hbox (8.53766pt too wide) in paragraph at lines 59--60
  []
 
 
-LaTeX Warning: Reference `lst:ontop-qstar' on page 46 undefined on input line 6
-8.
-
-
 Underfull \vbox (badness 1546) has occurred while \output is active []
 
  [46]
@@ -2131,16 +2124,14 @@ Underfull \vbox (badness 2990) has occurred while \output is active []
  [47]
 Underfull \vbox (badness 1231) has occurred while \output is active []
 
- [48])
-Overfull \hbox (12.71434pt too wide) in paragraph at lines 119--48
-[]\TU/TeXGyrePagellaX(0)/m/n/12 The detailed translation process showcases the 
-precise alignment from SPARQL
- []
+ [48]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[49]
+ [49]
+[50]) [51]
 \openout2 = `chapters/07_evaluation.aux'.
 
- (chapters/07_evaluation.tex [50
+ (chapters/07_evaluation.tex [52
 
 
 
@@ -2148,10 +2139,10 @@ precise alignment from SPARQL
 
 ]
 Chapter 7.
-) [51]
+) [53]
 \openout2 = `chapters/08_conclusions.aux'.
 
- (chapters/08_conclusions.tex [52
+ (chapters/08_conclusions.tex [54
 
 
 
@@ -2159,7 +2150,7 @@ Chapter 7.
 
 ]
 Chapter 8.
-) [53] [54
+) [55] [56
 
 
 
@@ -2176,7 +2167,7 @@ Overfull \hbox (13.20532pt too wide) in paragraph at lines 53--53
 yrePagellaX(0)/m/n/12 . Ed. by Chiara Ghidini et al. Vol. 11298.
  []
 
-[55
+[57
 
 
 ]
@@ -2187,13 +2178,13 @@ llaX(0)/m/sc/12 doi\TU/TeXGyrePagellaX(0)/m/n/12 : [][]$[][] [] [][][][] [] [][
 ][][][][][][][]$[][].
  []
 
-[56]
+[58]
 Overfull \hbox (1.0413pt too wide) in paragraph at lines 53--53
 []\TU/TeXGyrePagellaX(0)/m/n/12 Zhenzhen Gu et al. “  OBDF: OBDA + Data Federat
 ion - Extended Abstract”.
  []
 
-[57] [58] (frontmatter/thanks.tex) [59
+[59] [60] (frontmatter/thanks.tex) [61
 
 
 
@@ -2209,13 +2200,10 @@ L3 programming layer <2020/03/25>
  ***********
 
 
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3007215BAB9C67D06164B6D7CF4B3590;4173.
+(rerunfilecheck)             Checksum: DEE0F5F8808294258EFFB26F9D2432C2;4331.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
@@ -2227,6 +2215,6 @@ Here is how much of TeX's memory you used:
  69915 multiletter control sequences out of 15000+600000
  598061 words of font info for 132 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 123i,15n,131p,1176b,6840s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 123i,15n,131p,1176b,6838s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (81 pages).
+Output written on main.pdf (83 pages).
