@@ -2392,6 +2392,8 @@
     <bcf:citekey order="18" intorder="1">DBLP:conf/hpec/GadepallyCDEHKM16</bcf:citekey>
     <bcf:citekey order="19" intorder="1">DBLP:journals/ws/KharlamovMSXKR19</bcf:citekey>
     <bcf:citekey order="20" intorder="1">DBLP:conf/bigdataconf/VogtSS18</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">DBLP:journals/ijswis/BizerS09</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">dolci2024tools</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

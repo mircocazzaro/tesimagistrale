@@ -55,7 +55,11 @@
 \BOOKMARK [1][-]{section.6.4}{Exploration\040of\040Query\040Transformation\040in\040Ontop}{chapter.6}% 55
 \BOOKMARK [1][-]{section.6.5}{Execution\040of\040q*\040on\040Dremio\040Virtual\040Views}{chapter.6}% 56
 \BOOKMARK [1][-]{section.6.6}{Summary}{chapter.6}% 57
-\BOOKMARK [0][-]{chapter.7}{Architecture\040Evaluation\040Results}{}% 58
-\BOOKMARK [0][-]{chapter.8}{Conclusions\040and\040Future\040Works}{}% 59
-\BOOKMARK [0][-]{section*.55}{References}{}% 60
-\BOOKMARK [0][-]{section*.57}{Acknowledgments}{}% 61
+\BOOKMARK [0][-]{chapter.7}{Architecture\040Benchmark\040Evaluation}{}% 58
+\BOOKMARK [1][-]{section.7.1}{State\040of\040the\040Art\040on\040Benchmarking\040Techniques}{chapter.7}% 59
+\BOOKMARK [2][-]{subsection.7.1.1}{The\040Berlin\040SPARQL\040Benchmark}{section.7.1}% 60
+\BOOKMARK [2][-]{subsection.7.1.2}{SEASHELL\040Benchmark\040for\040Healthcare\040Data\040Lakes}{section.7.1}% 61
+\BOOKMARK [1][-]{section.7.2}{Server\040Environment\040Configuration}{chapter.7}% 62
+\BOOKMARK [0][-]{chapter.8}{Conclusions\040and\040Future\040Works}{}% 63
+\BOOKMARK [0][-]{section*.60}{References}{}% 64
+\BOOKMARK [0][-]{section*.62}{Acknowledgments}{}% 65

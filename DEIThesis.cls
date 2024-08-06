@@ -626,3 +626,56 @@
     a, bto, rdfs:label, ^^  % example RDF and ontology terms
   }
 }
+
+\lstdefinelanguage{R2RML}{
+  basicstyle=\footnotesize\ttfamily,
+  backgroundcolor=\color{LightGray},
+  columns=fullflexible,
+  breaklines=true,
+  sensitive=true,
+  numbers=none,
+  frame=bt,
+  aboveskip=1em,
+  belowskip=1em,
+  xleftmargin=.5em,
+  xrightmargin=.5em,
+  framexleftmargin=.5em,
+  framextopmargin=.5em,
+  framexbottommargin=.5em,
+  framexrightmargin=.5em,
+  tabsize=2,
+  showstringspaces=false,
+  morecomment=[l][\color{gray}]{\#},
+  morestring=[b][\color{OliveGreen}]{\"},
+  keywordsprefix=@,
+  classoffset=0,
+  keywordstyle=\color{Sepia},
+  morekeywords={
+    rr:subjectMap, rr:predicateMap, rr:objectMap, rr:TriplesMap
+  },
+  classoffset=1,
+  keywordstyle=\color{Red},
+  morekeywords={
+    rr:template, rr:column, rr:datatype, rr:parentTriplesMap
+  },
+  classoffset=2,
+  keywordstyle=\color{Purple},
+  morekeywords={
+    rr:class, rr:property, rr:graph
+  },
+  classoffset=3,
+  keywordstyle=\color{MidnightBlue},
+  morekeywords={
+    rr:termType, rr:IRI
+  },
+  classoffset=4,
+  keywordstyle=\color{Bittersweet},
+  morekeywords={
+    rr:Literal, rr:BlankNode
+  },
+  classoffset=5,
+  keywordstyle=\color{Orange},
+  morekeywords={
+    a, rdf:type, rdfs:label
+  }
+}

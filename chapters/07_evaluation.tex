@@ -1,4 +1,65 @@
 %!TEX root = ../main.tex
 
-\chapter{Architecture Evaluation Results}
+\chapter{Architecture Benchmark Evaluation}
 \label{chp:evaluation}
+
+Following the comprehensive exploration of our federated data architecture's design and practical use cases in earlier chapters, we now shift our focus towards a crucial aspect of system development, that is its performance and operational efficiency benchmarking evaluation. This evaluation is crucial, as it determines the feasibility and effectiveness of the architecture in real-world applications, particularly in the data-intensive field of genomics research.
+Benchmarking in the context of this thesis encompasses necessarily a multifaceted approach, considering both the resource consumption as well as the \ac{DBMS} performance of the proposed architecture. The architecture must not only prove robustness in handling complex data interactions but also achieve this with good efficiency in terms of both time and cost.
+By implementing this dual-focused benchmarking approach, we aim to address two fundamental questions: how well the architecture performs under typical and peak loads, and how does it manage the computational resources at its disposal. Answering these questions will provide a comprehensive understanding of the system's operational characteristics and its suitability for deployment in real-world genomics research environments.
+The insights gained from this benchmarking phase are intended to provide a better understanding of the system's operational dynamics. These benchmark results will not only validate the architecture's capabilities but also highlight areas where further optimizations are necessary, ensuring the system's alignment with the high-throughput and high-accuracy demands of modern \ac{DBMS}, being always close to the clinical and genomics fields' requirements. This chapter will lay out the methodologies employed in our benchmarking tests, discuss the benchmarks selected for evaluation, and detail the performance metrics that will guide our analysis of the architecture's suitability for real-world applications.
+
+\section{State of the Art on Benchmarking Techniques}
+In this section we aim to provide an overview on two state-of-the-art methodologies and their respective framework, differing in the benchmarked factors, that can provide useful insights under diverse point of view. The objective is understanding their logics and wether they can be insightful in our context.
+\subsection{The Berlin SPARQL Benchmark}
+The \ac{BSBM} \cite{ DBLP:journals/ijswis/BizerS09} was developed to evaluate the performance of RDF data management systems by comparing native RDF stores with SPARQL-to-SQL rewriters, which translate SPARQL queries into SQL queries on-the-fly. This benchmark is particularly crucial for understanding how different systems handle RDF data under various conditions, an essential factor for applications involving complex and voluminous datasets like those found in genomics.
+\ac{BSBM} is structured around an e-commerce use case where products are offered by vendors and reviewed by consumers, creating a realistic scenario for benchmarking. The design objectives of \ac{BSBM} focus on providing a meaningful comparison across different storage systems that expose SPARQL endpoints. These objectives ensure the benchmark reflects typical use-case scenarios and assesses how systems perform under realistic and concurrent client workloads.
+\subsubsection{\ac{BSBM} Dataset and Query Mix}
+The \ac{BSBM} dataset is scalable and can be generated in different sizes, allowing for comprehensive testing across systems. Having the dataset “generated” means assessing its performances on a synthetic dataset, that in particular models a typical e-commerce domain with entities like Products, Vendors, Reviews, etc. The benchmark's data generator supports creating arbitrarily large datasets by adjusting the number of products, which serves as the scale factor. This flexibility in data generation enables \ac{BSBM} to simulate different data volumes and complexities, providing insights into how systems scale with increasing data sizes, while working on synthetic data gives the best combination of a common baseline for \ac{DBMS}s comparisons as well as a variable dataset so not to overfit while optimizing the performances.
+The query mix used in \ac{BSBM} simulates the search and navigation patterns of consumers looking for products, mimicking a consumer's interaction with a database. This includes queries for finding products based on various features, retrieving detailed product information, and querying for reviews. The mix consists of parameterized queries with randomly generated values to prevent caching optimizations, ensuring that the benchmark measures genuine query processing performance.
+\subsubsection{Benchmark Implementation}
+BSBM's implementation includes a test driver and a data generator, which together facilitate the execution of the benchmark across different systems. The test driver manages the execution of SPARQL queries over a network, simulating multiple clients, and measures the system's performance based on queries per second and average query execution time.
+The data generator outputs the data in both RDF and relational formats, allowing for a direct comparison of RDF stores and relational databases using SPARQL-to-SQL translation techniques.
+\subsubsection{Contributions and Impact of BSBM}
+\ac{BSBM} has significantly contributed to the field by providing a robust framework for evaluating RDF data management systems in terms of SPARQL query performance and also standard RDBMSs in terms of SQL query performances, becoming undoubtedly the state of the art for benchmarking \ac{DBMS}s. By applying \ac{BSBM} across various systems, it has revealed strengths and weaknesses in existing implementations, guiding improvements in RDF store and SPARQL-to-SQL rewriter technologies. Moreover, \ac{BSBM} assists application developers in selecting appropriate storage systems based on performance metrics critical to their specific requirements.
+
+\subsection{SEASHELL Benchmark for Healthcare Data Lakes} 
+In the rapidly evolving domain of healthcare informatics, the creation of a specialized benchmarking framework such as \ac{SEASHELL} was necessary \cite{dolci2024tools}. This benchmark addresses the pressing need to evaluate healthcare data lake infrastructures comprehensively, ensuring they are optimally configured to handle the complexities of modern medical data. As healthcare organizations increasingly rely on data-driven insights to improve patient outcomes and operational efficiencies, the ability to effectively manage and analyze vast arrays of medical data becomes crucial.
+\subsubsection{Design and Objectives of SEASHELL}
+SEASHELL is meticulously designed to assess the performance of healthcare data lakes, namely critical infrastructures that integrate and process diverse data types from electronic health records to genomics data. The benchmark aims to evaluate these systems on several fronts: data handling, or rather the system's capability to manage and query large and varied datasets that are typical in healthcare environments; performance efficiency, that means measuring the speed and resource efficiency of data processing tasks, which are vital for timely medical decisions, and the system scalability capabilities.
+\subsubsection{Benchmark Framework and Test Scenarios}
+The SEASHELL benchmark introduces a comprehensive framework designed to test data lake infrastructures under various workload scenarios, including relational analyses and machine learning tasks that mirror real-world applications such as disease prediction and patient data management. It employs a virtualized implementation of a healthcare-specific data lake architecture alongside two external cloud-based infrastructures to demonstrate its flexibility and adaptability in diverse environments. The architectural design of the SEASHELL benchmark is intentionally designed to be versatile and accurately mirror the complexities found in real-world healthcare \ac{IT} environments. This design choice ensures that SEASHELL can thoroughly evaluate how well a healthcare data lake manages, integrates, and analyzes different data types, both structured, like \ac{EHR}s, and unstructured, such as medical images. Beyond just handling diverse data types, the benchmark extends its testing to encompass a range of analytical functions, from basic SQL-based querying to advanced analytics, reflecting the comprehensive data analysis tasks encountered in healthcare settings. Furthermore, the adaptability of SEASHELL is rigorously evaluated across various settings, including custom-built virtualized environments and external cloud-based platforms, ensuring its effectiveness and applicability across the diverse \ac{IT} infrastructures that are typical in modern healthcare settings.
+\subsubsection{Overview of Non-Machine-Learning Tasks in SEASHELL}
+As outlined previously, SEASHELL comprises on non-machine-learning tasks, which are particularly interesting for what concerns benchmarking \ac{DBMS}s. These tasks involve:
+\begin{itemize}
+	\item Data Retrieval and Querying: Testing the efficiency and speed of basic data retrieval operations, which are foundational for any data-driven healthcare system. This includes executing complex SQL queries across large datasets to simulate the retrieval of patient information, treatment outcomes, and other critical data in real time;
+	\item Data Processing and Transformation: Evaluating the data lake's capability to perform necessary data transformations, such as normalizing diverse data sets from various sources (like labs and medical devices) into a unified format that can be easily analyzed and stored.
+	\item Resource Utilization: Measuring the computational and memory resources utilized during these operations to assess the cost-effectiveness of data lake architectures in a healthcare setting.
+\end{itemize}
+\subsubsection{Contributions and Impact of SEASHELL}
+SEASHELL is a comprehensive benchmark framework that not only tests the performance of healthcare data lakes but also guides the optimization and scaling of these critical infrastructures. It is a fundamental tool for gathering detailed insights into both machine-learning and non-machine-learning capabilities, and it helps ensure that healthcare data lakes are not only capable of advanced data analysis but are also efficient and reliable for everyday medical data processing.
+
+
+\section{Server Environment Configuration}
+
+Understanding the server environment where our architecture is evaluated is crucial for benchmarking. This configuration directly affects the performance tests, especially important for managing large genomics datasets. Ensuring our server is capable allows us to accurately assess the architecture's performance under different loads.
+
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{| P{0.45\linewidth} | P{0.45\linewidth} |}
+    \hline
+    \textbf{Specification}         & \textbf{Details}                         \\ \hline
+    Operating System               & Rocky Linux 8.10 (Green Obsidian)        \\ \hline
+    CPU                            & Intel(R) Xeon(R) Silver 4116 CPU @ 2.10GHz \\ \hline
+    CPU Details                    & 48 cores, 96 threads, 24 cores per socket \\ \hline
+    RAM Memory                         & Total: 564GB, Available: 487GB \\ \hline
+    Storage - Locale               & 2.5TB (1.9TB used, 148GB available)       \\ \hline
+    Kernel Version                 & Linux x86\_64, Kernel 4.18.0              \\ \hline
+    \end{tabular}
+    \caption{Server Specifications}
+    \label{tab:server_specs}
+\end{table}
+
+The server's CPU, an Intel Xeon Silver 4116, features a high number of cores and threads—48 cores and 96 threads distributed across two sockets. This setup is excellent for multitasking and running multiple operations simultaneously, which is common in our benchmark tests.
+About RAM memory, our server has 564GB in total. This large amount of memory is beneficial for processing big datasets without needing to frequently use slower disk-based storage.
+Storage capacity is also important. Our server includes a 2.5TB local drive, of which 1.9TB is used, leaving 148GB free. This space is adequate for our needs during the benchmarking phase, allowing us to store and manage large amounts of data effectively.
+In summary, the server setup is well-suited for the demanding tasks of benchmarking our federated data architecture. The specifications ensure that we can conduct thorough and accurate performance tests, which are essential for validating the architecture's performances.

@@ -1623,6 +1623,102 @@
       \verb https://doi.org/10.1109/BigData.2018.8622353
       \endverb
     \endentry
+    \entry{DBLP:journals/ijswis/BizerS09}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=c0ab52e226557a243a4a5277aec8acdc}{%
+           family={Bizer},
+           familyi={B\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=fce5bdf25a58a33724472d1bac0ee785}{%
+           family={Schultz},
+           familyi={S\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{7dcf5b954167431ddccc3a582d5f9333}
+      \strng{fullhash}{7dcf5b954167431ddccc3a582d5f9333}
+      \strng{fullhashraw}{7dcf5b954167431ddccc3a582d5f9333}
+      \strng{bibnamehash}{7dcf5b954167431ddccc3a582d5f9333}
+      \strng{authorbibnamehash}{7dcf5b954167431ddccc3a582d5f9333}
+      \strng{authornamehash}{7dcf5b954167431ddccc3a582d5f9333}
+      \strng{authorfullhash}{7dcf5b954167431ddccc3a582d5f9333}
+      \strng{authorfullhashraw}{7dcf5b954167431ddccc3a582d5f9333}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Int. J. Semantic Web Inf. Syst.}
+      \field{number}{2}
+      \field{title}{The Berlin {SPARQL} Benchmark}
+      \field{volume}{5}
+      \field{year}{2009}
+      \field{pages}{1\bibrangedash 24}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.4018/JSWIS.2009040101
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.4018/jswis.2009040101
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.4018/jswis.2009040101
+      \endverb
+    \endentry
+    \entry{dolci2024tools}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=b2160b1f67e606be4210802eba90f1de}{%
+           family={Dolci},
+           familyi={D\bibinitperiod},
+           given={Tommaso},
+           giveni={T\bibinitperiod}}}%
+        {{hash=19d7b0b8aa25341642d40802fb727cfd}{%
+           family={Amata},
+           familyi={A\bibinitperiod},
+           given={Lorenzo},
+           giveni={L\bibinitperiod}}}%
+        {{hash=17fa176a54c5203cbd0846127e403f2a}{%
+           family={Manco},
+           familyi={M\bibinitperiod},
+           given={Carlo},
+           giveni={C\bibinitperiod}}}%
+        {{hash=8fee0f794f6027a8022cdcebbaf72a39}{%
+           family={Azzalini},
+           familyi={A\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=becbeca4a8126243dfaf92a9fc260338}{%
+           family={Gribaudo},
+           familyi={G\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3aaac1b68d1e4073347500ea468e3986}{%
+           family={Tanca},
+           familyi={T\bibinitperiod},
+           given={Letizia},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{0980e1c732b4d6851eb3be18178d886d}
+      \strng{fullhash}{aa39d58a18dbb73f2f639f2a0e6fc768}
+      \strng{fullhashraw}{aa39d58a18dbb73f2f639f2a0e6fc768}
+      \strng{bibnamehash}{0980e1c732b4d6851eb3be18178d886d}
+      \strng{authorbibnamehash}{0980e1c732b4d6851eb3be18178d886d}
+      \strng{authornamehash}{0980e1c732b4d6851eb3be18178d886d}
+      \strng{authorfullhash}{aa39d58a18dbb73f2f639f2a0e6fc768}
+      \strng{authorfullhashraw}{aa39d58a18dbb73f2f639f2a0e6fc768}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Information Systems Frontiers}
+      \field{title}{Tools for Healthcare Data Lake Infrastructure Benchmarking}
+      \field{year}{2024}
+      \field{pages}{1\bibrangedash 22}
+      \range{pages}{22}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

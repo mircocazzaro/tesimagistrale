@@ -81,7 +81,18 @@
 \contentsline {section}{\numberline {6.4}Exploration of Query Transformation in Ontop}{47}{section.6.4}%
 \contentsline {section}{\numberline {6.5}Execution of q* on Dremio Virtual Views}{50}{section.6.5}%
 \contentsline {section}{\numberline {6.6}Summary}{51}{section.6.6}%
-\contentsline {chapter}{\numberline {7}Architecture Evaluation Results}{53}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Conclusions and Future Works}{55}{chapter.8}%
-\contentsline {chapter}{References}{57}{section*.55}%
-\contentsline {chapter}{Acknowledgments}{61}{section*.57}%
+\contentsline {chapter}{\numberline {7}Architecture Benchmark Evaluation}{53}{chapter.7}%
+\contentsline {section}{\numberline {7.1}State of the Art on Benchmarking Techniques}{54}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}The Berlin SPARQL Benchmark}{54}{subsection.7.1.1}%
+\contentsline {subsubsection}{\ac {BSBM} Dataset and Query Mix}{54}{subsection.7.1.1}%
+\contentsline {subsubsection}{Benchmark Implementation}{55}{subsection.7.1.1}%
+\contentsline {subsubsection}{Contributions and Impact of BSBM}{55}{subsection.7.1.1}%
+\contentsline {subsection}{\numberline {7.1.2}SEASHELL Benchmark for Healthcare Data Lakes}{55}{subsection.7.1.2}%
+\contentsline {subsubsection}{Design and Objectives of SEASHELL}{56}{subsection.7.1.2}%
+\contentsline {subsubsection}{Benchmark Framework and Test Scenarios}{56}{subsection.7.1.2}%
+\contentsline {subsubsection}{Overview of Non-Machine-Learning Tasks in SEASHELL}{57}{subsection.7.1.2}%
+\contentsline {subsubsection}{Contributions and Impact of SEASHELL}{57}{subsection.7.1.2}%
+\contentsline {section}{\numberline {7.2}Server Environment Configuration}{57}{section.7.2}%
+\contentsline {chapter}{\numberline {8}Conclusions and Future Works}{59}{chapter.8}%
+\contentsline {chapter}{References}{61}{section*.60}%
+\contentsline {chapter}{Acknowledgments}{65}{section*.62}%
