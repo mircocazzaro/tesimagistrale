@@ -93,6 +93,11 @@
 \contentsline {subsubsection}{Overview of Non-Machine-Learning Tasks in SEASHELL}{57}{subsection.7.1.2}%
 \contentsline {subsubsection}{Contributions and Impact of SEASHELL}{57}{subsection.7.1.2}%
 \contentsline {section}{\numberline {7.2}Server Environment Configuration}{57}{section.7.2}%
-\contentsline {chapter}{\numberline {8}Conclusions and Future Works}{59}{chapter.8}%
-\contentsline {chapter}{References}{61}{section*.60}%
-\contentsline {chapter}{Acknowledgments}{65}{section*.62}%
+\contentsline {section}{\numberline {7.3}BSBM Benchmark Results over Synthetic Data}{58}{section.7.3}%
+\contentsline {subsubsection}{Synthetic Data Generation}{59}{section.7.3}%
+\contentsline {subsubsection}{BSBM R2RML Mappings}{59}{lstnumber.7.1.1}%
+\contentsline {subsubsection}{Benchmarking Setup}{60}{lstnumber.7.2.23}%
+\contentsline {subsubsection}{Benchmark Results}{61}{figure.caption.60}%
+\contentsline {chapter}{\numberline {8}Conclusions and Future Works}{63}{chapter.8}%
+\contentsline {chapter}{References}{65}{section*.62}%
+\contentsline {chapter}{Acknowledgments}{69}{section*.64}%

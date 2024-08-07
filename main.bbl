@@ -1719,6 +1719,47 @@
       \field{pages}{1\bibrangedash 22}
       \range{pages}{22}
     \endentry
+    \entry{DBLP:journals/dke/ChaloupkaN24}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=8640dabacba93b5a81a0af5aa0c57f7e}{%
+           family={Chaloupka},
+           familyi={C\bibinitperiod},
+           given={Milos},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a96ea7793bb0c44a0a8cfe76478f6d26}{%
+           family={Necaský},
+           familyi={N\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{b624011b8b0ec95c2e291eaa881656ce}
+      \strng{fullhash}{b624011b8b0ec95c2e291eaa881656ce}
+      \strng{fullhashraw}{b624011b8b0ec95c2e291eaa881656ce}
+      \strng{bibnamehash}{b624011b8b0ec95c2e291eaa881656ce}
+      \strng{authorbibnamehash}{b624011b8b0ec95c2e291eaa881656ce}
+      \strng{authornamehash}{b624011b8b0ec95c2e291eaa881656ce}
+      \strng{authorfullhash}{b624011b8b0ec95c2e291eaa881656ce}
+      \strng{authorfullhashraw}{b624011b8b0ec95c2e291eaa881656ce}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Data Knowl. Eng.}
+      \field{title}{Using Berlin {SPARQL} benchmark to evaluate virtual {SPARQL} endpoints over relational databases}
+      \field{volume}{152}
+      \field{year}{2024}
+      \field{pages}{102309}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/J.DATAK.2024.102309
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.datak.2024.102309
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.datak.2024.102309
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
