@@ -1,18 +1,20 @@
 \babel@toc {english}{}\relax 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces The OBDA framework}}{7}{figure.caption.21}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces The OBDA framework}}{12}{figure.caption.30}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces The OBDA framework}}{7}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces The OBDA framework}}{12}{figure.caption.28}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces OBDF approach}}{22}{figure.caption.36}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces OBDF approach}}{22}{figure.caption.34}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Proposed System Architecture}}{26}{figure.caption.38}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Virtual Views}}{34}{figure.caption.48}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces The Brainteaser Ontology}}{37}{figure.caption.50}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Proposed System Architecture}}{26}{figure.caption.36}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Virtual Views}}{34}{figure.caption.46}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces The Brainteaser Ontology}}{37}{figure.caption.48}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Data Flow Block Diagram of a Query Through the Federated Architecture}}{47}{figure.caption.54}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Data Flow Block Diagram of a Query Through the Federated Architecture}}{47}{figure.caption.52}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Architecture Setup for Benchmarking}}{61}{figure.caption.60}%
-\contentsline {figure}{\numberline {7.2}{\ignorespaces BSBM Benchmark Results}}{62}{figure.caption.61}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Architecture Setup for Benchmarking}}{61}{figure.caption.58}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces BSBM Benchmark Results}}{62}{figure.caption.59}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces CPU and RAM usage over time for Dremio during benchmarking}}{65}{figure.caption.60}%
+\contentsline {figure}{\numberline {7.4}{\ignorespaces CPU and RAM usage over time for GraphDB (Ontop) during benchmarking}}{65}{figure.caption.61}%
 \addvspace {10\p@ }

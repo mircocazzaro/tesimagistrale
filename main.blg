@@ -1,17 +1,17 @@
 [0] Config.pm:308> INFO - This is Biber 2.20
 [0] Config.pm:311> INFO - Logfile is 'main.blg'
-[89] biber-MSWIN64:340> INFO - === 
-[122] Biber.pm:420> INFO - Reading 'main.bcf'
-[213] Biber.pm:994> INFO - Found 23 citekeys in bib section 0
-[224] Biber.pm:4463> INFO - Processing section 0
-[234] Biber.pm:4654> INFO - Looking for bibtex file 'references.bib' for section 0
-[300] bibtex.pm:1713> INFO - LaTeX decoding ...
-[337] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
-[543] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[544] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[544] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
-[544] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
-[562] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[593] bbl.pm:779> INFO - Output to main.bbl
-[594] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\Mirco\AppData\Local\Temp\biber_tmp_C2GS\33e59b5ca9ec342068223d604c3f8d55_5180.utf8, line 471, warning: 30 characters of junk seen at toplevel
-[594] Biber.pm:133> INFO - WARNINGS: 1
+[124] biber-MSWIN64:340> INFO - === 
+[217] Biber.pm:420> INFO - Reading 'main.bcf'
+[335] Biber.pm:994> INFO - Found 23 citekeys in bib section 0
+[350] Biber.pm:4463> INFO - Processing section 0
+[403] Biber.pm:4654> INFO - Looking for bibtex file 'references.bib' for section 0
+[498] bibtex.pm:1713> INFO - LaTeX decoding ...
+[556] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
+[881] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[882] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[882] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
+[882] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[969] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[1022] bbl.pm:779> INFO - Output to main.bbl
+[1023] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\Mirco\AppData\Local\Temp\biber_tmp_Joxv\33e59b5ca9ec342068223d604c3f8d55_15060.utf8, line 471, warning: 30 characters of junk seen at toplevel
+[1023] Biber.pm:133> INFO - WARNINGS: 1

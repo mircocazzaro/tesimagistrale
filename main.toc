@@ -1,9 +1,8 @@
 \babel@toc {english}{}\relax 
 \contentsline {chapter}{List of Figures}{xi}{section*.3}%
 \contentsline {chapter}{List of Tables}{xiii}{section*.5}%
-\contentsline {chapter}{List of Algorithms}{xvii}{section*.7}%
-\contentsline {chapter}{List of Code Snippets}{xvii}{section*.9}%
-\contentsline {chapter}{List of Acronyms}{xix}{section*.11}%
+\contentsline {chapter}{List of Code Snippets}{xvii}{section*.7}%
+\contentsline {chapter}{List of Acronyms}{xix}{section*.9}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {chapter}{\numberline {2}Background}{3}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Methodological Background}{3}{section.2.1}%
@@ -19,8 +18,8 @@
 \contentsline {subsubsection}{Teiid}{9}{subsection.2.2.2}%
 \contentsline {subsubsection}{Dremio}{10}{subsection.2.2.2}%
 \contentsline {subsection}{\numberline {2.2.3}OBDA Systems}{11}{subsection.2.2.3}%
-\contentsline {subsubsection}{Mastro}{12}{table.caption.31}%
-\contentsline {subsubsection}{Ontop}{13}{table.caption.31}%
+\contentsline {subsubsection}{Mastro}{12}{table.caption.29}%
+\contentsline {subsubsection}{Ontop}{13}{table.caption.29}%
 \contentsline {subsection}{\numberline {2.2.4}Triple Stores}{13}{subsection.2.2.4}%
 \contentsline {subsubsection}{GraphDB}{14}{subsection.2.2.4}%
 \contentsline {chapter}{\numberline {3}Context of the Work}{15}{chapter.3}%
@@ -97,7 +96,9 @@
 \contentsline {subsubsection}{Synthetic Data Generation}{59}{section.7.3}%
 \contentsline {subsubsection}{BSBM R2RML Mappings}{59}{lstnumber.7.1.1}%
 \contentsline {subsubsection}{Benchmarking Setup}{60}{lstnumber.7.2.23}%
-\contentsline {subsubsection}{Benchmark Results}{61}{figure.caption.60}%
-\contentsline {chapter}{\numberline {8}Conclusions and Future Works}{63}{chapter.8}%
-\contentsline {chapter}{References}{65}{section*.62}%
-\contentsline {chapter}{Acknowledgments}{69}{section*.64}%
+\contentsline {subsubsection}{Benchmark Results}{61}{figure.caption.58}%
+\contentsline {section}{\numberline {7.4}Architecture Performance Benchmarking over Clinical Data}{62}{section.7.4}%
+\contentsline {section}{\numberline {7.5}Summary and Conclusions}{66}{section.7.5}%
+\contentsline {chapter}{\numberline {8}Conclusions and Future Works}{67}{chapter.8}%
+\contentsline {chapter}{References}{69}{section*.62}%
+\contentsline {chapter}{Acknowledgments}{73}{section*.64}%

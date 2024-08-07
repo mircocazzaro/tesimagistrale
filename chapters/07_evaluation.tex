@@ -22,7 +22,7 @@ The data generator outputs the data in both RDF and relational formats, allowing
 \subsubsection{Contributions and Impact of BSBM}
 \ac{BSBM} has significantly contributed to the field by providing a robust framework for evaluating RDF data management systems in terms of SPARQL query performance and also standard RDBMSs in terms of SQL query performances, becoming undoubtedly the state of the art for benchmarking \ac{DBMS}s. By applying \ac{BSBM} across various systems, it has revealed strengths and weaknesses in existing implementations, guiding improvements in RDF store and SPARQL-to-SQL rewriter technologies. Moreover, \ac{BSBM} assists application developers in selecting appropriate storage systems based on performance metrics critical to their specific requirements.
 
-\subsection{SEASHELL Benchmark for Healthcare Data Lakes} 
+\subsection{SEASHELL Benchmark for Healthcare Data Lakes} \label{chp:dolci}
 In the rapidly evolving domain of healthcare informatics, the creation of a specialized benchmarking framework such as \ac{SEASHELL} was necessary \cite{dolci2024tools}. This benchmark addresses the pressing need to evaluate healthcare data lake infrastructures comprehensively, ensuring they are optimally configured to handle the complexities of modern medical data. As healthcare organizations increasingly rely on data-driven insights to improve patient outcomes and operational efficiencies, the ability to effectively manage and analyze vast arrays of medical data becomes crucial.
 \subsubsection{Design and Objectives of SEASHELL}
 SEASHELL is meticulously designed to assess the performance of healthcare data lakes, namely critical infrastructures that integrate and process diverse data types from electronic health records to genomics data. The benchmark aims to evaluate these systems on several fronts: data handling, or rather the system's capability to manage and query large and varied datasets that are typical in healthcare environments; performance efficiency, that means measuring the speed and resource efficiency of data processing tasks, which are vital for timely medical decisions, and the system scalability capabilities.
@@ -123,13 +123,94 @@ We ran the TestDriver with the following parameters:
     $ java -cp bin:lib/* benchmark.testdriver.TestDriver -runs 32 -w 4 -mt 4 -t 30000 http://localhost:7200/repositories/BSBM
 \end{lstlisting}
 For each query (12 in total), we ran them 32 times with 4 concurrent processes submitting queries. We excluded the first 4 queries from the measurements as a warm-up phase to eliminate any potential noise from caching mechanisms. Moreover, we set a timeout of 30 seconds for each query.
-\begin{figure}[ht]
+
+The first notable observation from results in Fig. \ref{fig:bsbmbenchmarkresults} is that the plots are complementary: this is expectable, as a one of the main causes for a low query rate can be for sure an high response time.
+We can observe how Query 3 and Query 11 are performing poorly with respect to the others. As we will see in next section with other benchmarks, where we will compare resource consumption between Dremio and Ontop hosted in GraphDB, the component that usually is more resource-demanding and consuming is the virtualization system Dremio. This implies that an eventual bottleneck has to be caused at this level. By inspecting Queries 3 and 11, we can see how these two make use of extensive joins among tables that in our set up belongs to different sources as well as nested queries. This translates to a possible weakness of the proposed architecture while dealing with these case study, but that can surely be investigated and strengthen in future.
+In general, our architecture was able, on average, to perform 15 queries per seconds from 4 concurrent processes acting as independent users. This represent a huge milestone, considering it is an embryonic study.
+\begin{figure}[!ht]
     \includegraphics[width=15cm]{res/query_execution_time.png}
     \includegraphics[width=15cm]{res/query_throughput.png}
     \caption{BSBM Benchmark Results}
     \label{fig:bsbmbenchmarkresults}
 \end{figure}
 
-The first notable observation from results in Fig. \ref{fig:bsbmbenchmarkresults} is that the plots are complementary: this is expectable, as a one of the main causes for a low query rate can be for sure an high response time.
-We can observe how Query 3 and Query 11 are performing poorly with respect to the others. As we will see in next section with other benchmarks, where we will compare resource consumption between Dremio and Ontop hosted in GraphDB, the component that usually is more resource-demanding and consuming is the virtualization system Dremio. This implies that an eventual bottleneck has to be caused at this level. By inspecting Queries 3 and 11, we can see how these two make use of extensive joins among tables that in our set up belongs to different sources as well as nested queries. This translates to a possible weakness of the proposed architecture while dealing with these case study, but that can surely be investigated and strengthen in future.
-In general, our architecture was able, on average, to perform 15 queries per seconds from 4 concurrent processes acting as independent users. This represent a huge milestone, considering it is an embryonic study.
+
+\section{Architecture Performance Benchmarking over Clinical Data}
+In alignment with the methodologies presented in Section \ref{chp:dolci}, we conducted an extensive evaluation of our healthcare data architecture using our available clinical data. This benchmarking initiative was critical to validate the architecture's operational efficacy, specifically targeting its ability to handle real-world healthcare analytics tasks efficiently.
+The benchmark framework was constructed around a custom-developed monitoring script. This script, integral to our testing methodology, was engineered to capture and log real-time CPU and RAM utilization metrics by process ID. The functionality of this script is vital for pinpointing performance bottlenecks and optimizing the system's resource allocation strategies.
+\begin{lstlisting}[language=bash, caption={Custom Monitor Script for Performance Tracking}, label={lst}] 
+#!/bin/bash
+
+pid=$1
+output_file=$2
+
+# Get the number of CPUs
+num_cpus=$(nproc)
+
+# Time interval in seconds (you can adjust the resolution here)
+interval=1
+
+trap 'echo "Monitor stopped"; exit' SIGINT SIGTERM
+
+if [ -z "$pid" ] || [ -z "$output_file" ]; then
+    echo "Usage: $0 <PID> <output_file>"
+    exit 1
+fi
+
+exec > $output_file
+
+while true; do
+    # Capture CPU times at the start of the interval
+    start_utime=$(cat /proc/$pid/stat | cut -d " " -f 14)
+    start_stime=$(cat /proc/$pid/stat | cut -d " " -f 15)
+    start_total=$(cat /proc/stat | grep '^cpu ' | awk '{print $2+$3+$4+$5+$6+$7+$8}')
+
+    # Capture the initial RAM usage
+    start_ram=$(grep VmRSS /proc/$pid/status | awk '{print $2}')
+
+    sleep $interval
+
+    # Capture CPU times at the end of the interval
+    end_utime=$(cat /proc/$pid/stat | cut -d " " -f 14)
+    end_stime=$(cat /proc/$pid/stat | cut -d " " -f 15)
+    end_total=$(cat /proc/stat | grep '^cpu ' | awk '{print $2+$3+$4+$5+$6+$7+$8}')
+
+    # Capture the end RAM usage
+    end_ram=$(grep VmRSS /proc/$pid/status | awk '{print $2}')
+
+    # Calculate the deltas for CPU
+    delta_process=$(( (end_utime + end_stime) - (start_utime + start_stime) ))
+    delta_total=$(( end_total - start_total ))
+
+    # Calculate CPU usage as a percentage
+    cpu_usage=$(awk "BEGIN {printf \"%.2f\", (${delta_process} / ${delta_total}) * 100 * ${num_cpus}}")
+
+    # Calculate RAM usage change if needed
+    ram_usage_change=$(( end_ram - start_ram ))
+
+    echo "$(date +'%Y-%m-%d %H:%M:%S') CPU Usage: ${cpu_usage}% | RAM Usage Change: ${ram_usage_change} kB"
+
+done
+\end{lstlisting}
+
+The benchmarking trials were designed to assess the architecture's performance by running the same analytical query we considered for the use case analysis in Chapter \ref{chp:usecase} that simulate typical data processing tasks encountered in clinical settings. During these tests, our monitoring script provided continuous feedback on system performance, enabling a comprehensive analysis of CPU and RAM usage across different operational states.
+Illustrated in Figures \ref{fig:bench_Dremio} and \ref{fig:bench_GraphDB}, the system's response to the execution of computationally intensive queries reveals significant insights into its dynamic resource allocation and management capabilities.
+\begin{figure}[!ht] 
+    \centering 
+    \includegraphics[width=11.6cm]{res/Dremio_usage_plot.png} 
+    \caption{CPU and RAM usage over time for Dremio during benchmarking} 
+    \label{fig:bench_Dremio}
+\end{figure}
+\begin{figure}[!ht] 
+    \centering 
+    \includegraphics[width=11.6cm]{res/GraphDB (Ontop)_usage_plot.png} 
+    \caption{CPU and RAM usage over time for GraphDB (Ontop) during benchmarking} 
+    \label{fig:bench_GraphDB}
+\end{figure}
+We analyzed the output of the two monitors daemons, and we synchronized samples at the moment the query was submitted, inspecting the query logs, so to have superimposable plots, analyzing independently the CPU load and the variation of ram usage
+The plots underscore the architecture's resilience and capability to manage substantial computational loads, typical of data-intensive tasks in healthcare informatics. However, the occurrence of performance spikes suggests potential areas for optimization. These areas could be critical in refining the system's efficiency and responsiveness, especially under scenarios of peak load conditions.
+In conclusion, this benchmarking exercise has not only validated the robustness of our healthcare data architecture but also highlighted specific enhancement points that can significantly improve system performance. 
+
+\section{Summary and Conclusions}
+This chapter provided a detailed overview of the benchmarking process for our federated data architecture, particularly focusing on its performance and operational efficiency in the realm of genomics research. Through a series of meticulously designed benchmarks, we evaluated the architecture's ability to handle complex data interactions and manage computational resources effectively, ensuring its suitability for deployment in high-demand genomics research environments.
+The benchmarks detailed in this chapter utilized state-of-the-art methodologies, including the Berlin SPARQL Benchmark and the SEASHELL framework for healthcare data lakes, to provide a comprehensive assessment of the architecture's performance across various scenarios. These tests revealed both the strengths and potential areas for improvement in our system, highlighting the critical need for continual optimization.

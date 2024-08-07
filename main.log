@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.3.31) (preloaded format=xelatex 2024.7.9)  7 AUG 2024 15:21
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.3.31) (preloaded format=xelatex 2024.7.9)  7 AUG 2024 17:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1696,26 +1696,26 @@ File: res/dei.pdf Graphic file (type pdf)
 
 
 ] (main.toc
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 9
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 8
 .
 
 (C:\Program Files\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for U+npxmia on input line 
-9.
+8.
 
 (C:\Program Files\MiKTeX\tex/latex/newpx\unpxmia.fd
 File: unpxmia.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxmia.
 )
 LaTeX Font Info:    Trying to load font information for U+npxsym on input line 
-9.
+8.
 
 (C:\Program Files\MiKTeX\tex/latex/newpx\unpxsym.fd
 File: unpxsym.fd 2023/08/16 Fontinst v1.933 font definitions for U/npxsym.
 )
 LaTeX Font Info:    Trying to load font information for U+npxsyc on input line 
-9.
+8.
 
 (C:\Program Files\MiKTeX\tex/latex/newpx\unpxsyc.fd
 File: unpxsyc.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxsyc.
@@ -1727,7 +1727,13 @@ File: unpxsyc.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxsyc.
 
 
 ]
-(main.lof)
+(main.lof
+Overfull \hbox (9.08342pt too wide) in paragraph at lines 19--19
+ [][] [][][]\TU/TeXGyrePagellaX(0)/m/n/12 CPU and RAM usage over time for Graph
+DB (Ontop) during bench- 
+ []
+
+)
 \tf@lof=\write8
 \openout8 = `main.lof'.
 
@@ -1747,22 +1753,14 @@ File: unpxsyc.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxsyc.
 ] [14
 
 
-] (main.loa)
-\tf@loa=\write10
-\openout10 = `main.loa'.
+] (main.lol)
+\tf@lol=\write10
+\openout10 = `main.lol'.
 
  [17
 
 
 ] [18
-
-
-] (main.lol)
-\tf@lol=\write11
-\openout11 = `main.lol'.
-
-
-[19] [20
 
 
 ] (frontmatter/glossary.tex [19
@@ -2236,27 +2234,54 @@ File: res/query_execution_time.png Graphic file (type bmp)
 File: res/query_throughput.png Graphic file (type bmp)
 <res/query_throughput.png>
 
-Overfull \hbox (8.53766pt too wide) in paragraph at lines 127--129
+Overfull \hbox (8.53766pt too wide) in paragraph at lines 131--133
 [][]
  []
 
 
-Overfull \hbox (8.53766pt too wide) in paragraph at lines 127--129
+Overfull \hbox (8.53766pt too wide) in paragraph at lines 131--133
 [] 
  []
 
-) [61] [62]
+
+Overfull \hbox (0.77289pt too wide) in paragraph at lines 138--138
+|[]\TU/TeXGyrePagellaX(0)/m/sc/17.28 Architecture Performance Benchmarking over
+
+ []
+
+[61]
+Overfull \vbox (2.0657pt too high) has occurred while \output is active []
+
+
+[62]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [63]
+File: res/Dremio_usage_plot.png Graphic file (type bmp)
+<res/Dremio_usage_plot.png>
+File: res/GraphDB (Ontop)_usage_plot.png Graphic file (type bmp)
+<res/GraphDB (Ontop)_usage_plot.png>
+
+[64]
+
+LaTeX Warning: Text page 65 contains only floats.
+
+
+Overfull \vbox (3.71927pt too high) has occurred while \output is active []
+
+
+[65]) [66]
 \openout2 = `chapters/08_conclusions.aux'.
 
  (chapters/08_conclusions.tex
 Chapter 8.
-) [63
+) [67
 
 
 
 
 
-] [64
+] [68
 
 
 
@@ -2273,7 +2298,7 @@ Overfull \hbox (13.20532pt too wide) in paragraph at lines 56--56
 yrePagellaX(0)/m/n/12 . Ed. by Chiara Ghidini et al. Vol. 11298.
  []
 
-[65
+[69
 
 
 ]
@@ -2284,19 +2309,19 @@ llaX(0)/m/sc/12 doi\TU/TeXGyrePagellaX(0)/m/n/12 : [][]$[][] [] [][][][] [] [][
 ][][][][][][][]$[][].
  []
 
-[66]
+[70]
 Overfull \hbox (1.0413pt too wide) in paragraph at lines 56--56
 []\TU/TeXGyrePagellaX(0)/m/n/12 Zhenzhen Gu et al. “  OBDF: OBDA + Data Federat
 ion - Extended Abstract”.
  []
 
-[67]
+[71]
 Overfull \hbox (3.32033pt too wide) in paragraph at lines 56--56
 []\TU/TeXGyrePagellaX(0)/m/n/12 Tommaso Dolci et al. “  Tools for Healthcare Da
 ta Lake Infrastructure Bench-
  []
 
-[68] (frontmatter/thanks.tex) [69
+[72] (frontmatter/thanks.tex) [73
 
 
 
@@ -2309,19 +2334,23 @@ ta Lake Infrastructure Bench-
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3FD66E2FFA9F9572C58D608C0B8EE0C1;4849.
+(rerunfilecheck)             Checksum: B23EA7A2AF60B9662B8FB6C8DE64AF56;4981.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48712 strings out of 409555
- 919836 string characters out of 5776261
+ 48760 strings out of 409555
+ 920828 string characters out of 5776261
  2168148 words of memory out of 5000000
- 70091 multiletter control sequences out of 15000+600000
+ 70140 multiletter control sequences out of 15000+600000
  598061 words of font info for 132 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 123i,15n,131p,1563b,6840s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 123i,15n,131p,1563b,6838s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (91 pages).
+Output written on main.pdf (93 pages).

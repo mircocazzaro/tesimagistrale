@@ -269,10 +269,10 @@
   \cleardoublepage
 
   % insert list of algorithms
-  \phantomsection
-  \setcounter{page}{15}
-  \addcontentsline{toc}{chapter}{\listalgorithmname}
-  \listofalgorithms
+  %\phantomsection
+  %\setcounter{page}{15}
+  %\addcontentsline{toc}{chapter}{\listalgorithmname}
+  %\listofalgorithms
 
   % insert list of code snippets
   \phantomsection
