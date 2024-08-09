@@ -147,7 +147,7 @@ output_file=$2
 # Get the number of CPUs
 num_cpus=$(nproc)
 
-# Time interval in seconds (you can adjust the resolution here)
+# Time interval in seconds
 interval=1
 
 trap 'echo "Monitor stopped"; exit' SIGINT SIGTERM

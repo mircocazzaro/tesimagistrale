@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.3.31) (preloaded format=xelatex 2024.7.9)  7 AUG 2024 17:52
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.3.31) (preloaded format=xelatex 2024.7.9)  9 AUG 2024 11:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1766,11 +1766,29 @@ DB (Ontop) during bench-
 ] (frontmatter/glossary.tex [19
 
 
-]) [20]
+]
+
+LaTeX Warning: Hyper reference `acro:CPU' on page xx undefined on input line 38
+.
+
+
+LaTeX Warning: Hyper reference `acro:CPU' on page xx undefined on input line 38
+.
+
+) [20]
 \openout2 = `chapters/01_introduction.aux'.
 
  (chapters/01_introduction.tex
 Chapter 1.
+Package acronym Info: Label `acro:OBDA' newly defined as it shall be overridden
+
+although it is yet undefined on input line 8.
+Package acronym Info: Label `acro:GDPR' newly defined as it shall be overridden
+
+although it is yet undefined on input line 14.
+Package acronym Info: Label `acro:DBMS' newly defined as it shall be overridden
+
+although it is yet undefined on input line 16.
 ) [1
 
 
@@ -1780,9 +1798,13 @@ Chapter 1.
 
 
 ]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2]
+[3]
 \openout2 = `chapters/02_background.aux'.
 
- (chapters/02_background.tex [2
+ (chapters/02_background.tex [4
 
 
 
@@ -1796,39 +1818,26 @@ Package acronym Info: Label `acro:W3C' newly defined as it shall be overridden
 although it is yet undefined on input line 8.
 Package acronym Info: Label `acro:URI' newly defined as it shall be overridden
 although it is yet undefined on input line 12.
-[3]
+[5]
 Package acronym Info: Label `acro:KG' newly defined as it shall be overridden
 although it is yet undefined on input line 17.
 Package acronym Info: Label `acro:OWL' newly defined as it shall be overridden
 although it is yet undefined on input line 28.
- [4]
-Package acronym Info: Label `acro:DBMS' newly defined as it shall be overridden
-
-although it is yet undefined on input line 37.
+ [6]
 Package acronym Info: Label `acro:SQL' newly defined as it shall be overridden
 although it is yet undefined on input line 37.
- [5]
-Package acronym Info: Label `acro:OBDA' newly defined as it shall be overridden
-
-although it is yet undefined on input line 48.
+ [7]
 File: res/obda_framework.png Graphic file (type bmp)
 <res/obda_framework.png>
 Package acronym Info: Label `acro:SPARQL' newly defined as it shall be overridd
 en
 although it is yet undefined on input line 69.
- [6] [7]
+ [8] [9]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 75.
- [8]
-Package acronym Info: Label `acro:(' newly defined as it shall be overridden
+ [10]
+Package acronym Info: Label `acro:API' newly defined as it shall be overridden
 although it is yet undefined on input line 112.
-
-
-Package acronym Warning: Acronym `(' is not defined on input line 112.
-
-
-Package acronym Warning: Acronym `(' is not defined on input line 112.
-
 
 Overfull \hbox (8.17438pt too wide) in paragraph at lines 114--115
 []\TU/TeXGyrePagellaX(0)/m/n/12 Denodo provides robust security features, inclu
@@ -1841,21 +1850,19 @@ Overfull \hbox (4.75037pt too wide) in paragraph at lines 116--117
 on techniques, such as caching
  []
 
-Package acronym Info: Label `acro:API' newly defined as it shall be overridden
-although it is yet undefined on input line 121.
 Package acronym Info: Label `acro:JDBC' newly defined as it shall be overridden
 
 although it is yet undefined on input line 121.
 Package acronym Info: Label `acro:ODBC' newly defined as it shall be overridden
 
 although it is yet undefined on input line 121.
-[9]
+[11]
 Package acronym Info: Label `acro:FOSS' newly defined as it shall be overridden
 
 although it is yet undefined on input line 128.
 Package acronym Info: Label `acro:ARP' newly defined as it shall be overridden
 although it is yet undefined on input line 136.
- [10]
+ [12]
 Underfull \hbox (badness 1127) in paragraph at lines 144--144
 []|\TU/TeXGyrePagellaX(0)/b/n/12 Free and
  []
@@ -1908,7 +1915,7 @@ Underfull \hbox (badness 2261) in paragraph at lines 169--169
 []|\TU/TeXGyrePagellaX(0)/m/n/12 Supports ontology reasoning; supports
  []
 
-[11] [12] [13]) [14]
+[13] [14] [15]) [16]
 \openout2 = `chapters/03_context.aux'.
 
  (chapters/03_context.tex
@@ -1916,23 +1923,19 @@ Chapter 3.
 Package acronym Info: Label `acro:HEREDITARY' newly defined as it shall be over
 ridden
 although it is yet undefined on input line 7.
-[15
+[17
 
 
 
 
 
 ]
-Package acronym Info: Label `acro:GDPR' newly defined as it shall be overridden
-
-although it is yet undefined on input line 16.
-
 Overfull \hbox (22.87434pt too wide) in paragraph at lines 16--17
 []\TU/TeXGyrePagellaX(0)/m/n/12 Security and privacy compliance stands at the f
 undamentals of the [][]
  []
 
-[16]
+[18]
 Overfull \hbox (3.21437pt too wide) in paragraph at lines 22--23
 [][][]\TU/TeXGyrePagellaX(0)/m/n/12 ’s structure is inherently collaborative, i
 nvolving multiple lead-
@@ -1944,16 +1947,16 @@ Overfull \hbox (2.661pt too wide) in paragraph at lines 22--23
 s continuous interaction among
  []
 
-[17]
+[19]
 Package acronym Info: Label `acro:WP' newly defined as it shall be overridden
 although it is yet undefined on input line 28.
- [18] [19])
+ [20] [21])
 Overfull \hbox (3.13835pt too wide) in paragraph at lines 45--48
 []\TU/TeXGyrePagellaX(0)/m/n/12 Complementing the genotypic data, the phenotypi
 c component includes vari-
  []
 
-[20]
+[22]
 \openout2 = `chapters/04_related.aux'.
 
  (chapters/04_related.tex
@@ -1978,14 +1981,14 @@ ut managing heterogeneous
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21
+ [23
 
 
 
 
 
 ]
-[22]
+[24]
 Package acronym Info: Label `acro:STARQL' newly defined as it shall be overridd
 en
 although it is yet undefined on input line 27.
@@ -2001,7 +2004,7 @@ Overfull \hbox (1.52805pt too wide) in paragraph at lines 26--49
 onventional OBDA systems which
  []
 
-[23] [24]
+[25] [26]
 \openout2 = `chapters/05_system_architecture.aux'.
 
  (chapters/05_system_architecture.tex
@@ -2015,7 +2018,7 @@ Overfull \hbox (8.53766pt too wide) in paragraph at lines 12--13
 
 Package acronym Info: Label `acro:DL' newly defined as it shall be overridden
 although it is yet undefined on input line 18.
-[25
+[27
 
 
 
@@ -2024,7 +2027,7 @@ although it is yet undefined on input line 18.
 ]
 Package acronym Info: Label `acro:CSV' newly defined as it shall be overridden
 although it is yet undefined on input line 25.
- [26] [27]
+ [28] [29]
 Package acronym Info: Label `acro:JAR' newly defined as it shall be overridden
 although it is yet undefined on input line 50.
 
@@ -2033,15 +2036,15 @@ Overfull \hbox (2.1464pt too wide) in paragraph at lines 49--54
 n project, that has to be compiled, packed
  []
 
-[28] (C:\Program Files\MiKTeX\tex/latex/listings\lstlang1.sty
+[30] (C:\Program Files\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2024/03/11 1.10a listings language file
-) [29]
+) [31]
 Overfull \hbox (8.47835pt too wide) in paragraph at lines 111--113
 []\TU/TeXGyrePagellaX(0)/m/n/12 With respect to the storage plugin configuratio
 n Java class [][]5.1[][], being Polypheny
  []
 
-[30]
+[32]
 Package acronym Info: Label `acro:JSON' newly defined as it shall be overridden
 
 although it is yet undefined on input line 115.
@@ -2062,7 +2065,7 @@ File: lstlang1.sty 2024/03/11 1.10a listings language file
 Package acronym Info: Label `acro:FUSE' newly defined as it shall be overridden
 
 although it is yet undefined on input line 127.
- [31] [32]
+ [33] [34]
 File: res/Drawing2.png Graphic file (type bmp)
 <res/Drawing2.png>
 
@@ -2070,12 +2073,12 @@ Overfull \hbox (8.53766pt too wide) in paragraph at lines 154--155
  [][] 
  []
 
-[33]
+[35]
 Package acronym Info: Label `acro:GUI' newly defined as it shall be overridden
 although it is yet undefined on input line 160.
- [34] (C:\Program Files\MiKTeX\tex/latex/listings\lstlang1.sty
+ [36] (C:\Program Files\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2024/03/11 1.10a listings language file
-) [35]
+) [37]
 File: res/brainteaser.png Graphic file (type bmp)
 <res/brainteaser.png>
 
@@ -2083,19 +2086,19 @@ Overfull \hbox (8.53766pt too wide) in paragraph at lines 185--186
  [][] 
  []
 
-[36] [37]
+[38] [39]
 Package acronym Info: Label `acro:VKG' newly defined as it shall be overridden
 although it is yet undefined on input line 195.
- [38] [39] [40])
+ [40] [41] [42])
 Overfull \hbox (27.86002pt too wide) in paragraph at lines 263--50
 \TU/TeXGyrePagellaX(0)/m/n/12 functionalities. GraphDB allows to manage simulta
 neously different graph databases,
  []
 
-[41]
+[43]
 \openout2 = `chapters/06_use_case.aux'.
 
- (chapters/06_use_case.tex [42
+ (chapters/06_use_case.tex [44
 
 
 
@@ -2109,13 +2112,13 @@ Overfull \hbox (6.77832pt too wide) in paragraph at lines 6--7
 sis aims to run semantic queries
  []
 
-[43]
+[45]
 Package acronym Info: Label `acro:ALSFRS' newly defined as it shall be overridd
 en
 although it is yet undefined on input line 16.
 Package acronym Info: Label `acro:ALS' newly defined as it shall be overridden
 although it is yet undefined on input line 16.
- [44] [45]
+ [46] [47]
 File: res/Drawing5.png Graphic file (type bmp)
 <res/Drawing5.png>
 
@@ -2126,20 +2129,20 @@ Overfull \hbox (8.53766pt too wide) in paragraph at lines 59--60
 
 Underfull \vbox (badness 1546) has occurred while \output is active []
 
- [46]
+ [48]
 Underfull \vbox (badness 2990) has occurred while \output is active []
 
- [47]
+ [49]
 Underfull \vbox (badness 1231) has occurred while \output is active []
 
- [48]
+ [50]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [49]
-[50]) [51]
+ [51]
+[52]) [53]
 \openout2 = `chapters/07_evaluation.aux'.
 
- (chapters/07_evaluation.tex [52
+ (chapters/07_evaluation.tex [54
 
 
 
@@ -2153,7 +2156,7 @@ Overfull \hbox (0.67035pt too wide) in paragraph at lines 6--10
 federated data architecture’s
  []
 
-[53]
+[55]
 Package acronym Info: Label `acro:BSBM' newly defined as it shall be overridden
 
 although it is yet undefined on input line 14.
@@ -2163,11 +2166,11 @@ Overfull \hbox (9.2634pt too wide) in paragraph at lines 14--16
 RQL queries into SQL queries
  []
 
-[54]
+[56]
 Package acronym Info: Label `acro:SEASHELL' newly defined as it shall be overri
 dden
 although it is yet undefined on input line 26.
- [55]
+ [57]
 Package acronym Info: Label `acro:IT' newly defined as it shall be overridden
 although it is yet undefined on input line 30.
 Package acronym Info: Label `acro:EHR' newly defined as it shall be overridden
@@ -2190,7 +2193,7 @@ Overfull \hbox (7.64902pt too wide) in paragraph at lines 32--33
 rns benchmarking [][]s. These
  []
 
-[56]
+[58]
 Overfull \hbox (1.95833pt too wide) in paragraph at lines 36--37
 []\TU/TeXGyrePagellaX(0)/m/n/12 Resource Utilization: Measuring the computation
 al and memory resources
@@ -2199,7 +2202,7 @@ al and memory resources
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[57]
+[59]
 Overfull \hbox (6.55734pt too wide) in paragraph at lines 69--72
 []\TU/TeXGyrePagellaX(0)/m/n/12 As underlined before, the BSBM framework aims t
 o provide tools and method-
@@ -2211,13 +2214,13 @@ Overfull \hbox (0.7824pt too wide) in paragraph at lines 69--72
  Free University of Berlin, is open source
  []
 
-[58]
+[60]
 Overfull \hbox (44.35603pt too wide) in paragraph at lines 82--82
 [][]\TU/TeXGyrePagellaX(0)/m/n/10 https://github.com/mchaloupka/bsbm-r2rml/blob
 /develop/src/main/dist/rdb2rdf/mapping.ttl| 
  []
 
-[59]
+[61]
 File: res/benchmark-setup.png Graphic file (type bmp)
 <res/benchmark-setup.png>
 
@@ -2228,7 +2231,7 @@ Overfull \hbox (36.9904pt too wide) in paragraph at lines 115--116
 
 Underfull \vbox (badness 3281) has occurred while \output is active []
 
- [60]
+ [62]
 File: res/query_execution_time.png Graphic file (type bmp)
 <res/query_execution_time.png>
 File: res/query_throughput.png Graphic file (type bmp)
@@ -2249,39 +2252,39 @@ Overfull \hbox (0.77289pt too wide) in paragraph at lines 138--138
 
  []
 
-[61]
+[63]
 Overfull \vbox (2.0657pt too high) has occurred while \output is active []
 
 
-[62]
+[64]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [63]
+ [65]
 File: res/Dremio_usage_plot.png Graphic file (type bmp)
 <res/Dremio_usage_plot.png>
 File: res/GraphDB (Ontop)_usage_plot.png Graphic file (type bmp)
 <res/GraphDB (Ontop)_usage_plot.png>
 
-[64]
+[66]
 
-LaTeX Warning: Text page 65 contains only floats.
+LaTeX Warning: Text page 67 contains only floats.
 
 
 Overfull \vbox (3.71927pt too high) has occurred while \output is active []
 
 
-[65]) [66]
+[67]) [68]
 \openout2 = `chapters/08_conclusions.aux'.
 
  (chapters/08_conclusions.tex
 Chapter 8.
-) [67
+) [69
 
 
 
 
 
-] [68
+] [70
 
 
 
@@ -2298,7 +2301,7 @@ Overfull \hbox (13.20532pt too wide) in paragraph at lines 56--56
 yrePagellaX(0)/m/n/12 . Ed. by Chiara Ghidini et al. Vol. 11298.
  []
 
-[69
+[71
 
 
 ]
@@ -2309,19 +2312,19 @@ llaX(0)/m/sc/12 doi\TU/TeXGyrePagellaX(0)/m/n/12 : [][]$[][] [] [][][][] [] [][
 ][][][][][][][]$[][].
  []
 
-[70]
+[72]
 Overfull \hbox (1.0413pt too wide) in paragraph at lines 56--56
 []\TU/TeXGyrePagellaX(0)/m/n/12 Zhenzhen Gu et al. “  OBDF: OBDA + Data Federat
 ion - Extended Abstract”.
  []
 
-[71]
+[73]
 Overfull \hbox (3.32033pt too wide) in paragraph at lines 56--56
 []\TU/TeXGyrePagellaX(0)/m/n/12 Tommaso Dolci et al. “  Tools for Healthcare Da
 ta Lake Infrastructure Bench-
  []
 
-[72] (frontmatter/thanks.tex) [73
+[74] (frontmatter/thanks.tex) [75
 
 
 
@@ -2336,21 +2339,21 @@ L3 programming layer <2020/03/25>
  ***********
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B23EA7A2AF60B9662B8FB6C8DE64AF56;4981.
+(rerunfilecheck)             Checksum: B9CBC68E9A7989B5E5DA925A1FA65ACE;4981.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48760 strings out of 409555
- 920828 string characters out of 5776261
+ 48756 strings out of 409555
+ 920784 string characters out of 5776261
  2168148 words of memory out of 5000000
- 70140 multiletter control sequences out of 15000+600000
+ 70136 multiletter control sequences out of 15000+600000
  598061 words of font info for 132 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  123i,15n,131p,1563b,6838s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (93 pages).
+Output written on main.pdf (95 pages).
