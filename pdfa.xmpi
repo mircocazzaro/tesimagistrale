@@ -66,7 +66,11 @@
    <dc:creator><rdf:Seq><rdf:li>Mirco Cazzaro</rdf:li></rdf:Seq></dc:creator>
    <dc:language><rdf:Bag><rdf:li>en-EN</rdf:li></rdf:Bag></dc:language>
    <dc:subject><rdf:Bag><rdf:li>Computer Engineering</rdf:li>
-     <rdf:li>LaTeX</rdf:li></rdf:Bag></dc:subject>
+     <rdf:li>Database</rdf:li>
+     <rdf:li>OBDA</rdf:li>
+     <rdf:li>Data Integration</rdf:li>
+     <rdf:li>Data Virtualization</rdf:li>
+     <rdf:li>Data Federation</rdf:li></rdf:Bag></dc:subject>
   </rdf:Description> 
   <rdf:Description rdf:about="" xmlns:prism="http://prismstandard.org/namespaces/basic/2.2/"> 
   </rdf:Description> 

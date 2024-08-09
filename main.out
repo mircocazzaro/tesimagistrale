@@ -1,7 +1,7 @@
-\BOOKMARK [0][-]{section*.3}{List\040of\040Figures}{}% 1
-\BOOKMARK [0][-]{section*.5}{List\040of\040Tables}{}% 2
-\BOOKMARK [0][-]{section*.7}{List\040of\040Code\040Snippets}{}% 3
-\BOOKMARK [0][-]{section*.9}{List\040of\040Acronyms}{}% 4
+\BOOKMARK [0][-]{section*.4}{List\040of\040Figures}{}% 1
+\BOOKMARK [0][-]{section*.9}{List\040of\040Tables}{}% 2
+\BOOKMARK [0][-]{section*.11}{List\040of\040Code\040Snippets}{}% 3
+\BOOKMARK [0][-]{section*.17}{List\040of\040Acronyms}{}% 4
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 5
 \BOOKMARK [0][-]{chapter.2}{Background}{}% 6
 \BOOKMARK [1][-]{section.2.1}{Methodological\040Background}{chapter.2}% 7
@@ -41,9 +41,9 @@
 \BOOKMARK [2][-]{subsection.5.4.3}{Ontology\040Implementation}{section.5.4}% 41
 \BOOKMARK [1][-]{section.5.5}{OBDA\040Layer}{chapter.5}% 42
 \BOOKMARK [2][-]{subsection.5.5.1}{Ontop\040Mapping}{section.5.5}% 43
-\BOOKMARK [2][-]{subsection.5.5.2}{Ontop\040SPARQL}{section.5.5}% 44
-\BOOKMARK [2][-]{subsection.5.5.3}{Ontop\040Endpoint}{section.5.5}% 45
-\BOOKMARK [2][-]{subsection.5.5.4}{Ontop\040with\040GraphDB}{section.5.5}% 46
+\BOOKMARK [1][-]{section.5.6}{Ontop\040SPARQL}{chapter.5}% 44
+\BOOKMARK [2][-]{subsection.5.6.1}{Ontop\040Endpoint}{section.5.6}% 45
+\BOOKMARK [2][-]{subsection.5.6.2}{Ontop\040with\040GraphDB}{section.5.6}% 46
 \BOOKMARK [0][-]{chapter.6}{Use\040Case}{}% 47
 \BOOKMARK [1][-]{section.6.1}{Experimental\040Setup}{chapter.6}% 48
 \BOOKMARK [1][-]{section.6.2}{SPARQL\040Query\040over\040ALSFRS\040Relations}{chapter.6}% 49
@@ -63,5 +63,5 @@
 \BOOKMARK [1][-]{section.7.4}{Architecture\040Performance\040Benchmarking\040over\040Clinical\040Data}{chapter.7}% 63
 \BOOKMARK [1][-]{section.7.5}{Summary\040and\040Conclusions}{chapter.7}% 64
 \BOOKMARK [0][-]{chapter.8}{Conclusions\040and\040Future\040Works}{}% 65
-\BOOKMARK [0][-]{section*.61}{References}{}% 66
-\BOOKMARK [0][-]{section*.63}{Acknowledgments}{}% 67
+\BOOKMARK [0][-]{section*.64}{References}{}% 66
+\BOOKMARK [0][-]{section*.66}{Acknowledgments}{}% 67

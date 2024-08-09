@@ -51,7 +51,7 @@ The \ac{OBDA} framework, that has been precisely formalized \cite{DBLP:conf/aiia
 \begin{enumerate}
     \item input query ${q(\vec{x})}$ is rewritten \cite{DBLP:conf/otm/MakrisGBC10} into ${q'}$ over the virtual ABox ${A'}$ (i.e. the first-order logic specification of the ontology);
     \item the rewritten query ${q'}$ is unfolded using the \textit{mappings} into an \ac{SQL} query ${q^*}$;
-    \item the optimised SQL query ${q^*}$ is evaluated over the data instance ${D}$ (e.g. a relational \ac{DBMS}).
+    \item the optimised \ac{SQL} query ${q^*}$ is evaluated over the data instance ${D}$ (e.g. a relational \ac{DBMS}).
 \end{enumerate}
 
 Figure \ref{fig:OBDAframew} outlines the aforementioned algorithm within a flowchart.
@@ -59,7 +59,7 @@ Figure \ref{fig:OBDAframew} outlines the aforementioned algorithm within a flowc
 \begin{figure}[ht]
     \centering
     \includegraphics[width=8cm]{res/obda_framework.png}
-    \caption{The OBDA framework}
+    \caption{The \ac{OBDA} framework}
     \label{fig:OBDAframew}
 \end{figure}
 
@@ -68,11 +68,11 @@ Figure \ref{fig:OBDAframew} outlines the aforementioned algorithm within a flowc
 \subsection{SPARQL Query Language}
 \ac{SPARQL}, developed by the \ac{W3C}, is the definitive standard for querying and managing data stored in \ac{RDF} format. 
 
-As a key technology in semantic web applications, SPARQL enables sophisticated querying of \ac{KG}, offering a query syntax that often resembles natural language. This user-friendly syntax facilitates intuitive data exploration and manipulation, differently from traditional relational databases that require joining tables to establish relationships.
+As a key technology in semantic web applications, \ac{SPARQL} enables sophisticated querying of \ac{KG}, offering a query syntax that often resembles natural language. This user-friendly syntax facilitates intuitive data exploration and manipulation, differently from traditional relational databases that require joining tables to establish relationships.
 
-For instance, as shown in Code \ref{lst:sparql-query}, if a researcher wishes to find all genetic markers associated with a particular trait, a SPARQL query might directly reflect the question, “Which patients are associated with genetic markers X?” This parallels natural language questioning closely, making SPARQL particularly suited for domains where complex relationships must be understood and explored, such as genomics and biomedical research.
+For instance, as shown in Code \ref{lst:sparql-query}, if a researcher wishes to find all genetic markers associated with a particular trait, a \ac{SPARQL} query might directly reflect the question, “Which patients are associated with genetic markers X?” This parallels natural language questioning closely, making \ac{SPARQL} particularly suited for domains where complex relationships must be understood and explored, such as genomics and biomedical research.
 
-\begin{lstlisting}[language=SPARQL, caption={Example of a SPARQL query for genetic markers data.}, label={lst:sparql-query}]
+\begin{lstlisting}[language=SPARQL, caption={Example of a \ac{SPARQL} query for genetic markers data.}, label={lst:sparql-query}]
     PREFIX bto: <https://w3id.org/brainteaser/ontology/schema/>
     PREFIX BTO_resource: <https://w3id.org/brainteaser/ontology/resource/>
     
@@ -118,7 +118,7 @@ Moreover, it utilizes advanced query optimization techniques, such as caching an
 Although it is highly scalable, capable of accommodating new data sources, and it is provided also with a custom source wrapper template for unsupported data sources, being it an enterprise solution allows for maximum five connections, unless a premium plan is signed.
 
 \subsubsection{Teiid}
-Teiid\footnote{https://teiid.io/} is an open-source Java component developed by Red Hat\footnote{https://www.redhat.com/} that provides integrated access to multiple data sources through a single uniform API. Rather than a \ac{DBMS}, Teiid is more a query engine for integrating data from multiple sources, accessible both through \ac{API} and \ac{JDBC}/\ac{ODBC} interfaces.
+Teiid\footnote{https://teiid.io/} is an open-source Java component developed by Red Hat\footnote{https://www.redhat.com/} that provides integrated access to multiple data sources through a single uniform \ac{API}. Rather than a \ac{DBMS}, Teiid is more a query engine for integrating data from multiple sources, accessible both through \ac{API} and \ac{JDBC}/\ac{ODBC} interfaces.
 
 It comes in different shapes: there are Teiid implementations as an Eclipse plugin as well as deployable packages on web containers such as Wildfly and OpenShift.
 
@@ -156,7 +156,7 @@ In conclusion, Dremio offers an open-source virtualization system with the typic
 \begin{figure}[ht]
     \centering
     \includegraphics[width=8cm]{res/data_integration.png}
-    \caption{The OBDA framework}
+    \caption{The \ac{OBDA} framework}
     \label{fig:obda_two}
 \end{figure}
 
@@ -176,29 +176,29 @@ In conclusion, Dremio offers an open-source virtualization system with the typic
     Spyder  & Does not support ontology reasoning \\ \hline
     Ultrawrap  & Does not support ontology reasoning \\ \hline
     \end{tabular}
-    \caption{Comparative among OBDA Systems \label{tab:obda_comparison}}
+    \caption{Comparative among \ac{OBDA} Systems \label{tab:obda_comparison}}
 \end{table}
 
-Given that ontology reasoning is one of the most important requirements in the OBDA approach (without this, using this paradigm would allow just to run queries in SPARQL language, without any other real advantage), and considering that the Optique system is an enterprise, on-premise and closed source solution, more in-depth comparisons \cite{DBLP:conf/dlog/NamiciG18} studied Ontop and Mastro. Their comparison can be summarized as follows.
+Given that ontology reasoning is one of the most important requirements in the \ac{OBDA} approach (without this, using this paradigm would allow just to run queries in \ac{SPARQL} language, without any other real advantage), and considering that the Optique system is an enterprise, on-premise and closed source solution, more in-depth comparisons \cite{DBLP:conf/dlog/NamiciG18} studied Ontop and Mastro. Their comparison can be summarized as follows.
 
 \subsubsection{Mastro}
-By our knowledge, Mastro \cite{DBLP:journals/semweb/CalvaneseGLLPRRRS11} was the first OBDA tool, developed at La Sapienza University of Rome. It supports a subset of SPARQL queries and integrates a custom XML-based mapping syntax.
-Mastro's mappings were not initially compliant with R2RML standards, which was a strong limitation in standard OBDA environments. The tool used a complex system of view predicate mappings, which may affect its adaptability to standardized environments. Although recent updates have integrated R2RML support, the system's architecture still lacks certain optimizations due to its design constraints. For instance, Mastro cannot perform advanced semantic query optimizations because it does not support detailed data constraints in its mappings. This limitation could lead to less efficient query processing and increased execution times, especially with complex queries involving multiple joins or extensive data operations.
-Moreover, Mastro is less efficient handling of datatype operations and IRI constructions within SQL, leading to potential slowdowns in query processing.
+By our knowledge, Mastro \cite{DBLP:journals/semweb/CalvaneseGLLPRRRS11} was the first \ac{OBDA} tool, developed at La Sapienza University of Rome. It supports a subset of \ac{SPARQL} queries and integrates a custom XML-based mapping syntax.
+Mastro's mappings were not initially compliant with R2RML standards, which was a strong limitation in standard \ac{OBDA} environments. The tool used a complex system of view predicate mappings, which may affect its adaptability to standardized environments. Although recent updates have integrated R2RML support, the system's architecture still lacks certain optimizations due to its design constraints. For instance, Mastro cannot perform advanced semantic query optimizations because it does not support detailed data constraints in its mappings. This limitation could lead to less efficient query processing and increased execution times, especially with complex queries involving multiple joins or extensive data operations.
+Moreover, Mastro is less efficient handling of datatype operations and IRI constructions within \ac{SQL}, leading to potential slowdowns in query processing.
 
 \subsubsection{Ontop}
-Ontop \cite{DBLP:conf/sebd/CalvaneseCKKKLR15} is an open-source and well maintained OBDA framework developed at the Free University of Bolzano. It is compliant with W3C standards, including R2RML for ontology mapping, OWL for ontology representation, and SPARQL for querying. Ontop is designed for high-performance query answering over virtualized RDF graphs.
-Ontop provides an efficient query answering system that leverages R2RML mappings and supports comprehensive optimizations. The system uses advanced query rewriting techniques, which are highly effective in reducing query complexity and execution time. Ontop's strengths are particularly evident in its handling of complex SPARQL queries, where it efficiently translates these into SQL, utilizing T-mappings and database integrity constraints for optimization.
+Ontop \cite{DBLP:conf/sebd/CalvaneseCKKKLR15} is an open-source and well maintained \ac{OBDA} framework developed at the Free University of Bolzano. It is compliant with \ac{W3C} standards, including R2RML for ontology mapping, \ac{OWL} for ontology representation, and \ac{SPARQL} for querying. Ontop is designed for high-performance query answering over virtualized \ac{RDF} graphs.
+Ontop provides an efficient query answering system that leverages R2RML mappings and supports comprehensive optimizations. The system uses advanced query rewriting techniques, which are highly effective in reducing query complexity and execution time. Ontop's strengths are particularly evident in its handling of complex \ac{SPARQL} queries, where it efficiently translates these into \ac{SQL}, utilizing T-mappings and database integrity constraints for optimization.
 Regardless of its adherence to standards, Ontop comprises also a custom mapping language (Ontop Native Language).
 
 The comparison between the two systems has been performed in two different scenarios. In general, Mastro shown faster responses in scenarios requiring extensive in terms of timings, while Ontop performs better in scenarios where a considerable number of mappings is involved for unfolding a certain query.
 This means that a choice on which system fits better depends on how constraining are timings in the query processing phase and on how many mappings have to be unfolded on average, that strictly depends on the heterogeneity of the underlying relational source.
 
 \subsection{Triple Stores}
-Triple stores are database management systems specifically designed to store and retrieve triples through semantic queries. Triple stores typically ingests \ac{RDF} files that contains IRI's in the usual format of subject, predicate, object. These systems are optimized for storing vast amounts of triples and efficiently handling complex queries that involve traversing relationships across a network of data. Triple stores support SPARQL, enabling semantic queries that are essential for applications in data integration, knowledge management, and semantic web projects.
-Many comparisons, especially in the biomedical field \cite{DBLP:journals/entropy/CanSBU17}, among different triple stores systems analyze their performances under different point of view such as the volume of ingested data, the implementation of an ontology within the \ac{KG}, and the language used to represent it (RDF, RDFS, OWL, etc.).
-For the purposes of this project, where materialized triples are not used, GraphDB has been selected due to its integration with Ontop. This integration allows GraphDB to support virtual graph functionalities, meaning it can perform SPARQL queries over non-RDF relational data by translating these queries into SQL through Ontop's engine. This scenario eliminates any particular requirements from the triple store system regarding the query processing phase, considering that the task will be accomplished by the underlying OBDA system.
+Triple stores are database management systems specifically designed to store and retrieve triples through semantic queries. Triple stores typically ingests \ac{RDF} files that contains IRI's in the usual format of subject, predicate, object. These systems are optimized for storing vast amounts of triples and efficiently handling complex queries that involve traversing relationships across a network of data. Triple stores support \ac{SPARQL}, enabling semantic queries that are essential for applications in data integration, knowledge management, and semantic web projects.
+Many comparisons, especially in the biomedical field \cite{DBLP:journals/entropy/CanSBU17}, among different triple stores systems analyze their performances under different point of view such as the volume of ingested data, the implementation of an ontology within the \ac{KG}, and the language used to represent it (\ac{RDF}, RDFS, \ac{OWL}, etc.).
+For the purposes of this project, where materialized triples are not used, GraphDB has been selected due to its integration with Ontop. This integration allows GraphDB to support virtual graph functionalities, meaning it can perform \ac{SPARQL} queries over non-RDF relational data by translating these queries into \ac{SQL} through Ontop's engine. This scenario eliminates any particular requirements from the triple store system regarding the query processing phase, considering that the task will be accomplished by the underlying \ac{OBDA} system.
 
 \subsubsection{GraphDB}
-GraphDB is a robust, enterprise-ready triple store that excels in handling large volumes of data and complex queries. Developed by Ontotext\footnote{https://www.ontotext.com/}, GraphDB is designed to facilitate efficient data integration, knowledge discovery, and semantic analytics. It uses RDF for data representation and SPARQL for querying, supporting seamless transitions between different data formats and query languages.
-GraphDB's integration with Ontop for virtual RDF stores and its robust performance metrics make it an ideal choice for projects that require dynamic semantic data integration without the overhead of materialized triples. Its capabilities ensure that it is not only a powerful tool for RDF data management but also a flexible solution for broader data integration challenges in semantic environments.
+GraphDB is a robust, enterprise-ready triple store that excels in handling large volumes of data and complex queries. Developed by Ontotext\footnote{https://www.ontotext.com/}, GraphDB is designed to facilitate efficient data integration, knowledge discovery, and semantic analytics. It uses \ac{RDF} for data representation and \ac{SPARQL} for querying, supporting seamless transitions between different data formats and query languages.
+GraphDB's integration with Ontop for virtual \ac{RDF} stores and its robust performance metrics make it an ideal choice for projects that require dynamic semantic data integration without the overhead of materialized triples. Its capabilities ensure that it is not only a powerful tool for \ac{RDF} data management but also a flexible solution for broader data integration challenges in semantic environments.
