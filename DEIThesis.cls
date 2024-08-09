@@ -30,6 +30,7 @@
 % export in PDF/X, PDF/A, etc...
 \RequirePackage{etoolbox}
 \RequirePackage{colorprofiles}
+\let\pdfcreationdate=\creationdate
 \RequirePackage[a-2b,mathxmp]{pdfx}[\today]
 
 % language, font and encodings
