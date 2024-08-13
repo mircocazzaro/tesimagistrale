@@ -33,7 +33,7 @@
 \BOOKMARK [2][-]{subsection.5.2.5}{Google\040Drive}{section.5.2}% 33
 \BOOKMARK [1][-]{section.5.3}{Federation\040and\040Virtualization\040Layer}{chapter.5}% 34
 \BOOKMARK [2][-]{subsection.5.3.1}{Role\040of\040Federator}{section.5.3}% 35
-\BOOKMARK [2][-]{subsection.5.3.2}{Role\040of\040Virtualizator}{section.5.3}% 36
+\BOOKMARK [2][-]{subsection.5.3.2}{Role\040of\040Virtualizer}{section.5.3}% 36
 \BOOKMARK [2][-]{subsection.5.3.3}{Focus\040on\040Dremio}{section.5.3}% 37
 \BOOKMARK [1][-]{section.5.4}{Ontology\040Layer:\040Brainteaser\040Ontology}{chapter.5}% 38
 \BOOKMARK [2][-]{subsection.5.4.1}{Brainteaser\040Ontology\040Overview}{section.5.4}% 39
@@ -64,4 +64,3 @@
 \BOOKMARK [1][-]{section.7.5}{Summary\040and\040Conclusions}{chapter.7}% 64
 \BOOKMARK [0][-]{chapter.8}{Conclusions\040and\040Future\040Works}{}% 65
 \BOOKMARK [0][-]{section*.63}{References}{}% 66
-\BOOKMARK [0][-]{section*.65}{Acknowledgments}{}% 67

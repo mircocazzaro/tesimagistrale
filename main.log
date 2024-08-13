@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.3.31) (preloaded format=xelatex 2024.7.9)  13 AUG 2024 13:21
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.3.31) (preloaded format=xelatex 2024.7.9)  13 AUG 2024 16:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2371,18 +2371,14 @@ Overfull \hbox (3.32033pt too wide) in paragraph at lines 56--56
 ta Lake Infrastructure Bench-
  []
 
-[76] (frontmatter/thanks.tex
-Overfull \hbox (6.14232pt too wide) in paragraph at lines 3--4
-[]\TU/TeXGyrePagellaX(0)/m/n/12 Ci tengo innanzitutto a ringraziare genitori e 
-parenti tutti per avermi sostenuto
- []
-
-) [77
-
-
-
-
-] (main.aux (chapters/01_introduction.aux) (chapters/02_background.aux)
+[76]
+! Undefined control sequence.
+\backmatter ...owledgmentsname } \acknowledgments 
+                                                  
+l.56     \backmatter
+                    
+? 
+(main.aux (chapters/01_introduction.aux) (chapters/02_background.aux)
 (chapters/03_context.aux) (chapters/04_related.aux)
 (chapters/05_system_architecture.aux) (chapters/06_use_case.aux)
 (chapters/07_evaluation.aux) (chapters/08_conclusions.aux))
@@ -2394,22 +2390,22 @@ L3 programming layer <2020/03/25>
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F04FF5F0A8F5EE6811AD80274CC90094;4976.
-
-Package biblatex Warning: Please rerun LaTeX.
-
+(rerunfilecheck)             Checksum: 3257AAB7406CAB6BFD663CC1C019A703;4921.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48771 strings out of 409555
- 921118 string characters out of 5776261
+ 48764 strings out of 409555
+ 920922 string characters out of 5776261
  2168148 words of memory out of 5000000
- 70152 multiletter control sequences out of 15000+600000
+ 70147 multiletter control sequences out of 15000+600000
  598061 words of font info for 132 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  123i,15n,131p,1588b,6838s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (97 pages).
+Output written on main.pdf (96 pages).

@@ -64,7 +64,7 @@ The final transformation occurs when the \ac{SQL} query is processed by Dremio, 
 \section{Exploration of Query Transformation in Ontop}
 In this phase we are using the Ontop framework within the Protégé environment, specifically chosen for its debugging capabilities. This setup is ideal for detailed inspection and debugging of the query transformation process, from a \ac{SPARQL} query to an \ac{SQL} query executable on relational databases. This decision allows for a granular inspection of how queries are translated from \ac{SPARQL} to \ac{SQL}, focusing on the use of ontological rules and mappings. 
 After setting up all the components, we ran the query and we waited for the retrieval process to be completed. Given the distribution and the heterogeneity of the sources, the process was time consuming with respect to high-performance, centralized \ac{DBMS}s. After assessing the result correctness by visual inspection, we analyzed the output query q* produced in output by the Ontop framework, that was submitted to Dremio.
-The query resulted in having long recursive patterns due to, in particular, to special characters parsing processes.
+The query resulted in having long recursive patterns, particularly due to special character parsing processes.
 After manually inspecting and parsing these patterns in order to simplify and shorten the query repetitive body, we obtained the \ac{SQL} presented in \ref{lst:ontop-qstar}.
 \begin{lstlisting}[language=SQL, caption={Parsed \ac{SQL} Translation of the Original \ac{SPARQL} Query}, label={lst:ontop-qstar}]
 CONSTRUCT [patient, date, tot, bulbar, motor, respiratory, q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12]

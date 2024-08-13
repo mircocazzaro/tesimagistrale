@@ -22,7 +22,7 @@ Dremio have been chosen as the virtualization and federation layer because, as d
 The semantic integration requires an ontology well describing the domain of clinical and genomics data. Considering the reusability principle that stands at the basis of the semantic web, we identified the \ac{BRAINTEASER} ontology\footnote{https://brainteaser.dei.unipd.it/ontology/} as suitable for accomplishing this task. 
 
 \section{Data Sources}
-Given the relational nature of available data, we distributed it among five different platforms, so to exploit the federation capabilities of the data federation layer. The choice of the sources has been guided also by surveying commonly used ones in the biomedicine field in contexts like research and hospital diagnostic. As we will discuss, they encompasses more structured \ac{DBMS}s as well as simple \ac{CSV} files. We also included a novel \ac{DBMS} system, so to investigate how new, unknown data sources can be federated as soon as they figure out.
+Given the relational nature of the available data, we distributed it among five different platforms to exploit the federation capabilities of the data federation layer. The choice of the sources has been guided also by surveying commonly used ones in the biomedicine field in contexts like research and hospital diagnostic. As we will discuss, they encompasses more structured \ac{DBMS}s as well as simple \ac{CSV} files. We also included a novel \ac{DBMS} system, so to investigate how new, unknown data sources can be federated as soon as they figure out.
 
 \subsection{MySQL}
 MySQL\footnote{https://www.mysql.com/it/} is one of the most widely used relational \ac{DBMS} in the world. It is a \ac{FOSS} solution now distributed by Oracle\footnote{https://www.oracle.com/it/}. It is extensively employed across a variety of applications, from small personal projects to critical enterprise environments. In our system architecture, we've chosen MySQL considering its extensive adoption, possibly also in application software used in clinics and hospitals to collect patients data. 
@@ -36,12 +36,12 @@ Again, PostgreSQL's role in our environment is to store another portion of the s
 Just like with MySQL, integrating PostgreSQL with Dremio did not require any specific modifications or additional configurations.
 
 \subsection{Polypheny}
-Polypheny \cite{DBLP:conf/bigdataconf/VogtSS18} is an open-source polystore system designed to support diverse data models including relational, document, and graph data. It is engineered to handle mixed workloads and various query languages, making it a versatile platform suitable for dynamic data environments.
+Polypheny \cite{DBLP:conf/bigdataconf/VogtSS18} is an open-source polystore system designed to support diverse data models, including relational, document, and graph data. It is engineered to handle mixed workloads and various query languages, making it a versatile platform suitable for dynamic data environments.
 In our architecture, we consider Polypheny not just as a standalone polystore but as a potential low-level federator under our main data federation layer managed by Dremio. This perspective is particularly useful because it allows us to leverage Polypheny's ability to handle multiple data models, thus enriching the flexibility and capability of our overall data management system.
 
-\subsubsection{Custom \ac{ARP} Connector Development}
+\subsubsection{Custom ARP Connector Development}
 Unlike the straightforward integrations with MySQL and PostgreSQL, incorporating Polypheny required a more sophisticated approach. We performed this task not only to include Polypheny as one of our data sources but also as a proof of concept about the actual possibility of developing custom \ac{ARP} connectors.
-Dremio's Advanced Relational Pushdown (ARP) framework offers a powerful mechanism to extend Dremio's capability to interact with various data sources by intefacing Dremio's internal query representations into the native query language of the target data source.
+Dremio's \ac{ARP} framework offers a powerful mechanism to extend Dremio's capability to interact with various data sources by interfacing Dremio's internal query representations into the native query language of the target data source.
 For Polypheny, we developed a custom \ac{ARP} connector to ensure interaction between Dremio and Polypheny. The connector we developed is open-source and available for the community, which can be found at our GitHub repository \footnote{https://github.com/mircocazzaro/dremio-polypheny-arp}.
 These connectors rely on the target source having a \ac{JDBC} driver and accepting \ac{SQL} as a query language, so to have an interface to dialog with.
 
@@ -144,10 +144,10 @@ We used the Google Drive data source to store the remaining part of \ac{CSV} gen
 
 
 \section{Federation and Virtualization Layer}
-At the bottom of our system architecture we do have a software component that encompasses both the federation and virtualization functionalities. In fact, this component not only allows to seamlessly connecting to multiple diverse data sources, but also serves as a virtualizator by creating unmaterialized virtual views of the integrated data. This dual functionality is essential in our scenario for efficiently managing data access and manipulation across the disparate systems involved in our project.
+At the bottom of our system architecture we do have a software component that encompasses both the federation and virtualization functionalities. In fact, this component not only allows to seamlessly connecting to multiple diverse data sources, but also serves as a virtualizer by creating unmaterialized virtual views of the integrated data. This dual functionality is essential in our scenario for efficiently managing data access and manipulation across the disparate systems involved in our project.
 \subsection{Role of Federator}
 As a federator, this layer allows for extensive connectivity, facilitating interactions with various types of data sources ranging from traditional relational databases like MySQL and PostgreSQL to modern polystore systems such as Polypheny, and even cloud-based storage solutions like Google Drive. The ability to federate across these diverse sources means that data, regardless of where it is stored or in what format, can be accessed and queried as if it were located within a single, homogeneous database.
-\subsection{Role of Virtualizator}
+\subsection{Role of Virtualizer}
 On the virtualization side, the layer enables the creation of virtual views that do not require materialization. These views treats relations exposed from underlying data sources as if they are actual tables within the same database schema: as Fig. \ref{fig:virtual} shows, this implies that these tables can be joined together and thus expose the most meaningful information to the upper architecture layers. Moreover, tables can be joined with pre-defined views, further enhancing the virtualization capabilities. No data is physically stored within this layer, but rather queries coming into this layer are dynamically interpreted and delegated to the source \ac{DBMS}s. This approach ensures that the most current data is always presented to the user or application, without the overhead and delay associated with physical data integration. In the subsequent sections, a diagram will be included to illustrate how these virtual views are structured and managed within our system.
 \begin{figure}[ht]
     \centering

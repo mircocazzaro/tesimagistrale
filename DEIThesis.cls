@@ -484,11 +484,11 @@
 
 
 % -- ACKNOWLEDGMENTS --
-\newcommand{\acknowledgments} {
-  \phantomsection
-  \chapter*{\acknowledgmentsname}
-  \input{frontmatter/thanks}
-}
+%\newcommand{\acknowledgments} {
+%  \phantomsection
+%  \chapter*{\acknowledgmentsname}
+%  \input{frontmatter/thanks}
+%}
 
 
 % -- CODE SNIPPETS --

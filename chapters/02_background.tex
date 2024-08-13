@@ -9,7 +9,7 @@ The \ac{RDF} is a standard\footnote{https://www.w3.org/RDF/} by the \ac{W3C} des
 
 \ac{RDF} is based on the idea of making statements about resources, expressed as triples: for example, a triple might consist of "Gene123" (subject) "hasFunction" (predicate) "DNA Repair" (object). These triples are stored in a graph, making \ac{RDF} uniquely suited for modern data analytics where relationships and linkages are crucial: this structure is by design flexible, and it is used to represent information in a way that makes it easier to aggregate, integrate, and manage diverse data from various sources.
 
-The standard utilizes \ac{URI} to ensure that each element in the triple is uniquely identifiable, allowing to link data across different datasets seamlessly. \ac{RDF} also supports literal values and datatypes, enabling detailed descriptions of properties and values.
+The standard utilizes \ac{URI} to ensure that each element in the triple is uniquely identifiable, allowing to link data across different datasets seamlessly. \ac{RDF} also supports literal values and data types, enabling detailed descriptions of properties and values.
 
 In summary, \ac{RDF} provides a robust and flexible framework for describing and interlinking data on the web, which is crucial for any federated data system that aims to integrate diverse data sources effectively.
 
@@ -51,7 +51,7 @@ The \ac{OBDA} framework, that has been precisely formalized \cite{DBLP:conf/aiia
 \begin{enumerate}
     \item input query ${q(\vec{x})}$ is rewritten \cite{DBLP:conf/otm/MakrisGBC10} into ${q'}$ over the virtual ABox ${A'}$ (i.e. the first-order logic specification of the ontology);
     \item the rewritten query ${q'}$ is unfolded using the \textit{mappings} into an \ac{SQL} query ${q^*}$;
-    \item the optimised \ac{SQL} query ${q^*}$ is evaluated over the data instance ${D}$ (e.g. a relational \ac{DBMS}).
+    \item the optimized \ac{SQL} query ${q^*}$ is evaluated over the data instance ${D}$ (e.g. a relational \ac{DBMS}).
 \end{enumerate}
 
 Figure \ref{fig:OBDAframew} outlines the aforementioned algorithm within a flowchart.
