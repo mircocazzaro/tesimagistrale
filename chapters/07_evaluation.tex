@@ -45,7 +45,7 @@ Understanding the server environment where our architecture is evaluated is cruc
 
 \begin{table}[h!]
     \centering
-    \begin{tabular}{| P{0.45\linewidth} | P{0.45\linewidth} |}
+    \begin{tabular}{| P{0.47\textwidth} | P{0.47\textwidth} |}
     \hline
     \textbf{Specification}         & \textbf{Details}                         \\ \hline
     Operating System               & Rocky Linux 8.10 (Green Obsidian)        \\ \hline
@@ -127,13 +127,15 @@ For each query (12 in total), we ran them 32 times with 4 concurrent processes s
 The first notable observation from results in Fig. \ref{fig:bsbmbenchmarkresults} is that the plots are complementary: this is expectable, as a one of the main causes for a low query rate can be for sure an high response time.
 We can observe how Query 3 and Query 11 are performing poorly with respect to the others. As we will see in next section with other benchmarks, where we will compare resource consumption between Dremio and Ontop hosted in GraphDB, the component that usually is more resource-demanding and consuming is the virtualization system Dremio. This implies that an eventual bottleneck has to be caused at this level. By inspecting Queries 3 and 11, we can see how these two make use of extensive joins among tables that in our set up belongs to different sources as well as nested queries. This translates to a possible weakness of the proposed architecture while dealing with these case study, but that can surely be investigated and strengthen in future.
 In general, our architecture was able, on average, to perform 15 queries per seconds from 4 concurrent processes acting as independent users. This represent a huge milestone, considering it is an embryonic study.
+\\
 \begin{figure}[!ht]
-    \includegraphics[width=15cm]{res/query_execution_time.png}
-    \includegraphics[width=15cm]{res/query_throughput.png}
+    \includegraphics[width=16cm]{res/query_execution_time.png}
+    \\
+    \includegraphics[width=16cm]{res/query_throughput.png}
     \caption{BSBM Benchmark Results}
     \label{fig:bsbmbenchmarkresults}
 \end{figure}
-
+\\
 
 \section{Architecture Performance Benchmarking over Clinical Data}
 In alignment with the methodologies presented in Section \ref{chp:dolci}, we conducted an extensive evaluation of our healthcare data architecture using our available clinical data. This benchmarking initiative was critical to validate the architecture's operational efficacy, specifically targeting its ability to handle real-world healthcare analytics tasks efficiently.

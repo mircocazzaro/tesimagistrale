@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.3.31) (preloaded format=xelatex 2024.7.9)  17 AUG 2024 11:26
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.3.31) (preloaded format=xelatex 2024.7.9)  17 AUG 2024 13:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1502,60 +1502,60 @@ Package csquotes Info: ... found 'babel' package.
 (chapters/07_evaluation.aux) (chapters/08_conclusions.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 39.
+LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 40.
 LaTeX Font Info:    Trying to load font information for OML+npxmi on input line
- 39.
+ 40.
 
 (C:\Program Files\MiKTeX\tex/latex/newpx\omlnpxmi.fd
 File: omlnpxmi.fd 2013/03/21 Fontinst v1.933 font definitions for OML/npxmi.
 )
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 3
-9.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 4
+0.
 
 (C:\Program Files\MiKTeX\tex/latex/base\ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for U/npxexa/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/npxexa/m/n on input line 40.
 LaTeX Font Info:    Trying to load font information for U+npxexa on input line 
-39.
+40.
 
 (C:\Program Files\MiKTeX\tex/latex/newpx\unpxexa.fd
 File: unpxexa.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxexa.
 )
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for LMS/npxsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for LMS/npxsy/m/n on input line 40.
 LaTeX Font Info:    Trying to load font information for LMS+npxsy on input line
- 39.
+ 40.
 
 (C:\Program Files\MiKTeX\tex/latex/newpx\lmsnpxsy.fd
 File: lmsnpxsy.fd 2016/07/04 Fontinst v1.933 font definitions for LMS/npxsy.
 )
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for LMX/npxexx/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for LMX/npxexx/m/n on input line 40.
 LaTeX Font Info:    Trying to load font information for LMX+npxexx on input lin
-e 39.
+e 40.
 
 (C:\Program Files\MiKTeX\tex/latex/newpx\lmxnpxexx.fd
 File: lmxnpxexx.fd 2016/07/04 Fontinst v1.933 font definitions for LMX/npxexx.
 )
-LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    ... okay on input line 40.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1591,13 +1591,13 @@ LaTeX Font Info:    ... okay on input line 39.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 39.
+Package hyperref Info: Link coloring ON on input line 40.
 (main.out) (main.out)
 \@outlinefile=\write6
 \openout6 = `main.out'.
 
-LaTeX Info: Command `\dddot' is already robust on input line 39.
-LaTeX Info: Command `\ddddot' is already robust on input line 39.
+LaTeX Info: Command `\dddot' is already robust on input line 40.
+LaTeX Info: Command `\ddddot' is already robust on input line 40.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
@@ -1621,8 +1621,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
-Package biblatex Info: Reference section=0 on input line 39.
-Package biblatex Info: Reference segment=0 on input line 39.
+Package biblatex Info: Reference section=0 on input line 40.
+Package biblatex Info: Reference segment=0 on input line 40.
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: xetex
 * paper: a4paper
@@ -1685,26 +1685,26 @@ although it is yet undefined on input line 3.
 
 
 ] (main.toc
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 8
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 7
 .
 
 (C:\Program Files\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for U+npxmia on input line 
-8.
+7.
 
 (C:\Program Files\MiKTeX\tex/latex/newpx\unpxmia.fd
 File: unpxmia.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxmia.
 )
 LaTeX Font Info:    Trying to load font information for U+npxsym on input line 
-8.
+7.
 
 (C:\Program Files\MiKTeX\tex/latex/newpx\unpxsym.fd
 File: unpxsym.fd 2023/08/16 Fontinst v1.933 font definitions for U/npxsym.
 )
 LaTeX Font Info:    Trying to load font information for U+npxsyc on input line 
-8.
+7.
 
 (C:\Program Files\MiKTeX\tex/latex/newpx\unpxsyc.fd
 File: unpxsyc.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxsyc.
@@ -1826,11 +1826,11 @@ Overfull \hbox (3.25734pt too wide) in paragraph at lines 30--31
 Chapter 1.
 Package acronym Info: Label `acro:HEREDITARY' newly defined as it shall be over
 ridden
-although it is yet undefined on input line 15.
+although it is yet undefined on input line 16.
 Package acronym Info: Label `acro:DBMS' newly defined as it shall be overridden
 
-although it is yet undefined on input line 16.
-) [1
+although it is yet undefined on input line 17.
+[1
 
 
 
@@ -1841,17 +1841,22 @@ although it is yet undefined on input line 16.
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [2]
-[3]
+ [2])
+Overfull \hbox (1.41837pt too wide) in paragraph at lines 20--47
+\TU/TeXGyrePagellaX(0)/m/n/12 covering essential concepts such as the Resource 
+Description Framework, Knowl-
+ []
+
+
+Overfull \hbox (4.88103pt too wide) in paragraph at lines 20--47
+\TU/TeXGyrePagellaX(0)/m/n/12 edge Graphs, and Ontologies, crucial for understa
+nding their applications. Chap-
+ []
+
+[3] [4]
 \openout2 = `chapters/02_background.aux'.
 
- (chapters/02_background.tex [4
-
-
-
-
-
-]
+ (chapters/02_background.tex
 Chapter 2.
 Package acronym Info: Label `acro:RDF' newly defined as it shall be overridden
 although it is yet undefined on input line 8.
@@ -1859,7 +1864,13 @@ Package acronym Info: Label `acro:W3C' newly defined as it shall be overridden
 although it is yet undefined on input line 8.
 Package acronym Info: Label `acro:URI' newly defined as it shall be overridden
 although it is yet undefined on input line 12.
-[5]
+[5
+
+
+
+
+
+]
 Package acronym Info: Label `acro:KG' newly defined as it shall be overridden
 although it is yet undefined on input line 17.
 Package acronym Info: Label `acro:OWL' newly defined as it shall be overridden
@@ -1990,7 +2001,7 @@ although it is yet undefined on input line 28.
 Package acronym Info: Label `acro:ALS' newly defined as it shall be overridden
 although it is yet undefined on input line 35.
  [21])
-Overfull \hbox (3.13835pt too wide) in paragraph at lines 45--48
+Overfull \hbox (3.13835pt too wide) in paragraph at lines 45--49
 []\TU/TeXGyrePagellaX(0)/m/n/12 Complementing the genotypic data, the phenotypi
 c component includes vari-
  []
@@ -2122,7 +2133,7 @@ ogy is specifically designed
 Package acronym Info: Label `acro:VKG' newly defined as it shall be overridden
 although it is yet undefined on input line 195.
  [40] [41] [42])
-Overfull \hbox (27.86002pt too wide) in paragraph at lines 263--50
+Overfull \hbox (27.86002pt too wide) in paragraph at lines 263--51
 \TU/TeXGyrePagellaX(0)/m/n/12 functionalities. GraphDB allows to manage simulta
 neously different graph databases,
  []
@@ -2269,35 +2280,32 @@ File: res/query_execution_time.png Graphic file (type bmp)
 File: res/query_throughput.png Graphic file (type bmp)
 <res/query_throughput.png>
 
-Overfull \hbox (8.53766pt too wide) in paragraph at lines 131--133
-[][]
+Overfull \hbox (36.9904pt too wide) in paragraph at lines 132--135
+[][] 
  []
 
 
-Overfull \hbox (8.53766pt too wide) in paragraph at lines 131--133
+Overfull \hbox (36.9904pt too wide) in paragraph at lines 132--135
 [] 
  []
 
 
-Overfull \hbox (0.77289pt too wide) in paragraph at lines 138--138
-|[]\TU/TeXGyrePagellaX(0)/m/sc/17.28 Architecture Performance Benchmarking over
+Underfull \hbox (badness 10000) in paragraph at lines 127--139
 
  []
 
 [63]
-Overfull \vbox (2.0657pt too high) has occurred while \output is active []
+Overfull \hbox (0.77289pt too wide) in paragraph at lines 140--140
+|[]\TU/TeXGyrePagellaX(0)/m/sc/17.28 Architecture Performance Benchmarking over
 
+ []
 
-[64]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [65]
+[64] [65]
 File: res/Dremio_usage_plot.png Graphic file (type bmp)
 <res/Dremio_usage_plot.png>
 File: res/GraphDB (Ontop)_usage_plot.png Graphic file (type bmp)
 <res/GraphDB (Ontop)_usage_plot.png>
-
-[66]
+ [66]
 
 LaTeX Warning: Text page 67 contains only floats.
 
@@ -2311,7 +2319,7 @@ Overfull \vbox (3.71927pt too high) has occurred while \output is active []
  (chapters/08_conclusions.tex
 Chapter 8.
 )
-Overfull \hbox (6.94637pt too wide) in paragraph at lines 6--53
+Overfull \hbox (6.94637pt too wide) in paragraph at lines 6--54
 \TU/TeXGyrePagellaX(0)/m/n/12 The implementation of this system within the cont
 ext of the [][] project
  []
@@ -2332,19 +2340,19 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-Overfull \hbox (13.36032pt too wide) in paragraph at lines 56--56
+Overfull \hbox (13.36032pt too wide) in paragraph at lines 57--57
 []\TU/TeXGyrePagellaX(0)/m/n/12 Dave Beckett and Brian McBride. “  RDF/XML synt
 ax specification (revised)”.
  []
 
 
-Overfull \hbox (0.65031pt too wide) in paragraph at lines 56--56
+Overfull \hbox (0.65031pt too wide) in paragraph at lines 57--57
 \TU/TeXGyrePagellaX(0)/m/n/12 Antonella Poggi, Riccardo Rosati, and Michael Zak
 haryaschev. “  Ontology-
  []
 
 
-Overfull \hbox (10.17537pt too wide) in paragraph at lines 56--56
+Overfull \hbox (10.17537pt too wide) in paragraph at lines 57--57
 \TU/TeXGyrePagellaX(0)/m/it/12 Conference of the Italian Association for Artifi
 cial Intelligence, Trento, Italy, Novem-
  []
@@ -2353,87 +2361,87 @@ cial Intelligence, Trento, Italy, Novem-
 
 
 ]
-Overfull \hbox (64.53136pt too wide) in paragraph at lines 56--56
+Overfull \hbox (64.53136pt too wide) in paragraph at lines 57--57
 []\TU/TeXGyrePagellaX(0)/m/n/12 Konstantinos Makris, Nektarios Gioldasis, Nikos
  Bikakis, and Stavros Christodoulakis.
  []
 
 
-Overfull \hbox (47.08337pt too wide) in paragraph at lines 56--56
+Overfull \hbox (47.08337pt too wide) in paragraph at lines 57--57
 []\TU/TeXGyrePagellaX(0)/m/n/12 Evgeny Kharlamov, Nina Solomakhina, Özgür Lütfü
  Özçep, Dmitriy Zheleznyakov,
  []
 
 
-Overfull \hbox (8.17934pt too wide) in paragraph at lines 56--56
+Overfull \hbox (8.17934pt too wide) in paragraph at lines 57--57
 []\TU/TeXGyrePagellaX(0)/m/n/12 Diego Calvanese, Giuseppe De Giacomo, Domenico 
 Lembo, Maurizio Lenz-
  []
 
 [74]
-Overfull \hbox (1.59134pt too wide) in paragraph at lines 56--56
+Overfull \hbox (1.59134pt too wide) in paragraph at lines 57--57
 []\TU/TeXGyrePagellaX(0)/m/n/12 Diego Calvanese, Benjamin Cogrel, Elem Guzel Ka
 layci, Sarah Komla-Ebri,
  []
 
 
-Overfull \hbox (2.71133pt too wide) in paragraph at lines 56--56
+Overfull \hbox (2.71133pt too wide) in paragraph at lines 57--57
 \TU/TeXGyrePagellaX(0)/m/n/12 Roman Kontchakov, Davide Lanti, Martin Rezk, Mari
 ano Rodriguez-Muro,
  []
 
 
-Overfull \hbox (11.44333pt too wide) in paragraph at lines 56--56
+Overfull \hbox (11.44333pt too wide) in paragraph at lines 57--57
 []\TU/TeXGyrePagellaX(0)/m/n/12 Simon D. Harding, Jane F. Armstrong, Elena Facc
 enda, Christopher Southan,
  []
 
 
-Overfull \hbox (8.88739pt too wide) in paragraph at lines 56--56
+Overfull \hbox (8.88739pt too wide) in paragraph at lines 57--57
 []\TU/TeXGyrePagellaX(0)/m/n/12 Janet Piñero González, Àlex Bravo, Núria Queral
 t-Rosinach, Alba Gutiérrez-
  []
 
 
-Overfull \hbox (3.64436pt too wide) in paragraph at lines 56--56
+Overfull \hbox (3.64436pt too wide) in paragraph at lines 57--57
 \TU/TeXGyrePagellaX(0)/m/n/12 Chuqiao Gong, Chuan Deng, Thawfeek M. Varusai, El
 iot Ragueneau, Yusra
  []
 
 
-Overfull \hbox (0.52531pt too wide) in paragraph at lines 56--56
+Overfull \hbox (0.52531pt too wide) in paragraph at lines 57--57
 \TU/TeXGyrePagellaX(0)/m/n/12 ming Wu, Lincoln Stein, Henning Hermjakob, and Pe
 ter D’Eustachio. “  The
  []
 
 
-Overfull \hbox (4.81927pt too wide) in paragraph at lines 56--56
+Overfull \hbox (4.81927pt too wide) in paragraph at lines 57--57
 \TU/TeXGyrePagellaX(0)/m/n/12 reactome pathway knowledgebase 2022”. In: \TU/TeX
 GyrePagellaX(0)/m/it/12 Nucleic Acids Res. \TU/TeXGyrePagellaX(0)/m/n/12 50.D1 
 (2022),
  []
 
 [75]
-Overfull \hbox (3.73836pt too wide) in paragraph at lines 56--56
+Overfull \hbox (3.73836pt too wide) in paragraph at lines 57--57
 \TU/TeXGyrePagellaX(0)/m/n/12 Haynes, Jeremy Kepner, Samuel Madden, Tim Mattson
 , and Michael Stone-
  []
 
 
-Overfull \hbox (8.44122pt too wide) in paragraph at lines 56--56
+Overfull \hbox (8.44122pt too wide) in paragraph at lines 57--57
 \TU/TeXGyrePagellaX(0)/m/n/12 (FP7) of the European Union (2007-2013)”. In: \TU
 /TeXGyrePagellaX(0)/m/it/12 Int. J. Technol. Manag. \TU/TeXGyrePagellaX(0)/m/n/
 12 47.1/2/3
  []
 
 [76]
-Overfull \hbox (3.93631pt too wide) in paragraph at lines 56--56
+Overfull \hbox (3.93631pt too wide) in paragraph at lines 57--57
 \TU/TeXGyrePagellaX(0)/m/n/12 Nicola Ferro. “  An Extensible and Unifying Appro
 ach to Retrospective Clin-
  []
 
 
-Overfull \hbox (4.0024pt too wide) in paragraph at lines 56--56
+Overfull \hbox (4.0024pt too wide) in paragraph at lines 57--57
 []\TU/TeXGyrePagellaX(0)/m/n/12 Tommaso Dolci, Lorenzo Amata, Carlo Manco, Fabi
 o Azzalini, Marco Grib-
  []
@@ -2462,23 +2470,17 @@ L3 programming layer <2020/03/25>
 
 LaTeX Warning: There were undefined references.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 3257AAB7406CAB6BFD663CC1C019A703;4921
-(rerunfilecheck)             After:  F13263542A86076329C9DF1E9309FFBF;4974.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: C3570E3156DA0A24AA91DC96B194918B;5110.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48775 strings out of 409555
- 921306 string characters out of 5776261
+ 48776 strings out of 409555
+ 921317 string characters out of 5776261
  2168148 words of memory out of 5000000
- 70156 multiletter control sequences out of 15000+600000
+ 70157 multiletter control sequences out of 15000+600000
  598061 words of font info for 132 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  123i,15n,131p,1588b,6836s stack positions out of 10000i,1000n,20000p,200000b,200000s

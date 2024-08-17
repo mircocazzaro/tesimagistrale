@@ -4,6 +4,8 @@
 \contentsline {chapter}{List of Code Snippets}{xvii}{section*.11}%
 \contentsline {chapter}{List of Acronyms}{xix}{section*.17}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}State of the Art}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Thesis Outline}{3}{section.1.2}%
 \contentsline {chapter}{\numberline {2}Background}{5}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Methodological Background}{5}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Resource Description Framework}{5}{subsection.2.1.1}%
@@ -97,7 +99,7 @@
 \contentsline {subsubsection}{BSBM R2RML Mappings}{61}{lstnumber.7.1.1}%
 \contentsline {subsubsection}{Benchmarking Setup}{62}{lstnumber.7.2.23}%
 \contentsline {subsubsection}{Benchmark Results}{63}{figure.caption.59}%
-\contentsline {section}{\numberline {7.4}Architecture Performance Benchmarking over Clinical Data}{64}{section.7.4}%
+\contentsline {section}{\numberline {7.4}Architecture Performance Benchmarking over Clinical Data}{65}{section.7.4}%
 \contentsline {section}{\numberline {7.5}Summary and Conclusions}{68}{section.7.5}%
 \contentsline {chapter}{\numberline {8}Conclusions and Future Works}{69}{chapter.8}%
 \contentsline {chapter}{References}{73}{section*.63}%
