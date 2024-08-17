@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.3.31) (preloaded format=xelatex 2024.7.9)  13 AUG 2024 17:07
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.3.31) (preloaded format=xelatex 2024.7.9)  13 AUG 2024 17:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1027,4 +1027,1387 @@ Package: csquotes 2022-09-14 v5.2n context-sensitive quotations (JAW)
 File: csquotes.def 2022-09-14 v5.2n csquotes generic definitions (JAW)
 )
 Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
-Packag
+Package csquotes Info: ... configuration file loaded successfully.
+
+(C:\Program Files\MiKTeX\tex/latex/csquotes\csquotes.cfg
+File: csquotes.cfg 
+)
+Package csquotes Info: Enabling multilingual quotes.
+)
+(C:\Program Files\MiKTeX\tex/latex/biblatex\biblatex.sty
+Package: biblatex 2024/03/21 v3.20 programmable bibliographies (PK/MW)
+
+(C:\Program Files\MiKTeX\tex/latex/logreq\logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count360
+
+(C:\Program Files\MiKTeX\tex/latex/logreq\logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+\c@tabx@nest=\count361
+\c@listtotal=\count362
+\c@listcount=\count363
+\c@liststart=\count364
+\c@liststop=\count365
+\c@citecount=\count366
+\c@citetotal=\count367
+\c@multicitecount=\count368
+\c@multicitetotal=\count369
+\c@instcount=\count370
+\c@maxnames=\count371
+\c@minnames=\count372
+\c@maxitems=\count373
+\c@minitems=\count374
+\c@citecounter=\count375
+\c@maxcitecounter=\count376
+\c@savedcitecounter=\count377
+\c@uniquelist=\count378
+\c@uniquename=\count379
+\c@refsection=\count380
+\c@refsegment=\count381
+\c@maxextratitle=\count382
+\c@maxextratitleyear=\count383
+\c@maxextraname=\count384
+\c@maxextradate=\count385
+\c@maxextraalpha=\count386
+\c@abbrvpenalty=\count387
+\c@highnamepenalty=\count388
+\c@lownamepenalty=\count389
+\c@maxparens=\count390
+\c@parenlevel=\count391
+\blx@tempcnta=\count392
+\blx@tempcntb=\count393
+\blx@tempcntc=\count394
+\c@blx@maxsection=\count395
+\blx@maxsegment@0=\count396
+\blx@notetype=\count397
+\blx@parenlevel@text=\count398
+\blx@parenlevel@foot=\count399
+\blx@sectionciteorder@0=\count400
+\blx@sectionciteorderinternal@0=\count401
+\blx@entrysetcounter=\count402
+\blx@biblioinstance=\count403
+\labelnumberwidth=\skip56
+\labelalphawidth=\skip57
+\biblabelsep=\skip58
+\bibitemsep=\skip59
+\bibnamesep=\skip60
+\bibinitsep=\skip61
+\bibparsep=\skip62
+\bibhang=\skip63
+\blx@bcfin=\read6
+\blx@bcfout=\write5
+\blx@langwohyphens=\language80
+\c@mincomprange=\count404
+\c@maxcomprange=\count405
+\c@mincompwidth=\count406
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(C:\Program Files\MiKTeX\tex/latex/biblatex\blx-dm.def
+File: blx-dm.def 2024/03/21 v3.20 biblatex datamodel (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'numeric-verb.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count407
+\c@savedafterword=\count408
+\c@annotator=\count409
+\c@savedannotator=\count410
+\c@author=\count411
+\c@savedauthor=\count412
+\c@bookauthor=\count413
+\c@savedbookauthor=\count414
+\c@commentator=\count415
+\c@savedcommentator=\count416
+\c@editor=\count417
+\c@savededitor=\count418
+\c@editora=\count419
+\c@savededitora=\count420
+\c@editorb=\count421
+\c@savededitorb=\count422
+\c@editorc=\count423
+\c@savededitorc=\count424
+\c@foreword=\count425
+\c@savedforeword=\count426
+\c@holder=\count427
+\c@savedholder=\count428
+\c@introduction=\count429
+\c@savedintroduction=\count430
+\c@namea=\count431
+\c@savednamea=\count432
+\c@nameb=\count433
+\c@savednameb=\count434
+\c@namec=\count435
+\c@savednamec=\count436
+\c@translator=\count437
+\c@savedtranslator=\count438
+\c@shortauthor=\count439
+\c@savedshortauthor=\count440
+\c@shorteditor=\count441
+\c@savedshorteditor=\count442
+\c@labelname=\count443
+\c@savedlabelname=\count444
+\c@institution=\count445
+\c@savedinstitution=\count446
+\c@lista=\count447
+\c@savedlista=\count448
+\c@listb=\count449
+\c@savedlistb=\count450
+\c@listc=\count451
+\c@savedlistc=\count452
+\c@listd=\count453
+\c@savedlistd=\count454
+\c@liste=\count455
+\c@savedliste=\count456
+\c@listf=\count457
+\c@savedlistf=\count458
+\c@location=\count459
+\c@savedlocation=\count460
+\c@organization=\count461
+\c@savedorganization=\count462
+\c@origlocation=\count463
+\c@savedoriglocation=\count464
+\c@origpublisher=\count465
+\c@savedorigpublisher=\count466
+\c@publisher=\count467
+\c@savedpublisher=\count468
+\c@language=\count469
+\c@savedlanguage=\count470
+\c@origlanguage=\count471
+\c@savedoriglanguage=\count472
+\c@pageref=\count473
+\c@savedpageref=\count474
+\shorthandwidth=\skip64
+\shortjournalwidth=\skip65
+\shortserieswidth=\skip66
+\shorttitlewidth=\skip67
+\shortauthorwidth=\skip68
+\shorteditorwidth=\skip69
+\locallabelnumberwidth=\skip70
+\locallabelalphawidth=\skip71
+\localshorthandwidth=\skip72
+\localshortjournalwidth=\skip73
+\localshortserieswidth=\skip74
+\localshorttitlewidth=\skip75
+\localshortauthorwidth=\skip76
+\localshorteditorwidth=\skip77
+Package biblatex Info: Trying to load enhanced support for Unicode engines...
+Package biblatex Info: ... file 'blx-unicode.def' found.
+
+(C:\Program Files\MiKTeX\tex/latex/biblatex\blx-unicode.def)
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(C:\Program Files\MiKTeX\tex/latex/biblatex\blx-compat.def
+File: blx-compat.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(C:\Program Files\MiKTeX\tex/latex/biblatex\biblatex.def
+File: biblatex.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
+\c@textcitecount=\count475
+\c@textcitetotal=\count476
+\c@textcitemaxnames=\count477
+\c@biburlbigbreakpenalty=\count478
+\c@biburlbreakpenalty=\count479
+\c@biburlnumpenalty=\count480
+\c@biburlucpenalty=\count481
+\c@biburllcpenalty=\count482
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count483
+)
+Package biblatex Info: Trying to load bibliography style 'numeric-verb'...
+Package biblatex Info: ... file 'numeric-verb.bbx' found.
+
+(C:\Program Files\MiKTeX\tex/latex/biblatex/bbx\numeric-verb.bbx
+File: numeric-verb.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(C:\Program Files\MiKTeX\tex/latex/biblatex/bbx\numeric.bbx
+File: numeric.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(C:\Program Files\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
+File: standard.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count484
+\c@bbx:relatedtotal=\count485
+)))
+Package biblatex Info: Trying to load citation style 'numeric-verb'...
+Package biblatex Info: ... file 'numeric-verb.cbx' found.
+
+(C:\Program Files\MiKTeX\tex/latex/biblatex/cbx\numeric-verb.cbx
+File: numeric-verb.cbx 2024/03/21 v3.20 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+Package biblatex Info: Redefining '\textcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(C:\Program Files\MiKTeX\tex/latex/biblatex\biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: XeTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Document encoding is UTF8 ....
+Package biblatex Info: ... and expl3
+(biblatex)             2024-03-14 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+
+(C:\Program Files\MiKTeX\tex/latex/biblatex\blx-case-expl3.sty
+Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
+))
+Package hyperref Info: Option `colorlinks' set `true' on input line 124.
+
+(C:\Program Files\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip78
+\f@nch@O@elh=\skip79
+\f@nch@O@erh=\skip80
+\f@nch@O@olh=\skip81
+\f@nch@O@orh=\skip82
+\f@nch@O@elf=\skip83
+\f@nch@O@erf=\skip84
+\f@nch@O@olf=\skip85
+\f@nch@O@orf=\skip86
+)
+(C:\Program Files\MiKTeX\tex/latex/titlesec\titlesec.sty
+Package: titlesec 2023/10/27 v2.16 Sectioning titles
+\ttl@box=\box71
+\beforetitleunit=\skip87
+\aftertitleunit=\skip88
+\ttl@plus=\dimen307
+\ttl@minus=\dimen308
+\ttl@toksa=\toks49
+\titlewidth=\dimen309
+\titlewidthlast=\dimen310
+\titlewidthfirst=\dimen311
+)
+(C:\Program Files\MiKTeX\tex/latex/koma-script\scrextend.sty
+Package: scrextend 2023/07/07 v3.41 KOMA-Script package (extend other classes w
+ith features of KOMA-Script classes)
+
+(C:\Program Files\MiKTeX\tex/latex/koma-script\scrkbase.sty
+Package: scrkbase 2023/07/07 v3.41 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+
+(C:\Program Files\MiKTeX\tex/latex/koma-script\scrbase.sty
+Package: scrbase 2023/07/07 v3.41 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+(C:\Program Files\MiKTeX\tex/latex/koma-script\scrlfile.sty
+Package: scrlfile 2023/07/07 v3.41 KOMA-Script package (file load hooks)
+
+(C:\Program Files\MiKTeX\tex/latex/koma-script\scrlfile-hook.sty
+Package: scrlfile-hook 2023/07/07 v3.41 KOMA-Script package (using LaTeX hooks)
+
+
+(C:\Program Files\MiKTeX\tex/latex/koma-script\scrlogo.sty
+Package: scrlogo 2023/07/07 v3.41 KOMA-Script package (logo)
+)))
+Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line
+ 368.
+))
+
+LaTeX Warning: Command \@footnotemark  has changed.
+               Check if current package is valid.
+
+) (C:\Program Files\MiKTeX\tex/latex/adjustbox\adjustbox.sty
+Package: adjustbox 2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
+
+(C:\Program Files\MiKTeX\tex/latex/adjustbox\adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(C:\Program Files\MiKTeX\tex/latex/adjustbox\trimclip.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+
+(C:\Program Files\MiKTeX\tex/latex/collectbox\collectbox.sty
+Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
+\collectedbox=\box72
+)
+\tc@llx=\dimen312
+\tc@lly=\dimen313
+\tc@urx=\dimen314
+\tc@ury=\dimen315
+Package trimclip Info: Using driver 'tc-xetex.def'.
+
+(C:\Program Files\MiKTeX\tex/latex/adjustbox\tc-xetex.def
+File: tc-xetex.def 2019/01/04 v2.2 Clipping driver for xetex
+))
+\adjbox@Width=\dimen316
+\adjbox@Height=\dimen317
+\adjbox@Depth=\dimen318
+\adjbox@Totalheight=\dimen319
+\adjbox@pwidth=\dimen320
+\adjbox@pheight=\dimen321
+\adjbox@pdepth=\dimen322
+\adjbox@ptotalheight=\dimen323
+
+(C:\Program Files\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count486
+)
+(C:\Program Files\MiKTeX\tex/latex/varwidth\varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box73
+\sift@deathcycles=\count487
+\@vwid@loff=\dimen324
+\@vwid@roff=\dimen325
+))
+(C:\Program Files\MiKTeX\tex/latex/ncctools\watermark.sty
+Package: watermark 2004/12/09 v1.1 Watermarks (NCC)
+)
+(C:\Program Files\MiKTeX\tex/latex/acronym\acronym.sty
+Package: acronym 2020/04/17 v1.47 Support for acronyms (Tobias Oetiker)
+
+(C:\Program Files\MiKTeX\tex/latex/bigfoot\suffix.sty
+Package: suffix 2006/07/15 1.5a Variant command support
+)
+\AC@clearlist=\toks50
+)
+(C:\Program Files\MiKTeX\tex/latex/graphics\dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+)
+
+Package fontspec Info: Font family 'Consolas(0)' created for font 'Consolas'
+(fontspec)             with options [].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"Consolas/OT:script=latn;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"Consolas/B/OT:script=latn;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"Consolas/I/OT:script=latn;language=dflt;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"Consolas/BI/OT:script=latn;language=dflt;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+)
+(C:\Program Files\MiKTeX\tex/latex/psnfss\pifont.sty
+Package: pifont 2020/03/25 PSNFSS-v9.3 Pi font support (SPQR) 
+LaTeX Font Info:    Trying to load font information for U+pzd on input line 63.
+
+
+(C:\Program Files\MiKTeX\tex/latex/psnfss\upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Trying to load font information for U+psy on input line 64.
+
+
+(C:\Program Files\MiKTeX\tex/latex/psnfss\upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+(C:\Program Files\MiKTeX\tex/latex/newunicodechar\newunicodechar.sty
+Package: newunicodechar 2018/04/08 v1.2 Defining Unicode characters
+)
+(C:\Program Files\MiKTeX\tex/latex/tools\array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen326
+\ar@mcellbox=\box74
+\extrarowheight=\dimen327
+\NC@list=\toks51
+\extratabsurround=\skip89
+\backup@length=\skip90
+\ar@cellbox=\box75
+)
+
+LaTeX Warning: Writing or overwriting file `main.xmpdata'.
+
+\openout15 = `main.xmpdata'.
+
+
+(C:\Program Files\MiKTeX\tex/latex/newpx\TeXGyrePagellaX.fontspec)
+
+Package fontspec Info: Font family 'TeXGyrePagellaX(0)' created for font
+(fontspec)             'TeXGyrePagellaX' with options [Ligatures=TeX,Extension
+(fontspec)             = .otf,UprightFont = TeXGyrePagellaX-Regular,BoldFont =
+(fontspec)             TeXGyrePagellaX-Bold,ItalicFont =
+(fontspec)             TeXGyrePagellaX-Italic,BoldItalicFont =
+(fontspec)             TeXGyrePagellaX-BoldItalic,SlantedFont =
+(fontspec)             TeXGyrePagellaX-Slanted,BoldSlantedFont =
+(fontspec)             TeXGyrePagellaX-BoldSlanted,Numbers =
+(fontspec)             {Monospaced,Lining}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[TeXGyrePagellaX-Regular.otf]/OT:script=latn;languag
+e=dflt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->"[TeXGyrePagellaX-Regular.otf]/OT:script=latn;languag
+e=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[TeXGyrePagellaX-Bold.otf]/OT:script=latn;language=d
+flt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"[TeXGyrePagellaX-Bold.otf]/OT:script=latn;language=d
+flt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"[TeXGyrePagellaX-Italic.otf]/OT:script=latn;language
+=dflt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"[TeXGyrePagellaX-Italic.otf]/OT:script=latn;language
+=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             - 'slanted' (m/sl) with NFSS spec.:
+(fontspec)             <->"[TeXGyrePagellaX-Slanted.otf]/OT:script=latn;languag
+e=dflt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'slanted small caps'  (m/scsl) with NFSS spec.:
+(fontspec)             <->"[TeXGyrePagellaX-Slanted.otf]/OT:script=latn;languag
+e=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"[TeXGyrePagellaX-BoldItalic.otf]/OT:script=latn;lang
+uage=dflt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->"[TeXGyrePagellaX-BoldItalic.otf]/OT:script=latn;lang
+uage=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold slanted' (b/sl) with NFSS spec.:
+(fontspec)             <->"[TeXGyrePagellaX-BoldSlanted.otf]/OT:script=latn;lan
+guage=dflt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'bold slanted small caps'  (b/scsl) with NFSS spec.:
+(fontspec)             <->"[TeXGyrePagellaX-BoldSlanted.otf]/OT:script=latn;lan
+guage=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
+
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+ (main.aux
+(chapters/01_introduction.aux) (chapters/02_background.aux)
+(chapters/03_context.aux) (chapters/04_related.aux)
+(chapters/05_system_architecture.aux) (chapters/06_use_case.aux)
+(chapters/07_evaluation.aux) (chapters/08_conclusions.aux))
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 39.
+LaTeX Font Info:    Trying to load font information for OML+npxmi on input line
+ 39.
+
+(C:\Program Files\MiKTeX\tex/latex/newpx\omlnpxmi.fd
+File: omlnpxmi.fd 2013/03/21 Fontinst v1.933 font definitions for OML/npxmi.
+)
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 3
+9.
+
+(C:\Program Files\MiKTeX\tex/latex/base\ts1cmr.fd
+File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/npxexa/m/n on input line 39.
+LaTeX Font Info:    Trying to load font information for U+npxexa on input line 
+39.
+
+(C:\Program Files\MiKTeX\tex/latex/newpx\unpxexa.fd
+File: unpxexa.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxexa.
+)
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for LMS/npxsy/m/n on input line 39.
+LaTeX Font Info:    Trying to load font information for LMS+npxsy on input line
+ 39.
+
+(C:\Program Files\MiKTeX\tex/latex/newpx\lmsnpxsy.fd
+File: lmsnpxsy.fd 2016/07/04 Fontinst v1.933 font definitions for LMS/npxsy.
+)
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for LMX/npxexx/m/n on input line 39.
+LaTeX Font Info:    Trying to load font information for LMX+npxexx on input lin
+e 39.
+
+(C:\Program Files\MiKTeX\tex/latex/newpx\lmxnpxexx.fd
+File: lmxnpxexx.fd 2016/07/04 Fontinst v1.933 font definitions for LMX/npxexx.
+)
+LaTeX Font Info:    ... okay on input line 39.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(71.70166pt, 418.25368pt, 107.55254pt)
+* v-part:(T,H,B)=(99.58464pt, 645.87756pt, 99.58464pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=418.25368pt
+* \textheight=645.87756pt
+* \oddsidemargin=-0.56833pt
+* \evensidemargin=35.28255pt
+* \topmargin=-49.46465pt
+* \headheight=56.9055pt
+* \headsep=19.8738pt
+* \topskip=12.0pt
+* \footskip=42.67912pt
+* \marginparwidth=88.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=28.45274pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package hyperref Info: Link coloring ON on input line 39.
+(main.out) (main.out)
+\@outlinefile=\write6
+\openout6 = `main.out'.
+
+LaTeX Info: Command `\dddot' is already robust on input line 39.
+LaTeX Info: Command `\ddddot' is already robust on input line 39.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: scrextend package is loaded.
+\caption@addmargin@hsize=\dimen328
+\caption@addmargin@linewidth=\dimen329
+Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count488
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(C:\Program Files\MiKTeX\tex/latex/biblatex/lbx\english.lbx
+File: english.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
+)
+Package biblatex Info: XeTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout5 = `main.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' found.
+ (main.bbl)
+Package biblatex Info: Reference section=0 on input line 39.
+Package biblatex Info: Reference segment=0 on input line 39.
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: xetex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includehead includefoot twoside 
+* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
+* v-part:(T,H,B)=(42.67912pt, 745.46222pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=483.69687pt
+* \textheight=583.32466pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-29.59087pt
+* \headheight=99.58464pt
+* \headsep=19.8738pt
+* \topskip=12.0pt
+* \footskip=42.67912pt
+* \marginparwidth=88.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=28.45274pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+File: res/unipdbg.pdf Graphic file (type pdf)
+<use res/unipdbg.pdf>
+File: res/ltunipd.pdf Graphic file (type pdf)
+<use res/ltunipd.pdf>
+File: res/dei.pdf Graphic file (type pdf)
+<use res/dei.pdf>
+
+[1
+
+
+] [2
+
+
+] (frontmatter/dedication.tex) [3
+
+] [4
+
+
+] (frontmatter/abstract.tex
+Package acronym Info: Label `acro:OBDA' newly defined as it shall be overridden
+
+although it is yet undefined on input line 3.
+)
+[5] [6
+
+
+] (frontmatter/sommario.tex) [7] [8
+
+
+] (main.toc
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 8
+.
+
+(C:\Program Files\MiKTeX\tex/latex/lm\ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for U+npxmia on input line 
+8.
+
+(C:\Program Files\MiKTeX\tex/latex/newpx\unpxmia.fd
+File: unpxmia.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxmia.
+)
+LaTeX Font Info:    Trying to load font information for U+npxsym on input line 
+8.
+
+(C:\Program Files\MiKTeX\tex/latex/newpx\unpxsym.fd
+File: unpxsym.fd 2023/08/16 Fontinst v1.933 font definitions for U/npxsym.
+)
+LaTeX Font Info:    Trying to load font information for U+npxsyc on input line 
+8.
+
+(C:\Program Files\MiKTeX\tex/latex/newpx\unpxsyc.fd
+File: unpxsyc.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxsyc.
+) [9] [10])
+\tf@toc=\write7
+\openout7 = `main.toc'.
+
+ [11] [12
+
+
+]
+(main.lof
+Package acronym Info: Label `acro:BRAINTEASER' newly defined as it shall be ove
+rridden
+although it is yet undefined on input line 12.
+
+Overfull \hbox (22.97441pt too wide) in paragraph at lines 12--12
+ \TU/TeXGyrePagellaX(0)/m/n/12 amyotrophic lateral sclerosis and multiple SclER
+osis ([])[] 
+ []
+
+Package acronym Info: Label `acro:CPU' newly defined as it shall be overridden
+although it is yet undefined on input line 18.
+Package acronym Info: Label `acro:RAM' newly defined as it shall be overridden
+although it is yet undefined on input line 18.
+
+Overfull \hbox (10.30638pt too wide) in paragraph at lines 18--18
+ [][] [][][][][][]\TU/TeXGyrePagellaX(0)/m/n/12 Central Processing Unit ([])[] 
+and [][][]Random Access Memory ([])[] 
+ []
+
+
+Overfull \hbox (9.0854pt too wide) in paragraph at lines 19--19
+ [][] [][][][][] \TU/TeXGyrePagellaX(0)/m/n/12 and [][] usage over time for Gra
+phDB (Ontop) during bench- 
+ []
+
+)
+\tf@lof=\write8
+\openout8 = `main.lof'.
+
+ [11
+
+
+] [12
+
+
+] (main.lot)
+\tf@lot=\write9
+\openout9 = `main.lot'.
+
+ [13
+
+
+] [14
+
+
+] (main.lol
+Package acronym Info: Label `acro:SPARQL' newly defined as it shall be overridd
+en
+although it is yet undefined on input line 1.
+
+Overfull \hbox (13.92442pt too wide) in paragraph at lines 1--1
+ [][] [][][]\TU/TeXGyrePagellaX(0)/m/n/12 Example of a [][][]SPARQL Protocol an
+d RDF Query Language ([])[] 
+ []
+
+Package acronym Info: Label `acro:ALSFRS' newly defined as it shall be overridd
+en
+although it is yet undefined on input line 7.
+
+Overfull \hbox (35.89844pt too wide) in paragraph at lines 7--7
+ \TU/TeXGyrePagellaX(0)/m/n/12 ing Scale ([])[] visits performed by patients ov
+er the [][] 
+ []
+
+Package acronym Info: Label `acro:SQL' newly defined as it shall be overridden
+although it is yet undefined on input line 8.
+Package acronym Info: Label `acro:JAR' newly defined as it shall be overridden
+although it is yet undefined on input line 9.
+
+Overfull \hbox (12.14943pt too wide) in paragraph at lines 9--9
+ [][] [][][]\TU/TeXGyrePagellaX(0)/m/n/12 BSBM generator script that invokes Ge
+nerator class and [][][]Java Archive 
+ []
+
+)
+\tf@lol=\write10
+\openout10 = `main.lol'.
+
+ [17
+
+
+] [18
+
+
+] (frontmatter/glossary.tex
+
+LaTeX Warning: Hyper reference `acro:STARQL' on page xix undefined on input lin
+e 17.
+
+
+LaTeX Warning: Hyper reference `acro:STARQL' on page xix undefined on input lin
+e 17.
+
+[19
+
+
+]
+Overfull \hbox (3.25734pt too wide) in paragraph at lines 30--31
+[][][]\TU/TeXGyrePagellaX(0)/m/n/12 BRinging Artificial INTelligencE home for a
+ better cAre of amy-
+ []
+
+) [20]
+\openout2 = `chapters/01_introduction.aux'.
+
+ (chapters/01_introduction.tex
+Chapter 1.
+Package acronym Info: Label `acro:HEREDITARY' newly defined as it shall be over
+ridden
+although it is yet undefined on input line 15.
+Package acronym Info: Label `acro:DBMS' newly defined as it shall be overridden
+
+although it is yet undefined on input line 16.
+) [1
+
+
+
+
+
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2]
+[3]
+\openout2 = `chapters/02_background.aux'.
+
+ (chapters/02_background.tex [4
+
+
+
+
+
+]
+Chapter 2.
+Package acronym Info: Label `acro:RDF' newly defined as it shall be overridden
+although it is yet undefined on input line 8.
+Package acronym Info: Label `acro:W3C' newly defined as it shall be overridden
+although it is yet undefined on input line 8.
+Package acronym Info: Label `acro:URI' newly defined as it shall be overridden
+although it is yet undefined on input line 12.
+[5]
+Package acronym Info: Label `acro:KG' newly defined as it shall be overridden
+although it is yet undefined on input line 17.
+Package acronym Info: Label `acro:OWL' newly defined as it shall be overridden
+although it is yet undefined on input line 28.
+ [6] [7]
+File: res/obda_framework.png Graphic file (type bmp)
+<res/obda_framework.png>
+ [8] [9]
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 75.
+ [10]
+Package acronym Info: Label `acro:API' newly defined as it shall be overridden
+although it is yet undefined on input line 112.
+
+Overfull \hbox (8.17438pt too wide) in paragraph at lines 114--115
+[]\TU/TeXGyrePagellaX(0)/m/n/12 Denodo provides robust security features, inclu
+ding hashing, encrypting func-
+ []
+
+
+Overfull \hbox (4.75037pt too wide) in paragraph at lines 116--117
+[]\TU/TeXGyrePagellaX(0)/m/n/12 Moreover, it utilizes advanced query optimizati
+on techniques, such as caching
+ []
+
+Package acronym Info: Label `acro:JDBC' newly defined as it shall be overridden
+
+although it is yet undefined on input line 121.
+Package acronym Info: Label `acro:ODBC' newly defined as it shall be overridden
+
+although it is yet undefined on input line 121.
+[11]
+Package acronym Info: Label `acro:FOSS' newly defined as it shall be overridden
+
+although it is yet undefined on input line 128.
+Package acronym Info: Label `acro:ARP' newly defined as it shall be overridden
+although it is yet undefined on input line 136.
+ [12]
+Underfull \hbox (badness 1127) in paragraph at lines 144--144
+[]|\TU/TeXGyrePagellaX(0)/b/n/12 Free and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--144
+\TU/TeXGyrePagellaX(0)/b/n/12 Open
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--144
+[]|\TU/TeXGyrePagellaX(0)/b/n/12 Well
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--144
+\TU/TeXGyrePagellaX(0)/b/n/12 Docu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--144
+[]|\TU/TeXGyrePagellaX(0)/b/n/12 Solid
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--144
+\TU/TeXGyrePagellaX(0)/b/n/12 Logging
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--144
+\TU/TeXGyrePagellaX(0)/b/n/12 Capabil-
+ []
+
+File: res/denodo.png Graphic file (type bmp)
+<res/denodo.png>
+File: res/teiid.png Graphic file (type bmp)
+<res/teiid.png>
+File: res/dremio.png Graphic file (type bmp)
+<res/dremio.png>
+
+Overfull \hbox (3.68475pt too wide) in paragraph at lines 142--149
+ [][] 
+ []
+
+File: res/data_integration.png Graphic file (type bmp)
+<res/data_integration.png>
+
+Underfull \hbox (badness 2261) in paragraph at lines 169--169
+[]|\TU/TeXGyrePagellaX(0)/m/n/12 Supports ontology reasoning; supports
+ []
+
+[13] [14] [15]) [16]
+\openout2 = `chapters/03_context.aux'.
+
+ (chapters/03_context.tex
+Chapter 3.
+[17
+
+
+
+
+
+]
+Package acronym Info: Label `acro:GDPR' newly defined as it shall be overridden
+
+although it is yet undefined on input line 16.
+
+Overfull \hbox (22.87434pt too wide) in paragraph at lines 16--17
+[]\TU/TeXGyrePagellaX(0)/m/n/12 Security and privacy compliance stands at the f
+undamentals of the [][]
+ []
+
+[18]
+Overfull \hbox (3.21437pt too wide) in paragraph at lines 22--23
+[][][]\TU/TeXGyrePagellaX(0)/m/n/12 ’s structure is inherently collaborative, i
+nvolving multiple lead-
+ []
+
+
+Overfull \hbox (2.661pt too wide) in paragraph at lines 22--23
+\TU/TeXGyrePagellaX(0)/m/n/12 ling healthcare challenges. The project encourage
+s continuous interaction among
+ []
+
+[19]
+Package acronym Info: Label `acro:WP' newly defined as it shall be overridden
+although it is yet undefined on input line 28.
+ [20]
+Package acronym Info: Label `acro:ALS' newly defined as it shall be overridden
+although it is yet undefined on input line 35.
+ [21])
+Overfull \hbox (3.13835pt too wide) in paragraph at lines 45--48
+[]\TU/TeXGyrePagellaX(0)/m/n/12 Complementing the genotypic data, the phenotypi
+c component includes vari-
+ []
+
+[22]
+\openout2 = `chapters/04_related.aux'.
+
+ (chapters/04_related.tex
+Chapter 4.
+
+Overfull \hbox (0.43034pt too wide) in paragraph at lines 6--7
+[]\TU/TeXGyrePagellaX(0)/m/n/12 Performing federated analytics tasks requires a
+ robust architecture composed
+ []
+
+Package acronym Info: Label `acro:OBDF' newly defined as it shall be overridden
+
+although it is yet undefined on input line 8.
+File: res/Drawing4.png Graphic file (type bmp)
+<res/Drawing4.png>
+
+Overfull \hbox (2.60233pt too wide) in paragraph at lines 20--24
+[]\TU/TeXGyrePagellaX(0)/m/n/12 As an example addressing research questions abo
+ut managing heterogeneous
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [23
+
+
+
+
+
+]
+[24]
+Overfull \hbox (1.99736pt too wide) in paragraph at lines 31--32
+[]\TU/TeXGyrePagellaX(0)/b/n/12 ExaStream\TU/TeXGyrePagellaX(0)/m/n/12 : A back
+end system optimized for low-latency queries, designed
+ []
+
+[25]) [26]
+\openout2 = `chapters/05_system_architecture.aux'.
+
+ (chapters/05_system_architecture.tex
+Chapter 5.
+File: res/Drawing1.png Graphic file (type bmp)
+<res/Drawing1.png>
+
+Overfull \hbox (8.53766pt too wide) in paragraph at lines 12--13
+ [][] 
+ []
+
+Package acronym Info: Label `acro:DL' newly defined as it shall be overridden
+although it is yet undefined on input line 18.
+[27
+
+
+
+
+
+]
+Package acronym Info: Label `acro:CSV' newly defined as it shall be overridden
+although it is yet undefined on input line 25.
+ [28] [29]
+Overfull \hbox (2.1464pt too wide) in paragraph at lines 49--54
+\TU/TeXGyrePagellaX(0)/m/n/12 plugin template[][][][][] consists of a Java Mave
+n project, that has to be compiled, packed
+ []
+
+[30] (C:\Program Files\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2024/03/11 1.10a listings language file
+) [31]
+Overfull \hbox (8.47835pt too wide) in paragraph at lines 111--113
+[]\TU/TeXGyrePagellaX(0)/m/n/12 With respect to the storage plugin configuratio
+n Java class [][]5.1[][], being Polypheny
+ []
+
+[32]
+Package acronym Info: Label `acro:JSON' newly defined as it shall be overridden
+
+although it is yet undefined on input line 115.
+Package acronym Info: Label `acro:VCF' newly defined as it shall be overridden
+although it is yet undefined on input line 115.
+Package acronym Info: Label `acro:NAS' newly defined as it shall be overridden
+although it is yet undefined on input line 115.
+Package acronym Info: Label `acro:LAN' newly defined as it shall be overridden
+although it is yet undefined on input line 115.
+Package acronym Info: Label `acro:SMB' newly defined as it shall be overridden
+although it is yet undefined on input line 116.
+ (C:\Program Files\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2024/03/11 1.10a listings language file
+)
+(C:\Program Files\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2024/03/11 1.10a listings language file
+)
+Package acronym Info: Label `acro:FUSE' newly defined as it shall be overridden
+
+although it is yet undefined on input line 127.
+ [33] [34]
+File: res/Drawing2.png Graphic file (type bmp)
+<res/Drawing2.png>
+
+Overfull \hbox (8.53766pt too wide) in paragraph at lines 154--155
+ [][] 
+ []
+
+[35]
+Package acronym Info: Label `acro:GUI' newly defined as it shall be overridden
+although it is yet undefined on input line 160.
+ [36] (C:\Program Files\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2024/03/11 1.10a listings language file
+) [37]
+File: res/brainteaser.png Graphic file (type bmp)
+<res/brainteaser.png>
+
+Overfull \hbox (8.53766pt too wide) in paragraph at lines 185--186
+ [][] 
+ []
+
+
+Overfull \hbox (0.85303pt too wide) in paragraph at lines 181--189
+[]\TU/TeXGyrePagellaX(0)/m/n/12 Represented in Fig. [][]5.3[][], the [][] Ontol
+ogy is specifically designed
+ []
+
+[38] [39]
+Package acronym Info: Label `acro:VKG' newly defined as it shall be overridden
+although it is yet undefined on input line 195.
+ [40] [41] [42])
+Overfull \hbox (27.86002pt too wide) in paragraph at lines 263--50
+\TU/TeXGyrePagellaX(0)/m/n/12 functionalities. GraphDB allows to manage simulta
+neously different graph databases,
+ []
+
+[43]
+\openout2 = `chapters/06_use_case.aux'.
+
+ (chapters/06_use_case.tex [44
+
+
+
+
+
+]
+Chapter 6.
+
+Overfull \hbox (6.77832pt too wide) in paragraph at lines 6--7
+[]\TU/TeXGyrePagellaX(0)/m/n/12 The proposed federated architecture in this the
+sis aims to run semantic queries
+ []
+
+
+Overfull \hbox (28.21034pt too wide) in paragraph at lines 9--14
+\TU/TeXGyrePagellaX(0)/m/n/12 designed to interlink and analyze clinical and re
+cording data from the [][]
+ []
+
+[45] [46] [47]
+File: res/Drawing5.png Graphic file (type bmp)
+<res/Drawing5.png>
+
+Overfull \hbox (8.53766pt too wide) in paragraph at lines 59--60
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [48]
+Underfull \vbox (badness 2990) has occurred while \output is active []
+
+ [49]
+Underfull \vbox (badness 1231) has occurred while \output is active []
+
+ [50]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [51]
+[52]) [53]
+\openout2 = `chapters/07_evaluation.aux'.
+
+ (chapters/07_evaluation.tex [54
+
+
+
+
+
+]
+Chapter 7.
+
+Overfull \hbox (0.67035pt too wide) in paragraph at lines 6--10
+[]\TU/TeXGyrePagellaX(0)/m/n/12 Following the comprehensive exploration of our 
+federated data architecture’s
+ []
+
+[55]
+Package acronym Info: Label `acro:BSBM' newly defined as it shall be overridden
+
+although it is yet undefined on input line 14.
+
+Overfull \hbox (9.26538pt too wide) in paragraph at lines 14--16
+\TU/TeXGyrePagellaX(0)/m/n/12 with [][]-to-SQL rewriters, which translate [][] 
+queries into [][] queries
+ []
+
+[56]
+Package acronym Info: Label `acro:SEASHELL' newly defined as it shall be overri
+dden
+although it is yet undefined on input line 26.
+ [57]
+Package acronym Info: Label `acro:IT' newly defined as it shall be overridden
+although it is yet undefined on input line 30.
+Package acronym Info: Label `acro:EHR' newly defined as it shall be overridden
+although it is yet undefined on input line 30.
+
+Overfull \hbox (3.41032pt too wide) in paragraph at lines 30--31
+[]\TU/TeXGyrePagellaX(0)/m/n/12 The [][] benchmark introduces a comprehensive f
+ramework designed
+ []
+
+
+Overfull \hbox (7.65434pt too wide) in paragraph at lines 32--33
+[]\TU/TeXGyrePagellaX(0)/m/n/12 As outlined previously, [][] comprises on non-m
+achine-learning tasks,
+ []
+
+
+Overfull \hbox (7.64902pt too wide) in paragraph at lines 32--33
+\TU/TeXGyrePagellaX(0)/m/n/12 which are particularly interesting for what conce
+rns benchmarking [][]s. These
+ []
+
+[58]
+Overfull \hbox (1.95833pt too wide) in paragraph at lines 36--37
+[]\TU/TeXGyrePagellaX(0)/m/n/12 Resource Utilization: Measuring the computation
+al and memory resources
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[59]
+Overfull \hbox (6.55833pt too wide) in paragraph at lines 69--72
+[]\TU/TeXGyrePagellaX(0)/m/n/12 As underlined before, the [][] framework aims t
+o provide tools and method-
+ []
+
+
+Overfull \hbox (0.7824pt too wide) in paragraph at lines 69--72
+\TU/TeXGyrePagellaX(0)/m/n/12 toolkit[][][][][], provided and maintained by the
+ Free University of Berlin, is open source
+ []
+
+[60]
+Overfull \hbox (44.35603pt too wide) in paragraph at lines 82--82
+[][]\TU/TeXGyrePagellaX(0)/m/n/10 https://github.com/mchaloupka/bsbm-r2rml/blob
+/develop/src/main/dist/rdb2rdf/mapping.ttl| 
+ []
+
+[61]
+File: res/benchmark-setup.png Graphic file (type bmp)
+<res/benchmark-setup.png>
+
+Overfull \hbox (36.9904pt too wide) in paragraph at lines 115--116
+ [][] 
+ []
+
+
+Underfull \vbox (badness 3281) has occurred while \output is active []
+
+ [62]
+File: res/query_execution_time.png Graphic file (type bmp)
+<res/query_execution_time.png>
+File: res/query_throughput.png Graphic file (type bmp)
+<res/query_throughput.png>
+
+Overfull \hbox (8.53766pt too wide) in paragraph at lines 131--133
+[][]
+ []
+
+
+Overfull \hbox (8.53766pt too wide) in paragraph at lines 131--133
+[] 
+ []
+
+
+Overfull \hbox (0.77289pt too wide) in paragraph at lines 138--138
+|[]\TU/TeXGyrePagellaX(0)/m/sc/17.28 Architecture Performance Benchmarking over
+
+ []
+
+[63]
+Overfull \vbox (2.0657pt too high) has occurred while \output is active []
+
+
+[64]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [65]
+File: res/Dremio_usage_plot.png Graphic file (type bmp)
+<res/Dremio_usage_plot.png>
+File: res/GraphDB (Ontop)_usage_plot.png Graphic file (type bmp)
+<res/GraphDB (Ontop)_usage_plot.png>
+
+[66]
+
+LaTeX Warning: Text page 67 contains only floats.
+
+
+Overfull \vbox (3.71927pt too high) has occurred while \output is active []
+
+
+[67]) [68]
+\openout2 = `chapters/08_conclusions.aux'.
+
+ (chapters/08_conclusions.tex
+Chapter 8.
+)
+Overfull \hbox (6.94637pt too wide) in paragraph at lines 6--53
+\TU/TeXGyrePagellaX(0)/m/n/12 The implementation of this system within the cont
+ext of the [][] project
+ []
+
+[69
+
+
+
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [70]
+[71] [72
+
+
+
+
+]
+Overfull \hbox (13.36032pt too wide) in paragraph at lines 56--56
+[]\TU/TeXGyrePagellaX(0)/m/n/12 Dave Beckett and Brian McBride. “  RDF/XML synt
+ax specification (revised)”.
+ []
+
+
+Overfull \hbox (13.20532pt too wide) in paragraph at lines 56--56
+\TU/TeXGyrePagellaX(0)/m/it/12 Italy, November 20-23, 2018, Proceedings\TU/TeXG
+yrePagellaX(0)/m/n/12 . Ed. by Chiara Ghidini et al. Vol. 11298.
+ []
+
+[73
+
+
+]
+Overfull \hbox (5.31314pt too wide) in paragraph at lines 56--56
+\TU/TeXGyrePagellaX(0)/m/n/12 Healthcare Domain”. In: \TU/TeXGyrePagellaX(0)/m/
+it/12 Entropy \TU/TeXGyrePagellaX(0)/m/n/12 19.1 (2017), p. 30. \TU/TeXGyrePage
+llaX(0)/m/sc/12 doi\TU/TeXGyrePagellaX(0)/m/n/12 : [][]$[][] [] [][][][] [] [][
+][][][][][][][]$[][].
+ []
+
+[74]
+Overfull \hbox (1.0413pt too wide) in paragraph at lines 56--56
+[]\TU/TeXGyrePagellaX(0)/m/n/12 Zhenzhen Gu et al. “  OBDF: OBDA + Data Federat
+ion - Extended Abstract”.
+ []
+
+
+Overfull \hbox (8.44122pt too wide) in paragraph at lines 56--56
+\TU/TeXGyrePagellaX(0)/m/n/12 (FP7) of the European Union (2007-2013)”. In: \TU
+/TeXGyrePagellaX(0)/m/it/12 Int. J. Technol. Manag. \TU/TeXGyrePagellaX(0)/m/n/
+12 47.1/2/3
+ []
+
+[75]
+Overfull \hbox (3.32033pt too wide) in paragraph at lines 56--56
+[]\TU/TeXGyrePagellaX(0)/m/n/12 Tommaso Dolci et al. “  Tools for Healthcare Da
+ta Lake Infrastructure Bench-
+ []
+
+[76]
+! Undefined control sequence.
+\backmatter ...owledgmentsname } \acknowledgments 
+                                                  
+l.56     \backmatter
+                    
+? 
+(main.aux (chapters/01_introduction.aux) (chapters/02_background.aux)
+(chapters/03_context.aux) (chapters/04_related.aux)
+(chapters/05_system_architecture.aux) (chapters/06_use_case.aux)
+(chapters/07_evaluation.aux) (chapters/08_conclusions.aux))
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2020/03/25>
+ ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 3257AAB7406CAB6BFD663CC1C019A703;4921.
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 48764 strings out of 409555
+ 920922 string characters out of 5776261
+ 2168148 words of memory out of 5000000
+ 70147 multiletter control sequences out of 15000+600000
+ 598061 words of font info for 132 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 123i,15n,131p,1588b,6838s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on main.pdf (96 pages).
