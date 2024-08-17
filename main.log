@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.3.31) (preloaded format=xelatex 2024.7.9)  13 AUG 2024 17:20
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.3.31) (preloaded format=xelatex 2024.7.9)  17 AUG 2024 11:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2338,26 +2338,85 @@ ax specification (revised)”.
  []
 
 
-Overfull \hbox (13.20532pt too wide) in paragraph at lines 56--56
-\TU/TeXGyrePagellaX(0)/m/it/12 Italy, November 20-23, 2018, Proceedings\TU/TeXG
-yrePagellaX(0)/m/n/12 . Ed. by Chiara Ghidini et al. Vol. 11298.
+Overfull \hbox (0.65031pt too wide) in paragraph at lines 56--56
+\TU/TeXGyrePagellaX(0)/m/n/12 Antonella Poggi, Riccardo Rosati, and Michael Zak
+haryaschev. “  Ontology-
+ []
+
+
+Overfull \hbox (10.17537pt too wide) in paragraph at lines 56--56
+\TU/TeXGyrePagellaX(0)/m/it/12 Conference of the Italian Association for Artifi
+cial Intelligence, Trento, Italy, Novem-
  []
 
 [73
 
 
 ]
-Overfull \hbox (5.31314pt too wide) in paragraph at lines 56--56
-\TU/TeXGyrePagellaX(0)/m/n/12 Healthcare Domain”. In: \TU/TeXGyrePagellaX(0)/m/
-it/12 Entropy \TU/TeXGyrePagellaX(0)/m/n/12 19.1 (2017), p. 30. \TU/TeXGyrePage
-llaX(0)/m/sc/12 doi\TU/TeXGyrePagellaX(0)/m/n/12 : [][]$[][] [] [][][][] [] [][
-][][][][][][][]$[][].
+Overfull \hbox (64.53136pt too wide) in paragraph at lines 56--56
+[]\TU/TeXGyrePagellaX(0)/m/n/12 Konstantinos Makris, Nektarios Gioldasis, Nikos
+ Bikakis, and Stavros Christodoulakis.
+ []
+
+
+Overfull \hbox (47.08337pt too wide) in paragraph at lines 56--56
+[]\TU/TeXGyrePagellaX(0)/m/n/12 Evgeny Kharlamov, Nina Solomakhina, Özgür Lütfü
+ Özçep, Dmitriy Zheleznyakov,
+ []
+
+
+Overfull \hbox (8.17934pt too wide) in paragraph at lines 56--56
+[]\TU/TeXGyrePagellaX(0)/m/n/12 Diego Calvanese, Giuseppe De Giacomo, Domenico 
+Lembo, Maurizio Lenz-
  []
 
 [74]
-Overfull \hbox (1.0413pt too wide) in paragraph at lines 56--56
-[]\TU/TeXGyrePagellaX(0)/m/n/12 Zhenzhen Gu et al. “  OBDF: OBDA + Data Federat
-ion - Extended Abstract”.
+Overfull \hbox (1.59134pt too wide) in paragraph at lines 56--56
+[]\TU/TeXGyrePagellaX(0)/m/n/12 Diego Calvanese, Benjamin Cogrel, Elem Guzel Ka
+layci, Sarah Komla-Ebri,
+ []
+
+
+Overfull \hbox (2.71133pt too wide) in paragraph at lines 56--56
+\TU/TeXGyrePagellaX(0)/m/n/12 Roman Kontchakov, Davide Lanti, Martin Rezk, Mari
+ano Rodriguez-Muro,
+ []
+
+
+Overfull \hbox (11.44333pt too wide) in paragraph at lines 56--56
+[]\TU/TeXGyrePagellaX(0)/m/n/12 Simon D. Harding, Jane F. Armstrong, Elena Facc
+enda, Christopher Southan,
+ []
+
+
+Overfull \hbox (8.88739pt too wide) in paragraph at lines 56--56
+[]\TU/TeXGyrePagellaX(0)/m/n/12 Janet Piñero González, Àlex Bravo, Núria Queral
+t-Rosinach, Alba Gutiérrez-
+ []
+
+
+Overfull \hbox (3.64436pt too wide) in paragraph at lines 56--56
+\TU/TeXGyrePagellaX(0)/m/n/12 Chuqiao Gong, Chuan Deng, Thawfeek M. Varusai, El
+iot Ragueneau, Yusra
+ []
+
+
+Overfull \hbox (0.52531pt too wide) in paragraph at lines 56--56
+\TU/TeXGyrePagellaX(0)/m/n/12 ming Wu, Lincoln Stein, Henning Hermjakob, and Pe
+ter D’Eustachio. “  The
+ []
+
+
+Overfull \hbox (4.81927pt too wide) in paragraph at lines 56--56
+\TU/TeXGyrePagellaX(0)/m/n/12 reactome pathway knowledgebase 2022”. In: \TU/TeX
+GyrePagellaX(0)/m/it/12 Nucleic Acids Res. \TU/TeXGyrePagellaX(0)/m/n/12 50.D1 
+(2022),
+ []
+
+[75]
+Overfull \hbox (3.73836pt too wide) in paragraph at lines 56--56
+\TU/TeXGyrePagellaX(0)/m/n/12 Haynes, Jeremy Kepner, Samuel Madden, Tim Mattson
+, and Michael Stone-
  []
 
 
@@ -2367,20 +2426,31 @@ Overfull \hbox (8.44122pt too wide) in paragraph at lines 56--56
 12 47.1/2/3
  []
 
-[75]
-Overfull \hbox (3.32033pt too wide) in paragraph at lines 56--56
-[]\TU/TeXGyrePagellaX(0)/m/n/12 Tommaso Dolci et al. “  Tools for Healthcare Da
-ta Lake Infrastructure Bench-
+[76]
+Overfull \hbox (3.93631pt too wide) in paragraph at lines 56--56
+\TU/TeXGyrePagellaX(0)/m/n/12 Nicola Ferro. “  An Extensible and Unifying Appro
+ach to Retrospective Clin-
  []
 
-[76]
-! Undefined control sequence.
-\backmatter ...owledgmentsname } \acknowledgments 
-                                                  
-l.56     \backmatter
-                    
-? 
-(main.aux (chapters/01_introduction.aux) (chapters/02_background.aux)
+
+Overfull \hbox (4.0024pt too wide) in paragraph at lines 56--56
+[]\TU/TeXGyrePagellaX(0)/m/n/12 Tommaso Dolci, Lorenzo Amata, Carlo Manco, Fabi
+o Azzalini, Marco Grib-
+ []
+
+[77] [78
+
+
+] (frontmatter/thanks.tex
+Overfull \hbox (6.14232pt too wide) in paragraph at lines 3--4
+[]\TU/TeXGyrePagellaX(0)/m/n/12 Ci tengo innanzitutto a ringraziare genitori e 
+parenti tutti per avermi sostenuto
+ []
+
+) [79
+
+
+] (main.aux (chapters/01_introduction.aux) (chapters/02_background.aux)
 (chapters/03_context.aux) (chapters/04_related.aux)
 (chapters/05_system_architecture.aux) (chapters/06_use_case.aux)
 (chapters/07_evaluation.aux) (chapters/08_conclusions.aux))
@@ -2393,21 +2463,24 @@ L3 programming layer <2020/03/25>
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3257AAB7406CAB6BFD663CC1C019A703;4921.
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 3257AAB7406CAB6BFD663CC1C019A703;4921
+(rerunfilecheck)             After:  F13263542A86076329C9DF1E9309FFBF;4974.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48764 strings out of 409555
- 920922 string characters out of 5776261
+ 48775 strings out of 409555
+ 921306 string characters out of 5776261
  2168148 words of memory out of 5000000
- 70147 multiletter control sequences out of 15000+600000
+ 70156 multiletter control sequences out of 15000+600000
  598061 words of font info for 132 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 123i,15n,131p,1588b,6838s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 123i,15n,131p,1588b,6836s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (96 pages).
+Output written on main.pdf (99 pages).

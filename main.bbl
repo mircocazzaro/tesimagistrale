@@ -1672,6 +1672,88 @@
       \verb https://doi.org/10.1109/BigData.2018.8622353
       \endverb
     \endentry
+    \entry{Faggioli2024BrainTeaser}{article}{}{}
+      \name{author}{12}{}{%
+        {{hash=6c75bc5bd17753cabc39e84bc46af43a}{%
+           family={Faggioli},
+           familyi={F\bibinitperiod},
+           given={Guglielmo},
+           giveni={G\bibinitperiod}}}%
+        {{hash=a82a5347a98d928fe9602fbbcfc7b841}{%
+           family={Menotti},
+           familyi={M\bibinitperiod},
+           given={Laura},
+           giveni={L\bibinitperiod}}}%
+        {{hash=3a3255c23589457fdc226381755e98ab}{%
+           family={Marchesin},
+           familyi={M\bibinitperiod},
+           given={Stefano},
+           giveni={S\bibinitperiod}}}%
+        {{hash=28237cab4720e8c616b4a6e3b37d1da9}{%
+           family={Chiò},
+           familyi={C\bibinitperiod},
+           given={Adriano},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b9ae594994ad1491acc09434958622ff}{%
+           family={Dagliati},
+           familyi={D\bibinitperiod},
+           given={Arianna},
+           giveni={A\bibinitperiod}}}%
+        {{hash=aadbb6140b5a7e0e20bd4255f38a6c97}{%
+           family={Carvalho},
+           familyi={C\bibinitperiod},
+           given={Mamede},
+           giveni={M\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=9a2b83048178c6f21c3dd0198028dea6}{%
+           family={Gromicho},
+           familyi={G\bibinitperiod},
+           given={Marta},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2932a488732a7ff14c7730a928553ef2}{%
+           family={Manera},
+           familyi={M\bibinitperiod},
+           given={Umberto},
+           giveni={U\bibinitperiod}}}%
+        {{hash=f24d9e9d79c6ce0107d4175b35204f89}{%
+           family={Tavazzi},
+           familyi={T\bibinitperiod},
+           given={Eleonora},
+           giveni={E\bibinitperiod}}}%
+        {{hash=4ed942c8af5206ca7a5f330a3719735d}{%
+           family={Di\bibnamedelima Nunzio},
+           familyi={D\bibinitperiod\bibinitdelim N\bibinitperiod},
+           given={Giorgio\bibnamedelima Maria},
+           giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=07ba092df73e59c7b57619e719e881a6}{%
+           family={Silvello},
+           familyi={S\bibinitperiod},
+           given={Gianmaria},
+           giveni={G\bibinitperiod}}}%
+        {{hash=52c462084e21b52fe75572619ed4da7b}{%
+           family={Ferro},
+           familyi={F\bibinitperiod},
+           given={Nicola},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{7df27540954d5c8c75e8fa7aa18aa233}
+      \strng{fullhash}{17da93d82b4beccd4791969a93b0f763}
+      \strng{fullhashraw}{17da93d82b4beccd4791969a93b0f763}
+      \strng{bibnamehash}{7df27540954d5c8c75e8fa7aa18aa233}
+      \strng{authorbibnamehash}{7df27540954d5c8c75e8fa7aa18aa233}
+      \strng{authornamehash}{7df27540954d5c8c75e8fa7aa18aa233}
+      \strng{authorfullhash}{17da93d82b4beccd4791969a93b0f763}
+      \strng{authorfullhashraw}{17da93d82b4beccd4791969a93b0f763}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Biomedical Semantics}
+      \field{note}{Accepted for publication}
+      \field{title}{An Extensible and Unifying Approach to Retrospective Clinical Data Modeling: The BrainTeaser Ontology}
+      \field{year}{2024}
+    \endentry
     \entry{DBLP:journals/ijswis/BizerS09}{article}{}{}
       \name{author}{2}{}{%
         {{hash=c0ab52e226557a243a4a5277aec8acdc}{%

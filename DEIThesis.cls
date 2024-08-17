@@ -82,7 +82,7 @@
 
 % references
 \RequirePackage[autostyle]{csquotes}
-\usepackage[backend=biber, style=numeric-verb, sorting=none]{biblatex}
+\usepackage[backend=biber, style=numeric-verb, sorting=none, maxnames=99]{biblatex}
 \addbibresource{references.bib}
 
 
@@ -484,11 +484,11 @@
 
 
 % -- ACKNOWLEDGMENTS --
-%\newcommand{\acknowledgments} {
-%  \phantomsection
-%  \chapter*{\acknowledgmentsname}
-%  \input{frontmatter/thanks}
-%}
+\newcommand{\acknowledgments} {
+  \phantomsection
+  \chapter*{\acknowledgmentsname}
+  \input{frontmatter/thanks}
+}
 
 
 % -- CODE SNIPPETS --
