@@ -20,7 +20,7 @@ The query mix used in \ac{BSBM} simulates the search and navigation patterns of 
 BSBM's implementation includes a test driver and a data generator, which together facilitate the execution of the benchmark across different systems. The test driver manages the execution of \ac{SPARQL} queries over a network, simulating multiple clients, and measures the system's performance based on queries per second and average query execution time.
 The data generator outputs the data in both \ac{RDF} and relational formats, allowing for a direct comparison of \ac{RDF} stores and relational databases using \ac{SPARQL}-to-SQL translation techniques.
 \subsubsection{Contributions and Impact of BSBM}
-\ac{BSBM} has significantly contributed to the field by providing a robust framework for evaluating \ac{RDF} data management systems in terms of \ac{SPARQL} query performance and also standard relational \ac{DBMS}s in terms of \ac{SQL} query performances, becoming undoubtedly the state of the art for benchmarking \ac{DBMS}s. By applying \ac{BSBM} across various systems, it has revealed strengths and weaknesses in existing implementations, guiding improvements in \ac{RDF} store and \ac{SPARQL}-to-SQL rewriter technologies. Moreover, \ac{BSBM} assists application developers in selecting appropriate storage systems based on performance metrics critical to their specific requirements.
+\ac{BSBM} has significantly contributed to the field by providing a robust framework for evaluating \ac{RDF} data management systems in terms of \ac{SPARQL} query performance and also standard relational \ac{DBMS}s in terms of \ac{SQL} query performances, becoming undoubtedly the state of the art for benchmarking \ac{DBMS}s \cite{DBLP:conf/semweb/LantiXC16}. By applying \ac{BSBM} across various systems, it has revealed strengths and weaknesses in existing implementations, guiding improvements in \ac{RDF} store and \ac{SPARQL}-to-SQL rewriter technologies. Moreover, \ac{BSBM} assists application developers in selecting appropriate storage systems based on performance metrics critical to their specific requirements.
 
 \subsection{SEASHELL Benchmark for Healthcare Data Lakes} \label{chp:dolci}
 In the rapidly evolving domain of healthcare informatics, the creation of a specialized benchmarking framework such as \ac{SEASHELL} was necessary \cite{dolci2024tools}. This benchmark addresses the pressing need to evaluate healthcare data lake infrastructures comprehensively, ensuring they are optimally configured to handle the complexities of modern medical data. As healthcare organizations increasingly rely on data-driven insights to improve patient outcomes and operational efficiencies, the ability to effectively manage and analyze vast arrays of medical data becomes crucial.
@@ -31,9 +31,9 @@ The \ac{SEASHELL} benchmark introduces a comprehensive framework designed to tes
 \subsubsection{Overview of Non-Machine-Learning Tasks in SEASHELL}
 As outlined previously, \ac{SEASHELL} comprises on non-machine-learning tasks, which are particularly interesting for what concerns benchmarking \ac{DBMS}s. These tasks involve:
 \begin{itemize}
-	\item Data Retrieval and Querying: Testing the efficiency and speed of basic data retrieval operations, which are foundational for any data-driven healthcare system. This includes executing complex \ac{SQL} queries across large datasets to simulate the retrieval of patient information, treatment outcomes, and other critical data in real time;
-	\item Data Processing and Transformation: Evaluating the data lake's capability to perform necessary data transformations, such as normalizing diverse data sets from various sources (like labs and medical devices) into a unified format that can be easily analyzed and stored.
-	\item Resource Utilization: Measuring the computational and memory resources utilized during these operations to assess the cost-effectiveness of data lake architectures in a healthcare setting.
+	\item \textbf{Data Retrieval and Querying}: Testing the efficiency and speed of basic data retrieval operations, which are foundational for any data-driven healthcare system. This includes executing complex \ac{SQL} queries across large datasets to simulate the retrieval of patient information, treatment outcomes, and other critical data in real time;
+	\item \textbf{Data Processing and Transformation}: Evaluating the data lake's capability to perform necessary data transformations, such as normalizing diverse data sets from various sources (like labs and medical devices) into a unified format that can be easily analyzed and stored.
+	\item \textbf{Resource Utilization}: Measuring the computational and memory resources utilized during these operations to assess the cost-effectiveness of data lake architectures in a healthcare setting.
 \end{itemize}
 \subsubsection{Contributions and Impact of SEASHELL}
 SEASHELL is a comprehensive benchmark framework that not only tests the performance of healthcare data lakes but also guides the optimization and scaling of these critical infrastructures. It is a fundamental tool for gathering detailed insights into both machine-learning and non-machine-learning capabilities, and it helps ensure that healthcare data lakes are not only capable of advanced data analysis but are also efficient and reliable for everyday medical data processing.
@@ -123,19 +123,19 @@ We ran the TestDriver with the following parameters:
     $ java -cp bin:lib/* benchmark.testdriver.TestDriver -runs 32 -w 4 -mt 4 -t 30000 http://localhost:7200/repositories/BSBM
 \end{lstlisting}
 For each query (12 in total), we ran them 32 times with 4 concurrent processes submitting queries. We excluded the first 4 queries from the measurements as a warm-up phase to eliminate any potential noise from caching mechanisms. Moreover, we set a timeout of 30 seconds for each query.
-
+\\
+\begin{figure}[!ht]
+\includegraphics[width=16.5cm]{res/query_execution_time.png}
+\\
+\includegraphics[width=16.5cm]{res/query_throughput.png}
+\caption{BSBM Benchmark Results}
+\label{fig:bsbmbenchmarkresults}
+\end{figure}
+\\
 The first notable observation from results in Fig. \ref{fig:bsbmbenchmarkresults} is that the plots are complementary: this is expectable, as a one of the main causes for a low query rate can be for sure an high response time.
 We can observe how Query 3 and Query 11 are performing poorly with respect to the others. As we will see in next section with other benchmarks, where we will compare resource consumption between Dremio and Ontop hosted in GraphDB, the component that usually is more resource-demanding and consuming is the virtualization system Dremio. This implies that an eventual bottleneck has to be caused at this level. By inspecting Queries 3 and 11, we can see how these two make use of extensive joins among tables that in our set up belongs to different sources as well as nested queries. This translates to a possible weakness of the proposed architecture while dealing with these case study, but that can surely be investigated and strengthen in future.
 In general, our architecture was able, on average, to perform 15 queries per seconds from 4 concurrent processes acting as independent users. This represent a huge milestone, considering it is an embryonic study.
-\\
-\begin{figure}[!ht]
-    \includegraphics[width=16cm]{res/query_execution_time.png}
-    \\
-    \includegraphics[width=16cm]{res/query_throughput.png}
-    \caption{BSBM Benchmark Results}
-    \label{fig:bsbmbenchmarkresults}
-\end{figure}
-\\
+
 
 \section{Architecture Performance Benchmarking over Clinical Data}
 In alignment with the methodologies presented in Section \ref{chp:dolci}, we conducted an extensive evaluation of our healthcare data architecture using our available clinical data. This benchmarking initiative was critical to validate the architecture's operational efficacy, specifically targeting its ability to handle real-world healthcare analytics tasks efficiently.
@@ -195,8 +195,6 @@ while true; do
 done
 \end{lstlisting}
 
-The benchmarking trials were designed to assess the architecture's performance by running the same analytical query we considered for the use case analysis in Chapter \ref{chp:usecase} that simulate typical data processing tasks encountered in clinical settings. During these tests, our monitoring script provided continuous feedback on system performance, enabling a comprehensive analysis of \ac{CPU} and \ac{RAM} usage across different operational states.
-Illustrated in Figures \ref{fig:bench_Dremio} and \ref{fig:bench_GraphDB}, the system's response to the execution of computationally intensive queries reveals significant insights into its dynamic resource allocation and management capabilities.
 \begin{figure}[!ht] 
     \centering 
     \includegraphics[width=11.6cm]{res/Dremio_usage_plot.png} 
@@ -209,6 +207,9 @@ Illustrated in Figures \ref{fig:bench_Dremio} and \ref{fig:bench_GraphDB}, the s
     \caption{\ac{CPU} and \ac{RAM} usage over time for GraphDB (Ontop) during benchmarking} 
     \label{fig:bench_GraphDB}
 \end{figure}
+
+The benchmarking trials were designed to assess the architecture's performance by running the same analytical query we considered for the use case analysis in Chapter \ref{chp:usecase} that simulate typical data processing tasks encountered in clinical settings. During these tests, our monitoring script provided continuous feedback on system performance, enabling a comprehensive analysis of \ac{CPU} and \ac{RAM} usage across different operational states.
+Illustrated in Figures \ref{fig:bench_Dremio} and \ref{fig:bench_GraphDB}, the system's response to the execution of computationally intensive queries reveals significant insights into its dynamic resource allocation and management capabilities.
 We analyzed the output from the two monitoring daemons, synchronizing samples at the moment the query was submitted by inspecting the query logs in Dremio. This allowed us to generate superimposable plots for independent analysis of \ac{CPU} load and variations in \ac{RAM} usage.
 Notably, the trends for both \ac{CPU} and \ac{RAM} usage appear almost flat in GraphDB, except for a spike nearly coinciding with the completion of query execution. In contrast, Dremio exhibits non-negligible resource consumption throughout the entire duration of the query execution, with spikes occurring both at the beginning and the end of the process.
 These phenomena may be explained by the fact that, upon submission, query execution in GraphDB does not initially involve resource-intensive activities, whereas in Dremio, it is necessary to exploit the views structure of the submitted query to begin fetching data from various sources. The spikes at the end are likely related to the combination of results from these sources and the activities involved in presenting the data to the user.

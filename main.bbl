@@ -2324,6 +2324,67 @@
       \verb https://doi.org/10.4018/jswis.2009040101
       \endverb
     \endentry
+    \entry{DBLP:conf/semweb/LantiXC16}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=20ae31e70443bed9a5c200cdc739a4ee}{%
+           family={Lanti},
+           familyi={L\bibinitperiod},
+           given={Davide},
+           giveni={D\bibinitperiod}}}%
+        {{hash=c91b43c09c064281a9c67a52c0948fb8}{%
+           family={Xiao},
+           familyi={X\bibinitperiod},
+           given={Guohui},
+           giveni={G\bibinitperiod}}}%
+        {{hash=391528581dff96ccc48b055940229162}{%
+           family={Calvanese},
+           familyi={C\bibinitperiod},
+           given={Diego},
+           giveni={D\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=a94ca8c3acd0a96cd0a8e7d8178f9892}{%
+           family={Kawamura},
+           familyi={K\bibinitperiod},
+           given={Takahiro},
+           giveni={T\bibinitperiod}}}%
+        {{hash=4fd4dfc5ed27cd65c69fa6d692f4c161}{%
+           family={Paulheim},
+           familyi={P\bibinitperiod},
+           given={Heiko},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {CEUR-WS.org}%
+      }
+      \strng{namehash}{a24fa0b1026a85d8eb7b337642ef73af}
+      \strng{fullhash}{a24fa0b1026a85d8eb7b337642ef73af}
+      \strng{fullhashraw}{a24fa0b1026a85d8eb7b337642ef73af}
+      \strng{bibnamehash}{a24fa0b1026a85d8eb7b337642ef73af}
+      \strng{authorbibnamehash}{a24fa0b1026a85d8eb7b337642ef73af}
+      \strng{authornamehash}{a24fa0b1026a85d8eb7b337642ef73af}
+      \strng{authorfullhash}{a24fa0b1026a85d8eb7b337642ef73af}
+      \strng{authorfullhashraw}{a24fa0b1026a85d8eb7b337642ef73af}
+      \strng{editorbibnamehash}{f70eee4fe05750b6b14221e88e608a74}
+      \strng{editornamehash}{f70eee4fe05750b6b14221e88e608a74}
+      \strng{editorfullhash}{f70eee4fe05750b6b14221e88e608a74}
+      \strng{editorfullhashraw}{f70eee4fe05750b6b14221e88e608a74}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the {ISWC} 2016 Posters {\&} Demonstrations Track co-located with 15th International Semantic Web Conference {(ISWC} 2016), Kobe, Japan, October 19, 2016}
+      \field{series}{{CEUR} Workshop Proceedings}
+      \field{title}{An Evaluation of {VIG} with the {BSBM} Benchmark}
+      \field{volume}{1690}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://ceur-ws.org/Vol-1690/paper82.pdf
+      \endverb
+      \verb{url}
+      \verb https://ceur-ws.org/Vol-1690/paper82.pdf
+      \endverb
+    \endentry
     \entry{dolci2024tools}{article}{}{}
       \name{author}{6}{}{%
         {{hash=b2160b1f67e606be4210802eba90f1de}{%
@@ -2368,8 +2429,8 @@
       \strng{authornamehash}{aa39d58a18dbb73f2f639f2a0e6fc768}
       \strng{authorfullhash}{aa39d58a18dbb73f2f639f2a0e6fc768}
       \strng{authorfullhashraw}{aa39d58a18dbb73f2f639f2a0e6fc768}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Information Systems Frontiers}

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.3.31) (preloaded format=xelatex 2024.7.9)  20 AUG 2024 14:04
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.3.31) (preloaded format=xelatex 2024.7.9)  20 AUG 2024 15:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2142,7 +2142,10 @@ ogy is specifically designed
 [44] [45]
 Package acronym Info: Label `acro:VKG' newly defined as it shall be overridden
 although it is yet undefined on input line 195.
- [46] [47] [48])
+ [46] [47]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [48])
 Overfull \hbox (27.86002pt too wide) in paragraph at lines 263--51
 \TU/TeXGyrePagellaX(0)/m/n/12 functionalities. GraphDB allows to manage simulta
 neously different graph databases,
@@ -2247,9 +2250,9 @@ rns benchmarking [][]s. These
  []
 
 [64]
-Overfull \hbox (1.95833pt too wide) in paragraph at lines 36--37
-[]\TU/TeXGyrePagellaX(0)/m/n/12 Resource Utilization: Measuring the computation
-al and memory resources
+Overfull \hbox (6.26634pt too wide) in paragraph at lines 36--37
+[]\TU/TeXGyrePagellaX(0)/b/n/12 Resource Utilization\TU/TeXGyrePagellaX(0)/m/n/
+12 : Measuring the computational and memory resources
  []
 
 
@@ -2281,36 +2284,36 @@ Overfull \hbox (36.9904pt too wide) in paragraph at lines 115--116
  [][] 
  []
 
-
-Underfull \vbox (badness 3281) has occurred while \output is active []
-
- [68]
+[68]
 File: res/query_execution_time.png Graphic file (type bmp)
 <res/query_execution_time.png>
 File: res/query_throughput.png Graphic file (type bmp)
 <res/query_throughput.png>
 
-Overfull \hbox (36.9904pt too wide) in paragraph at lines 132--135
+Overfull \hbox (51.21678pt too wide) in paragraph at lines 128--131
 [][] 
  []
 
 
-Overfull \hbox (36.9904pt too wide) in paragraph at lines 132--135
+Overfull \hbox (51.21678pt too wide) in paragraph at lines 128--131
 [] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 127--139
-
- []
-
 [69]
+
+LaTeX Warning: Text page 70 contains only floats.
+
+
+Overfull \vbox (2.94981pt too high) has occurred while \output is active []
+
+
+[70]
 Overfull \hbox (0.77289pt too wide) in paragraph at lines 140--140
 |[]\TU/TeXGyrePagellaX(0)/m/sc/17.28 Architecture Performance Benchmarking over
 
  []
 
-[70] [71]
+[71]
 File: res/Dremio_usage_plot.png Graphic file (type bmp)
 <res/Dremio_usage_plot.png>
 File: res/GraphDB (Ontop)_usage_plot.png Graphic file (type bmp)
@@ -2323,10 +2326,16 @@ LaTeX Warning: Text page 73 contains only floats.
 Overfull \vbox (3.71927pt too high) has occurred while \output is active []
 
 
-[73]) [74]
+[73]) [74] [75]
 \openout2 = `chapters/08_conclusions.aux'.
 
- (chapters/08_conclusions.tex
+ (chapters/08_conclusions.tex [76
+
+
+
+
+
+]
 Chapter 8.
 )
 Overfull \hbox (6.94637pt too wide) in paragraph at lines 6--54
@@ -2334,17 +2343,11 @@ Overfull \hbox (6.94637pt too wide) in paragraph at lines 6--54
 ext of the [][] project
  []
 
-[75
-
-
-
-
-
-]
+[77]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [76]
-[77] [78
+ [78]
+[79] [80
 
 
 
@@ -2367,7 +2370,7 @@ Overfull \hbox (10.17537pt too wide) in paragraph at lines 57--57
 cial Intelligence, Trento, Italy, Novem-
  []
 
-[79
+[81
 
 
 ]
@@ -2388,7 +2391,7 @@ Overfull \hbox (8.17934pt too wide) in paragraph at lines 57--57
 Lembo, Maurizio Lenz-
  []
 
-[80]
+[82]
 Overfull \hbox (1.59134pt too wide) in paragraph at lines 57--57
 []\TU/TeXGyrePagellaX(0)/m/n/12 Diego Calvanese, Benjamin Cogrel, Elem Guzel Ka
 layci, Sarah Komla-Ebri,
@@ -2431,7 +2434,7 @@ GyrePagellaX(0)/m/it/12 Nucleic Acids Res. \TU/TeXGyrePagellaX(0)/m/n/12 50.D1
 (2022),
  []
 
-[81]
+[83]
 Overfull \hbox (3.73836pt too wide) in paragraph at lines 57--57
 \TU/TeXGyrePagellaX(0)/m/n/12 Haynes, Jeremy Kepner, Samuel Madden, Tim Mattson
 , and Michael Stone-
@@ -2449,7 +2452,7 @@ Overfull \hbox (6.9353pt too wide) in paragraph at lines 57--57
 geneous Data Management, Polystores, and Analytics for Health-
  []
 
-[82]
+[84]
 Overfull \hbox (8.44122pt too wide) in paragraph at lines 57--57
 \TU/TeXGyrePagellaX(0)/m/n/12 (FP7) of the European Union (2007-2013)”. In: \TU
 /TeXGyrePagellaX(0)/m/it/12 Int. J. Technol. Manag. \TU/TeXGyrePagellaX(0)/m/n/
@@ -2480,10 +2483,16 @@ Overfull \hbox (1.88336pt too wide) in paragraph at lines 57--57
 akov, Ernesto Jiménez-
  []
 
-[83]
+[85]
 Overfull \hbox (3.93631pt too wide) in paragraph at lines 57--57
 \TU/TeXGyrePagellaX(0)/m/n/12 Nicola Ferro. “  An Extensible and Unifying Appro
 ach to Retrospective Clin-
+ []
+
+
+Overfull \hbox (16.96025pt too wide) in paragraph at lines 57--57
+\TU/TeXGyrePagellaX(0)/m/n/12 and Heiko Paulheim. Vol. 1690. CEUR Workshop Proc
+eedings. CEUR-WS.org,
  []
 
 
@@ -2492,18 +2501,7 @@ Overfull \hbox (4.0024pt too wide) in paragraph at lines 57--57
 o Azzalini, Marco Grib-
  []
 
-[84] (frontmatter/thanks.tex
-Overfull \hbox (6.14232pt too wide) in paragraph at lines 3--4
-[]\TU/TeXGyrePagellaX(0)/m/n/12 Ci tengo innanzitutto a ringraziare genitori e 
-parenti tutti per avermi sostenuto
- []
-
-) [85
-
-
-
-
-] (main.aux (chapters/01_introduction.aux) (chapters/02_background.aux)
+[86] (main.aux (chapters/01_introduction.aux) (chapters/02_background.aux)
 (chapters/03_context.aux) (chapters/04_related.aux)
 (chapters/05_system_architecture.aux) (chapters/06_use_case.aux)
 (chapters/07_evaluation.aux) (chapters/08_conclusions.aux))
@@ -2516,18 +2514,18 @@ L3 programming layer <2020/03/25>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 63B0B0A1EC60A781A9681E954843E7CF;5636.
+(rerunfilecheck)             Checksum: C14C9E1939691B65F65150676BA2B3AC;5583.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48799 strings out of 409555
- 922450 string characters out of 5776261
- 2168148 words of memory out of 5000000
- 70180 multiletter control sequences out of 15000+600000
+ 48793 strings out of 409555
+ 922379 string characters out of 5776261
+ 2175148 words of memory out of 5000000
+ 70176 multiletter control sequences out of 15000+600000
  598061 words of font info for 132 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  123i,15n,131p,1588b,6836s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (105 pages).
+Output written on main.pdf (106 pages).

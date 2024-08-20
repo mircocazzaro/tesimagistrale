@@ -137,7 +137,7 @@ As in Denodo, but under an open-source perspective, it is possible to build cust
 
 In conclusion, Dremio offers an open-source virtualization system with the typical robustness of enterprise software; it is highly scalable both in the sense of computation distribution over clusters and in the types of supported sources, and it has a comprehensive logging system that suits well for tracking data flow.
 
-\begin{table}[ht]
+\begin{table}[ht!]
     \centering
     \begin{tabular}{| p{0.2\linewidth} | p{0.12\linewidth} | p{0.12\linewidth} | p{0.12\linewidth} | p{0.15\linewidth} | p{0.12\linewidth} |}
     \hline
@@ -152,16 +152,7 @@ In conclusion, Dremio offers an open-source virtualization system with the typic
 
 \subsection{OBDA Systems}
 \ac{OBDA}, as shown in Fig. \ref{fig:obda_two}, allows to seamlessly integrate a relational source within an ontology, so to add a semantic layer. Research on this specific topic has been performed not only by the academy, but also from Research \& Development branches of big companies, considering the impact on the industry: a preliminary analysis \cite{DBLP:conf/semweb/KharlamovSOZHLRSW14} by Siemens\footnote{https://www.siemens.com/} that lead subsequently to a custom platform, analyzed existing systems. Table \ref{tab:obda_comparison} summarizes the content of this analysis.
-
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=8cm]{res/data_integration.png}
-    \caption{The \ac{OBDA} framework}
-    \label{fig:obda_two}
-\end{figure}
-
-
-\begin{table}[ht]
+\begin{table}[ht!]
     \centering
     \begin{tabular}{| p{0.3\linewidth} | p{0.64\linewidth} |}
     \hline
@@ -178,6 +169,14 @@ In conclusion, Dremio offers an open-source virtualization system with the typic
     \end{tabular}
     \caption{Comparative of \ac{OBDA} Systems \label{tab:obda_comparison}}
 \end{table}
+
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=8cm]{res/data_integration.png}
+    \caption{The \ac{OBDA} framework}
+    \label{fig:obda_two}
+\end{figure}
 
 Given that ontology reasoning is one of the most important requirements in the \ac{OBDA} approach (without this, using this paradigm would allow just to run queries in \ac{SPARQL} language, without any other real advantage), and considering that the Optique system is an enterprise, on-premise and closed source solution, more in-depth comparisons \cite{DBLP:conf/dlog/NamiciG18} studied Ontop and Mastro. Their comparison can be summarized as follows.
 

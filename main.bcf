@@ -2400,8 +2400,9 @@
     <bcf:citekey order="26" intorder="1">DBLP:conf/bigdataconf/VogtSS18</bcf:citekey>
     <bcf:citekey order="27" intorder="1">Faggioli2024BrainTeaser</bcf:citekey>
     <bcf:citekey order="28" intorder="1">DBLP:journals/ijswis/BizerS09</bcf:citekey>
-    <bcf:citekey order="29" intorder="1">dolci2024tools</bcf:citekey>
-    <bcf:citekey order="30" intorder="1">DBLP:journals/dke/ChaloupkaN24</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">DBLP:conf/semweb/LantiXC16</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">dolci2024tools</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">DBLP:journals/dke/ChaloupkaN24</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

@@ -1,4 +1,3 @@
-% -------------------------------------------------------------------
 %  @LaTeX-class-file{
 %     filename        = "DEIThesis.cls",
 %     codetable       = "ISO/ASCII",
@@ -30,7 +29,6 @@
 % export in PDF/X, PDF/A, etc...
 \RequirePackage{etoolbox}
 \RequirePackage{colorprofiles}
-\let\pdfcreationdate=\creationdate
 \RequirePackage[a-2b,mathxmp]{pdfx}[\today]
 
 % language, font and encodings
@@ -49,7 +47,7 @@
 \RequirePackage{indentfirst}
 
 % captions
-\RequirePackage{caption}
+\RequirePackage[labelfont=bf]{caption}
 \RequirePackage{subcaption}
 
 % footnotes
@@ -71,7 +69,8 @@
 
 % algoritms
 \RequirePackage{algorithm}
-\RequirePackage{algorithmic}
+\RequirePackage{algpseudocode} %MYMOD
+%\RequirePackage{algorithmic} %MYMOD
 
 % code snippets
 \RequirePackage{listings}
@@ -82,7 +81,7 @@
 
 % references
 \RequirePackage[autostyle]{csquotes}
-\usepackage[backend=biber, style=numeric-verb, sorting=none, maxnames=99]{biblatex}
+\RequirePackage[backend=biber]{biblatex}
 \addbibresource{references.bib}
 
 
@@ -246,7 +245,7 @@
   \def\acknowledgmentsname{Acknowledgments}
 
   % insert dedication page
-  \dedicationpage
+  %\dedicationpage
 
   % insert abstract
   \abstractpage
@@ -270,10 +269,10 @@
   \cleardoublepage
 
   % insert list of algorithms
-  %\phantomsection
-  %\setcounter{page}{15}
-  %\addcontentsline{toc}{chapter}{\listalgorithmname}
-  %\listofalgorithms
+  \phantomsection
+  \setcounter{page}{15}
+  \addcontentsline{toc}{chapter}{\listalgorithmname}
+  \listofalgorithms
 
   % insert list of code snippets
   \phantomsection
@@ -318,7 +317,7 @@
   }
 
   % set academic year in footer
-  \cfoot{\normalsize\textsc{Academic Year \\ \@academicYear \\ \vspace{2ex} Date: 3 September 2024}}
+  \cfoot{\normalsize\textsc{Academic Year \\ \@academicYear \\ \vspace{2ex} Date: 03/09/2024}}
 
   % set brands in header
   \lhead{
@@ -331,7 +330,6 @@
   % content
   \begin{center}
 
-    % master name
     \null \vspace{\stretch{2}}
     \normalsize\textsc{
       Department of Information Engineering
@@ -483,8 +481,8 @@
   \phantomsection
 
   % add acknowledgments
-  %\addcontentsline{toc}{chapter}{\acknowledgmentsname}
-  %\acknowledgments
+  \addcontentsline{toc}{chapter}{\acknowledgmentsname}
+  \acknowledgments
 }
 
 
@@ -527,162 +525,18 @@
 }
 
 \lstset{style=codeSnippet}
-\usepackage[dvipsnames]{xcolor} % https://en.wikibooks.org/wiki/LaTeX/Colors
-\definecolor{LightGray}{rgb}{0.97,0.97,0.97}
-\usepackage{fontspec}
-\newfontfamily{\consolas}{Consolas}
-\lstdefinelanguage{SPARQL}{
-  basicstyle=\footnotesize\consolas,
-  backgroundcolor=\color{LightGray},
-  columns=fullflexible,
-  breaklines=true,
-  sensitive=true,
-  numbers=none,
-  % --------------------------
-  frame=bt,
-  aboveskip=1em,
-  belowskip=1em,
-  xleftmargin=.5em,
-  xrightmargin=.5em,
-  framexleftmargin=.5em,
-  framextopmargin=.5em,
-  framexbottommargin=.5em,
-  framexrightmargin=.5em,
-  % --------------------------
-  tabsize = 2,
-  showstringspaces=false,
-  morecomment=[l][\color{gray}]{\#},       % comments
-  morecomment=[n][\color{blue}]{<http}{>}, % uris
-  morestring=[b][\color{OliveGreen}]{\"},  % strings
-  % -------------------------- variables
-  keywordsprefix=?,
-  classoffset=0,
-  keywordstyle=\color{Sepia},
-  morekeywords={},
-  % -------------------------- prefixes
-  classoffset=1,
-  keywordstyle=\color{Purple},
-  morekeywords={rdf,rdfs,owl,xsd,purl},
-  % -------------------------- keywords
-  classoffset=2,
-  keywordstyle=\color{MidnightBlue},
-  morekeywords={
-    SELECT,CONSTRUCT,DESCRIBE,ASK,WHERE,FROM,NAMED,PREFIX,BASE,OPTIONAL,
-    FILTER,GRAPH,LIMIT,OFFSET,SERVICE,UNION,EXISTS,NOT,BINDINGS,MINUS,a
-  }
-}
 
-\lstset{style=codeSnippet}
-\usepackage[dvipsnames]{xcolor} % https://en.wikibooks.org/wiki/LaTeX/Colors
-\definecolor{LightGray}{rgb}{0.97,0.97,0.97}
-\usepackage{fontspec}
-\lstdefinelanguage{OntopNative}{
-  basicstyle=\footnotesize\consolas,
-  backgroundcolor=\color{LightGray},
-  columns=fullflexible,
-  breaklines=true,
-  sensitive=true,
-  numbers=none,
-  % --------------------------
-  frame=bt,
-  aboveskip=1em,
-  belowskip=1em,
-  xleftmargin=.5em,
-  xrightmargin=.5em,
-  framexleftmargin=.5em,
-  framextopmargin=.5em,
-  framexbottommargin=.5em,
-  framexrightmargin=.5em,
-  % --------------------------
-  tabsize = 2,
-  showstringspaces=false,
-  morecomment=[l][\color{gray}]{\#},       % comments
-  morestring=[b][\color{OliveGreen}]{\"},  % strings
-  % -------------------------- variables
-  keywordsprefix=?,                        % assuming variables may be used
-  classoffset=0,
-  keywordstyle=\color{Sepia},
-  morekeywords={},
-  % -------------------------- prefixes and URIs
-  classoffset=1,
-  keywordstyle=\color{Red},
-  morekeywords={
-    PrefixDeclaration, MappingDeclaration, mappingId, target, source
-  },
-  % ---------------------------
-  classoffset=2,
-  keywordstyle=\color{Purple},
-  morekeywords={
-    SELECT, FROM, WHERE, AS, UNION
-  },
-  % -------------------------- SQL and datatypes
-  classoffset=3,
-  keywordstyle=\color{MidnightBlue},
-  morekeywords={
-    rdf, rdfs, owl, xml, xsd, NCIT, obda, skos, BTO_resource
-  },
-  % -------------------------- SQL functions and operations
-  classoffset=4,
-  keywordstyle=\color{Bittersweet},
-  morekeywords={
-    LCASE, TRUE, <>  % example SQL functions and operations
-  },
-  classoffset=5,
-  keywordstyle=\color{Orange},
-  morekeywords={
-    a, bto, rdfs:label, ^^  % example RDF and ontology terms
-  }
-}
 
-\lstdefinelanguage{R2RML}{
-  basicstyle=\footnotesize\ttfamily,
-  backgroundcolor=\color{LightGray},
-  columns=fullflexible,
-  breaklines=true,
-  sensitive=true,
-  numbers=none,
-  frame=bt,
-  aboveskip=1em,
-  belowskip=1em,
-  xleftmargin=.5em,
-  xrightmargin=.5em,
-  framexleftmargin=.5em,
-  framextopmargin=.5em,
-  framexbottommargin=.5em,
-  framexrightmargin=.5em,
-  tabsize=2,
-  showstringspaces=false,
-  morecomment=[l][\color{gray}]{\#},
-  morestring=[b][\color{OliveGreen}]{\"},
-  keywordsprefix=@,
-  classoffset=0,
-  keywordstyle=\color{Sepia},
-  morekeywords={
-    rr:subjectMap, rr:predicateMap, rr:objectMap, rr:TriplesMap
-  },
-  classoffset=1,
-  keywordstyle=\color{Red},
-  morekeywords={
-    rr:template, rr:column, rr:datatype, rr:parentTriplesMap
-  },
-  classoffset=2,
-  keywordstyle=\color{Purple},
-  morekeywords={
-    rr:class, rr:property, rr:graph
-  },
-  classoffset=3,
-  keywordstyle=\color{MidnightBlue},
-  morekeywords={
-    rr:termType, rr:IRI
-  },
-  classoffset=4,
-  keywordstyle=\color{Bittersweet},
-  morekeywords={
-    rr:Literal, rr:BlankNode
-  },
-  classoffset=5,
-  keywordstyle=\color{Orange},
-  morekeywords={
-    a, rdf:type, rdfs:label
-  }
-}
+
+%ADDED BY SIMONE MERLO
+\RequirePackage{amsmath}
+\RequirePackage{booktabs}
+\RequirePackage{layout}
+\RequirePackage{tabularx} % <-- new
+\RequirePackage{multirow}
+
+\newcolumntype{C}{>{\centering\arraybackslash}X} % <-- modified
+\newcommand\hr{\par\vspace{-.5\ht\strutbox}\noindent\hrulefill\par}
+
+\algnewcommand\algorithmicforeach{\textbf{for each}}
+\algdef{S}[FOR]{ForEach}[1]{\algorithmicforeach\ #1\ \algorithmicdo}

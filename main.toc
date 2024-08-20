@@ -20,8 +20,8 @@
 \contentsline {subsubsection}{Teiid}{11}{subsection.2.2.2}%
 \contentsline {subsubsection}{Dremio}{12}{subsection.2.2.2}%
 \contentsline {subsection}{\numberline {2.2.3}OBDA Systems}{13}{subsection.2.2.3}%
-\contentsline {subsubsection}{Mastro}{14}{table.caption.34}%
-\contentsline {subsubsection}{Ontop}{15}{table.caption.34}%
+\contentsline {subsubsection}{Mastro}{13}{figure.caption.34}%
+\contentsline {subsubsection}{Ontop}{14}{figure.caption.34}%
 \contentsline {subsection}{\numberline {2.2.4}Triple Stores}{15}{subsection.2.2.4}%
 \contentsline {subsubsection}{GraphDB}{16}{subsection.2.2.4}%
 \contentsline {chapter}{\numberline {3}Context of the Work}{17}{chapter.3}%
@@ -59,7 +59,7 @@
 \contentsline {subsection}{\numberline {4.2.1}Architectural Overview}{30}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}Core Components and Functionalities}{30}{subsection.4.2.2}%
 \contentsline {subsubsection}{STARQL Query Language}{30}{subsection.4.2.2}%
-\contentsline {subsubsection}{ExaStream Backend System}{30}{subsection.4.2.2}%
+\contentsline {subsubsection}{ExaStream Backend System}{31}{subsection.4.2.2}%
 \contentsline {subsubsection}{OptiqueVQS: Visual Query System}{31}{subsection.4.2.2}%
 \contentsline {subsection}{\numberline {4.2.3}Impact and Evaluation}{31}{subsection.4.2.3}%
 \contentsline {chapter}{\numberline {5}System Architecture}{33}{chapter.5}%
@@ -119,6 +119,5 @@
 \contentsline {subsubsection}{Benchmark Results}{69}{figure.caption.60}%
 \contentsline {section}{\numberline {7.4}Architecture Performance Benchmarking over Clinical Data}{71}{section.7.4}%
 \contentsline {section}{\numberline {7.5}Summary and Conclusions}{74}{section.7.5}%
-\contentsline {chapter}{\numberline {8}Conclusions and Future Works}{75}{chapter.8}%
-\contentsline {chapter}{References}{79}{section*.64}%
-\contentsline {chapter}{Acknowledgments}{85}{section*.66}%
+\contentsline {chapter}{\numberline {8}Conclusions and Future Works}{77}{chapter.8}%
+\contentsline {chapter}{References}{81}{section*.64}%
