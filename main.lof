@@ -7,14 +7,14 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces OBDF approach}}{24}{figure.caption.39}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Proposed System Architecture}}{28}{figure.caption.40}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Virtual Views}}{36}{figure.caption.49}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces The \ac {BRAINTEASER} Ontology}}{39}{figure.caption.51}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Proposed System Architecture}}{34}{figure.caption.41}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Virtual Views}}{42}{figure.caption.50}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces The \ac {BRAINTEASER} Ontology}}{45}{figure.caption.52}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Data Flow Block Diagram of a Query Through the Federated Architecture}}{49}{figure.caption.53}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Data Flow Block Diagram of a Query Through the Federated Architecture}}{55}{figure.caption.54}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Architecture Setup for Benchmarking}}{63}{figure.caption.59}%
-\contentsline {figure}{\numberline {7.2}{\ignorespaces BSBM Benchmark Results}}{64}{figure.caption.60}%
-\contentsline {figure}{\numberline {7.3}{\ignorespaces \ac {CPU} and \ac {RAM} usage over time for Dremio during benchmarking}}{67}{figure.caption.61}%
-\contentsline {figure}{\numberline {7.4}{\ignorespaces \ac {CPU} and \ac {RAM} usage over time for GraphDB (Ontop) during benchmarking}}{67}{figure.caption.62}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Architecture Setup for Benchmarking}}{69}{figure.caption.60}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces BSBM Benchmark Results}}{70}{figure.caption.61}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces \ac {CPU} and \ac {RAM} usage over time for Dremio during benchmarking}}{73}{figure.caption.62}%
+\contentsline {figure}{\numberline {7.4}{\ignorespaces \ac {CPU} and \ac {RAM} usage over time for GraphDB (Ontop) during benchmarking}}{73}{figure.caption.63}%
 \addvspace {10\p@ }

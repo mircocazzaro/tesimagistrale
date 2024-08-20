@@ -1437,65 +1437,250 @@
       \verb https://doi.org/10.1109/HPEC.2016.7761636
       \endverb
     \endentry
-    \entry{DBLP:journals/ws/KharlamovMSXKR19}{article}{}{}
-      \name{author}{6}{}{%
-        {{hash=39c206e338b5ea799eba74cd8a02ecf3}{%
-           family={Kharlamov},
-           familyi={K\bibinitperiod},
-           given={Evgeny},
-           giveni={E\bibinitperiod}}}%
-        {{hash=8ef701fb5448d2c9b4d156c7f81dcbab}{%
-           family={Mehdi},
-           familyi={M\bibinitperiod},
-           given={Gulnar},
-           giveni={G\bibinitperiod}}}%
-        {{hash=7ad733df31dcf7619ee34c741fed9efc}{%
-           family={Savkovic},
+    \entry{DBLP:conf/hpec/SheRD16}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=c64f190f3a87a8b492a826c0aafd9f7d}{%
+           family={She},
            familyi={S\bibinitperiod},
-           given={Ognjen},
-           giveni={O\bibinitperiod}}}%
-        {{hash=c91b43c09c064281a9c67a52c0948fb8}{%
-           family={Xiao},
-           familyi={X\bibinitperiod},
-           given={Guohui},
-           giveni={G\bibinitperiod}}}%
-        {{hash=65ee01c54b01d03aa3f8579ad645ae05}{%
-           family={Kalayci},
-           familyi={K\bibinitperiod},
-           given={Elem\bibnamedelima Güzel},
-           giveni={E\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
-        {{hash=cf25e05ef591c0b64baa997508e9841c}{%
-           family={Roshchin},
+           given={Zuohao},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=3eaff3a2ee24e7c783f000cf7f92434d}{%
+           family={Ravishankar},
            familyi={R\bibinitperiod},
-           given={Mikhail},
-           giveni={M\bibinitperiod}}}%
+           given={Surabhi},
+           giveni={S\bibinitperiod}}}%
+        {{hash=3d865a295eada91b305463c58b67b56b}{%
+           family={Duggan},
+           familyi={D\bibinitperiod},
+           given={Jennie},
+           giveni={J\bibinitperiod}}}%
       }
-      \strng{namehash}{bba5da459c7aecbf3e1dac11938c1d93}
-      \strng{fullhash}{bba5da459c7aecbf3e1dac11938c1d93}
-      \strng{fullhashraw}{bba5da459c7aecbf3e1dac11938c1d93}
-      \strng{bibnamehash}{bba5da459c7aecbf3e1dac11938c1d93}
-      \strng{authorbibnamehash}{bba5da459c7aecbf3e1dac11938c1d93}
-      \strng{authornamehash}{bba5da459c7aecbf3e1dac11938c1d93}
-      \strng{authorfullhash}{bba5da459c7aecbf3e1dac11938c1d93}
-      \strng{authorfullhashraw}{bba5da459c7aecbf3e1dac11938c1d93}
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{51a1a63cbc3c7cb0e01e04a512816b4b}
+      \strng{fullhash}{51a1a63cbc3c7cb0e01e04a512816b4b}
+      \strng{fullhashraw}{51a1a63cbc3c7cb0e01e04a512816b4b}
+      \strng{bibnamehash}{51a1a63cbc3c7cb0e01e04a512816b4b}
+      \strng{authorbibnamehash}{51a1a63cbc3c7cb0e01e04a512816b4b}
+      \strng{authornamehash}{51a1a63cbc3c7cb0e01e04a512816b4b}
+      \strng{authorfullhash}{51a1a63cbc3c7cb0e01e04a512816b4b}
+      \strng{authorfullhashraw}{51a1a63cbc3c7cb0e01e04a512816b4b}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{J. Web Semant.}
-      \field{title}{Semantically-enhanced rule-based diagnostics for industrial Internet of Things: The {SDRL} language and case study for Siemens trains and turbines}
-      \field{volume}{56}
-      \field{year}{2019}
-      \field{pages}{11\bibrangedash 29}
-      \range{pages}{19}
+      \field{booktitle}{2016 {IEEE} High Performance Extreme Computing Conference, {HPEC} 2016, Waltham, MA, USA, September 13-15, 2016}
+      \field{title}{BigDAWG polystore query optimization through semantic equivalences}
+      \field{year}{2016}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
       \verb{doi}
-      \verb 10.1016/J.WEBSEM.2018.10.004
+      \verb 10.1109/HPEC.2016.7761584
       \endverb
       \verb{urlraw}
-      \verb https://doi.org/10.1016/j.websem.2018.10.004
+      \verb https://doi.org/10.1109/HPEC.2016.7761584
       \endverb
       \verb{url}
-      \verb https://doi.org/10.1016/j.websem.2018.10.004
+      \verb https://doi.org/10.1109/HPEC.2016.7761584
+      \endverb
+    \endentry
+    \entry{DBLP:journals/pvldb/ElmoreDSBCGHHKK15}{article}{}{}
+      \name{author}{18}{}{%
+        {{hash=9ebe5f608b419f6f8e12d935dda03f56}{%
+           family={Elmore},
+           familyi={E\bibinitperiod},
+           given={Aaron\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=3d865a295eada91b305463c58b67b56b}{%
+           family={Duggan},
+           familyi={D\bibinitperiod},
+           given={Jennie},
+           giveni={J\bibinitperiod}}}%
+        {{hash=fe90ed72bd75a3ded3a2dd4b715b214b}{%
+           family={Stonebraker},
+           familyi={S\bibinitperiod},
+           given={Mike},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ea491ce017356bb561d7f05c80d7262b}{%
+           family={Balazinska},
+           familyi={B\bibinitperiod},
+           given={Magdalena},
+           giveni={M\bibinitperiod}}}%
+        {{hash=bb09fd9677a25b56fc2dc707390b0440}{%
+           family={Çetintemel},
+           familyi={Ç\bibinitperiod},
+           given={Ugur},
+           giveni={U\bibinitperiod}}}%
+        {{hash=c07db485e671366b0867673b54d53aef}{%
+           family={Gadepally},
+           familyi={G\bibinitperiod},
+           given={Vijay},
+           giveni={V\bibinitperiod}}}%
+        {{hash=c1fc05b7156dc351ceebcc7f14fe27ee}{%
+           family={Heer},
+           familyi={H\bibinitperiod},
+           given={Jeffrey},
+           giveni={J\bibinitperiod}}}%
+        {{hash=8d65b946c2af0b92bf018fabd57296b7}{%
+           family={Howe},
+           familyi={H\bibinitperiod},
+           given={Bill},
+           giveni={B\bibinitperiod}}}%
+        {{hash=6746f813a568f307c6419b32f0c28e42}{%
+           family={Kepner},
+           familyi={K\bibinitperiod},
+           given={Jeremy},
+           giveni={J\bibinitperiod}}}%
+        {{hash=06236ad5a15ffd4505a97a20555a384b}{%
+           family={Kraska},
+           familyi={K\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod}}}%
+        {{hash=8b530348ffa5a0cfb0b9827772f501e9}{%
+           family={Madden},
+           familyi={M\bibinitperiod},
+           given={Samuel},
+           giveni={S\bibinitperiod}}}%
+        {{hash=44d2e85095769540b86df536eb7fb7d4}{%
+           family={Maier},
+           familyi={M\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=bcfe10cf4c407c8be6a7c5f415955aaf}{%
+           family={Mattson},
+           familyi={M\bibinitperiod},
+           given={Timothy\bibnamedelima G.},
+           giveni={T\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=53cd052a93166f976001c3b357f0fcf3}{%
+           family={Papadopoulos},
+           familyi={P\bibinitperiod},
+           given={Stavros},
+           giveni={S\bibinitperiod}}}%
+        {{hash=2f0ce6d8c562ac975cc62eaf0c80a856}{%
+           family={Parkhurst},
+           familyi={P\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c4c3bc79de252f04014f60bbbe926165}{%
+           family={Tatbul},
+           familyi={T\bibinitperiod},
+           given={Nesime},
+           giveni={N\bibinitperiod}}}%
+        {{hash=1c58e0468f0c29de2eea8af0b3d2e1f4}{%
+           family={Vartak},
+           familyi={V\bibinitperiod},
+           given={Manasi},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f9c63eb422f85aa16854694fe288be82}{%
+           family={Zdonik},
+           familyi={Z\bibinitperiod},
+           given={Stan},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{5e527b96c796761ef4442f5d531af0a1}
+      \strng{fullhash}{5e527b96c796761ef4442f5d531af0a1}
+      \strng{fullhashraw}{5e527b96c796761ef4442f5d531af0a1}
+      \strng{bibnamehash}{5e527b96c796761ef4442f5d531af0a1}
+      \strng{authorbibnamehash}{5e527b96c796761ef4442f5d531af0a1}
+      \strng{authornamehash}{5e527b96c796761ef4442f5d531af0a1}
+      \strng{authorfullhash}{5e527b96c796761ef4442f5d531af0a1}
+      \strng{authorfullhashraw}{5e527b96c796761ef4442f5d531af0a1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proc. {VLDB} Endow.}
+      \field{number}{12}
+      \field{title}{A Demonstration of the BigDAWG Polystore System}
+      \field{volume}{8}
+      \field{year}{2015}
+      \field{pages}{1908\bibrangedash 1911}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.14778/2824032.2824098
+      \endverb
+      \verb{urlraw}
+      \verb http://www.vldb.org/pvldb/vol8/p1908-Elmore.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.vldb.org/pvldb/vol8/p1908-Elmore.pdf
+      \endverb
+    \endentry
+    \entry{DBLP:conf/vldb/Mucklo18}{inproceedings}{}{}
+      \name{author}{1}{}{%
+        {{hash=ed501b6c2d350f6812ab365d7d2abb73}{%
+           family={Mucklo},
+           familyi={M\bibinitperiod},
+           given={Matthew\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \name{editor}{6}{}{%
+        {{hash=c07db485e671366b0867673b54d53aef}{%
+           family={Gadepally},
+           familyi={G\bibinitperiod},
+           given={Vijay},
+           giveni={V\bibinitperiod}}}%
+        {{hash=bcfe10cf4c407c8be6a7c5f415955aaf}{%
+           family={Mattson},
+           familyi={M\bibinitperiod},
+           given={Timothy\bibnamedelima G.},
+           giveni={T\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=9a603143e19a2dddd58e683838417ea3}{%
+           family={Stonebraker},
+           familyi={S\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1980ebe3c34c88c776c2620e3ca85178}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Fusheng},
+           giveni={F\bibinitperiod}}}%
+        {{hash=0864430793cc40dda41694b9bf962ce2}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={Gang},
+           giveni={G\bibinitperiod}}}%
+        {{hash=0f96bd2ed318685467d89c96719633f2}{%
+           family={Teodoro},
+           familyi={T\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{ed501b6c2d350f6812ab365d7d2abb73}
+      \strng{fullhash}{ed501b6c2d350f6812ab365d7d2abb73}
+      \strng{fullhashraw}{ed501b6c2d350f6812ab365d7d2abb73}
+      \strng{bibnamehash}{ed501b6c2d350f6812ab365d7d2abb73}
+      \strng{authorbibnamehash}{ed501b6c2d350f6812ab365d7d2abb73}
+      \strng{authornamehash}{ed501b6c2d350f6812ab365d7d2abb73}
+      \strng{authorfullhash}{ed501b6c2d350f6812ab365d7d2abb73}
+      \strng{authorfullhashraw}{ed501b6c2d350f6812ab365d7d2abb73}
+      \strng{editorbibnamehash}{670f06544356b3527e4d3a45404b1237}
+      \strng{editornamehash}{670f06544356b3527e4d3a45404b1237}
+      \strng{editorfullhash}{670f06544356b3527e4d3a45404b1237}
+      \strng{editorfullhashraw}{670f06544356b3527e4d3a45404b1237}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Heterogeneous Data Management, Polystores, and Analytics for Healthcare - {VLDB} 2018 Workshops, Poly and DMAH, Rio de Janeiro, Brazil, August 31, 2018, Revised Selected Papers}
+      \field{series}{Lecture Notes in Computer Science}
+      \field{title}{Demonstration: {API} Federation in the BigDAWG Polystore}
+      \field{volume}{11470}
+      \field{year}{2018}
+      \field{pages}{93\bibrangedash 103}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1007/978-3-030-14177-6\_8
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-3-030-14177-6\_8
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-3-030-14177-6%5C_8
       \endverb
     \endentry
     \entry{DBLP:journals/ijtm/LytrasSP09}{article}{}{}
@@ -1545,6 +1730,355 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1504/IJTM.2009.024124
+      \endverb
+    \endentry
+    \entry{DBLP:conf/semweb/KharlamovBGJLNO15}{inproceedings}{}{}
+      \name{author}{13}{}{%
+        {{hash=39c206e338b5ea799eba74cd8a02ecf3}{%
+           family={Kharlamov},
+           familyi={K\bibinitperiod},
+           given={Evgeny},
+           giveni={E\bibinitperiod}}}%
+        {{hash=08f2f12b0059d3a20f044c95e0b0e4e1}{%
+           family={Brandt},
+           familyi={B\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+        {{hash=8d916c0b472eb3a6f0e8708e5219f0d3}{%
+           family={Giese},
+           familyi={G\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=109f37d75cce7620f2fc12cdc3e3f59e}{%
+           family={Jiménez{-}Ruiz},
+           familyi={J\bibinitperiod},
+           given={Ernesto},
+           giveni={E\bibinitperiod}}}%
+        {{hash=7fb8e8eb121adfba75dfbcfa93cc1d30}{%
+           family={Lamparter},
+           familyi={L\bibinitperiod},
+           given={Steffen},
+           giveni={S\bibinitperiod}}}%
+        {{hash=89d072897d9d29d2f9aeb06050bae7c2}{%
+           family={Neuenstadt},
+           familyi={N\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=ae106f0c377129f5b190c25feba7f607}{%
+           family={Özçep},
+           familyi={Ö\bibinitperiod},
+           given={Özgür\bibnamedelima Lütfü},
+           giveni={Ö\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=39d26a013f03caced41ee2f7bf095dc3}{%
+           family={Pinkel},
+           familyi={P\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod}}}%
+        {{hash=80fcc67577aba8b72ed1ead4a59d4400}{%
+           family={Soylu},
+           familyi={S\bibinitperiod},
+           given={Ahmet},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6d0ba40affb9a505cfd6e4015102c940}{%
+           family={Zheleznyakov},
+           familyi={Z\bibinitperiod},
+           given={Dmitriy},
+           giveni={D\bibinitperiod}}}%
+        {{hash=cf25e05ef591c0b64baa997508e9841c}{%
+           family={Roshchin},
+           familyi={R\bibinitperiod},
+           given={Mikhail},
+           giveni={M\bibinitperiod}}}%
+        {{hash=11f5ccc1d7ce416b3dbcab989af53fcc}{%
+           family={Watson},
+           familyi={W\bibinitperiod},
+           given={Stuart},
+           giveni={S\bibinitperiod}}}%
+        {{hash=fb33c2b55c178be2daf66ac89cdac9cc}{%
+           family={Horrocks},
+           familyi={H\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod}}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=a25ef6b1524f271b24d81855810e4a02}{%
+           family={Villata},
+           familyi={V\bibinitperiod},
+           given={Serena},
+           giveni={S\bibinitperiod}}}%
+        {{hash=278c599f0a2e44df256b1d60ef313ea9}{%
+           family={Pan},
+           familyi={P\bibinitperiod},
+           given={Jeff\bibnamedelima Z.},
+           giveni={J\bibinitperiod\bibinitdelim Z\bibinitperiod}}}%
+        {{hash=2c8f7c698df5ca2bc9477059127b1f21}{%
+           family={Dragoni},
+           familyi={D\bibinitperiod},
+           given={Mauro},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {CEUR-WS.org}%
+      }
+      \strng{namehash}{a717c77b14a668b74f86b3dad864aaa6}
+      \strng{fullhash}{a717c77b14a668b74f86b3dad864aaa6}
+      \strng{fullhashraw}{a717c77b14a668b74f86b3dad864aaa6}
+      \strng{bibnamehash}{a717c77b14a668b74f86b3dad864aaa6}
+      \strng{authorbibnamehash}{a717c77b14a668b74f86b3dad864aaa6}
+      \strng{authornamehash}{a717c77b14a668b74f86b3dad864aaa6}
+      \strng{authorfullhash}{a717c77b14a668b74f86b3dad864aaa6}
+      \strng{authorfullhashraw}{a717c77b14a668b74f86b3dad864aaa6}
+      \strng{editorbibnamehash}{22d596ae2b2ad68797ad0db35b523fa7}
+      \strng{editornamehash}{22d596ae2b2ad68797ad0db35b523fa7}
+      \strng{editorfullhash}{22d596ae2b2ad68797ad0db35b523fa7}
+      \strng{editorfullhashraw}{22d596ae2b2ad68797ad0db35b523fa7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the {ISWC} 2015 Posters {\&} Demonstrations Track co-located with the 14th International Semantic Web Conference (ISWC-2015), Bethlehem, PA, USA, October 11, 2015}
+      \field{series}{{CEUR} Workshop Proceedings}
+      \field{title}{Semantic Access to Siemens Streaming Data: the Optique Way}
+      \field{volume}{1486}
+      \field{year}{2015}
+      \verb{urlraw}
+      \verb https://ceur-ws.org/Vol-1486/paper\_23.pdf
+      \endverb
+      \verb{url}
+      \verb https://ceur-ws.org/Vol-1486/paper%5C_23.pdf
+      \endverb
+    \endentry
+    \entry{DBLP:conf/esws/KharlamovJZBGHHKKORRSSSW13}{inproceedings}{}{}
+      \name{author}{16}{}{%
+        {{hash=39c206e338b5ea799eba74cd8a02ecf3}{%
+           family={Kharlamov},
+           familyi={K\bibinitperiod},
+           given={Evgeny},
+           giveni={E\bibinitperiod}}}%
+        {{hash=109f37d75cce7620f2fc12cdc3e3f59e}{%
+           family={Jiménez{-}Ruiz},
+           familyi={J\bibinitperiod},
+           given={Ernesto},
+           giveni={E\bibinitperiod}}}%
+        {{hash=6d0ba40affb9a505cfd6e4015102c940}{%
+           family={Zheleznyakov},
+           familyi={Z\bibinitperiod},
+           given={Dmitriy},
+           giveni={D\bibinitperiod}}}%
+        {{hash=d6ac3119b1b8058aa70f1ed127f7d379}{%
+           family={Bilidas},
+           familyi={B\bibinitperiod},
+           given={Dimitris},
+           giveni={D\bibinitperiod}}}%
+        {{hash=8d916c0b472eb3a6f0e8708e5219f0d3}{%
+           family={Giese},
+           familyi={G\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c473afc32040dac4457a143ece875c44}{%
+           family={Haase},
+           familyi={H\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=fb33c2b55c178be2daf66ac89cdac9cc}{%
+           family={Horrocks},
+           familyi={H\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod}}}%
+        {{hash=1a955334881912c90d93b51578c6a7ea}{%
+           family={Kllapi},
+           familyi={K\bibinitperiod},
+           given={Herald},
+           giveni={H\bibinitperiod}}}%
+        {{hash=6584629e67063f48438695ec6ea966a3}{%
+           family={Koubarakis},
+           familyi={K\bibinitperiod},
+           given={Manolis},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e04db094cfca21f3e0012e9ac12ac7dc}{%
+           family={Özçep},
+           familyi={Ö\bibinitperiod},
+           given={Özgür\bibnamedelima L.},
+           giveni={Ö\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=090cb6bf336d1719b8fc45b3de31f151}{%
+           family={Rodriguez{-}Muro},
+           familyi={R\bibinitperiod},
+           given={Mariano},
+           giveni={M\bibinitperiod}}}%
+        {{hash=aec11fe01154e6144f81aab074442a38}{%
+           family={Rosati},
+           familyi={R\bibinitperiod},
+           given={Riccardo},
+           giveni={R\bibinitperiod}}}%
+        {{hash=7047d212f80975d90e11f6931e965e13}{%
+           family={Schmidt},
+           familyi={S\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c9a4be19ab08c50b875e222110aaf685}{%
+           family={Schlatte},
+           familyi={S\bibinitperiod},
+           given={Rudolf},
+           giveni={R\bibinitperiod}}}%
+        {{hash=80fcc67577aba8b72ed1ead4a59d4400}{%
+           family={Soylu},
+           familyi={S\bibinitperiod},
+           given={Ahmet},
+           giveni={A\bibinitperiod}}}%
+        {{hash=430c741a274fb78eaf0245b38e4a5b17}{%
+           family={Waaler},
+           familyi={W\bibinitperiod},
+           given={Arild},
+           giveni={A\bibinitperiod}}}%
+      }
+      \name{editor}{5}{}{%
+        {{hash=42843da8f88197b42fb1e9df5f0ad5d5}{%
+           family={Cimiano},
+           familyi={C\bibinitperiod},
+           given={Philipp},
+           giveni={P\bibinitperiod}}}%
+        {{hash=462d87942086f19e5053c4acdda8472e}{%
+           family={Fernández},
+           familyi={F\bibinitperiod},
+           given={Miriam},
+           giveni={M\bibinitperiod}}}%
+        {{hash=bf656ab3de7a87a6322e6243f05a1a08}{%
+           family={López},
+           familyi={L\bibinitperiod},
+           given={Vanessa},
+           giveni={V\bibinitperiod}}}%
+        {{hash=8acaf13b4c30b3e3091c8848e35d1246}{%
+           family={Schlobach},
+           familyi={S\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=302f604965fe1b07739160d863d3c764}{%
+           family={Völker},
+           familyi={V\bibinitperiod},
+           given={Johanna},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{97b7e6d666d9b0a0b7beef7686ef3872}
+      \strng{fullhash}{97b7e6d666d9b0a0b7beef7686ef3872}
+      \strng{fullhashraw}{97b7e6d666d9b0a0b7beef7686ef3872}
+      \strng{bibnamehash}{97b7e6d666d9b0a0b7beef7686ef3872}
+      \strng{authorbibnamehash}{97b7e6d666d9b0a0b7beef7686ef3872}
+      \strng{authornamehash}{97b7e6d666d9b0a0b7beef7686ef3872}
+      \strng{authorfullhash}{97b7e6d666d9b0a0b7beef7686ef3872}
+      \strng{authorfullhashraw}{97b7e6d666d9b0a0b7beef7686ef3872}
+      \strng{editorbibnamehash}{2421f737c6822302110307c916d2b62b}
+      \strng{editornamehash}{2421f737c6822302110307c916d2b62b}
+      \strng{editorfullhash}{2421f737c6822302110307c916d2b62b}
+      \strng{editorfullhashraw}{2421f737c6822302110307c916d2b62b}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The Semantic Web: {ESWC} 2013 Satellite Events - {ESWC} 2013 Satellite Events, Montpellier, France, May 26-30, 2013, Revised Selected Papers}
+      \field{series}{Lecture Notes in Computer Science}
+      \field{title}{Optique: Towards {OBDA} Systems for Industry}
+      \field{volume}{7955}
+      \field{year}{2013}
+      \field{pages}{125\bibrangedash 140}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1007/978-3-642-41242-4\_11
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-3-642-41242-4\_11
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-3-642-41242-4%5C_11
+      \endverb
+    \endentry
+    \entry{DBLP:journals/semweb/SoyluKZJGSHSBLH18}{article}{}{}
+      \name{author}{11}{}{%
+        {{hash=80fcc67577aba8b72ed1ead4a59d4400}{%
+           family={Soylu},
+           familyi={S\bibinitperiod},
+           given={Ahmet},
+           giveni={A\bibinitperiod}}}%
+        {{hash=39c206e338b5ea799eba74cd8a02ecf3}{%
+           family={Kharlamov},
+           familyi={K\bibinitperiod},
+           given={Evgeny},
+           giveni={E\bibinitperiod}}}%
+        {{hash=6d0ba40affb9a505cfd6e4015102c940}{%
+           family={Zheleznyakov},
+           familyi={Z\bibinitperiod},
+           given={Dmitriy},
+           giveni={D\bibinitperiod}}}%
+        {{hash=109f37d75cce7620f2fc12cdc3e3f59e}{%
+           family={Jiménez{-}Ruiz},
+           familyi={J\bibinitperiod},
+           given={Ernesto},
+           giveni={E\bibinitperiod}}}%
+        {{hash=8d916c0b472eb3a6f0e8708e5219f0d3}{%
+           family={Giese},
+           familyi={G\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=05e84260a952abfb1a00fc0481f3045e}{%
+           family={Skj{æ}veland},
+           familyi={S\bibinitperiod},
+           given={Martin\bibnamedelima G.},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=47228e218a0954ae510c092db6d3a0a9}{%
+           family={Hovland},
+           familyi={H\bibinitperiod},
+           given={Dag},
+           giveni={D\bibinitperiod}}}%
+        {{hash=c9a4be19ab08c50b875e222110aaf685}{%
+           family={Schlatte},
+           familyi={S\bibinitperiod},
+           given={Rudolf},
+           giveni={R\bibinitperiod}}}%
+        {{hash=08f2f12b0059d3a20f044c95e0b0e4e1}{%
+           family={Brandt},
+           familyi={B\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+        {{hash=6f2f500e8036eba24b535ee9d7e91ec0}{%
+           family={Lie},
+           familyi={L\bibinitperiod},
+           given={Hallstein},
+           giveni={H\bibinitperiod}}}%
+        {{hash=fb33c2b55c178be2daf66ac89cdac9cc}{%
+           family={Horrocks},
+           familyi={H\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{ac491102334ab0ba3eb753385babf109}
+      \strng{fullhash}{ac491102334ab0ba3eb753385babf109}
+      \strng{fullhashraw}{ac491102334ab0ba3eb753385babf109}
+      \strng{bibnamehash}{ac491102334ab0ba3eb753385babf109}
+      \strng{authorbibnamehash}{ac491102334ab0ba3eb753385babf109}
+      \strng{authornamehash}{ac491102334ab0ba3eb753385babf109}
+      \strng{authorfullhash}{ac491102334ab0ba3eb753385babf109}
+      \strng{authorfullhashraw}{ac491102334ab0ba3eb753385babf109}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Semantic Web}
+      \field{number}{5}
+      \field{title}{OptiqueVQS: {A} visual query system over ontologies for industry}
+      \field{volume}{9}
+      \field{year}{2018}
+      \field{pages}{627\bibrangedash 660}
+      \range{pages}{34}
+      \verb{doi}
+      \verb 10.3233/SW-180293
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.3233/SW-180293
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.3233/SW-180293
       \endverb
     \endentry
     \entry{DBLP:conf/bigdataconf/VogtSS18}{inproceedings}{}{}
@@ -1865,8 +2399,8 @@
       \strng{authornamehash}{b624011b8b0ec95c2e291eaa881656ce}
       \strng{authorfullhash}{b624011b8b0ec95c2e291eaa881656ce}
       \strng{authorfullhashraw}{b624011b8b0ec95c2e291eaa881656ce}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Data Knowl. Eng.}
