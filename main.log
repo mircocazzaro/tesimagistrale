@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.3.31) (preloaded format=xelatex 2024.7.9)  20 AUG 2024 15:28
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.3.31) (preloaded format=xelatex 2024.7.9)  20 AUG 2024 22:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1721,9 +1721,15 @@ Package acronym Info: Label `acro:BRAINTEASER' newly defined as it shall be ove
 rridden
 although it is yet undefined on input line 12.
 
-Overfull \hbox (22.97441pt too wide) in paragraph at lines 12--12
- \TU/TeXGyrePagellaX(0)/m/n/12 amyotrophic lateral sclerosis and multiple SclER
-osis ([])[] 
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
+ [][] [][][]\TU/TeXGyrePagellaX(0)/m/n/12 The [][][]BRinging Artificial INTelli
+gencE home for a better 
+ []
+
+
+Underfull \hbox (badness 3492) in paragraph at lines 12--12
+ \TU/TeXGyrePagellaX(0)/m/n/12 cAre of amyotrophic lateral sclerosis and multip
+le SclERo- 
  []
 
 Package acronym Info: Label `acro:CPU' newly defined as it shall be overridden
@@ -1731,15 +1737,9 @@ although it is yet undefined on input line 18.
 Package acronym Info: Label `acro:RAM' newly defined as it shall be overridden
 although it is yet undefined on input line 18.
 
-Overfull \hbox (10.30638pt too wide) in paragraph at lines 18--18
+Underfull \hbox (badness 3872) in paragraph at lines 18--18
  [][] [][][][][][]\TU/TeXGyrePagellaX(0)/m/n/12 Central Processing Unit ([])[] 
-and [][][]Random Access Memory ([])[] 
- []
-
-
-Overfull \hbox (9.0854pt too wide) in paragraph at lines 19--19
- [][] [][][][][] \TU/TeXGyrePagellaX(0)/m/n/12 and [][] usage over time for Gra
-phDB (Ontop) during bench- 
+and [][][]Random Access Mem- 
  []
 
 )
@@ -1767,30 +1767,24 @@ Package acronym Info: Label `acro:SPARQL' newly defined as it shall be overridd
 en
 although it is yet undefined on input line 1.
 
-Overfull \hbox (13.92442pt too wide) in paragraph at lines 1--1
+Underfull \hbox (badness 2318) in paragraph at lines 1--1
  [][] [][][]\TU/TeXGyrePagellaX(0)/m/n/12 Example of a [][][]SPARQL Protocol an
-d RDF Query Language ([])[] 
+d RDF Query Language 
  []
 
 Package acronym Info: Label `acro:ALSFRS' newly defined as it shall be overridd
 en
 although it is yet undefined on input line 7.
 
-Overfull \hbox (35.89844pt too wide) in paragraph at lines 7--7
- \TU/TeXGyrePagellaX(0)/m/n/12 ing Scale ([])[] visits performed by patients ov
-er the [][] 
+Underfull \hbox (badness 1769) in paragraph at lines 7--7
+ [][] [][][][][] \TU/TeXGyrePagellaX(0)/m/n/12 query on [][][]Amyotrophic Later
+al Sclerosis Functional 
  []
 
 Package acronym Info: Label `acro:SQL' newly defined as it shall be overridden
 although it is yet undefined on input line 8.
 Package acronym Info: Label `acro:JAR' newly defined as it shall be overridden
 although it is yet undefined on input line 9.
-
-Overfull \hbox (12.14943pt too wide) in paragraph at lines 9--9
- [][] [][][]\TU/TeXGyrePagellaX(0)/m/n/12 BSBM generator script that invokes Ge
-nerator class and [][][]Java Archive 
- []
-
 )
 \tf@lol=\write10
 \openout10 = `main.lol'.
@@ -1801,25 +1795,10 @@ nerator class and [][][]Java Archive
 ] [18
 
 
-] (frontmatter/glossary.tex
-
-LaTeX Warning: Hyper reference `acro:STARQL' on page xix undefined on input lin
-e 18.
+] (frontmatter/glossary.tex [19
 
 
-LaTeX Warning: Hyper reference `acro:STARQL' on page xix undefined on input lin
-e 18.
-
-[19
-
-
-]
-Overfull \hbox (3.25734pt too wide) in paragraph at lines 31--32
-[][][]\TU/TeXGyrePagellaX(0)/m/n/12 BRinging Artificial INTelligencE home for a
- better cAre of amy-
- []
-
-) [20]
+]) [20]
 \openout2 = `chapters/01_introduction.aux'.
 
  (chapters/01_introduction.tex
@@ -1830,6 +1809,24 @@ although it is yet undefined on input line 16.
 Package acronym Info: Label `acro:DBMS' newly defined as it shall be overridden
 
 although it is yet undefined on input line 17.
+
+Underfull \hbox (badness 1320) in paragraph at lines 7--19
+\TU/TeXGyrePagellaX(0)/m/n/12 the integration and analysis of diverse datasets 
+are crucial for advancing
+ []
+
+
+Underfull \hbox (badness 1077) in paragraph at lines 7--19
+\TU/TeXGyrePagellaX(0)/m/n/12 meaningful insights from the data more efficientl
+y. [][] is a powerful
+ []
+
+
+Underfull \hbox (badness 1292) in paragraph at lines 7--19
+\TU/TeXGyrePagellaX(0)/m/n/12 the intricate relationships between genomic data 
+and clinical information.
+ []
+
 [1
 
 
@@ -1842,15 +1839,9 @@ although it is yet undefined on input line 17.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2])
-Overfull \hbox (1.41837pt too wide) in paragraph at lines 20--47
-\TU/TeXGyrePagellaX(0)/m/n/12 covering essential concepts such as the Resource 
-Description Framework, Knowl-
- []
-
-
-Overfull \hbox (4.88103pt too wide) in paragraph at lines 20--47
-\TU/TeXGyrePagellaX(0)/m/n/12 edge Graphs, and Ontologies, crucial for understa
-nding their applications. Chap-
+Underfull \hbox (badness 1097) in paragraph at lines 20--48
+[]\TU/TeXGyrePagellaX(0)/m/n/12 The subsequent chapters are structured to explo
+re the necessary back-
  []
 
 [3] [4]
@@ -1885,15 +1876,15 @@ nput line 75.
 Package acronym Info: Label `acro:API' newly defined as it shall be overridden
 although it is yet undefined on input line 112.
 
-Overfull \hbox (8.17438pt too wide) in paragraph at lines 114--115
+Underfull \hbox (badness 1527) in paragraph at lines 114--115
 []\TU/TeXGyrePagellaX(0)/m/n/12 Denodo provides robust security features, inclu
-ding hashing, encrypting func-
+ding hashing, encrypt-
  []
 
 
-Overfull \hbox (4.75037pt too wide) in paragraph at lines 116--117
+Underfull \hbox (badness 1360) in paragraph at lines 116--117
 []\TU/TeXGyrePagellaX(0)/m/n/12 Moreover, it utilizes advanced query optimizati
-on techniques, such as caching
+on techniques, such as
  []
 
 Package acronym Info: Label `acro:JDBC' newly defined as it shall be overridden
@@ -1961,7 +1952,24 @@ File: res/data_integration.png Graphic file (type bmp)
 
  (chapters/03_context.tex
 Chapter 3.
-[17
+Package acronym Info: Label `acro:EU' newly defined as it shall be overridden
+although it is yet undefined on input line 7.
+
+Underfull \hbox (badness 2582) in paragraph at lines 5--8
+\TU/TeXGyrePagellaX(0)/m/n/12 heterogeneity, with the same data domain represen
+ted possibly through
+ []
+
+
+Underfull \hbox (badness 1107) in paragraph at lines 5--8
+\TU/TeXGyrePagellaX(0)/m/n/12 various models, such as relational [[][]13[][]], 
+hierarchical [[][]14[][]], or graph based.
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17
 
 
 
@@ -1972,21 +1980,15 @@ Package acronym Info: Label `acro:GDPR' newly defined as it shall be overridden
 
 although it is yet undefined on input line 16.
 
-Overfull \hbox (22.87434pt too wide) in paragraph at lines 16--17
+Underfull \hbox (badness 4328) in paragraph at lines 16--17
 []\TU/TeXGyrePagellaX(0)/m/n/12 Security and privacy compliance stands at the f
-undamentals of the [][]
+undamentals of the
  []
 
 [18]
-Overfull \hbox (3.21437pt too wide) in paragraph at lines 22--23
-[][][]\TU/TeXGyrePagellaX(0)/m/n/12 ’s structure is inherently collaborative, i
-nvolving multiple lead-
- []
-
-
-Overfull \hbox (2.661pt too wide) in paragraph at lines 22--23
-\TU/TeXGyrePagellaX(0)/m/n/12 ling healthcare challenges. The project encourage
-s continuous interaction among
+Underfull \hbox (badness 1308) in paragraph at lines 22--23
+\TU/TeXGyrePagellaX(0)/m/n/12 leading European universities and research instit
+utions. Each participant
  []
 
 [19]
@@ -1995,23 +1997,11 @@ although it is yet undefined on input line 28.
  [20]
 Package acronym Info: Label `acro:ALS' newly defined as it shall be overridden
 although it is yet undefined on input line 35.
- [21])
-Overfull \hbox (3.13835pt too wide) in paragraph at lines 45--49
-[]\TU/TeXGyrePagellaX(0)/m/n/12 Complementing the genotypic data, the phenotypi
-c component includes vari-
- []
-
-[22]
+ [21]) [22]
 \openout2 = `chapters/04_related.aux'.
 
  (chapters/04_related.tex
 Chapter 4.
-
-Overfull \hbox (0.43034pt too wide) in paragraph at lines 6--7
-[]\TU/TeXGyrePagellaX(0)/m/n/12 Performing federated analytics tasks requires a
- robust architecture composed
- []
-
 Package acronym Info: Label `acro:OBDF' newly defined as it shall be overridden
 
 although it is yet undefined on input line 8.
@@ -2030,31 +2020,29 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [24]
-Overfull \hbox (7.49034pt too wide) in paragraph at lines 26--27
+[24]
+Underfull \hbox (badness 2057) in paragraph at lines 26--27
 []\TU/TeXGyrePagellaX(0)/m/n/12 Above the base layer is the island layer, a cri
-tical abstraction within [][]’s
+tical abstraction within
  []
 
-[25] [26]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [27]
+Underfull \vbox (badness 5359) has occurred while \output is active []
+
+ [25]
+[26] [27]
+Underfull \hbox (badness 1584) in paragraph at lines 43--45
+\TU/TeXGyrePagellaX(0)/m/n/12 techniques. [][] demonstrated to being able to ef
+fectively manage
+ []
+
 [28] [29]
-Overfull \hbox (6.62634pt too wide) in paragraph at lines 59--60
-[]\TU/TeXGyrePagellaX(0)/b/n/12 Data and Resource Layer\TU/TeXGyrePagellaX(0)/m
-/n/12 : This foundational layer manages the data sources
- []
-
-
-Overfull \hbox (12.54901pt too wide) in paragraph at lines 64--65
-\TU/TeXGyrePagellaX(0)/m/n/12 guage that enables complex querying over both str
-eaming and static data. STARQL
- []
-
-[30]) [31]
+Package acronym Info: Label `acro:IT' newly defined as it shall be overridden
+although it is yet undefined on input line 57.
+Package acronym Info: Label `acro:STARQL' newly defined as it shall be overridd
+en
+although it is yet undefined on input line 63.
+ [30]) [31]
 \openout2 = `chapters/05_system_architecture.aux'.
 
  (chapters/05_system_architecture.tex [32
@@ -2077,18 +2065,13 @@ although it is yet undefined on input line 18.
 [33]
 Package acronym Info: Label `acro:CSV' newly defined as it shall be overridden
 although it is yet undefined on input line 25.
- [34] [35]
-Overfull \hbox (2.1464pt too wide) in paragraph at lines 49--54
-\TU/TeXGyrePagellaX(0)/m/n/12 plugin template[][][][][] consists of a Java Mave
-n project, that has to be compiled, packed
- []
-
-[36] (C:\Program Files\MiKTeX\tex/latex/listings\lstlang1.sty
+ [34] [35] [36] (C:\Program Files\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2024/03/11 1.10a listings language file
-) [37]
-Overfull \hbox (8.47835pt too wide) in paragraph at lines 111--113
+)
+[37]
+Underfull \hbox (badness 1742) in paragraph at lines 111--113
 []\TU/TeXGyrePagellaX(0)/m/n/12 With respect to the storage plugin configuratio
-n Java class [][]5.1[][], being Polypheny
+n Java class [][]5.1[][], being
  []
 
 [38]
@@ -2134,9 +2117,9 @@ Overfull \hbox (8.53766pt too wide) in paragraph at lines 185--186
  []
 
 
-Overfull \hbox (0.85303pt too wide) in paragraph at lines 181--189
-[]\TU/TeXGyrePagellaX(0)/m/n/12 Represented in Fig. [][]5.3[][], the [][] Ontol
-ogy is specifically designed
+Underfull \hbox (badness 1072) in paragraph at lines 181--189
+\TU/TeXGyrePagellaX(0)/m/n/12 meaningful analytical analyses that require a dee
+p understanding of both
  []
 
 [44] [45]
@@ -2146,11 +2129,6 @@ although it is yet undefined on input line 195.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [48])
-Overfull \hbox (27.86002pt too wide) in paragraph at lines 263--51
-\TU/TeXGyrePagellaX(0)/m/n/12 functionalities. GraphDB allows to manage simulta
-neously different graph databases,
- []
-
 [49]
 \openout2 = `chapters/06_use_case.aux'.
 
@@ -2162,18 +2140,6 @@ neously different graph databases,
 
 ]
 Chapter 6.
-
-Overfull \hbox (6.77832pt too wide) in paragraph at lines 6--7
-[]\TU/TeXGyrePagellaX(0)/m/n/12 The proposed federated architecture in this the
-sis aims to run semantic queries
- []
-
-
-Overfull \hbox (28.21034pt too wide) in paragraph at lines 9--14
-\TU/TeXGyrePagellaX(0)/m/n/12 designed to interlink and analyze clinical and re
-cording data from the [][]
- []
-
 [51] [52] [53]
 File: res/Drawing5.png Graphic file (type bmp)
 <res/Drawing5.png>
@@ -2207,70 +2173,68 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ]
 Chapter 7.
 
-Overfull \hbox (0.67035pt too wide) in paragraph at lines 6--10
-[]\TU/TeXGyrePagellaX(0)/m/n/12 Following the comprehensive exploration of our 
-federated data architecture’s
+Underfull \hbox (badness 1502) in paragraph at lines 6--10
+\TU/TeXGyrePagellaX(0)/m/n/12 applications, particularly in the data-intensive 
+field of genomics research.
+ []
+
+
+Underfull \hbox (badness 1264) in paragraph at lines 6--10
+\TU/TeXGyrePagellaX(0)/m/n/12 operational characteristics and its suitability f
+or deployment in real-world
  []
 
 [61]
 Package acronym Info: Label `acro:BSBM' newly defined as it shall be overridden
 
 although it is yet undefined on input line 14.
-
-Overfull \hbox (9.26538pt too wide) in paragraph at lines 14--16
-\TU/TeXGyrePagellaX(0)/m/n/12 with [][]-to-SQL rewriters, which translate [][] 
-queries into [][] queries
- []
-
-[62]
+ [62]
 Package acronym Info: Label `acro:SEASHELL' newly defined as it shall be overri
 dden
 although it is yet undefined on input line 26.
  [63]
-Package acronym Info: Label `acro:IT' newly defined as it shall be overridden
-although it is yet undefined on input line 30.
 Package acronym Info: Label `acro:EHR' newly defined as it shall be overridden
 although it is yet undefined on input line 30.
 
-Overfull \hbox (3.41032pt too wide) in paragraph at lines 30--31
-[]\TU/TeXGyrePagellaX(0)/m/n/12 The [][] benchmark introduces a comprehensive f
-ramework designed
+Underfull \hbox (badness 1092) in paragraph at lines 30--31
+\TU/TeXGyrePagellaX(0)/m/n/12 signed to test data lake infrastructures under va
+rious workload scenarios,
  []
 
 
-Overfull \hbox (7.65434pt too wide) in paragraph at lines 32--33
-[]\TU/TeXGyrePagellaX(0)/m/n/12 As outlined previously, [][] comprises on non-m
-achine-learning tasks,
+Underfull \hbox (badness 1057) in paragraph at lines 30--31
+\TU/TeXGyrePagellaX(0)/m/n/12 It employs a virtualized implementation of a heal
+thcare-specific data lake
  []
 
 
-Overfull \hbox (7.64902pt too wide) in paragraph at lines 32--33
-\TU/TeXGyrePagellaX(0)/m/n/12 which are particularly interesting for what conce
-rns benchmarking [][]s. These
+Underfull \hbox (badness 1178) in paragraph at lines 30--31
+\TU/TeXGyrePagellaX(0)/m/n/12 its flexibility and adaptability in diverse envir
+onments. The architectural
+ []
+
+
+Underfull \hbox (badness 1661) in paragraph at lines 30--31
+\TU/TeXGyrePagellaX(0)/m/n/12 and accurately mirror the complexities found in r
+eal-world healthcare [][]
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 30--31
+\TU/TeXGyrePagellaX(0)/m/n/12 the comprehensive data analysis tasks encountered
+ in healthcare settings.
  []
 
 [64]
-Overfull \hbox (6.26634pt too wide) in paragraph at lines 36--37
-[]\TU/TeXGyrePagellaX(0)/b/n/12 Resource Utilization\TU/TeXGyrePagellaX(0)/m/n/
-12 : Measuring the computational and memory resources
+Underfull \hbox (badness 1635) in paragraph at lines 32--33
+\TU/TeXGyrePagellaX(0)/m/n/12 tasks, which are particularly interesting for wha
+t concerns benchmarking
  []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [65]
-Overfull \hbox (6.55833pt too wide) in paragraph at lines 69--72
-[]\TU/TeXGyrePagellaX(0)/m/n/12 As underlined before, the [][] framework aims t
-o provide tools and method-
- []
+Underfull \vbox (badness 2680) has occurred while \output is active []
 
-
-Overfull \hbox (0.7824pt too wide) in paragraph at lines 69--72
-\TU/TeXGyrePagellaX(0)/m/n/12 toolkit[][][][][], provided and maintained by the
- Free University of Berlin, is open source
- []
-
-[66]
+ [66]
 Overfull \hbox (44.35603pt too wide) in paragraph at lines 82--82
 [][]\TU/TeXGyrePagellaX(0)/m/n/10 https://github.com/mchaloupka/bsbm-r2rml/blob
 /develop/src/main/dist/rdb2rdf/mapping.ttl| 
@@ -2308,9 +2272,8 @@ Overfull \vbox (2.94981pt too high) has occurred while \output is active []
 
 
 [70]
-Overfull \hbox (0.77289pt too wide) in paragraph at lines 140--140
-|[]\TU/TeXGyrePagellaX(0)/m/sc/17.28 Architecture Performance Benchmarking over
-
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
+|[]\TU/TeXGyrePagellaX(0)/m/sc/17.28 Architecture Performance Benchmarking
  []
 
 [71]
@@ -2338,9 +2301,15 @@ Overfull \vbox (3.71927pt too high) has occurred while \output is active []
 ]
 Chapter 8.
 )
-Overfull \hbox (6.94637pt too wide) in paragraph at lines 6--54
-\TU/TeXGyrePagellaX(0)/m/n/12 The implementation of this system within the cont
-ext of the [][] project
+Underfull \hbox (badness 2790) in paragraph at lines 6--55
+\TU/TeXGyrePagellaX(0)/m/n/12 Additionally, further research could explore the 
+integration of federated
+ []
+
+
+Underfull \hbox (badness 1122) in paragraph at lines 6--55
+\TU/TeXGyrePagellaX(0)/m/n/12 in the integration and analysis of heterogeneous 
+biomedical data. When
  []
 
 [77]
@@ -2353,152 +2322,184 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-Overfull \hbox (13.36032pt too wide) in paragraph at lines 57--57
+Underfull \hbox (badness 4518) in paragraph at lines 58--58
 []\TU/TeXGyrePagellaX(0)/m/n/12 Dave Beckett and Brian McBride. “  RDF/XML synt
-ax specification (revised)”.
+ax specification
  []
 
 
-Overfull \hbox (0.65031pt too wide) in paragraph at lines 57--57
-\TU/TeXGyrePagellaX(0)/m/n/12 Antonella Poggi, Riccardo Rosati, and Michael Zak
-haryaschev. “  Ontology-
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
+[]\TU/TeXGyrePagellaX(0)/m/n/12 Guohui Xiao, Diego Calvanese, Roman Kontchakov,
+ Domenico
  []
 
 
-Overfull \hbox (10.17537pt too wide) in paragraph at lines 57--57
-\TU/TeXGyrePagellaX(0)/m/it/12 Conference of the Italian Association for Artifi
-cial Intelligence, Trento, Italy, Novem-
+Underfull \hbox (badness 3942) in paragraph at lines 58--58
+\TU/TeXGyrePagellaX(0)/m/it/12 July 13-19, 2018, Stockholm, Sweden\TU/TeXGyrePa
+gellaX(0)/m/n/12 . Ed. by Jérôme Lang. ijcai.org,
+ []
+
+
+Underfull \hbox (badness 2809) in paragraph at lines 58--58
+\TU/TeXGyrePagellaX(0)/m/n/12 Guohui Xiao. “  A Generalized Framework for Ontol
+ogy-Based Data
+ []
+
+
+Underfull \hbox (badness 1454) in paragraph at lines 58--58
+\TU/TeXGyrePagellaX(0)/m/it/12 ternational Conference of the Italian Associatio
+n for Artificial Intelligence,
  []
 
 [81
 
 
 ]
-Overfull \hbox (64.53136pt too wide) in paragraph at lines 57--57
-[]\TU/TeXGyrePagellaX(0)/m/n/12 Konstantinos Makris, Nektarios Gioldasis, Nikos
- Bikakis, and Stavros Christodoulakis.
- []
-
-
-Overfull \hbox (47.08337pt too wide) in paragraph at lines 57--57
+Underfull \hbox (badness 1184) in paragraph at lines 58--58
 []\TU/TeXGyrePagellaX(0)/m/n/12 Evgeny Kharlamov, Nina Solomakhina, Özgür Lütfü
- Özçep, Dmitriy Zheleznyakov,
+ Özçep, Dmitriy
  []
 
 
-Overfull \hbox (8.17934pt too wide) in paragraph at lines 57--57
-[]\TU/TeXGyrePagellaX(0)/m/n/12 Diego Calvanese, Giuseppe De Giacomo, Domenico 
-Lembo, Maurizio Lenz-
+Underfull \hbox (badness 1173) in paragraph at lines 58--58
+\TU/TeXGyrePagellaX(0)/m/n/12 Ahmet Soylu, and Stuart Watson. “  How Semantic T
+echnologies Can
+ []
+
+
+Underfull \hbox (badness 1242) in paragraph at lines 58--58
+\TU/TeXGyrePagellaX(0)/m/n/12 Marco Ruzzi, and Domenico Fabio Savo. “  The MAST
+RO system for
  []
 
 [82]
-Overfull \hbox (1.59134pt too wide) in paragraph at lines 57--57
-[]\TU/TeXGyrePagellaX(0)/m/n/12 Diego Calvanese, Benjamin Cogrel, Elem Guzel Ka
-layci, Sarah Komla-Ebri,
- []
-
-
-Overfull \hbox (2.71133pt too wide) in paragraph at lines 57--57
-\TU/TeXGyrePagellaX(0)/m/n/12 Roman Kontchakov, Davide Lanti, Martin Rezk, Mari
-ano Rodriguez-Muro,
- []
-
-
-Overfull \hbox (11.44333pt too wide) in paragraph at lines 57--57
+Underfull \hbox (badness 1509) in paragraph at lines 58--58
 []\TU/TeXGyrePagellaX(0)/m/n/12 Simon D. Harding, Jane F. Armstrong, Elena Facc
-enda, Christopher Southan,
+enda, Christopher
  []
 
 
-Overfull \hbox (8.88739pt too wide) in paragraph at lines 57--57
+Underfull \hbox (badness 1769) in paragraph at lines 58--58
+\TU/TeXGyrePagellaX(0)/m/n/12 Southan, Stephen P. H. Alexander, Anthony P. Dave
+nport, Adam J.
+ []
+
+
+Underfull \hbox (badness 8056) in paragraph at lines 58--58
+\TU/TeXGyrePagellaX(0)/m/n/12 guide to PHARMACOLOGY in 2022: curating pharmacol
+ogy for
+ []
+
+
+Underfull \hbox (badness 2521) in paragraph at lines 58--58
+\TU/TeXGyrePagellaX(0)/m/n/12 COVID-19, malaria and antibacterials”. In: \TU/Te
+XGyrePagellaX(0)/m/it/12 Nucleic Acids Res. \TU/TeXGyrePagellaX(0)/m/n/12 50.D1
+
+ []
+
+
+Underfull \hbox (badness 1199) in paragraph at lines 58--58
+\TU/TeXGyrePagellaX(0)/m/n/12 (2022), pp. 1282–1294. \TU/TeXGyrePagellaX(0)/m/s
+c/12 doi\TU/TeXGyrePagellaX(0)/m/n/12 : [][]$[][] [] [][][][] [] [][][] [] [][]
+[][][][][][]$[][]. \TU/TeXGyrePagellaX(0)/m/sc/12 url\TU/TeXGyrePagellaX(0)/m/n
+/12 : [][]$[][][][][] []
+ []
+
+
+Underfull \hbox (badness 5878) in paragraph at lines 58--58
 []\TU/TeXGyrePagellaX(0)/m/n/12 Janet Piñero González, Àlex Bravo, Núria Queral
-t-Rosinach, Alba Gutiérrez-
+t-Rosinach, Alba
  []
 
 
-Overfull \hbox (3.64436pt too wide) in paragraph at lines 57--57
-\TU/TeXGyrePagellaX(0)/m/n/12 Chuqiao Gong, Chuan Deng, Thawfeek M. Varusai, El
-iot Ragueneau, Yusra
+Underfull \hbox (badness 4072) in paragraph at lines 58--58
+\TU/TeXGyrePagellaX(0)/m/n/12 Gutiérrez-Sacristán, Jordi Deu-Pons, Emilio Cente
+no, Javier García-
  []
 
 
-Overfull \hbox (0.52531pt too wide) in paragraph at lines 57--57
-\TU/TeXGyrePagellaX(0)/m/n/12 ming Wu, Lincoln Stein, Henning Hermjakob, and Pe
-ter D’Eustachio. “  The
+Underfull \hbox (badness 3158) in paragraph at lines 58--58
+\TU/TeXGyrePagellaX(0)/m/n/12 Konstantinos Sidiropoulos, Julieth Murillo, Guilh
+erme Viteri, Justin
  []
 
 
-Overfull \hbox (4.81927pt too wide) in paragraph at lines 57--57
-\TU/TeXGyrePagellaX(0)/m/n/12 reactome pathway knowledgebase 2022”. In: \TU/TeX
-GyrePagellaX(0)/m/it/12 Nucleic Acids Res. \TU/TeXGyrePagellaX(0)/m/n/12 50.D1 
-(2022),
+Underfull \hbox (badness 1331) in paragraph at lines 58--58
+\TU/TeXGyrePagellaX(0)/m/n/12 Cook, Solomon Shorser, Gary D. Bader, Emek Demir,
+ Chris Sander,
  []
 
 [83]
-Overfull \hbox (3.73836pt too wide) in paragraph at lines 57--57
-\TU/TeXGyrePagellaX(0)/m/n/12 Haynes, Jeremy Kepner, Samuel Madden, Tim Mattson
-, and Michael Stone-
+Underfull \hbox (badness 1552) in paragraph at lines 58--58
+\TU/TeXGyrePagellaX(0)/m/n/12 Stonebraker. “  The BigDAWG polystore system and 
+architecture”. In:
  []
 
 
-Overfull \hbox (4.6273pt too wide) in paragraph at lines 57--57
-[]\TU/TeXGyrePagellaX(0)/m/n/12 Matthew J. Mucklo. “  Demonstration: API Federa
-tion in the BigDAWG Poly-
- []
-
-
-Overfull \hbox (6.9353pt too wide) in paragraph at lines 57--57
-\TU/TeXGyrePagellaX(0)/m/n/12 store”. In: \TU/TeXGyrePagellaX(0)/m/it/12 Hetero
-geneous Data Management, Polystores, and Analytics for Health-
+Underfull \hbox (badness 1466) in paragraph at lines 58--58
+\TU/TeXGyrePagellaX(0)/m/it/12 Waltham, MA, USA, September 13-15, 2016\TU/TeXGy
+rePagellaX(0)/m/n/12 . IEEE, 2016, pp. 1–6. \TU/TeXGyrePagellaX(0)/m/sc/12 doi\
+TU/TeXGyrePagellaX(0)/m/n/12 :
  []
 
 [84]
-Overfull \hbox (8.44122pt too wide) in paragraph at lines 57--57
-\TU/TeXGyrePagellaX(0)/m/n/12 (FP7) of the European Union (2007-2013)”. In: \TU
-/TeXGyrePagellaX(0)/m/it/12 Int. J. Technol. Manag. \TU/TeXGyrePagellaX(0)/m/n/
-12 47.1/2/3
+Underfull \hbox (badness 1742) in paragraph at lines 58--58
+\TU/TeXGyrePagellaX(0)/m/n/12 Pablos. “  Semantic Web and Knowledge Management 
+for the health
  []
 
 
-Overfull \hbox (4.16237pt too wide) in paragraph at lines 57--57
-\TU/TeXGyrePagellaX(0)/m/n/12 Pinkel, Ahmet Soylu, Dmitriy Zheleznyakov, Mikhai
-l Roshchin, Stuart Wat-
+Underfull \hbox (badness 1360) in paragraph at lines 58--58
+\TU/TeXGyrePagellaX(0)/m/n/12 domain: state of the art and challenges for the S
+eventh Framework
  []
 
 
-Overfull \hbox (2.23737pt too wide) in paragraph at lines 57--57
-\TU/TeXGyrePagellaX(0)/m/n/12 itris Bilidas, Martin Giese, Peter Haase, Ian Hor
-rocks, Herald Kllapi, Mano-
+Underfull \hbox (badness 2418) in paragraph at lines 58--58
+\TU/TeXGyrePagellaX(0)/m/n/12 Ruiz, Steffen Lamparter, Christian Neuenstadt, Öz
+gür Lütfü Özçep,
  []
 
 
-Overfull \hbox (6.39334pt too wide) in paragraph at lines 57--57
-\TU/TeXGyrePagellaX(0)/m/n/12 lis Koubarakis, Özgür L. Özçep, Mariano Rodriguez
--Muro, Riccardo Rosati,
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
+[]\TU/TeXGyrePagellaX(0)/m/n/12 Evgeny Kharlamov, Ernesto Jiménez-Ruiz, Dmitriy
+ Zheleznyakov,
  []
 
 
-Overfull \hbox (1.88336pt too wide) in paragraph at lines 57--57
+Underfull \hbox (badness 2334) in paragraph at lines 58--58
+\TU/TeXGyrePagellaX(0)/m/n/12 Cimiano, Miriam Fernández, Vanessa López, Stefan 
+Schlobach, and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
 []\TU/TeXGyrePagellaX(0)/m/n/12 Ahmet Soylu, Evgeny Kharlamov, Dmitriy Zhelezny
-akov, Ernesto Jiménez-
+akov, Ernesto
+ []
+
+
+Underfull \hbox (badness 5064) in paragraph at lines 58--58
+\TU/TeXGyrePagellaX(0)/m/n/12 Jiménez-Ruiz, Martin Giese, Martin G. Skjæveland,
+ Dag Hovland,
+ []
+
+
+Underfull \hbox (badness 2376) in paragraph at lines 58--58
+\TU/TeXGyrePagellaX(0)/m/n/12 Rudolf Schlatte, Sebastian Brandt, Hallstein Lie,
+ and Ian Horrocks.
  []
 
 [85]
-Overfull \hbox (3.93631pt too wide) in paragraph at lines 57--57
-\TU/TeXGyrePagellaX(0)/m/n/12 Nicola Ferro. “  An Extensible and Unifying Appro
-ach to Retrospective Clin-
+Underfull \hbox (badness 2150) in paragraph at lines 58--58
+\TU/TeXGyrePagellaX(0)/m/n/12 Arianna Dagliati, Mamede de Carvalho, Marta Gromi
+cho, Umberto
  []
 
 
-Overfull \hbox (16.96025pt too wide) in paragraph at lines 57--57
-\TU/TeXGyrePagellaX(0)/m/n/12 and Heiko Paulheim. Vol. 1690. CEUR Workshop Proc
-eedings. CEUR-WS.org,
- []
-
-
-Overfull \hbox (4.0024pt too wide) in paragraph at lines 57--57
-[]\TU/TeXGyrePagellaX(0)/m/n/12 Tommaso Dolci, Lorenzo Amata, Carlo Manco, Fabi
-o Azzalini, Marco Grib-
+Underfull \hbox (badness 1412) in paragraph at lines 58--58
+\TU/TeXGyrePagellaX(0)/m/it/12 & Demonstrations Track co-located with 15th Inte
+rnational Semantic Web
  []
 
 [86] (main.aux (chapters/01_introduction.aux) (chapters/02_background.aux)
@@ -2509,21 +2510,17 @@ o Azzalini, Marco Grib-
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C14C9E1939691B65F65150676BA2B3AC;5583.
+(rerunfilecheck)             Checksum: 4608CA8FE78292B0839BA86B1D48230A;5583.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48793 strings out of 409555
- 922379 string characters out of 5776261
- 2175148 words of memory out of 5000000
- 70176 multiletter control sequences out of 15000+600000
+ 48803 strings out of 409555
+ 922513 string characters out of 5776261
+ 2191148 words of memory out of 5000000
+ 70186 multiletter control sequences out of 15000+600000
  598061 words of font info for 132 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  123i,15n,131p,1588b,6836s stack positions out of 10000i,1000n,20000p,200000b,200000s

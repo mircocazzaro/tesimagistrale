@@ -1,0 +1,49 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+% Load Thesis Class
+\documentclass{DEIThesis}
+
+\title{Design and Evaluation of Joint Information Retrieval and Recommender Systems}
+
+\author{Simone Merlo}
+\studentId{2076747}
+
+% Advisor
+\advisor{Prof. Nicola Ferro}
+
+% If you are co-advised
+\coadvisor{Dott. Guglielmo Faggioli}
+\coadvisorsUniversity{University of Padua}
+
+\university{University of Padua}
+\mastername{Computer Engineering}
+\academicYear{2023/2024}
+
+\begin{filecontents*}[overwrite]{\jobname.xmpdata}
+    \Title{Design and Evaluation of Joint Information Retrieval and Recommender Systems}
+    \Author{Simone Merlo}
+    \Language{en-EN}
+    \Keywords{Computer Engineering\sep LaTeX\sep UIA Framework\sep BERT\sep AI\sep IR\sep RecSys}
+\end{filecontents*}
+
+% Document
+
+\begin{document}
+\emergencystretch 3em
+    % The front matter (Cover, ToC, Abstract, etc...)
+    \frontmatter
+
+    % The main content
+    \mainmatter
+    
+    \include{chapters/01_introduction}
+    \include{chapters/02_related_work}
+    \include{chapters/03_task_formulation}
+    \include{chapters/04_reproducing_uia}
+    \include{chapters/05_problems}
+    \include{chapters/99_conclusions}
+    
+    % Bibliography, appendix, acknowledges, etc...
+    \backmatter
+\end{document}

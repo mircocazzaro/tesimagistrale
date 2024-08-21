@@ -46,7 +46,7 @@ The chosen query is significant for several reasons: first and foremost, it acce
 \end{lstlisting}
 
 \section{Query Flow}
-The flow of the query from its original form to the actual data retrieval across physical data sources is a multi-step process involving several layers of translation and optimization. Each phase of this transformation leverages different components of the architecture to ensure accurate and efficient query execution. Figure \ref{fig:blockdiagram} represents in details this flow as the query is submitted to its final destinations (i.e. relational \ac{DBMS}s).
+The flow of the query from its original form to the actual data retrieval across physical data sources is a multi-step process involving several layers of translation and optimization. Each phase of this transformation leverages different components of the architecture to ensure accurate and efficient query execution. Figure \ref{fig:blockdiagram} represents in details this flow as the query is submitted to its final destinations (i.e., relational \ac{DBMS}s).
 \subsection{Query Rewriting over Ontological Rules}
 The first transformation step involves expanding the \ac{SPARQL} query according to the ontological rules defined in Ontop. Ontop uses these rules to interpret the query in the context of the ontology, enhancing the query by incorporating ontological knowledge. This includes inferring relationships, attributes, and classifications that are not explicitly stated in the query but are defined in the ontology. This expansion helps in making the query more comprehensive and aligned with the underlying data model, ensuring that the results are semantically consistent with the ontology's structure.
 \subsection{Query Unfolding to SQL}

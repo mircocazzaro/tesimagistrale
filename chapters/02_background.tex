@@ -49,9 +49,9 @@ The concept of Data Integration, firstly introduced without a semantic focus \ci
 
 The \ac{OBDA} framework, that has been precisely formalized \cite{DBLP:conf/aiia/BotoevaCCCX18}, is composed of a chain of procedures that can be summarized as follows:
 \begin{enumerate}
-    \item input query ${q(\vec{x})}$ is rewritten \cite{DBLP:conf/otm/MakrisGBC10} into ${q'}$ over the virtual ABox ${A'}$ (i.e. the first-order logic specification of the ontology);
+    \item input query ${q(\vec{x})}$ is rewritten \cite{DBLP:conf/otm/MakrisGBC10} into ${q'}$ over the virtual ABox ${A'}$ (i.e., the first-order logic specification of the ontology);
     \item the rewritten query ${q'}$ is unfolded using the \textit{mappings} into an \ac{SQL} query ${q^*}$;
-    \item the optimized \ac{SQL} query ${q^*}$ is evaluated over the data instance ${D}$ (e.g. a relational \ac{DBMS}).
+    \item the optimized \ac{SQL} query ${q^*}$ is evaluated over the data instance ${D}$ (e.g., a relational \ac{DBMS}).
 \end{enumerate}
 
 Figure \ref{fig:OBDAframew} outlines the aforementioned algorithm within a flowchart.
@@ -127,7 +127,7 @@ One of the main issues with Teiid is poor documentation when it is not deployed 
 \subsubsection{Dremio}
 Similarly to Denodo, Dremio\footnote{https://www.dremio.com/} is a virtualization platform that serves as a data federation system. Although it is developed within an enterprise context, the standard version, comprehensive of most of the Dremio features, it is \ac{FOSS} under the Apache 2.0 license, combining typical enterprise software robustness with a strong community active on continuous maintenance.
 
-Even if it is possible to use Dremio as a standalone instance (e.g. on a server), it is by design a distributed system and thus it can run on clusters up to more than 1000 nodes. In case of standalone configurations, in linux server environments it is possible to install it using packet managers, but the easiest way is to use the Docker image it comes with.
+Even if it is possible to use Dremio as a standalone instance (e.g., on a server), it is by design a distributed system and thus it can run on clusters up to more than 1000 nodes. In case of standalone configurations, in linux server environments it is possible to install it using packet managers, but the easiest way is to use the Docker image it comes with.
 
 Dremio makes use of Apache Arrow to enhance processing speeds and reduce latency. Moreover, it optimizes query performance through its advanced query planner and execution engine, which can push down operations to the data source level, minimizing data movement and speeding up response times.
 

@@ -32,7 +32,7 @@
 \contentsline {subsubsection}{Collaborativity and Multidisciplinarity}{19}{section.3.1}%
 \contentsline {subsubsection}{Focus on Neurodegenerative and Gut-Related Disorders Interplay}{19}{section.3.1}%
 \contentsline {subsubsection}{Future Perspectives}{20}{section.3.1}%
-\contentsline {subsubsection}{\ac {HEREDITARY} Project Structure}{20}{section.3.1}%
+\contentsline {subsubsection}{HEREDITARY Project Structure}{20}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Data Description}{20}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1}Clinical Data}{20}{subsection.3.2.1}%
 \contentsline {subsubsection}{Static Variables}{21}{subsection.3.2.1}%
@@ -46,10 +46,10 @@
 \contentsline {subsection}{\numberline {4.1.1}Architecture Overview}{25}{subsection.4.1.1}%
 \contentsline {subsubsection}{Base Layer}{25}{subsection.4.1.1}%
 \contentsline {subsubsection}{Island Layer}{25}{subsection.4.1.1}%
-\contentsline {subsubsection}{Main BigDAWG Layer}{25}{subsection.4.1.1}%
+\contentsline {subsubsection}{Main BigDAWG Layer}{26}{subsection.4.1.1}%
 \contentsline {subsubsection}{Application Layer}{26}{subsection.4.1.1}%
 \contentsline {subsection}{\numberline {4.1.2}Operational Principles and Innovations}{26}{subsection.4.1.2}%
-\contentsline {subsubsection}{Islands and Cross-Island Querying}{26}{subsection.4.1.2}%
+\contentsline {subsubsection}{Islands and Cross-Island Querying}{27}{subsection.4.1.2}%
 \contentsline {subsubsection}{Performance Optimization}{27}{subsection.4.1.2}%
 \contentsline {subsubsection}{Use Cases and Practical Implementations}{28}{subsection.4.1.2}%
 \contentsline {subsubsection}{MIMIC II Dataset Management}{28}{subsection.4.1.2}%
@@ -115,9 +115,9 @@
 \contentsline {section}{\numberline {7.3}BSBM Benchmark Results over Synthetic Data}{66}{section.7.3}%
 \contentsline {subsubsection}{Synthetic Data Generation}{67}{section.7.3}%
 \contentsline {subsubsection}{BSBM R2RML Mappings}{67}{lstnumber.7.1.1}%
-\contentsline {subsubsection}{Benchmarking Setup}{68}{lstnumber.7.2.23}%
-\contentsline {subsubsection}{Benchmark Results}{69}{figure.caption.60}%
+\contentsline {subsubsection}{Benchmarking Setup}{69}{lstnumber.7.2.23}%
+\contentsline {subsubsection}{Benchmark Results}{69}{figure.caption.62}%
 \contentsline {section}{\numberline {7.4}Architecture Performance Benchmarking over Clinical Data}{71}{section.7.4}%
 \contentsline {section}{\numberline {7.5}Summary and Conclusions}{74}{section.7.5}%
 \contentsline {chapter}{\numberline {8}Conclusions and Future Works}{77}{chapter.8}%
-\contentsline {chapter}{References}{81}{section*.64}%
+\contentsline {chapter}{References}{81}{section*.66}%
