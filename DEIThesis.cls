@@ -31,7 +31,6 @@
 \RequirePackage{etoolbox}
 \RequirePackage{colorprofiles}
 \let\pdfcreationdate=\creationdate
-\RequirePackage[a-2b,mathxmp]{pdfx}[\today]
 
 % language, font and encodings
 \RequirePackage{newpxtext,newpxmath}
@@ -55,6 +54,7 @@
 % footnotes
 \RequirePackage{footnote}
 \RequirePackage[bottom]{footmisc}
+\RequirePackage[a-2b,mathxmp]{pdfx}[\today]
 
 % mathematics
 \RequirePackage{amsmath}
